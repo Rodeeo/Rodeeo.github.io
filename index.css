@@ -1,0 +1,72 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1024px;
+  margin: 1em auto 1em auto;
+}
+
+header, footer {
+  background-color: blue;
+  border-radius: 10px;
+  overflow: visible;
+  max-width: 90%;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: .125em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;  
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#headerImage {
+  float: right;
+  margin: 1em;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 5px;
+}
+
+#headerImage img {
+  width: 100%;
+  height: auto;
+}
+
+header h2 {
+  border-bottom: 2px solid black;
+  height: 2em;
+}
+
+main {
+  max-width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.content {
+  padding: 2rem;
+
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  padding-bottom: 0;
+}
+
+#lastMod {
+  color: yellow;
+  padding-bottom: 1rem;
+  margin-top: -8px;
+}
