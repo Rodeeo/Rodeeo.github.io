@@ -8,12 +8,12 @@ body {
 }
 
 header, footer {
-  background-color: blue;
+  background-color: orange;
   border-radius: 10px;
   overflow: visible;
   max-width: 90%;
   margin: auto;
-  color: white;
+  color: black;
   text-align: center;
   padding: .125em;
 }
