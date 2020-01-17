@@ -27,6 +27,7 @@ h1 {
   text-align: left;
   margin-left: 2rem;
   margin-right: 2rem;
+  font-family: 'Ubuntu', sans-serif; 'PT Serif', serif;
 }
 
 #headerImage {
