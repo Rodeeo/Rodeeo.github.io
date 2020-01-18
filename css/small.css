@@ -52,16 +52,7 @@ main {
 
 }
 
-footer a {
-  color: white;
-}
-
-footer p {
-  padding-bottom: 0;
-}
-
 #lastMod {
-  color: yellow;
-  padding-bottom: 1rem;
-  margin-top: -8px;
-}
+  margin: -5px 0;
+  color: #FFAB2E;
+  }
