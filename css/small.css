@@ -2,24 +2,18 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body {
-  font-family: 'Comic sans', 'Roboto', sans-serif;
+  font-family: "Comic sans", 'Ubuntu', 'Roboto', sans-serif;
   max-width: 1024px;
   margin: 1em auto 1em auto;
 }
 
 header, footer {
   background-color: orange;
-  border-radius: 10px;
   overflow: visible;
   max-width: 90%;
   margin: auto;
   color: black;
   text-align: center;
-  padding: .125em;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif; 'PT Serif', serif;  
 }
 
 h1 {  
@@ -39,20 +33,12 @@ h2 {
 }
 
 #headerImage {
-  float: right;
-  margin: 1em;
-  box-shadow: 5px 5px 5px grey;
-  border-radius: 5px;
+ margin: 1em;
 }
 
 #headerImage img {
-  width: 100%;
+  width: 200px;
   height: auto;
-}
-
-header h2 {
-  border-bottom: 2px solid black;
-  height: 2em;
 }
 
 main {
