@@ -23,49 +23,33 @@ h2{
 
 }
 
+    header,
+    footer{
+       background-color: #7b42c5;
+       color: #fff;
+       text-align: center;
+    }
+    header {
+      padding: 3px;
+    }
+    
+   footer {
+      padding: 10px;
+   }
 
-header {
-    background-color: #7b42c5;
-    padding: .75rem;
-    margin: 0 auto;
-    text-align: center;  
-}
-
-footer {
-  background-color: #e6d92c;
-  padding: .75rem;
-  margin: 0 auto;
-  text-align: center; }   
-#outputDiv{
-    font-size: 14px;
-}
-main {
-    padding: 5px;
-    margin: 0 auto;
+   main{
     display: grid;
-    font-size: 0.8rem;
-   
-}
+    grid-template-columns: 1fr;
+    font-size: 1.5rem;
+    max-width: 37.5em;
+    margin: 0 auto;
+   }
 
-img{ display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: 1.5rem;
-  background-color: #db2abe;
-  border-radius: 20px;
-  text-align: center;
-  padding: 10px;
-}
-p{
-    margin: 2px 2px;
-    line-height: 25px;
-}
-a {
-    margin: 0px 10px;
-}
 section{
         margin: 1px;
         background-color: #da3535;
         text-align: center;
+        
 }
 
 lastMod {
