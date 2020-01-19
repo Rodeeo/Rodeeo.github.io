@@ -14,8 +14,6 @@
       header, footer{
         
           max-width: none; 
-          height: 7px;
-          margin: auto;
           background-color: #ec30bd;
           font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           text-align: center;
