@@ -13,10 +13,10 @@
           height: 75px;
           margin: auto;
           padding: 1rem;
-          background-color: lightblue;
-          font-family: 'Roboto', sans-serif;
+          background-color: #ec30bd;
+          font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           text-align: center;
-          color: black;
+          color: yellow;
       }
 
       #container{
@@ -27,12 +27,12 @@
           text-align: center;
           padding: 1rem;
           grid-gap: 10px 10px;
-          font-family: 'Roboto', sans-serif;      
+          font-family: 'Comic Sans MS','Roboto', sans-serif;      
       }
 
       h1 {
           font-size: 1.5em;
-          font-family: 'Roboto', sans-serif;
+          font-family:  'Comic Sans MS', 'Roboto', sans-serif;
           margin: 0;
           padding: 5px;
           text-align: center;
@@ -42,7 +42,7 @@
 
       h2 {
           font-size: 1em;
-          font-family: 'Roboto', sans-serif;
+          font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           margin: 0;
           padding: 5px;
           text-align: center;
@@ -53,7 +53,7 @@
           padding: 1rem;
           font-size: 1rem;
           text-align: center;
-          background-color:lightblue;
+          background-color:#48e917;
           border-radius: 25px;
 
        }
@@ -61,5 +61,4 @@
 }
 lastMod {
   margin: -5px 0;
-  color: yellow;
   }
