@@ -1,0 +1,61 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', "Comic-sans", sans-serif;
+    line-height: 2em;
+}
+.Container1{
+    margin: 0 auto;
+    max-width: 900px;
+}
+h1, h2, h3{
+
+  font-family: 'Ubuntu', "Comic-sans", sans-serif;
+  text-align: center;
+  margin: auto;
+
+}
+h2{
+    padding-top: 10px 5px;
+    background-color:#5bf174;
+
+}
+
+
+header, footer{
+    background-color: #7b42c5;
+    padding: .75rem;
+    margin: 0 auto;
+    text-align: center;  
+}
+#outputDiv{
+ 
+    font-size: 14px;
+}
+main {
+    padding: 5px;
+    margin: 0 auto;
+    display: grid;
+    font-size: 0.8rem;
+   
+}
+
+img{
+    margin: 5px 5px 5px 5px;
+    border-style: solid;
+    width: 90%;
+    height: auto;
+}
+p{
+    margin: 2px 2px;
+}
+a {
+    margin: 0px 10px;
+}
+section{
+        margin: 1px;
+        background-color: #da3535;
+        text-align: center;
+}
