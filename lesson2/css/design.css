@@ -14,12 +14,14 @@
       header, footer{
         
           max-width: none; 
-          height: 90px;
+          height: 7px;
           margin: auto;
           background-color: #ec30bd;
           font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           text-align: center;
           color: yellow;
+          margin-top: 10em;
+          margin-bottom: 10em;
       }
 
       #container{
