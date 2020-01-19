@@ -8,12 +8,13 @@ body {
 }
 
 header, footer {
-  background-color: orange;
-  overflow: visible;
-  max-width: 90%;
-  margin: auto;
-  color: black;
   text-align: center;
+  padding: 20px;
+  background-color: #fa17dc;
+  border-radius: 8px;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+  color: black;
+
 }
 
 h1 {  
