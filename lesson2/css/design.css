@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 body{
-    font-family: 'Ubuntu', "Comic-sans", sans-serif;
+    font-family: "Comic Sans MS", 'Ubuntu', sans-serif;
     line-height: 2em;
 }
 .Container1{
@@ -12,7 +12,7 @@ body{
 }
 h1, h2, h3{
 
-  font-family: 'Ubuntu', "Comic-sans", sans-serif;
+  font-family: "Comic Sans MS", 'Ubuntu', sans-serif;
   text-align: center;
   margin: auto;
 
