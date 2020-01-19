@@ -12,16 +12,15 @@
         text-align: center;
         padding: 1rem;
         grid-gap: 10px 10px;
-        font-family: 'Roboto', sans-serif; 
+        font-family: 'Comic Sans MS','Roboto', sans-serif; 
         grid-column: span 2; 
         grid-column: span 3; 
     }
 
-    #fitts, #visualhierarchy, #ruleofthirds {
+    #law {
         padding: 1rem;
         font-size: 1rem;
         text-align: center;
-        background-color:lightblue;
         border-radius: 25px;
         
     }
@@ -35,13 +34,13 @@
     
     h1 {
         color: black;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Comic Sans MS','Roboto', sans-serif;
         text-align: center;
     }
 
     h2 {
         color: black;
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Comic Sans MS','Roboto', sans-serif;
         text-align: center;
     }
 
