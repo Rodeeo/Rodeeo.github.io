@@ -3,7 +3,7 @@
 
 @media only screen and (min-width: 23.5em){
   body {background-color:black;}
-  head {background-color: black;}
+  
   main {  font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           display: grid;
           grid-template-columns: 1fr;
@@ -14,9 +14,8 @@
       header, footer{
         
           max-width: none; 
-          height: 75px;
+          height: 90px;
           margin: auto;
-          padding: 10rem;
           background-color: #ec30bd;
           font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           text-align: center;
