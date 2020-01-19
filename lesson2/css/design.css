@@ -1,67 +1,64 @@
-/* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
-body{
-    font-family: 'Comic Sans MS', 'Ubuntu', sans-serif;
-    line-height: 2em;
+@media only screen and (min-width: 23.5em){
+  main {
+          display: grid;
+          grid-template-columns: 1fr;
+          align-items: Center;
+      }
+
+      header, footer{
+          max-width: none; 
+          height: 75px;
+          margin: auto;
+          padding: 1rem;
+          background-color: lightblue;
+          font-family: 'Roboto', sans-serif;
+          text-align: center;
+          color: black;
+      }
+
+      #container{
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          margin: 1.5rem;
+          margin-top: 10em;
+          text-align: center;
+          padding: 1rem;
+          grid-gap: 10px 10px;
+          font-family: 'Roboto', sans-serif;      
+      }
+
+      h1 {
+          font-size: 1.5em;
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 5px;
+          text-align: center;
+          vertical-align: middle;
+          text-emphasis-style: bold;
+      }
+
+      h2 {
+          font-size: 1em;
+          font-family: 'Roboto', sans-serif;
+          margin: 0;
+          padding: 5px;
+          text-align: center;
+          vertical-align: middle;
+      }
+
+      #law {
+          padding: 1rem;
+          font-size: 1rem;
+          text-align: center;
+          background-color:lightblue;
+          border-radius: 25px;
+
+       }
+       
 }
-#container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  margin: 1.5rem;
-  margin-top: 1em;
-  text-align: center;
-  padding: 1rem;
-  grid-gap: 10px 10px;
-  font-family: 'Roboto', sans-serif; 
-  grid-column: span 2; 
-  grid-column: span 3; 
-}
-h1, h2, h3{
-
-  font-family: 'Comic Sans MS', 'Ubuntu', sans-serif;
-  text-align: center;
-  margin: auto;
-
-}
-h2{
-    padding-top: 10px 5px;
-    background-color:#5bf174;
-
-}
-
-    header,
-    footer{
-       background-color: #7b42c5;
-       color: #fff;
-       text-align: center;
-    }
-    header {
-      padding: 3px;
-    }
-    
-   footer {
-      padding: 10px;
-   }
-
-   main{
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 1.5rem;
-    max-width: 37.5em;
-    margin: 0 auto;
-   }
-
-#law{
-  padding: 1rem;
-  font-size: 1rem;
-  text-align: center;
-  background-color:lightblue;
-  border-radius: 25px;
-        
-}
-
 lastMod {
   margin: -5px 0;
   color: yellow;
