@@ -2,18 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 @media only screen and (min-width: 23.5em){
+  body {background-color:black;}
+  head {background-color: black;}
   main {  font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           display: grid;
           grid-template-columns: 1fr;
           align-items: Center;
-          background-color: black;
+          
       }
 
       header, footer{
+        
           max-width: none; 
           height: 75px;
           margin: auto;
-          padding: 1rem;
+          padding: 10rem;
           background-color: #ec30bd;
           font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           text-align: center;
@@ -33,7 +36,7 @@
 
       h1 { 
           font-size: 1.5em;
-          font-family:  "Comic Sans MS", 'Roboto', sans-serif;
+          font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           margin: 0;
           padding: 5px;
           text-align: center;
@@ -43,7 +46,7 @@
 
       h2 {
           font-size: 1.2em;
-          font-family: "Comic Sans MS", 'Roboto', sans-serif;
+          font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           margin: 0;
           padding: 5px;
           text-align: center;
@@ -51,7 +54,7 @@
       }
       h3 {
         font-size: 1em;
-        font-family: "Comic Sans MS", 'Roboto', sans-serif;
+        font-family: 'Comic Sans MS', 'Roboto', sans-serif;
         margin: 0;
         padding: 5px;
         text-align: center;
