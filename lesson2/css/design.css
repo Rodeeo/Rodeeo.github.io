@@ -19,10 +19,11 @@
       }
       footer{
         
-          max-width: none; 
-          background-color: #ec30bd;
-          font-family: 'Comic Sans MS', 'Roboto', sans-serif;
-          text-align: center;
+        text-align: center;
+        padding: 20px;
+        background-color: #fa17dc;
+        border-radius: 8px;
+        font-family: 'Comic Sans MS', 'Roboto', sans-serif;
           color: yellow;
       }
 
