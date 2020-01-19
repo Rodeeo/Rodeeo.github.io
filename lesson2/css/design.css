@@ -53,10 +53,12 @@ h2{
     margin: 0 auto;
    }
 
-section{
-        margin: 1px;
-        background-color: #da3535;
-        text-align: center;
+#law{
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+  background-color:lightblue;
+  border-radius: 25px;
         
 }
 
