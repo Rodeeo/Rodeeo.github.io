@@ -10,8 +10,14 @@
           align-items: Center;
           
       }
-
-      header, footer{
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #fa17dc;
+        border-radius: 8px;
+        font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+      }
+      footer{
         
           max-width: none; 
           background-color: #ec30bd;
