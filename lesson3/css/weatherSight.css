@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+@media only screen and (min-width: 23.5em){
+  body {background-color:black;}
+
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+}
+footer{
+  
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+    color: yellow;
+}
+
+#weatherIcon {
+    margin: 1em;
+   }
+   
+   #weatherIcon img {
+     width: 200px;
+     height: auto;
+   }
+
+lastMod {
+    margin: -5px 0;
+    }
