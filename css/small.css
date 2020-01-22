@@ -9,9 +9,9 @@ body {
 
 header, footer {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background-color: #fa17dc;
-  border-radius: 8px;
+  border-radius: 5px;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 
