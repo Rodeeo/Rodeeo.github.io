@@ -7,30 +7,85 @@
 }
 header {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   background-color: white;
-  border-radius: 8px;
-  font-family:  'Roboto','Comic Sans MS', sans-serif;
-}
-footer{
-  
-  text-align: center;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  font-family:'Roboto', 'Comic Sans MS', sans-serif;
-    color: yellow;
+  border-radius: 5px;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: blue;
+  border-radius: 5px;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+  color: white;
+}
 #weatherIcon {
-    margin: 1em;
-   }
-   
-   #weatherIcon img {
-     width: 50px;
+    margin: .25em;
+   width: 300px;
      height: auto;
    }
 
+hr {
+    background-color: black;
+    height: 2px;
+    border: 0;
+    padding: 0px;
+    margin: 3px;
+}
+   
+h1 {  
+  font-size: 2.5rem;
+  margin: 0.15rem;
+}
+h2 {  
+  font-size: 1rem;
+  border-bottom: 1px solid yellow;
+  margin-bottom: 0.5rem;
+}
+ 
+main {
+  max-width: 90%;
+  margin: auto;
+  padding: 1em;
+  color: white;
+}
+
+.content {
+  padding: 2rem;
+}
+
+ul li a:link {
+    color: grey;
+    text-decoration: none;
+}
+
+ul li a:visited {
+    color: yellow;
+}
+
+ul li a:hover {
+    color: darkgoldenrod;
+}
+
+ul li a:active {
+    color: khaki;
+}
+
+a:link {
+    color: #fffb00;
+    text-decoration: none;
+}
+
+a:visited {
+    color: indigo;
+}
+
+a:hover {
+    color: darkgoldenrod;
+}
+  
 lastMod {
     margin: -5px 0;
     }
