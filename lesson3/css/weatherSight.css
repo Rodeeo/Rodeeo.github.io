@@ -10,7 +10,7 @@ header {
   padding: 15px;
   background-color: white;
   border-radius: 5px;
-  font-family: 'Ubuntu', 'Roboto', sans-serif;
+  font-family: 'Roboto','Comic Sans MS', sans-serif;
 }
 
 footer {
@@ -18,7 +18,7 @@ footer {
   padding: 15px;
   background-color: blue;
   border-radius: 5px;
-  font-family: 'Ubuntu', 'Roboto', sans-serif;
+  font-family: 'Roboto','Comic Sans MS', sans-serif;
   color: white;
 }
 #weatherIcon {
@@ -41,7 +41,7 @@ h1 {
 }
 h2 {  
   font-size: 1rem;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid white;
   margin-bottom: 0.5rem;
 }
  
