@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
-
-@media only screen and (min-width: 60em) {
-  body {background-color: #c4c4c4}
-
-}
+ @media only screen and (min-width: 20em){
 header {
   text-align: left;
   padding: 15px;
@@ -71,11 +67,6 @@ nav ul {
 	margin: 0;
 	padding: 0;
   overflow: hidden;}
-
-nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; }
-nav {text-align: left;}
-nav li a {display: inline-block;}
 
 nav li a {
 	display: flex;
