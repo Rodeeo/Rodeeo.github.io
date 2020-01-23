@@ -94,7 +94,7 @@ nav li a {
 }
 ul li a:link {
     color: yellow;
-    text-decoration: none;
+    text-shadow: 1px 1px #666666;
 }
 
 ul li a:visited {
