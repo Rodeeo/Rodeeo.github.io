@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
 
  body {background-color: #c4c4c4;
        border: 5px solid #666666; }
@@ -50,7 +50,7 @@ margin-left: 1.9rem;
 }
 h2 {  
   font-size: 2rem;
-  text-shadow: 2px 2px #666666;
+  text-shadow: 2px 2px  #666666;
   border-bottom: 2px solid white;
   margin-bottom: 0.5rem;
 }
@@ -70,13 +70,15 @@ main {
 }
   
 p {
+  font-weight: bold;
   margin: auto;
   padding: 1em;
   color: white;
-  font-family: 'Roboto','Comic Sans MS', sans-serif;
-  text-shadow: 1px 1px #666666;
-  
+  font-family: 'Roboto', sans-serif,'Comic Sans MS', sans-serif;
+  text-shadow: 1.5px 1.5px 1.5px #666666; 
 }
+
+
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -86,7 +88,7 @@ nav ul {
 nav li a {
 	display: flex;
   text-shadow: 1px 1px #F2F2F2;
-	text-align: center;
+	text-align: left;
 	padding: 0.75rem;
 	font-size: 0.95rem;
   
@@ -94,7 +96,6 @@ nav li a {
 }
 ul li a:link {
     color: yellow;
-    text-shadow: 1px 1px #666666;
 }
 
 ul li a:visited {
@@ -126,3 +127,5 @@ lastMod {
     margin: -5px 0;
     }  
    
+
+

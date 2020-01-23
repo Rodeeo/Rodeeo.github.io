@@ -1,5 +1,10 @@
 @media only screen and (min-width: 37.5em){
-  nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; }
-nav {text-align: left;}
-nav li a {display: inline-block;} }
+  nav ul { display: flex; 
+    }
+  nav ul li { display: flex;
+   }
+  nav {text-align: left;}
+  nav li a {display: inline-block;
+    font-family: 'Roboto', sans-serif,'Comic Sans MS';
+    text-shadow: .75px .5px .5px #000000; } 
+  }
