@@ -83,10 +83,8 @@ nav li a {
 	padding: 0.75rem;
 	font-size: 0.95rem;
   
-.content {
-  padding: 2rem;
-  } }
 
+}
 ul li a:link {
     color: yellow;
     text-decoration: none;
@@ -115,7 +113,7 @@ a:visited {
 
 a:hover {
     color: darkgoldenrod;
-} } 
+} 
 
 lastMod {
     margin: -5px 0;
