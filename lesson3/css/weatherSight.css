@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
- @media only screen and (min-width: 60em){
-  body {background-color: #c4c4c4}
+ body {background-color: #c4c4c4}
 
 
 header {
@@ -53,7 +52,7 @@ h2 {
   border-bottom: 1px solid white;
   margin-bottom: 0.5rem;
 }
-h2 {  
+h3 {  
   font-size: 1.5rem;
   border-bottom: 2px solid white;
   margin-bottom: 0.5rem;
@@ -71,11 +70,6 @@ nav ul {
 	margin: 0;
 	padding: 0;
   overflow: hidden;}
-
-nav ul { display: flex; }
-nav ul li { flex: 1 1 100%; }
-nav {text-align: left;}
-nav li a {display: inline-block;}
 
 nav li a {
 	display: flex;
@@ -117,4 +111,5 @@ a:hover {
 
 lastMod {
     margin: -5px 0;
-    }  }
+    }  
+   

@@ -1,0 +1,5 @@
+@media only screen and (min-width: 37.5em){
+  nav ul { display: flex; }
+nav ul li { flex: 1 1 100%; }
+nav {text-align: left;}
+nav li a {display: inline-block;} }
