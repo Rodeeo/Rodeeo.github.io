@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
- body {background-color: #c4c4c4}
-
+ body {background-color: #c4c4c4;
+       border: 5px solid #666666; }
 
 header {
   text-align: left;
   padding: 15px;
   background-color: #f2f2f2;
-  border-radius: 5px;
+  border-radius: 0px;
   font-family: 'Roboto','Comic Sans MS', sans-serif;
 }
 
@@ -16,17 +16,17 @@ footer {
   text-align: center;
   padding: 15px;
   background-color: #878787;
-  border-radius: 5px;
+  border-radius: 0px;
   font-family: 'Roboto','Comic Sans MS', sans-serif;
   color: white;
 }
 #weatherIcon {
     margin: .25em;
-   width: 300px;
-     height: auto;
-   }
+    width: 300px;
+    height: auto;
+}
 
-#hra {
+.hra {
     background-color: black;
     height: 2px;
     border: 0;
@@ -34,7 +34,7 @@ footer {
     margin: 3px;
 }
 
-#hrb {
+.hrb {
     background-color: white;
     height: 2px;
     border: 0;
@@ -44,16 +44,19 @@ footer {
    
 h1 {  
   font-size: 2.5rem;
+  text-shadow: .5px .5px #666666;
   margin: .2rem;
 margin-left: 1.9rem;
 }
 h2 {  
   font-size: 2rem;
-  border-bottom: 1px solid white;
+  text-shadow: 2px 2px #666666;
+  border-bottom: 2px solid white;
   margin-bottom: 0.5rem;
 }
 h3 {  
   font-size: 1.5rem;
+  text-shadow: 2px 2px #666666;
   border-bottom: 2px solid white;
   margin-bottom: 0.5rem;
 }
@@ -65,6 +68,15 @@ main {
   color: white;
   font-family: 'Roboto','Comic Sans MS', sans-serif;
 }
+  
+p {
+  margin: auto;
+  padding: 1em;
+  color: white;
+  font-family: 'Roboto','Comic Sans MS', sans-serif;
+  text-shadow: 1px 1px #666666;
+  
+}
 nav ul {
 	list-style-type: none;
 	margin: 0;
@@ -73,6 +85,7 @@ nav ul {
 
 nav li a {
 	display: flex;
+  text-shadow: 1px 1px #F2F2F2;
 	text-align: center;
 	padding: 0.75rem;
 	font-size: 0.95rem;
