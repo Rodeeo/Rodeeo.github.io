@@ -26,6 +26,11 @@ footer {
     height: auto;
 }
 
+#colorPallet {
+    margin: .25em;
+    width: 300px;
+    height: auto;
+}
 .hra {
     background-color: black;
     height: 2px;
@@ -126,6 +131,3 @@ a:hover {
 lastMod {
     margin: -5px 0;
     }  
-   
-
-
