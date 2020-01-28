@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 body {
-  font-family: , 'Ubuntu', 'Roboto', 'Comic Sans MS', sans-serif;
+  font-family: 'Ubuntu', 'Roboto', 'Comic Sans MS', sans-serif;
   max-width: 1024px;
   margin: 1em auto 1em auto;
 }
@@ -13,8 +13,6 @@ header, footer {
   background-color: #16b88f;
   border-radius: 5px;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
-}
-
 }
 
 h1 {  
