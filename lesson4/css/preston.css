@@ -11,8 +11,8 @@
         max-width: none;
         height: 75px;
         margin: auto;
-        padding: 1rem;
-        font-family: 'Unbuntu' sans-serif;
+        padding: .75rem;
+        font-family: 'Unbuntu', sans-serif;
         background-color: cadetblue;
         color: whitesmoke;
         display: flex;
@@ -40,14 +40,12 @@
         }
     
     .pic {
-        width: 150px;
+        width: 100px;
         height: auto;
         padding: 5px;
         float: right;
-        float: 0x, 50px;
         align-items: center;
         justify-content: center;
-        color: solid #086164 ;
         }
     
     .name {
@@ -75,7 +73,7 @@
         display: flex;
         justify-content: center;
         color: white;
-        padding: 1rem;
+        padding: .75rem;
         font-family: 'Unbuntu', sans-serif;
         text-decoration: none;
        }
@@ -86,8 +84,8 @@
         }      
     
     nav a:hover {
-        background-color: grey;
-        color: coral;
+        background-color: cadetblue;
+        color: yellow;
         font-weight: 500;
         }
 
