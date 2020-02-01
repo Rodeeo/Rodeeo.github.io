@@ -1,0 +1,22 @@
+@media only screen and (min-width: 64em) {
+    li {
+        width: 100%;
+        }
+    
+     .motto {
+        font-size: 1em;
+        }
+    
+    h1 {
+        margin-bottom: 5px;
+        font-size: 36px;
+        }
+    
+    h2 {
+        font-size: 20px;
+        }
+    
+    footer {
+        font-size: 16px;
+        }
+    }

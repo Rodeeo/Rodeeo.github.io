@@ -5,42 +5,44 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fir=cover">
 <title>lesson 4 Preston</title>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/preston.css">
-<link rel="stylesheet" href="css/medium.css">
-<link rel="stylesheet" href="css/large.css">
+<link rel="stylesheet" href="./css/preston.css">
+<link rel="stylesheet" href="./css/medium.css">
+<link rel="stylesheet" href="./css/large.css">
 </head>
     <body>
-        The body of the page must be made of four semantic parent 
-        4 elements: header, nav, main, and footer.
-        <Header>
-            The header must contain a logo, site name, 
-            and motto as demonstrated and 
-            span the entire screen in all views.
+        <Header> 
+          <img class= "pic" src="images/weathersighticon.png" alt="Weathersite logo">
+          <section>
+              <h1 class="weathersight">Weather Sight</h1>
+              <div class="motto">Weather Forsight</div>
+          </section>
         </Header>
-            <main>
-                <nav>
-                    <ul class ="hamburger">
-                        <li><a class="ham" href="#"&#9776; Menu></a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Feedback</a></li>
-                        <li><a href="#">History</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </main>
+            <nav>
+                <ul class ="hamburger">
+                <li><a class="ham" href="#"&#9776; Menu></a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Sode Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Stone Center</a></li>
+                <li><a href="#">Gallery</a></li>
+                </ul> 
+            </nav>
+                 <main>
+                    <h2>Preston Idaho</h2>
+                        <div class="dashbox">Hero w/Weather Summary</div>
+                        <div class="dashbox">5 Day Forcast</div>
+                        <div class="dashbox">Article</div>
+                        <div class="dashbox">Contact information</div>
+                 </main>
         <footer>
-            The main and footer sections must be limited in width
-             in large views (not span the entire screen) and 
-             a placeholder should be used for the four content sections within the 
-             main element: hero image/weather summary, 
-            5 day forecast, article, and the contact information.
-
-            The footer must display the current date using 
-            JavaScript in this format Wednesday, 24 July 2020.
+            <p class= "name"> @Weather Sight o7 Chad Rodee <br>
+               <span id="footinfo"></span><script src="./js/index.js"></script>
+            </p>
         </footer>
+        <script src="./js/index.js"></script>
+        <script src="./js/ham.js"></script>  
     </body> 
 </html>
