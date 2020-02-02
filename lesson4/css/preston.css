@@ -73,11 +73,15 @@
         display: flex;
         justify-content: center;
         color: white;
-        padding: .75rem;
+        padding: .1rem;
         font-family: 'Unbuntu', sans-serif;
         text-decoration: none;
-       }
+        }
    
+    .hamburger li  {
+        display: none;
+        }
+
     .hamburger li:first-child {
         display: flex;
         justify-content: center;
@@ -94,7 +98,7 @@
         }
         
     .active {
-        color: black;
+        color:yellow;
         font-weight: bold;
         }
     
