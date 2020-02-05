@@ -1,0 +1,32 @@
+@media only screen and (min-width: 32.5em) {
+    .hamburger {
+        display: flex;
+        }
+    .hamburger li {
+        display: block;
+        flex: 1 1 100%
+        }
+
+    .hamburger li a {
+        color: whitesmoke;
+        text-align: center;
+        }    
+
+    .hamburger li:first-child {
+        display: none;
+        }
+
+    .dashbox {
+        width: 75%;
+        }
+    }
+
+    .pic {
+        width: 150px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        color: rgb(236, 26, 26);
+        }
