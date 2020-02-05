@@ -2,6 +2,6 @@
 function checkDate() {
     var date = new Date();
     console.log(date.getDay());
-    if(date.getDay() === 2) {document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.";
+    if(date.getDay() === 3) {document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.";
     } 
 }

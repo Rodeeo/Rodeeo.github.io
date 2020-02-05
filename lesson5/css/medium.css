@@ -16,6 +16,17 @@
         display: none;
         }
 
+    nav a:hover {
+        background-color: cadetblue;
+        color: yellow;
+        font-weight: 500;
+        }
+
+    .active {
+        color:yellow;
+        font-weight: bold;
+        }    
+        
     .dashbox {
         width: 75%;
         }
@@ -30,3 +41,4 @@
         justify-content: center;
         color: rgb(236, 26, 26);
         }
+    }

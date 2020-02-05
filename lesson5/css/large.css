@@ -30,7 +30,18 @@
         justify-content: center;
         color: rgb(250, 215, 18);
         } 
-    
+
+    .active {
+        color:yellow;
+        font-weight: bold;
+        }
+        
+    nav a:hover {
+        background-color: cadetblue;
+        color: yellow;
+        font-weight: 500;
+        }
+                
     .dashbox {
         width: 80%;
         }

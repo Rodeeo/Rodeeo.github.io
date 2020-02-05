@@ -124,7 +124,9 @@
         color: grey;
         }
 
-    #friday {
-        text-align: left;font-size:1.5rem;
+    #friday {        
+        text-align: left;
+        font-size: 1.2rem;
+        font-family: 'Unbuntu', sans-serif;
         }
 
