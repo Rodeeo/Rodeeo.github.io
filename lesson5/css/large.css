@@ -41,6 +41,15 @@
         color: yellow;
         font-weight: 500;
         }
+            
+     nav li a {
+        display: flex;
+        justify-content: center; 
+        color: white;
+        padding: 1rem;
+        font-family: 'Unbuntu', sans-serif;
+        text-decoration: none;
+        }  
                 
     .dashbox {
         width: 80%;

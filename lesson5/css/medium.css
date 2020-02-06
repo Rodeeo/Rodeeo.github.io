@@ -16,6 +16,15 @@
         display: none;
         }
 
+    nav li a {
+        display: flex;
+        justify-content: center; 
+        color: white;
+        padding: 1rem;
+        font-family: 'Unbuntu', sans-serif;
+        text-decoration: none;
+        }  
+          
     nav a:hover {
         background-color: cadetblue;
         color: yellow;

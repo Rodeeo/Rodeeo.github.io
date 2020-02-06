@@ -72,7 +72,7 @@
     
     nav li a {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         color: white;
         padding: 1rem;
         font-family: 'Unbuntu', sans-serif;
@@ -85,7 +85,7 @@
 
     .hamburger li:first-child {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         }      
     
     nav a:hover {
