@@ -55,6 +55,7 @@
 
     .motto {
         font-style: normal;
+        font-size: .75rem;
         }
 
     nav {
@@ -124,7 +125,9 @@
         color: grey;
         }
 
-    #friday {        
+    #friday {
+        position: relative;   
+        left: 1px;
         text-align: left;
         font-size: 1.2rem;
         font-family: 'Unbuntu', sans-serif;

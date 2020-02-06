@@ -15,7 +15,11 @@
     .hamburger li:first-child {
         display: none;
         }
-
+    
+    .motto {
+        font-style: normal;
+        }
+        
     nav li a {
         display: flex;
         justify-content: center; 
