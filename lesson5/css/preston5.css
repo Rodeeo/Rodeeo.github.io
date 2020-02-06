@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
- 
+
  main {
         display: grid;
         grid-template-columns: 1fr;
@@ -129,4 +129,3 @@
         font-size: 1.2rem;
         font-family: 'Unbuntu', sans-serif;
         }
-
