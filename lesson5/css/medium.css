@@ -24,7 +24,7 @@
         font-family: 'Unbuntu', sans-serif;
         text-decoration: none;
         }  
-          
+
     nav a:hover {
         background-color: cadetblue;
         color: yellow;
@@ -39,7 +39,6 @@
     .dashbox {
         width: 75%;
         }
-    }
 
     .pic {
         width: 150px;
