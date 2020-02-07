@@ -20,6 +20,10 @@
         height: auto;
         border-radius: 5px;
         }
+        /* .active {
+            color:yellow;
+            font-weight: bold;
+            } */
 
     .pic {
         width: 220px;
@@ -44,16 +48,13 @@
         padding-bottom: inherit;
         }
   
-    .active {
-        color:yellow;
-        font-weight: bold;
-        }
+ 
         
-    nav a:hover {
+    /* nav a:hover {
         background-color: cadetblue;
         color: yellow;
         font-weight: 500;
-        }
+        } */
             
      nav li a {
         display: flex;

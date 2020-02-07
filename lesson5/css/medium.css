@@ -7,6 +7,11 @@
         flex: 1 1 100%
         }
 
+    .active {
+        color:yellow;
+        font-weight: bold;
+        }
+    
     .hamburger li a {
         color: whitesmoke;
         text-align: center;
@@ -29,16 +34,14 @@
         text-decoration: none;
         }  
 
-    nav a:hover {
+    /* nav a:hover {
         background-color: cadetblue;
         color: yellow;
         font-weight: 500;
-        }
+        } */
 
-    .active {
-        color:yellow;
-        font-weight: bold;
-        }    
+    /* 
+        }     */
 
     .dashbox {
         width: 75%;
