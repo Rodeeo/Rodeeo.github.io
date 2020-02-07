@@ -53,7 +53,21 @@
         justify-content: center;
         color: rgb(236, 26, 26);
         }
-        
+    
+    
+    .section img {
+        width: 93vw;
+        height: 50vw;
+        }
+    
+    .map {
+        display: flex;
+        float: left;
+        width: 300px;
+        height: auto;
+        padding-bottom: inherit;
+        }
+    
     #friday { 
         text-align: left;
         font-size: 1.2rem;
@@ -107,7 +121,8 @@
         }
 
     .data {
-        display: block;
-        padding: 0 5px 5px;
+        display: flex;
+        padding: 0 5px;
+        font-size: 30px;
         }  
     }

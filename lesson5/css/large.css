@@ -30,7 +30,20 @@
         justify-content: center;
         color: rgb(250, 215, 18);
         } 
+    
+    .section img {
+        width: 97vw;
+        height: 40vw;
+        }
 
+    .map {
+        display: flex;
+        float: left;
+        width: 550px;
+        height: auto;
+        padding-bottom: inherit;
+        }
+  
     .active {
         color:yellow;
         font-weight: bold;
@@ -126,8 +139,8 @@
         padding: 5px;
         } */
         
-    .data {
+    /* .data {
         display: block;
         padding: 0 5px 5px; 
-        }
+        } */
 }

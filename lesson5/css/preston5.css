@@ -130,20 +130,17 @@
     .fiveDay {
        display: none; 
         }
-
+    
     .container {
-        margin: 10px auto; 
         position: relative;
         }
 
     .section {
-        margin: 10px auto;
         background-color: cadetblue;
-        border: 1px solid gray;
-        }
+        } 
 
     .section img {
-        width: 475px;
+        width: 457px;
         height: auto;
         }
 
@@ -163,9 +160,11 @@
         }
 
     #loremImg {
-        float: center;
+        float: left;
         width: 300px;
         height: auto;
+        padding-right: inherit;
+        padding-bottom: inherit;
         }
 
     .heroOverlay {
