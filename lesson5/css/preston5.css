@@ -142,7 +142,7 @@
         border: 1px solid gray;
         }
 
-    .pic {
+    .section img {
         width: 475px;
         height: auto;
         }
@@ -158,11 +158,11 @@
         }
 
     .flexImg {
-        width: 10px;
+        width: 100px;
         height: auto;
         }
 
-    .loremImg {
+    #loremImg {
         float: center;
         width: 300px;
         height: auto;
