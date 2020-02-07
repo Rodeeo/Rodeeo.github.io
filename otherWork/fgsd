@@ -1,0 +1,15 @@
+    .contact-map{
+        display: none;
+        }
+    
+    .contact-map{
+        dispplay: flex;
+         }   
+
+    #friday {
+        position: relative;   
+        left: 1px;
+        text-align: left;
+        font-size: 1.2rem;
+        font-family: 'Unbuntu', sans-serif;
+        }
