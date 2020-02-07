@@ -74,8 +74,7 @@
         padding: 10px; 
         }
     
-
-    .table {
+    /* .table {
         flex: 1 1 100%;
         border-top: 1px solid black;
         border-bottom: 1px solid black;
@@ -86,7 +85,8 @@
         }
     
     .lastTable {
-        flex: 1 1 100%;            border-top: 1px solid black;
+        flex: 1 1 100%;            
+        border-top: 1px solid black;
         border-bottom: 1px solid black;
         border-left: 1px solid black;
         border-right: 1px solid black;
@@ -94,14 +94,14 @@
         font-size: 15px;
         text-align: center;
         }
-        
-    .label {
+         */
+    /* .label {
         display: block;
         padding: 5px;
         font-weight: 700;
         font-size: 15px;
-        border-bottom: 1px solid black;
-        background-color: whitesmoke;
+        border-bottom: 1px solid white;
+        background-color: cadetblue;
         }
     
     .lastLabel {
@@ -109,11 +109,11 @@
         padding: 5px;
         font-weight: 700;
         font-size: 15px;
-        border-bottom: 1px solid black;
-        background-color: whitesmoke;
-        }
+        border-bottom: 1px solid white;
+        background-color: cadetblue;
+        } */
     
-    .flexImg {
+    /* .flexImg {
         size: 1px;
         }
 
@@ -124,7 +124,7 @@
     .flexDivImg, table img {
         border-radius: 100px;
         padding: 5px;
-        }
+        } */
         
     .data {
         display: block;
