@@ -40,7 +40,7 @@
         vertical-align: middle;
         }
     
-    .pic {
+    .logo {
         width: 140px;
         height: auto;
         padding: 5px;
@@ -129,23 +129,44 @@
     
     .fiveDay {
        display: none; 
-    }
+        }
 
-    .heroContainer{
+    .container {
         margin: 10px auto; 
         position: relative;
-    }
+        }
 
-    .heroSection {
+    .section {
         margin: 10px auto;
         background-color: cadetblue;
         border: 1px solid gray;
-    }
+        }
 
-    .heroPic {
+    .pic {
         width: 475px;
         height: auto;
-    }
+        }
+
+    .overlay {
+        position: absolute;
+        border: 1px dotted;
+        top: 2rem;
+        left: 1rem;
+        background: cadetblue;
+        border: 1px solid black;
+        padding: .5rem;
+        }
+
+    .flexImg {
+        width: 10px;
+        height: auto;
+        }
+
+    .loremImg {
+        float: center;
+        width: 300px;
+        height: auto;
+        }
 
     .heroOverlay {
         position: absolute;
@@ -160,11 +181,6 @@
     .loremIpsum {
         background-color: cadetblue;
         padding: 1rem;
-    }
-
-    .loremImg{
-        float: center;
-        width: 470px;
     }
 
     .contactInfo{
