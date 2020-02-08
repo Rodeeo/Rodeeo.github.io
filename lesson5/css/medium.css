@@ -118,6 +118,14 @@
         color: white;
         }
 
+    .fiveForcast{
+        display: block;
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Unbuntu', sans-serif;
+        margin-bottom: auto;
+        }   
+
     .fiveDay {
         display: flex;
         flex-direction: row;
