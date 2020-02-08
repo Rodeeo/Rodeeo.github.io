@@ -150,10 +150,10 @@
 
     .overlay {
         position: absolute;
-        border: 1px dotted;
         top: 2rem;
         left: 1rem;
         background: cadetblue;
+        opacity: 0.8;
         border: 1px solid black;
         padding: .5rem;
         }
