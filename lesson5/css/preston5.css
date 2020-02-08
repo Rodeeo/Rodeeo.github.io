@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
- main {
+    body {
+        width:fit-content
+        }
+
+    main {
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
         padding: 10px;
-    }
+        }
 
     header, footer{ 
         max-width: none;
@@ -135,9 +139,9 @@
         position: relative;
         }
 
-    .section {
+    /* .section {
         background-color: cadetblue;
-        } 
+        }  */
 
     .section img {
         width: 460px;
