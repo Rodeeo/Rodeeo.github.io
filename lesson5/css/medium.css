@@ -7,13 +7,12 @@
         flex: 1 1 100%
         }
 
-    .active {
+    .active{
         color:yellow;
         font-weight: bold;
         }
     
     .hamburger li a {
-        color: whitesmoke;
         text-align: center;
         }    
 
