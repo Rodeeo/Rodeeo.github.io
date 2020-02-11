@@ -38,6 +38,7 @@
     .section img {
         width: 97vw;
         height: 33vw;
+        max-height: 450px;
         }
 
     .map {
