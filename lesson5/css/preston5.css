@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
     body {
-        width:fit-content
+        width:fit-content;
         }
 
     main {
@@ -13,7 +13,7 @@
         }
 
     header, footer{ 
-        max-width: none;
+
         height: 75px;
         margin: auto;
         padding: .75rem;
