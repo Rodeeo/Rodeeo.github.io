@@ -150,12 +150,13 @@
 
     .overlay {
         position: absolute;
-        top: 2rem;
+        top: 4rem;
         left: 1rem;
         background: cadetblue;
         opacity: 0.8;
         border: 1px solid black;
         padding: .5rem;
+        text-shadow: 1px 1px 7px white;
         }
 
     .flexImg {

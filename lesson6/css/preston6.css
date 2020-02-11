@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
 
     body {
         width:fit-content;
@@ -150,12 +150,15 @@
 
     .overlay {
         position: absolute;
-        top: 2rem;
+        top: 4rem;
         left: 1rem;
         background: cadetblue;
         opacity: 0.8;
-        border: 1px solid black;
+        border: 1px solid whitesmoke;
         padding: .5rem;
+        color: whitesmoke;
+        text-shadow: 1px 2px 2px black;
+
         }
 
     .flexImg {
