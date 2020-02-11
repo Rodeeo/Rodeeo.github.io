@@ -14,6 +14,7 @@ header, footer {
 }
 
 h1 {  
+  padding-top: 10px;
   font-size: 1.5rem;
   margin: 0.15rem;
   }
@@ -24,18 +25,20 @@ h2 {
   margin-bottom: 0.5rem;
   }
 
+  
 #headerImage {
- margin: 1em;
+  box-shadow: 5px 5px 5px darkgreen;
+  border-radius: 10px;
   }
 
 main {
   max-width: 90%;
   margin: auto;
-  padding: 1em;
   }
 
 .content {
   padding: 1rem;
+  padding-bottom: 0;
   }
 
 .lastMod {

@@ -14,10 +14,11 @@ h1 {
 .content {
   padding: 3rem;
   }
-  
-  #headerImage {
-    float: right;
-    box-shadow: 5px 5px 5px grey;
-    border-radius: 10px;
+
+#headerImage {
+  float: right;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 10px;
   }
+  
 } 
