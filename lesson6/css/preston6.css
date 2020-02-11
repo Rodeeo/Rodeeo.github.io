@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+    body {
+        width:fit-content;
+        }
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 10px;
+        }
+
+    header, footer{ 
+
+        height: 75px;
+        margin: auto;
+        padding: .75rem;
+        font-family: 'Unbuntu', sans-serif;
+        background-color: cadetblue;
+        color: whitesmoke;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        }
+
+    h1 {
+        font-size: 1.5em;
+        font-family: 'Unbuntu', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        }
+          
+    h2 {
+        font-size: 1em;
+        font-family: 'Unbuntu', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        }
+    
+    .logo {
+        width: 140px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        }
+    
+    .name {
+        font-style: normal;
+        }
+
+    .motto {
+        font-style: normal;
+        font-size: .75rem;
+        }
+
+    nav {
+        margin: 0 auto;
+        background-color: #086164 ;
+        }
+        
+    nav ul {
+        width: 100%;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }    
+    
+    nav li a {
+        display: flex;
+        justify-content: left;
+        color: white;
+        padding: 1rem;
+        font-family: 'Unbuntu', sans-serif;
+        text-decoration: none;
+        }
+   
+    .hamburger li  {
+        display: none;
+        }
+
+    .hamburger li:first-child {
+        display: flex;
+        justify-content: left;
+        }      
+    
+    nav a:hover {
+        background-color: cadetblue;
+        color: yellow;
+        font-weight: 500;
+        }
+
+    .responsive li {
+        display: block;
+        }
+        
+    .active {
+        color:yellow;
+        font-weight: bold;
+        }
+        
+    .dashbox {
+        text-indent: 10px;
+        width: 70%;
+        display: block;
+        margin: 10px auto;
+        padding: 10px;
+        border: 1px dashed black;
+        font-style: italic;
+        background-color: white;
+        color: grey;
+        }
+
+    #friday { 
+        text-align: left;
+        font-size: 1rem;
+        font-family: 'Unbuntu', sans-serif;
+        padding: 4px;
+        }
+    
+    .fiveDay {
+       display: none; 
+        }
+    
+    .fiveForcast{
+        display: none;
+        }   
+
+    .container {
+        position: relative;
+        }
+
+    /* .section {
+        background-color: cadetblue;
+        }  */
+
+    .section img {
+        width: 460px;
+        height: auto;
+        }
+
+    .overlay {
+        position: absolute;
+        top: 2rem;
+        left: 1rem;
+        background: cadetblue;
+        opacity: 0.8;
+        border: 1px solid black;
+        padding: .5rem;
+        }
+
+    .flexImg {
+        width: 100px;
+        height: auto;
+        }
+
+    #loremImg {
+        float: left;
+        width: 300px;
+        height: auto;
+        padding-right: inherit;
+        padding-bottom: inherit;
+        }
+
+    .heroOverlay {
+        position: absolute;
+        border: 1px dotted;
+        top: 2rem;
+        left: 1rem;
+        background: #086164;
+        border: 1px solid black;
+        padding: .5rem;
+        }
+
+    .loremIpsum {
+        background-color: cadetblue;
+        padding: 1rem;
+    }
+
+    .contactInfo{
+        background-color:#086164;
+        padding: 1rem;
+        text-align: center;
+    }
+  
+    .contactData{
+        color: white;
+    }
+
+    .map{
+        display: none;
+    }
