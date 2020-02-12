@@ -152,7 +152,7 @@
         top: 4rem;
         left: 1rem;
         background: cadetblue;
-        opacity: 0.8;
+        opacity: 0.88;
         border: 1px solid whitesmoke;
         padding: .5rem;
         color: whitesmoke;
@@ -186,18 +186,18 @@
     .loremIpsum {
         background-color: cadetblue;
         padding: 1rem;
-    }
+        }
 
     .contactInfo{
         background-color:#086164;
         padding: 1rem;
         text-align: center;
-    }
+        }
   
     .contactData{
         color: white;
-    }
+        }
 
     .map{
         display: none;
-    }
+        }

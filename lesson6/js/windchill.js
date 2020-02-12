@@ -1,13 +1,18 @@
 function showWindChill() {
-  const temp = 50;
+  const temp = 51;
   const speed = 10;
+  const high = (temp + 10);
+  document.getElementById("pHigh").innerHTML = "High: " + high + "˚";
+  document.getElementById("pTemp").innerHTML = "Current Temp: " + temp + "˚";
+  document.getElementById("pHumid").innerHTML = "Humidity: 0%";
+  document.getElementById("pSpeed").innerHTML = "Wind speed: " + speed + "mph";
 
   if (temp <= 50 && speed > 3) {
     const wind = windChill(temp, speed);
-    document.getElementById("outputDiv").innerHTML = "Wind Chill: " + wind.toFixed(2);
+    document.getElementById("pWind").innerHTML = "Wind Chill: " + wind.toFixed(2) + "˚";
   }
   else { 
-    document.getElementById("outputDiv").innerHTML = "Wind Chill: N/A";
+    document.getElementById("pWind").innerHTML = "Wind Chill: N/A";
   } 
 }
 function windChill(tempf, speed) {
@@ -15,4 +20,3 @@ function windChill(tempf, speed) {
   const calculate = 35.74 + 0.6215 * tempf - 35.75 * a + 0.4275 * tempf * a;
   return calculate;
 }
- 
