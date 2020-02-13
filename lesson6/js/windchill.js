@@ -1,4 +1,3 @@
-function showWindChill() {
   const temp = 51;
   const speed = 10;
   const high = (temp + 10);
@@ -14,7 +13,7 @@ function showWindChill() {
   else { 
     document.getElementById("pWind").innerHTML = "Wind Chill: N/A";
   } 
-}
+
 function windChill(tempf, speed) {
   const a = Math.pow(speed, 0.16);
   const calculate = 35.74 + 0.6215 * tempf - 35.75 * a + 0.4275 * tempf * a;
