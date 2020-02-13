@@ -20,10 +20,6 @@
         height: auto;
         border-radius: 5px;
         }
-        /* .active {
-            color:yellow;
-            font-weight: bold;
-            } */
 
     .pic {
         width: 220px;
@@ -49,20 +45,12 @@
         padding-bottom: inherit;
         }
   
- 
-        
-    /* nav a:hover {
-        background-color: cadetblue;
-        color: yellow;
-        font-weight: 500;
-        } */
-            
      nav li a {
         display: flex;
         justify-content: center; 
         color: white;
         padding: 1rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         text-decoration: none;
         }  
                 
@@ -75,66 +63,10 @@
         right: 100px;
         text-align: left;
         font-size: 1.5rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         padding: 10px;
         }
     
 
     
-    /* .table {
-        flex: 1 1 100%;
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-        background-color: whitesmoke;
-        font-size: 15px;
-         text-align: center;
-        }
-    
-    .lastTable {
-        flex: 1 1 100%;            
-        border-top: 1px solid black;
-        border-bottom: 1px solid black;
-        border-left: 1px solid black;
-        border-right: 1px solid black;
-        background-color: whitesmoke;
-        font-size: 15px;
-        text-align: center;
-        }
-         */
-    /* .label {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid white;
-        background-color: cadetblue;
-        }
-    
-    .lastLabel {
-        display: block;
-        padding: 5px;
-        font-weight: 700;
-        font-size: 15px;
-        border-bottom: 1px solid white;
-        background-color: cadetblue;
-        } */
-    
-    /* .flexImg {
-        size: 1px;
-        }
-
-    .flexDiv:last-child {
-        border-right: 1px solid black;
-        }
-        
-    .flexDivImg, table img {
-        border-radius: 100px;
-        padding: 5px;
-        } */
-        
-    /* .data {
-        display: block;
-        padding: 0 5px 5px; 
-        } */
-}
+  

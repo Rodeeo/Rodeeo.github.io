@@ -37,18 +37,9 @@
         justify-content: center; 
         color: white;
         padding: 1rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         text-decoration: none;
         }  
-
-    /* nav a:hover {
-        background-color: cadetblue;
-        color: yellow;
-        font-weight: 500;
-        } */
-
-    /* 
-        }     */
 
     .dashbox {
         width: 75%;
@@ -81,7 +72,7 @@
     #friday { 
         text-align: left;
         font-size: 1.2rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         padding: 8px;
         }
 
@@ -130,7 +121,7 @@
         display: block;
         text-align: center;
         font-size: 1.5em;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin-bottom: auto;
         }   
 

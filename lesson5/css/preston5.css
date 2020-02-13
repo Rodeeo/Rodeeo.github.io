@@ -16,7 +16,7 @@
         height: 75px;
         margin: auto;
         padding: .75rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         background-color: cadetblue;
         color: whitesmoke;
         display: flex;
@@ -27,7 +27,7 @@
 
     h1 {
         font-size: 1.5em;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin: 0;
         padding: 5px;
         text-align: center;
@@ -36,7 +36,7 @@
           
     h2 {
         font-size: 1em;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin: 0;
         padding: 5px;
         text-align: center;
@@ -79,7 +79,7 @@
         justify-content: left;
         color: white;
         padding: 1rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         text-decoration: none;
         }
    
@@ -122,7 +122,7 @@
     #friday { 
         text-align: left;
         font-size: 1rem;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         padding: 4px;
         }
     
@@ -137,10 +137,6 @@
     .container {
         position: relative;
         }
-
-    /* .section {
-        background-color: cadetblue;
-        }  */
 
     .section img {
         width: 460px;
