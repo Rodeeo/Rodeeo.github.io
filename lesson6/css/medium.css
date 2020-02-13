@@ -41,15 +41,6 @@
         text-decoration: none;
         }  
 
-    /* nav a:hover {
-        background-color: cadetblue;
-        color: yellow;
-        font-weight: 500;
-        } */
-
-    /* 
-        }     */
-
     .dashbox {
         width: 75%;
         }
@@ -130,7 +121,7 @@
         display: block;
         text-align: center;
         font-size: 1.5em;
-        font-family: 'Unbuntu', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
         margin-bottom: auto;
         }   
 
