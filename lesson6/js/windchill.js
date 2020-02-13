@@ -2,8 +2,8 @@ function showWindChill() {
   const temp = 51;
   const speed = 10;
   const high = (temp + 10);
-  document.getElementById("pHigh").innerHTML = "High: " + high + "˚";
-  document.getElementById("pTemp").innerHTML = "Current Temp: " + temp + "˚";
+  document.getElementById("pHigh").innerHTML = "High: " + high + "˚F";
+  document.getElementById("pTemp").innerHTML = "Current Temp: " + temp + "˚F";
   document.getElementById("pHumid").innerHTML = "Humidity: 0%";
   document.getElementById("pSpeed").innerHTML = "Wind speed: " + speed + "mph";
 
