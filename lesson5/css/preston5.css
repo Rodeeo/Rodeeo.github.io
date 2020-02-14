@@ -107,7 +107,7 @@
         font-weight: bold;
         }
         
-    .dashbox {
+    /* .dashbox {
         text-indent: 10px;
         width: 70%;
         display: block;
@@ -117,7 +117,7 @@
         font-style: italic;
         background-color: white;
         color: grey;
-        }
+        } */
 
     #friday { 
         text-align: left;
@@ -152,6 +152,7 @@
         border: 1px solid black;
         padding: .5rem;
         text-shadow: 1px 1px 7px white;
+        font-family: 'Ubuntu', sans-serif;
         }
 
     .flexImg {
