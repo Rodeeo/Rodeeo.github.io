@@ -35,6 +35,15 @@
         }
           
     h2 {
+        font-size: 1.2em;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        }
+
+     h3{
         font-size: 1em;
         font-family: 'Ubuntu', sans-serif;
         margin: 0;
@@ -42,7 +51,7 @@
         text-align: center;
         vertical-align: middle;
         }
-    
+
     .logo {
         width: 140px;
         height: auto;
@@ -106,18 +115,6 @@
         color:yellow;
         font-weight: bold;
         }
-        
-    /* .dashbox {
-        text-indent: 10px;
-        width: 70%;
-        display: block;
-        margin: 10px auto;
-        padding: 10px;
-        border: 1px dashed black;
-        font-style: italic;
-        background-color: white;
-        color: grey;
-        } */
 
     #friday { 
         text-align: left;
@@ -137,6 +134,15 @@
     .container {
         position: relative;
         }
+
+   .container h2 {
+        font-size: 2em;
+        font-family: 'Ubuntu', sans-serif;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        vertical-align: middle;
+        }    
 
     .section img {
         width: 460px;
