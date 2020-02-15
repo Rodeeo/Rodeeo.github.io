@@ -5,7 +5,8 @@ h1 {
     font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
+    text-align: center;
     }
           
 h2 {
@@ -33,7 +34,6 @@ header {
     background-color: cadetblue;
     color: whitesmoke;
     display: flex;
-    text-align: center;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -55,6 +55,7 @@ header {
     font-style: italic;
     padding: 0px;
     margin: 3px;
+    text-align: center;
     }
 
 #friday { 
@@ -196,7 +197,8 @@ ____________________________________________________________________*/
 .logo {
     width: 120px;
     height: auto;
-    padding: 5px;
+    padding: 10px;
+    padding-left: 10px;
     }
 
 .heroimage {
