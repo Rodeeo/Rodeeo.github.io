@@ -1,208 +1,257 @@
-/* @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
-
-    body {
-        width:fit-content;
-        }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        }
-
-    header, footer{ 
-
-        height: 75px;
-        margin: auto;
-        padding: .75rem;
-        font-family: 'Ubuntu', sans-serif;
-        background-color: cadetblue;
-        color: whitesmoke;
-        display: flex;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        }
-
-    h1 {
-        font-size: 1.5em;
-        font-family: 'Ubuntu', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-        }
+/*
+H1, h2, h3, h4, h5
+____________________________________________________________________*/
+h1 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }
           
-    h2 {
-        font-size: 1em;
-        font-family: 'Ubuntu', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-        }
-    
-    .logo {
-        width: 140px;
-        height: auto;
-        padding: 5px;
-        float: right;
-        align-items: center;
-        justify-content: center;
-        }
-    
-    .name {
-        font-style: normal;
-        }
+h2 {
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }
 
-    .motto {
-        font-style: normal;
-        font-size: .75rem;
-        }
+h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif;
+    }
 
-    nav {
-        margin: 0 auto;
-        background-color: #086164 ;
-        }
-        
-    nav ul {
-        width: 100%;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        }    
-    
-    nav li a {
-        display: flex;
-        justify-content: left;
-        color: white;
-        padding: 1rem;
-        font-family: 'Ubuntu', sans-serif;
-        text-decoration: none;
-        }
-   
-    .hamburger li  {
-        display: none;
-        }
+/*
+Header
+____________________________________________________________________*/
+header { 
 
-    .hamburger li:first-child {
-        display: flex;
-        justify-content: left;
-        }      
-    
-    nav a:hover {
-        background-color: cadetblue;
-        color: yellow;
-        font-weight: 500;
-        }
+    height: auto;
+    margin: auto;
+    padding: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cadetblue;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
 
-    .responsive li {
-        display: block;
-        }
-        
-    .active {
-        color:yellow;
-        font-weight: bold;
-        }
-        
-    .dashbox {
-        text-indent: 10px;
-        width: 70%;
-        display: block;
-        margin: 10px auto;
-        padding: 10px;
-        border: 1px dashed black;
-        font-style: italic;
-        background-color: white;
-        color: grey;
-        }
+.logo {
+    width: 140px;
+    height: auto;
+    padding: 5px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    }
 
-    #friday { 
-        text-align: left;
-        font-size: 1rem;
-        font-family: 'Ubuntu', sans-serif;
-        padding: 4px;
-        }
-    
-    .fiveDay {
-       display: none; 
-        }
-    
-    .fiveForcast{
-        display: none;
-        }   
+.motto {
+    font-style: normal;
+    font-size: .75rem;
+    }
 
-    .container {
-        position: relative;
-        }
-        
-    .container h2 {
-        font-size: 2em;
-        font-family: 'Ubuntu', sans-serif;
-        margin: 0;
-        padding: 5px;
-        text-align: center;
-        vertical-align: middle;
-        }  
+#friday { 
+    text-align: left;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 4px;
+    }
 
-    .section img {
-        width: 460px;
-        height: auto;
-        }
+    /*
+Footer
+____________________________________________________________________*/
+footer {
+    height: auto;
+    margin: auto;
+    padding: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cadetblue;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
 
-    .overlay {
-        position: absolute;
-        top: 4rem;
-        left: 1rem;
-        background: cadetblue;
-        opacity: 0.88;
-        border: 1px solid whitesmoke;
-        padding: .5rem;
-        color: whitesmoke;
-        text-shadow: 1px 2px 2px black;
-        font-family: 'Ubuntu', sans-serif;
-        }
+.myname {
+    font-style: normal;
+    }
+/*
+Nav
+____________________________________________________________________*/
+nav {
+    margin: 0 auto;
+    background-color: #086164 ;
+    }
 
-    .flexImg {
-        width: 100px;
-        height: auto;
-        }
+nav a:hover {
+    background-color: cadetblue;
+    color: yellow;
+    font-weight: 500;
+    }
 
-    #loremImg {
-        float: left;
-        width: 300px;
-        height: auto;
-        padding-right: inherit;
-        padding-bottom: inherit;
-        }
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }    
 
-    .heroOverlay {
-        position: absolute;
-        border: 1px dotted;
-        top: 2rem;
-        left: 1rem;
-        background: #086164;
-        border: 1px solid black;
-        padding: .5rem;
-        }
+nav li a {
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    }
 
-    .loremIpsum {
-        background-color: cadetblue;
-        padding: 1rem;
-        }
+.hamburger li  {
+    display: none;
+    }
 
-    .contactInfo{
-        background-color:#086164;
-        padding: 1rem;
-        text-align: center;
-        }
-  
-    .contactData{
-        color: white;
-        }
+.hamburger li:first-child {
+    display: flex;
+    justify-content: left;
+    }      
 
-    .map{
-        display: none;
-        }
+.responsive li {
+    display: block;
+    }
+/*
+Main
+____________________________________________________________________*/
+
+body {
+    min-width: 300px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    }    
+
+* {
+    box-sizing: border-box;
+    }
+
+.container {
+    position: relative;
+    }
+
+.container h2 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }  
+
+.heroclass {
+    margin: 10px auto;
+    position: relative;
+    }
+
+.weathersummary {
+    position: absolute;
+    top: .5rem;
+    left: .5rem;
+    background: cadetblue;
+    opacity: 0.88;
+    border: 1px solid whitesmoke;
+    padding: .5rem;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+.weathersummary p {
+    padding: 4px;   
+    margin: 0px;
+    }
+
+.weathersummary h3 {
+    padding: 2px;   
+    margin: 2px;
+    }
+/*
+Images
+____________________________________________________________________*/
+.heroimage {
+    margin: 0 auto;
+   }
+       
+.picture { 
+   width:100%;
+   height: auto;
+   }
+
+.heroclass img {
+    width: 100%;
+    height: auto;
+}
+
+.iconimg {
+    width: 100px;
+    height: auto;
+    }
+
+#loremimg {
+    float: left;
+    width: 300px;
+    height: auto;
+    padding-right: inherit;
+    padding-bottom: inherit;
+    }
+
+.map{
+    display: none;
+    }
+
+/*
+Links
+____________________________________________________________________*/
+.active {
+    color:yellow;
+    font-weight: bold;
+    }
+
+a:link {
+    color:yellow;
+    }
+
+/*
+Divs n' the Rest
+____________________________________________________________________*/       
+.fiveDay {
+    display: none; 
+    }
+
+.fiveForcast{
+    display: none;
+    }   
+
+.loremipsum {
+    background-color: cadetblue;
+    padding: 1rem;
+    }
+
+.contactInfo{
+    background-color:#086164;
+    padding: 1rem;
+    text-align: center;
+    }
+
+.contactData{
+    color: white;
+    }
+
