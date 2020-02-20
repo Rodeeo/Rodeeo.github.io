@@ -1,0 +1,64 @@
+@media only screen and (min-width: 64em) {
+    
+    .motto {
+        font-size: 1em;
+        }
+    
+    h1 {
+        font-size: 2em;
+        }
+    
+    h2 {
+        font-size: 1.5em;
+        }
+    
+    footer {
+        font-size: 16px;
+        width: 80%;
+        margin: auto;
+        height: auto;
+        border-radius: 5px;
+        }
+
+    .pic {
+        width: 220px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        color: rgb(250, 215, 18);
+        } 
+    
+    .section img {
+        width: 97vw;
+        height: 33vw;
+        max-height: 450px;
+        }
+
+    .map {
+        display: flex;
+        float: left;
+        width: 550px;
+        height: auto;
+        padding-bottom: inherit;
+        }
+  
+     nav li a {
+        display: flex;
+        justify-content: center; 
+        padding: 1rem;
+        text-decoration: none;
+        }  
+                
+    #friday { 
+        font-size: 1.5rem;
+        }
+    
+    .galleryscroll {
+        margin: 1rem auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1048px;
+        }  
+    }

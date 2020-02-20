@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>lesson 6 Preston</title>
@@ -13,96 +14,113 @@
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
 </head>
+
 <body>
     <header>
         <div class="header">
-        <p id="friday"></p>
-            <img class="logo" src="images/weathersighticonn.png" alt="Weathersite logo"> 
-                   <div class="weathersight">
-                       <h1>Weather Sight</h1> </div>
-                 <div class="motto"> <p>Weather Foresight</p>
-                 </div>
-                </div>     
+            <p id="friday"></p>
+            <img class="logo" src="images/weathersighticonn.png" alt="Weathersite logo">
+            <div class="weathersight">
+                <h1>Weather Sight</h1>
+            </div>
+            <div class="motto">
+                <p>Weather Foresight</p>
+            </div>
+        </div>
     </header>
     <nav>
         <ul class="hamburger">
             <li><a class="ham" href="#">&#9782; Menu</a></li>
-            <li><a href="/index.html" >Home</a></li>
-            <li><a class="active" href="/lesson4/preston-4.html" >Preston</a></li>
+            <li><a href="/index.html">Home</a></li>
+            <li><a class="active" href="/lesson4/preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Stone Center</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
-     <div class="container">
-        <h2> Preston, Idaho</h2>
+        <div class="container">
+            <h2> Preston, Idaho</h2>
             <div class="heroclass">
                 <picture class="picture">
                     <source media="(min-width: 32.5em) and (max-width: 50em)" srcset="images/franklin750.jpg">
-                    <source media="(min-width: 50em)" srcset="images/franklin1000.jpg">  
-                        <img src="images/franklin500.jpg" alt="Green field background for Weather Summary">    
-               </picture>
+                    <source media="(min-width: 50em)" srcset="images/franklin1000.jpg">
+                    <img src="images/franklin500.jpg" alt="Green field background for Weather Summary">
+                </picture>
                 <section class="weathersummary">
-                  <h3 class=“fiveDay”> Weather Summary</h3>
-                     <p id="pTemp"></p>
-                     <p id="pHigh"> </p>
-                     <p id="pWind"></p>
-                     <p id="pHumid"></p>
-                     <p id="pSpeed"> </p> 
-                </section> 
+                    <h3 class=“fiveDay”> Weather Summary</h3>
+                    <p id="pTemp"></p>
+                    <p id="pHigh"> </p>
+                    <p id="pWind"></p>
+                    <p id="pHumid"></p>
+                    <p id="pSpeed"> </p>
+                </section>
             </div>
-         </div> 
-             <div><h3 class="fiveForcast">5 DAY FORCAST</h3></div>
+        </div>
+        <div>
+            <h3 class="fiveForcast">5 DAY FORCAST</h3>
+        </div>
         <div class="fiveDay">
             <div class="table">
-            <span class="label">2/15- Today</span>
-            <img class="iconimg" src="images/weathersightstormicon.png" alt=“weathericon”>
-            <span class="data">24˚</span>
-            </div>            
-        <div class="table">
-            <span class="label">2/16</span>
-            <img class="iconimg" src="images/weathersightsunnyicon.png" alt=“weathericon”>
-            <span class="data">-6˚</span>
-            </div> 
-        <div class="table">
-            <span class="label">2/17</span>
-            <img class="iconimg" src="images/weathersighticon.png" alt=“weathericon”>
-            <span class="data">12˚</span>
-            </div> 
-        <div class="table">
-            <span class="label">2/18</span>
-            <img class="iconimg" src="images/weathersightsunnyicon.png" alt=“weathericon”>
-            <span class="data">36˚</span>
-            </div> 
-        <div class="lastTable">
-            <span class="lastLabel">2/19</span>
-            <img class="iconimg" src="images/weathersightstormicon.png" alt=“weathericon”>
-            <span class="data">72˚</span>
-              </div> 
-          </div> 
-      
-          <div class="loremipsum">
+                <span class="label">2/15- Today</span>
+                <img class="iconimg" src="images/weathersightstormicon.png" alt=“weathericon”>
+                <span class="data">24˚</span>
+            </div>
+            <div class="table">
+                <span class="label">2/16</span>
+                <img class="iconimg" src="images/weathersightsunnyicon.png" alt=“weathericon”>
+                <span class="data">-6˚</span>
+            </div>
+            <div class="table">
+                <span class="label">2/17</span>
+                <img class="iconimg" src="images/weathersighticon.png" alt=“weathericon”>
+                <span class="data">12˚</span>
+            </div>
+            <div class="table">
+                <span class="label">2/18</span>
+                <img class="iconimg" src="images/weathersightsunnyicon.png" alt=“weathericon”>
+                <span class="data">36˚</span>
+            </div>
+            <div class="lastTable">
+                <span class="lastLabel">2/19</span>
+                <img class="iconimg" src="images/weathersightstormicon.png" alt=“weathericon”>
+                <span class="data">72˚</span>
+            </div>
+        </div>
+
+        <div class="loremipsum">
             <img id="loremimg" src="images/intoTheTrees.jpg" alt=“snowTrees”>
             <h3>Preston, Id</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Donec tortor dui, malesuada ut dignissim ut, auctor nec risus. Sed ac vestibulum mauris. Vivamus luctus ex turpis, vel convallis velit feugiat ac. Nam at volutpat diam. Aliquam erat volutpat. Sed vitae aliquam est. Curabitur ultricies dictum tellus sit amet pellentesque. Integer eu gravida sapien.</p>
-            <p>Adapibus imperdiet posuere. Proin quis ultrices tellus, dictum ultricies justo. Ut faucibus ligula metus, non accumsan ligula vehicula vitae. Nulla et velit tincidunt, porttitor nisi id, porta sem. Proin sit amet ipsum ex. In tincidunt libero sed leo maximus maximus. Praesent vel justo in ex rhoncus porttitor et eget quam. Etiam posuere fermentum magna, quis interdum ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent ultrices quam ut nunc semper commodo. Suspendisse ornare et neque id tempor. Pellentesque est lorem, ornare ut diam non, porta egestas erat. Nam augue quam, condimentum et auctor quis, ultrices sit amet magna. Donec euismod libero maximus pharetra porttitor. Aliquam erat volutpat.</p>
-            <p>Fusce eget metus vitae justo scelerisque sollicitudin. Curabitur finibus id velit tempor elementum. Suspendisse orci tellus, varius ac porttitor id, scelerisque ac velit. Maecenas feugiat velit dictum luctus finibus. Sed finibus eget ipsum sit amet semper. Quisque nec magna ante.</p>
-          </div>
-      
-            <div class="contactInfo">   
-                  <img class= "map" src="images/prestonMap.png" alt=“map”>
-                  <div class="contactData">
-                  <br>
-                  <br>
-                  <p>Phone Number: 208-909-2002 </p>
-                  <p>Email: noemail@email.com</p>
-                  <p>Address:</p>
-                  <p>657 North 287 West</p>
-                  <p>Preston, ID 83263</p>
-                  <br>
-                  <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elt. Donec tortor dui, malesuada ut dignissim ut,
+                auctor nec risus. Sed ac vestibulum mauris. Vivamus luctus ex turpis, vel convallis velit feugiat ac.
+                Nam at volutpat diam. Aliquam erat volutpat. Sed vitae aliquam est. Curabitur ultricies dictum tellus
+                sit amet pellentesque. Integer eu gravida sapien.</p>
+            <p>Adapibus imperdiet posuere. Proin quis ultrices tellus, dictum ultricies justo. Ut faucibus ligula metus,
+                non accumsan ligula vehicula vitae. Nulla et velit tincidunt, porttitor nisi id, porta sem. Proin sit
+                amet ipsum ex. In tincidunt libero sed leo maximus maximus. Praesent vel justo in ex rhoncus porttitor
+                et eget quam. Etiam posuere fermentum magna, quis interdum ante. Interdum et malesuada fames ac ante
+                ipsum primis in faucibus. Praesent ultrices quam ut nunc semper commodo. Suspendisse ornare et neque id
+                tempor. Pellentesque est lorem, ornare ut diam non, porta egestas erat. Nam augue quam, condimentum et
+                auctor quis, ultrices sit amet magna. Donec euismod libero maximus pharetra porttitor. Aliquam erat
+                volutpat.</p>
+            <p>Fusce eget metus vitae justo scelerisque sollicitudin. Curabitur finibus id velit tempor elementum.
+                Suspendisse orci tellus, varius ac porttitor id, scelerisque ac velit. Maecenas feugiat velit dictum
+                luctus finibus. Sed finibus eget ipsum sit amet semper. Quisque nec magna ante.</p>
+        </div>
+
+        <div class="contactInfo">
+            <img class="map" src="images/prestonMap.png" alt=“map”>
+            <div class="contactData">
+                <br>
+                <br>
+                <p>Phone Number: 208-909-2002 </p>
+                <p>Email: noemail@email.com</p>
+                <p>Address:</p>
+                <p>657 North 287 West</p>
+                <p>Preston, ID 83263</p>
+                <br>
+                <br>
             </div>
         </div>
     </main>
@@ -111,11 +129,12 @@
             <span id="footinfo"></span>
         </p>
     </footer>
-        <script src="./js/indexP6.js"></script>
-        <script src="./js/ham.js"></script>
-        <script src="./js/friday.js"></script>
-        <script src="./js/windchill.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script src="/lesson1/js/webfont.js"></script>
-    </body>
+    <script src="./js/indexP6.js"></script>
+    <script src="./js/ham.js"></script>
+    <script src="./js/friday.js"></script>
+    <script src="./js/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="/lesson1/js/webfont.js"></script>
+</body>
+
 </html>

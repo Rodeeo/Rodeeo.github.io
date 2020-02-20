@@ -1,0 +1,125 @@
+@media only screen and (min-width: 32.5em) {
+   /*
+H1, h2, h3, h4, h5
+____________________________________________________________________*/
+h1{
+    font-size: 2em;
+    margin: 0;
+    padding: 10px; 
+    }
+          
+/*
+Header
+____________________________________________________________________*/  
+#friday { 
+    text-align: center;
+    font-size: 1.2rem;
+    }
+
+.motto p{ 
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    padding: 0px;
+    margin: 3px;
+
+    }
+
+    /*
+Footer
+____________________________________________________________________*/
+
+
+/*
+Nav
+____________________________________________________________________*/
+.hamburger {
+    display: flex;
+    }
+
+.hamburger li {
+    display: block;
+    flex: 1 1 100%
+    }
+
+.active{
+    color:yellow;
+    font-weight: bold;
+    }
+
+.hamburger li a {
+    text-align: center;
+    }    
+
+.hamburger li:first-child {
+    display: none;
+    }
+
+.motto {
+    font-style: normal;
+    }
+    
+nav li a {
+    display: flex;
+    justify-content: center; 
+    color: white;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    }  
+
+/*
+Main
+____________________________________________________________________*/
+main {
+    padding: 10px;
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    }
+    
+/*
+Images
+____________________________________________________________________*/
+
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 10px;
+    }
+
+.pic {
+    width: 180px;
+    height: auto;
+    padding: 5px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    color: rgb(236, 26, 26);
+    }
+
+.section img {
+    width: 93vw;
+    height: 49vw;
+    }
+
+/*
+Links
+____________________________________________________________________*/
+
+/*
+Divs n' the Rest
+____________________________________________________________________*/       
+
+.data {
+    display: flex;
+    padding: 0 5px;
+    font-size: 30px;
+    }  
+
+.galleryscroll {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }   
+}

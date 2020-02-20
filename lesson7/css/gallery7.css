@@ -152,6 +152,13 @@ main {
     box-sizing: border-box;
     }
 
+.galleryscroll {
+    margin: 1rem auto;
+    display: grid;
+    max-width: 1048px;
+    text-align: center;
+    }  
+
 .container {
     position: relative;
     }
@@ -202,35 +209,29 @@ ____________________________________________________________________*/
     padding-left: 10px;
     }
 
-.heroimage {
-    margin: 0 auto;
-   }
+.pics   {
+    border-radius: 5px;
+    }
+
+figure img[data-src] {
+    filter: blur(0.2em);
+    }
+
+figure img {
+    border: 1px solid #333;
+    padding: 5px;
+    filter: blur(0em);
+    transition: filter 0.5s;
+    }
        
 .picture { 
    width:100%;
    height: auto;
    }
 
-.heroclass img {
-    width: 100%;
-    height: auto;
-}
-
 .iconimg {
     width: 100px;
     height: auto;
-    }
-
-#loremimg {
-    float: left;
-    width: 300px;
-    height: auto;
-    padding-right: inherit;
-    padding-bottom: inherit;
-    }
-
-.map{
-    display: none;
     }
 
 /*
@@ -248,26 +249,9 @@ a:link {
 /*
 Divs n' the Rest
 ____________________________________________________________________*/       
-.fiveDay {
-    display: none; 
+figcaption {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
     }
 
-.fiveForcast{
-    display: none;
-    }   
-
-.loremipsum {
-    background-color: cadetblue;
-    padding: 1rem;
-    }
-
-.contactInfo{
-    background-color:#086164;
-    padding: 1rem;
-    text-align: center;
-    }
-
-.contactData{
-    color: white;
-    }
 

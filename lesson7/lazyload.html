@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <title>lesson 5 Preston</title>
-    <meta name="Week 5 webpage" content="Abosolute">
+    <title>Lazy Loader</title>
+    <meta name="Week 7 Lazy Loader" content="Lazy Loading Practice">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="icon" type="image/icon" href="./lesson5/images/favicon.ico">
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/small.css">
-    <link rel="stylesheet" href="./css/medium.css">
-    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="/lesson6/css/normalize.css">
+    <link rel="stylesheet" href="/lesson7/css/lazyload.css">
 </head>
-    <body>
-        <Header>
-            <h1> Lazy Load 
-            </h1>            
-        </Header>
-            <main>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-                <picture class= "picture">
-                    <img src="images/something.jpg" alt="discripton">    
-                </picture>
-            </main>
-        <footer>
-        </footer>
-    </body> 
+
+<body>
+    <Header>
+        <h1> Lazy Load
+        </h1>
+    </Header>
+    <main>
+        <picture class="picture">
+            <img src="images/something.jpg" alt="discripton">
+        </picture>
+        <picture class="picture">
+            <img src="images/something.jpg" alt="discripton">
+        </picture>
+        <picture class="picture">
+            <img src="images/something.jpg" alt="discripton">
+        </picture>
+        <picture class="picture">
+            <img src="images/something.jpg" alt="discripton">
+        </picture>
+        <picture class="picture">
+            <img src="images/something.jpg" alt="discripton">
+        </picture>
+        <picture class="picture">
+            <img src="images/something.jpg" data-src="" alt="discripton">
+        </picture>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="js/imagehandling.js"></script>
+</body>
+
 </html>
