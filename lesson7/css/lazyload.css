@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+h1 {
+    text-align: center;
+    }
 
 body {
     font-family: 'Ubuntu', sans-serif;
@@ -7,24 +10,20 @@ body {
     }
 
 main {
-    max-width: 500px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 500px;
     }
 
-.picture {
+picture img {
     border: 2px solid black;
     filter: blur(0em);
     transition: filter 0.5s;
+    margin: 10px;
     }
 
-img[data-src] {
+picture img[data-src] {
     filter: blur(0.2em);
-}
-
-.norm:hover {
-    box-shadow: 0 0 50px black;
-    border-radius: 0px;
     }
