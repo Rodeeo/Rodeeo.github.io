@@ -206,7 +206,7 @@ ____________________________________________________________________*/
     margin: 0 auto;
    }
        
-.picture { 
+.banner { 
    width:100%;
    height: auto;
    }
@@ -221,12 +221,9 @@ ____________________________________________________________________*/
     height: auto;
     }
 
-#loremimg {
-    float: left;
-    width: 300px;
+.loremipsum img {
+    width: 100%;
     height: auto;
-    padding-right: inherit;
-    padding-bottom: inherit;
     }
 
 .map{
