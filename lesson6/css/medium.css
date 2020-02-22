@@ -114,9 +114,8 @@ ____________________________________________________________________*/
 .map {
     display: flex;
     float: left;
-    width: 300px;
+    width: 400px;
     height: auto;
-    padding-bottom: inherit;
     }
 
 /*
