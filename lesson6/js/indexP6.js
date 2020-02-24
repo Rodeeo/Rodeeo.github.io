@@ -8,3 +8,7 @@ let month = theMonths [today.getMonth()];
 let year = today.getFullYear();
 
 document.getElementById("footinfo").textContent = `${dayName}, ${day} ${month} ${year}`
+
+function adjustRating(rating) {
+    document.getElementById("ratingvalue").innerHTML = rating;
+}

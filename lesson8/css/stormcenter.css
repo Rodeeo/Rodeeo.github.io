@@ -1,0 +1,252 @@
+/*
+H1, h2, h3, h4, h5
+____________________________________________________________________*/
+h1 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    }
+          
+h2 {
+    font-size: 1em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }
+
+h3, h4, h5 {
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+/*
+Header
+____________________________________________________________________*/
+header {  
+    position: relative;
+    height: auto;
+    margin: auto;
+    padding: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cadetblue;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+.stormecenter {
+    width: 140px;
+    height: auto;
+    padding: 5px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+.motto p{ 
+    font-size: .8rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    padding: 0px;
+    margin: 3px;
+    text-align: center;
+    }
+
+#friday { 
+    display: none;
+    background-color: #086164 ;
+    font-size: .9rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border-style: dotted;
+    margin: 0px;
+    }
+
+    /*
+Footer
+____________________________________________________________________*/
+footer {
+    height: auto;
+    margin: auto;
+    padding: .75rem;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: cadetblue;
+    color: whitesmoke;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    }
+
+.myname {
+    font-style: normal;
+    }
+/*
+Nav
+____________________________________________________________________*/
+nav {
+    margin: 0 auto;
+    background-color: #086164 ;
+    display: flex;
+    justify-content: center; 
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    color: yellow;
+    font-weight: 500;
+    }
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+    }    
+
+nav li a {
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    }
+
+.hamburger li  {
+    display: none;
+    }
+
+.hamburger li:first-child {
+    display: flex;
+    justify-content: left;
+    }      
+
+.responsive li {
+    display: block;
+    }
+/*
+Main
+____________________________________________________________________*/
+
+body {
+    min-width: 300px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    }    
+
+* {
+    box-sizing: border-box;
+    }
+
+.container {
+    position: relative;
+    }
+
+.container h2 {
+    font-size: 2em;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }  
+
+/*    
+Images
+____________________________________________________________________*/
+.logo {
+    width: 120px;
+    height: auto;
+    padding: 10px;
+    padding-left: 10px;
+    }
+
+.iconimg {
+    width: 100px;
+    height: auto;
+    }
+
+
+/*
+Links
+____________________________________________________________________*/
+.active {
+    color:yellow;
+    font-weight: bold;
+    }
+
+a:link {
+    color:whitesmoke;
+    }
+
+/*
+Divs n' the Rest
+____________________________________________________________________*/       
+form fieldset {
+    margin: 1.3rem 0;
+    border: 4px solid #086164;
+    padding: .5rem 2%;
+    border-radius: .8em;
+    width: 100%;
+    max-width: 500rem;
+} 
+form label {
+	display: block;
+     margin: .1rem;
+    padding: 1rem;
+    color: whitesmoke;
+}
+
+form span {
+	display: block;
+    font-size: 1rem;
+    color: #086164;
+    max-width: 20rem;
+}
+
+form label input{
+    padding: .6rem;
+     background-color: #e6f2ff;
+    border: 1px solid  #086164;
+    border-radius: .3em;
+}
+form input.submitBtn {
+    padding: .5rem 2%;
+	margin-bottom: 1rem;
+	background-color: cadetblue;
+	border-radius: .3em;
+	border: 4px solid #086164;
+	margin-left: 2%;
+	color: whitesmoke;
+}
+
+form label input:required {
+    border-left: solid 4px #e60000 ;
+}
+
+form label input:required:valid { 
+    border-left: solid 4px #00e600 ;
+}
+.thanks{display:flex;
+    text-align: center;   
+}
+
+.stormcenter:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
