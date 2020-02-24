@@ -12,6 +12,9 @@ header, footer {
   background-color: #16b88f;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
+footer {
+  padding: 1px;
+}
 
 h1 {  
   padding-top: 10px;
