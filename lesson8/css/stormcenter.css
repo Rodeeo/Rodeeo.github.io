@@ -197,13 +197,22 @@ a:link {
 Divs n' the Rest
 ____________________________________________________________________*/       
 form fieldset {
-    margin: 1.3rem 0;
+    background-color: cadetblue;
+    margin: 1rem 0;
     border: 4px solid #086164;
     padding: .5rem 2%;
     border-radius: .8em;
-    width: 100%;
-    max-width: 500rem;
     }    
+
+form legend {
+    background-color: cadetblue;
+    color: whitesmoke;
+    margin: 0 1rem;
+    padding: 0.5rem;
+    border-radius: .8em;
+    border: 4px solid #086164;
+
+    }
 
 form label {
 	display: block;
@@ -215,7 +224,7 @@ form label {
 form span {
 	display: block;
     font-size: 1rem;
-    color: #086164;
+    color: black;
     max-width: 20rem;
     }
 
@@ -248,6 +257,11 @@ form label input:required:valid {
     border-left: solid 4px #00e600 ;
     }
 
+form textarea {
+    padding: 2rem 4rem;
+    background-color: whitesmoke;
+    border: 1px solid  #086164;
+ }
 .thanks{display:flex;
     text-align: center;   
     }
