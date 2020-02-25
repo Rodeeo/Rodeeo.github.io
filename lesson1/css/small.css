@@ -7,9 +7,10 @@ body {
     }
 
 header, footer {
+  color: whitesmoke;
   text-align: center;
   padding: 15px;
-  background-color: #16b88f;
+  background-color: cadetblue ;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
 }
 footer {
@@ -30,7 +31,7 @@ h2 {
 
   
 #headerImage {
-  box-shadow: 5px 5px 5px darkgreen;
+  box-shadow: 5px 5px 5px #086164;
   border-radius: 10px;
   }
 
