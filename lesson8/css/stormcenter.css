@@ -114,7 +114,7 @@ nav ul {
 nav li a {
     display: flex;
     justify-content: left;
-    color: white;
+    color: whitesmoke;
     padding: 1rem;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
@@ -215,15 +215,15 @@ form legend {
 
 form label {
 	display: block;
-    margin: .1rem;
-    padding: 1rem;
+    padding: 4px;
     color: black;
     }
 
 form span {
-	display: block;
+    display: block;
     font-size: 1rem;
     color: black;
+    padding: 5px;
     max-width: 20rem;
     }
 
@@ -256,6 +256,14 @@ form label input:required:valid {
     border-left: solid 4px #00e600 ;
     }
 
+form select {
+    Width: 15rem;
+    color: cadetblue;
+    border: 1px solid black;
+    font-size: 1rem;
+    border-radius: 3px;
+    }
+
 form textarea {
     padding: 2px;
     Width: 15rem;
@@ -271,7 +279,8 @@ form textarea {
 
 .danger {
     width: 20px;
-}    
+    }    
+
 .stormcenter:after {
     content: "";
     display: table;
