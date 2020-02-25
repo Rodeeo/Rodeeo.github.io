@@ -211,12 +211,11 @@ form legend {
     padding: 0.5rem;
     border-radius: .8em;
     border: 4px solid #086164;
-
     }
 
 form label {
 	display: block;
-     margin: .1rem;
+    margin: .1rem;
     padding: 1rem;
     color: black;
     }
@@ -258,9 +257,13 @@ form label input:required:valid {
     }
 
 form textarea {
-    padding: 2rem 4rem;
+    padding: 2px;
+    Width: 15rem;
+    height: 5rem;
     background-color: whitesmoke;
     border: 1px solid  #086164;
+    text-align: start;
+    border-radius: .3em;
  }
 .thanks{
     text-align: center;   
