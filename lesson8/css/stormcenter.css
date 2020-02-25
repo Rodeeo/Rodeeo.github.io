@@ -229,6 +229,7 @@ form span {
 
 form label input {
     width: 15rem;
+    font-size: 15px;
     }
 
 form label input{
@@ -249,11 +250,13 @@ form input.submitBtn {
     }
 
 form label input:required {
-    border-left: solid 4px #e60000 ;
+    border-left: solid 5px #e60000;
+    border-right: solid 5px #e60000;
     }
 
 form label input:required:valid { 
-    border-left: solid 4px #00e600 ;
+    border-left: solid 5px #00e600;
+    border-right: solid 5px #00e600 ;
     }
 
 form select {
@@ -265,14 +268,16 @@ form select {
     }
 
 form textarea {
-    padding: 2px;
+    padding: 10px;
     Width: 15rem;
     height: 5rem;
     background-color: whitesmoke;
     border: 1px solid  #086164;
     text-align: start;
     border-radius: .3em;
- }
+    font-size: 15px;
+    }
+    
 .thanks{
     text-align: center;   
     }
