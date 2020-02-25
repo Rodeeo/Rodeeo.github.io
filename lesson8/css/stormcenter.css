@@ -208,7 +208,7 @@ form label {
 	display: block;
      margin: .1rem;
     padding: 1rem;
-    color: whitesmoke;
+    color: black;
 }
 
 form span {
@@ -220,7 +220,7 @@ form span {
 
 form label input{
     padding: .6rem;
-     background-color: #e6f2ff;
+    background-color: #e6f2ff;
     border: 1px solid  #086164;
     border-radius: .3em;
 }
