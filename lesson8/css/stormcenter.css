@@ -135,6 +135,10 @@ nav li a {
 /*
 Main
 ____________________________________________________________________*/
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
 
 body {
     min-width: 300px;
@@ -261,10 +265,11 @@ form label input:required:valid {
 
 form select {
     Width: 15rem;
+    height: 40px;
     color: cadetblue;
     border: 1px solid black;
     font-size: 1rem;
-    border-radius: 3px;
+    border-radius: 5px;
     }
 
 form textarea {
