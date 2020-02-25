@@ -39,7 +39,7 @@ header {
     flex-wrap: wrap;
     }
 
-.stormecenter {
+.weathersight {
     width: 140px;
     height: auto;
     padding: 5px;
@@ -262,7 +262,7 @@ form textarea {
     background-color: whitesmoke;
     border: 1px solid  #086164;
  }
-.thanks{display:flex;
+.thanks{
     text-align: center;   
     }
 
