@@ -71,12 +71,7 @@ nav li a {
 /*
 Main
 ____________________________________________________________________*/
-/* main {
-    padding: 10px;
-    max-width: 900px;
-    width: 100%;
-    margin: auto;
-    } */
+
     
 /*
 Images
@@ -86,21 +81,6 @@ ____________________________________________________________________*/
     width: 150px;
     height: auto;
     padding: 10px;
-    }
-
-.pics   {
-    border-radius: 5px;
-    width:100%;
-    }
-    
-.pic {
-    width: 180px;
-    height: auto;
-    padding: 5px;
-    float: right;
-    align-items: center;
-    justify-content: center;
-    color: rgb(236, 26, 26);
     }
 
 .section img {
