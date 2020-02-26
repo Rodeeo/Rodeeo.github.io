@@ -88,6 +88,11 @@ ____________________________________________________________________*/
     padding: 10px;
     }
 
+.pics   {
+    border-radius: 5px;
+    width:100%;
+    }
+    
 .pic {
     width: 180px;
     height: auto;
