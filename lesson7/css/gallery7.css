@@ -53,7 +53,6 @@ header {
     font-size: .8rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    padding: 0px;
     margin: 3px;
     text-align: center;
     }
@@ -65,7 +64,6 @@ header {
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     border-style: dotted;
-    margin: 0px;
     }
 
     /*
