@@ -7,8 +7,8 @@ h1 {
     margin: 0;
     padding: 5px;
     text-align: center;
-    }
-          
+}
+
 h2 {
     font-size: 1em;
     font-family: 'Ubuntu', sans-serif;
@@ -16,16 +16,18 @@ h2 {
     padding: 5px;
     text-align: center;
     vertical-align: middle;
-    }
+}
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     font-family: 'Ubuntu', sans-serif;
-    }
+}
 
 /*
 Header
 ____________________________________________________________________*/
-header {  
+header {
     position: relative;
     height: auto;
     margin: auto;
@@ -37,7 +39,7 @@ header {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    }
+}
 
 .weathersight {
     width: 140px;
@@ -46,29 +48,29 @@ header {
     float: right;
     align-items: center;
     justify-content: center;
-   
-    }
 
-.motto p{ 
+}
+
+.motto p {
     font-size: .8rem;
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     padding: 0px;
     margin: 3px;
     text-align: center;
-    }
+}
 
-#friday { 
+#friday {
     display: none;
-    background-color: #086164 ;
+    background-color: #086164;
     font-size: .9rem;
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
     border-style: dotted;
     margin: 0px;
-    }
+}
 
-    /*
+/*
 Footer
 ____________________________________________________________________*/
 footer {
@@ -82,26 +84,27 @@ footer {
     text-align: center;
     align-items: center;
     justify-content: center;
-    }
+}
 
 .myname {
     font-style: normal;
-    }
+}
+
 /*
 Nav
 ____________________________________________________________________*/
 nav {
     margin: 0 auto;
-    background-color: #086164 ;
+    background-color: #086164;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
 }
 
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
     font-weight: 500;
-    }
+}
 
 nav ul {
     width: 100%;
@@ -109,7 +112,7 @@ nav ul {
     margin: 0;
     padding: 0;
     max-width: 900px;
-    }    
+}
 
 nav li a {
     display: flex;
@@ -118,46 +121,48 @@ nav li a {
     padding: 1rem;
     font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
-    }
+}
 
-.hamburger li  {
+.hamburger li {
     display: none;
-    }
+}
 
 .hamburger li:first-child {
     display: flex;
     justify-content: left;
-    }      
+}
 
 .responsive li {
     display: block;
-    }
+}
+
 /*
 Main
 ____________________________________________________________________*/
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-  }  
+}
 
 body {
     background-color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
-    }
+}
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-    }    
+}
 
 * {
     box-sizing: border-box;
-    }
+}
 
 .container {
     position: relative;
-    }
+}
 
 .container h2 {
     font-size: 2em;
@@ -166,7 +171,7 @@ main {
     padding: 5px;
     text-align: center;
     vertical-align: middle;
-    }  
+}
 
 /*    
 Images
@@ -176,53 +181,59 @@ ____________________________________________________________________*/
     height: auto;
     padding: 10px;
     padding-left: 10px;
-    }
+}
 
 .iconimg {
     width: 100px;
     height: auto;
-    }
+}
 
 
 /*
 Links
 ____________________________________________________________________*/
 .active {
-    color:yellow;
+    color: yellow;
     font-weight: bold;
-    }
+}
 
 a:link {
-    color:whitesmoke;
-    }
+    color: whitesmoke;
+}
 
 /*
 Divs n' the Rest
-____________________________________________________________________*/       
-select:focus, textarea:focus, input:focus{
+____________________________________________________________________*/
+select:focus,
+textarea:focus,
+input:focus {
     outline: 0;
     border-radius: 5px;
-    border: 5px solid #086164;}
+    border: 5px solid #086164;
+}
 
 
-select:hover, textarea:hover, input:hover {
+select:hover,
+textarea:hover,
+input:hover {
     box-shadow: 10px 12px 0.5rem #086164;
 }
-form   {
+
+form {
     padding: 1rem;
 }
 
 form fieldset {
     background-color: cadetblue;
     margin: 1rem 0;
-  
+
     border-radius: .8em;
 
     border: whitesmoke;
     border-style: inset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
-    }    
+}
 
 form legend {
     background-color: cadetblue;
@@ -239,7 +250,7 @@ form label {
     display: grid;
     justify-content: center;
     padding: 4px;
-    }
+}
 
 /* form span {
     display: block;
@@ -252,69 +263,83 @@ form label {
 form label input {
     width: 15rem;
     font-size: 15px;
-    }
+}
 
-form label input, form label select, form label textarea {
+form label input,
+form label select,
+form label textarea {
     padding: 6px;
     background-color: #e6f2ff;
     border-radius: 5px;
     border-style: inset;
-    border-width: 5px 5px 5px 5px;}
+    border-width: 5px 5px 5px 5px;
+}
 
 
 form input.submitbutton {
     padding: 5px 2%;
     margin-bottom: 1rem;
-	background-color: cadetblue;
-	border-radius: 5px;
-	margin-left: 5px;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-left: 5px;
     color: whitesmoke;
     font-size: 20px;
     border: whitesmoke;
     border-style: inset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
-    }
+}
 
 
 form label input:required {
     border-left: solid 5px #e60000;
     border-right: solid 5px #e60000;
-    }
+}
 
-form label input:required:valid { 
+form label input:required:valid {
     border-left: solid 5px #00e600;
-    border-right: solid 5px #00e600 ;
-    }
+    border-right: solid 5px #00e600;
+}
 
 form select {
     Width: 15rem;
     height: 40px;
     border-color: whitesmoke;
-    }
+}
 
 form textarea {
     Width: 15rem;
     height: 5rem;
     text-align: start;
     font-size: 15px;
-    }
-    
-.thanks{
-    text-align: center;   
-    }
+}
+
+.thanks {
+    text-align: center;
+}
 
 .danger {
     width: 20px;
-    }    
+}
 
 .danger:hover {
     box-shadow: 0 0 0 black;
-}    
+}
+
+.level {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.level label {
+    display: flex;
+    padding: 20px;
+}
+}
 
 /* .stormcenter:after {
     content: "";
     display: table;
     clear: both;
     }  */
-
