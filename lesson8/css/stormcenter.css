@@ -216,6 +216,7 @@ form fieldset {
     border: 4px solid #086164;
     padding: .5rem 2%;
     border-radius: .8em;
+    padding-left: 30px;
     }    
 
 form legend {
@@ -262,6 +263,7 @@ form input.submitbutton {
 	margin-left: 5px;
     color: whitesmoke;
     font-size: 20px;
+    border: 5px solid #086164;
     }
 
 
@@ -301,9 +303,9 @@ form textarea {
     box-shadow: 0 0 0 black;
 }    
 
-.stormcenter:after {
+/* .stormcenter:after {
     content: "";
     display: table;
     clear: both;
-    } 
+    }  */
 
