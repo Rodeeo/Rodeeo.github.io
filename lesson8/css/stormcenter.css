@@ -141,7 +141,6 @@ html, body {
   }  
 
 body {
-    min-width: 300px;
     background-color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
     }
@@ -216,10 +215,9 @@ form   {
 form fieldset {
     background-color: cadetblue;
     margin: 1rem 0;
-    border: 4px solid #086164;
-    padding: .5rem 2%;
+  
     border-radius: .8em;
-    padding-left: 30px;
+
     border: whitesmoke;
     border-style: inset;
     border-width: 5px 5px 5px 5px;
@@ -238,18 +236,18 @@ form legend {
 }
 
 form label {
-	display: block;
+    display: grid;
+    justify-content: center;
     padding: 4px;
-    color: black;
     }
 
-form span {
+/* form span {
     display: block;
     font-size: 1rem;
     color: black;
     padding: 5px;
     max-width: 20rem;
-    }
+    } */
 
 form label input {
     width: 15rem;
