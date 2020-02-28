@@ -52,7 +52,10 @@ section {
     margin: 5px;
     box-shadow: 0px 0px 12px 7px #8b8b99;
   }
-
+footer {
+    text-align: center;
+    padding: 10px;
+}
 /* MEDIUM */
 @media only screen and (min-width: 32.5em)  {
     body{
@@ -67,7 +70,7 @@ section {
      .cards {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(17, 1fr);
+        grid-template-rows: repeat(9, 1fr);
         margin-right: 2rem;
         margin-left: 2rem;
      } 
@@ -88,6 +91,6 @@ h1 {
     .cards {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(17, 1fr);
+        grid-template-rows: repeat(5, 1fr);
     }
 }
