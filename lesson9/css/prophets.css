@@ -35,6 +35,7 @@ section {
     grid-gap: 5px;
     text-align: center;
     padding: 10px;
+    margin: 5px;
     box-shadow: 0 0 20px 9px #8b8b99;
     background: #dddddd;
     border-radius: 5px; 
