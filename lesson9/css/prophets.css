@@ -1,0 +1,92 @@
+/* SMALL */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    color: #545399;
+}
+
+ h2 {
+     font-size: 1.5rem;
+     padding: 5px;
+     margin: 0;
+     color: #545399;
+ }
+
+p {
+    padding: 1px;
+    margin: 2px;
+    font-size: 17px;
+}
+
+body {
+    display: grid;
+    margin: auto;
+    max-width: 1000px;
+}
+
+section {
+    background-color: #b9b9cc;
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+    grid-gap: 5px;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 1px 5px 5px darkgrey;
+    background: #dddddd;
+    border-radius: 5px; 
+}
+.cards > section {
+    border: 1px solid black
+}
+  
+ img {
+    border: 5px solid black;
+    grid-area: photo;
+    width: 150px;
+    height: auto;
+    margin: 5px;
+    box-shadow: 0px 0px 12px 7px #8b8b99;
+  }
+
+/* MEDIUM */
+@media only screen and (min-width: 32.5em)  {
+    body{
+        max-width: 800px;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+     h2 {
+         font-size: 1.7rem;
+     }
+     .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(17, 1fr);
+        margin-right: 2rem;
+        margin-left: 2rem;
+     } 
+    }
+/* LARGE  */
+@media only screen and (min-width: 64em)  {
+    body{
+        max-width: 1000px;
+    }
+
+h1 {
+    font-size: 2.5rem;
+}
+    h2 {
+        font-size: 2rem;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(17, 1fr);
+    }
+}
