@@ -142,11 +142,6 @@ nav li a {
 /*
 Main
 ____________________________________________________________________*/
-html, body {
-    margin: 0;
-    padding: 0;
-  }  
-
 body {
     min-width: 300px;
     background-color: whitesmoke;
@@ -207,3 +202,29 @@ a:link {
 /*
 Divs n' the Rest
 ____________________________________________________________________*/       
+
+.toontown {
+    display: grid;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.Fish.Haven img, .Soda.Springs img {
+   align-self: flex-end;
+}
+.Preston {
+    align-items: flex-end;
+}
+.Preston h2 {
+
+    align-self: center;
+}
+.Preston img {
+ 
+    align-self: flex-start;
+}
