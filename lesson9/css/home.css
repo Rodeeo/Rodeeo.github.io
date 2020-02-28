@@ -64,13 +64,16 @@ header {
 
 #friday { 
     display: none;
-    background-color: #086164 ;
-    font-size: .9rem;
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
-    border-style: dotted;
-    margin: 0px;
+    border-style: dashed;
+    border-color: yellow;
+    margin: 8px;
+    box-shadow: 0 0 0 5px whitesmoke;
+    outline: dashed 5px #086164;
+    color: whitesmoke;
     }
+
 
     /*
 Footer
