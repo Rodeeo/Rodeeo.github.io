@@ -25,19 +25,25 @@ h3, h4, h5 {
 /*
 Header
 ____________________________________________________________________*/
-header {  
-    position: relative;
-    height: auto;
-    margin: auto;
+header {
+    display: flex;
+    justify-content: center;
+    background: cadetblue;
+}
+
+.hotmess   {
+    display: grid;
+    background-color: cadetblue;
+}
+
+.weatherstamp {  
     padding: .75rem;
-    font-family: 'Ubuntu', sans-serif;
     background-color: cadetblue;
     color: whitesmoke;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: auto;
     }
+ 
+    
 
 .weathersight {
     width: 140px;
