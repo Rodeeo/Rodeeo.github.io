@@ -25,18 +25,25 @@ h3, h4, h5 {
 /*
 Header
 ____________________________________________________________________*/
-header {  
-    position: relative;
-    height: auto;
-    margin: auto;
-    padding: .75rem;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: cadetblue;
-    color: whitesmoke;
+header {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    background: cadetblue;
+    border: whitesmoke;
+    border-style: outset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+}
+
+.weatherstamp {  
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
     }
 
 .weathersight {
@@ -77,14 +84,14 @@ footer {
     height: auto;
     margin: auto;
     padding: .75rem;
-    font-family: 'Ubuntu', sans-serif;
     background-color: cadetblue;
     color: whitesmoke;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    }
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+}
 
 .myname {
     font-style: normal;
@@ -94,16 +101,22 @@ Nav
 ____________________________________________________________________*/
 nav {
     margin: 0 auto;
-    background-color: #086164 ;
+    background-color: #086164;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
-    font-weight: 500;
-    }
+    box-shadow: 0px 0px 10px 5px #f5f5f5;
+    outline: 3px inset #086164;
+}
+
 
 nav ul {
     width: 100%;
@@ -148,6 +161,17 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: outset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    
     }    
 
 * {
@@ -193,6 +217,7 @@ main {
 .weathersummary h3 {
     padding: 2px;   
     margin: 2px;
+    
     }
 /*
 Images
@@ -256,8 +281,15 @@ ____________________________________________________________________*/
     }   
 
 .loremipsum {
+    padding: 10px;
+    margin: 10px;
     background-color: cadetblue;
-    padding: 1rem;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    
     }
 
 .contactInfo{
