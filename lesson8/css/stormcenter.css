@@ -99,7 +99,8 @@ nav {
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
-    font-weight: 500;
+    box-shadow: 0px 0px 10px 5px #f5f5f5;
+    outline: 3px inset #086164;
     }
 
 nav ul {
@@ -226,14 +227,6 @@ form label {
     padding: 4px;
     }
 
-/* form span {
-    display: block;
-    font-size: 1rem;
-    color: black;
-    padding: 5px;
-    max-width: 20rem;
-    } */
-
 form label input {
     width: 15rem;
     font-size: 15px;
@@ -248,15 +241,15 @@ form label input, form label select, form label textarea {
 
 
 form input.submitbutton {
-    padding: 5px 2%;
+    padding: 9px;
     margin-bottom: 1rem;
-	background-color: cadetblue;
-	border-radius: 5px;
-	margin-left: 5px;
-    color: whitesmoke;
+    background-color: cadetblue;
+    border-radius: 5px;
+    margin-left: 5px;
+    color: yellow;
     font-size: 20px;
     border: whitesmoke;
-    border-style: inset;
+    border-style: outset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     }
