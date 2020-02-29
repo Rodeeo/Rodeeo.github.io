@@ -22,14 +22,18 @@ h3 {
     color: yellow;
 }
 h4 {
-    font-size: larger;
+    font-size: 1.5em;
 }
 h5 {
-    font-size: 1em;
+    font-size: 1.1em;
     font-style: italic;
     color: yellow;
 }
 
+h6 {
+    margin: 0;
+    font-size: 1.5em;
+}
 /*
 Header
 ____________________________________________________________________*/
@@ -61,7 +65,6 @@ header {
     float: right;
     align-items: center;
     justify-content: center;
-
 }
 
 .motto p { 
@@ -185,10 +188,9 @@ main {
 Images
 ____________________________________________________________________*/
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
     padding: 10px;
-    padding-left: 10px;
 }
 
 .iconimg {
@@ -217,7 +219,6 @@ ____________________________________________________________________*/
 .frysauce {
     margin: 10px;
     padding: 5px;
-    text-align: center;
     color: whitesmoke;
     background-color: cadetblue;
     border-radius: .8em;
@@ -225,17 +226,30 @@ ____________________________________________________________________*/
     border-style: inset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
+    text-align: center;
 }
 
 .frysauce p {
     margin: 0;
     padding: 20px;
 }
-
+.mustard {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    margin-bottom: 5px;
+    
+}
 .bacon {
     text-decoration: none;
     font-size: 15px;
     padding: 5px;
+    margin: 10px;
     color: whitesmoke;
     background-color: cadetblue;
     border-radius: .5em;
@@ -271,8 +285,8 @@ section {
 }
 
 .pickle { 
-    margin-top: 10px;
-    display: flex;
+    margin: 10px;
+    display: table;
     justify-content: space-around;
     background: cadetblue;
     border-radius: .8em;
@@ -280,7 +294,8 @@ section {
     border-style: outset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
-    color: whitesmoke
+    padding: 10px;
+    color: whitesmoke;
 }
 
 .pickle p:first-child {
@@ -290,12 +305,30 @@ section {
     color: yellow;
     
 }
-
+aside {
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #086164;
+    margin: 5px;
+    text-align: center;
+}
 
 ul {
     width: 100%;
     list-style: none;
     margin: 0;
-    padding: 1px;
+    padding: 0;
     max-width: 900px;
+}
+.milkshake {
+    text-align: center;
+    padding: 10px;
+    margin:5px;
+}
+.milkshake ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.milkshake li {
+    padding: 5px;
 }

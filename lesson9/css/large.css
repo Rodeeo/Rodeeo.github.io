@@ -32,6 +32,12 @@
        padding: 1rem;
        text-decoration: none;
        }  
+
+       ul {
+        margin: auto;
+        padding: 0;
+        max-width: 6900px;
+    }
             
 }
    

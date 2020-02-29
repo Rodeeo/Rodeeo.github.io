@@ -3,22 +3,26 @@ H1, h2, h3, h4, h5
 ____________________________________________________________________*/
 h1 {
     font-size: 1.5em;
-    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 5px;
     text-align: center;
-    }
-          
-h2 {
-    font-size: 2em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    vertical-align: middle;
+    color: whitesmoke;
     }
 
-h3, h4, h5 {
+h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: yellow;
+}
+
+h4, h5 {
     font-family: 'Ubuntu', sans-serif;
     }
 
@@ -53,15 +57,15 @@ header {
     float: right;
     align-items: center;
     justify-content: center;
-   
-    }
+}
 
-.motto p{ 
+.motto p { 
     font-size: .8rem;
-    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
+    padding: 0px;
     margin: 3px;
     text-align: center;
+    color:yellow
     }
 
     /*
@@ -203,11 +207,10 @@ main {
 Images
 ____________________________________________________________________*/
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
     padding: 10px;
-    padding-left: 10px;
-    }
+}
 
 .pics   {
     border-radius: 5px;

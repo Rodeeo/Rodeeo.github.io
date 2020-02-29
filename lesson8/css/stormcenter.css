@@ -160,11 +160,10 @@ main {
 Images
 ____________________________________________________________________*/
 .logo {
-    width: 120px;
+    width: 100px;
     height: auto;
     padding: 10px;
-    padding-left: 10px;
-    }
+}
 
 .iconimg {
     width: 100px;

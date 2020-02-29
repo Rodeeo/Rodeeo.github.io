@@ -81,10 +81,10 @@
  ____________________________________________________________________*/
  
  .logo {
-     width: 150px;
-     height: auto;
-     padding: 10px;
-     }
+    width: 150px;
+    height: auto;
+    padding: 0;
+    }
  
  .pic {
      width: 180px;
