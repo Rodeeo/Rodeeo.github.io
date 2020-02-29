@@ -22,6 +22,7 @@ p {
 body {
     display: grid;
     margin: auto;
+    font-family: 'Bree Serif';
     max-width: 1000px;
 }
 
