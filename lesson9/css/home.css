@@ -33,6 +33,7 @@ h5 {
 h6 {
     margin: 0;
     font-size: 1.5em;
+    margin-bottom: 15px;
 }
 /*
 Header
@@ -331,4 +332,8 @@ ul {
 }
 .milkshake li {
     padding: 5px;
+}
+
+.milkshake li img {
+    width: 35px;
 }
