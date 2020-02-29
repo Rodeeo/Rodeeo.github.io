@@ -13,18 +13,19 @@ fetch(requestedURL)
             if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[i].name =="Fish Haven")
         {
 
-            let pickle = document.createElement('section');
+            let pickle = document.createElement('aside');
             let h2name = document.createElement('h2');
             let events = document.createElement('p');
 
           
             h2name.textContent = towns[i].name;
             events.textContent = "Events in " + h2name.textContent;
+            
             pickle.appendChild(events);
             for (let x = 0; x < towns[i].events.length; x++) {
                 let event = document.createElement('p');
                 
-                event.className =  events.textContent;
+                pickle.className =  h2name.textContent;
                 event.textContent = towns[i].events[x];
                 pickle.appendChild(event);
             } 

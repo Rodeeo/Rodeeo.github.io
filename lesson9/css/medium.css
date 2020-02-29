@@ -7,14 +7,13 @@
      margin: 0;
      }
            
+ h2 {
+    padding-top: 1rem;
+ }    
+
  /*
  Header
  ____________________________________________________________________*/  
- #friday { 
-     text-align: center;
-     font-size: 1.2rem;
-     }
- 
  .motto p{ 
      font-size: 1.2rem;
      font-family: 'Ubuntu', sans-serif;

@@ -3,15 +3,14 @@ H1, h2, h3, h4, h5
 ____________________________________________________________________*/
 h1 {
     font-size: 1.5em;
-    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 5px;
     text-align: center;
+    color: whitesmoke;
     }
           
 h2 {
     font-size: 1em;
-    font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 5px;
     text-align: center;
@@ -19,7 +18,7 @@ h2 {
     }
 
 h3, h4, h5 {
-    font-family: 'Ubuntu', sans-serif;
+    font-size: inherit;
     }
 
 /*
@@ -29,46 +28,39 @@ header {
     display: flex;
     justify-content: center;
     background: cadetblue;
+    border: whitesmoke;
+    border-style: outset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
 .weatherstamp {  
-    padding: .75rem;
+    padding: 10px;
+    margin: 10px;
     background-color: cadetblue;
-    color: whitesmoke;
-    margin: auto;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
     }
  
-    
-
 .weathersight {
     width: 140px;
     height: auto;
     padding: 5px;
     float: right;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center;   
     }
 
-.motto p{ 
+.motto p { 
     font-size: .8rem;
-    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
     padding: 0px;
     margin: 3px;
     text-align: center;
-    }
-
-#friday { 
-    display: none;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 10px;
-    border-style: dashed;
-    border-color: yellow;
-    margin: 8px;
-    box-shadow: 0 0 0 5px whitesmoke;
-    outline: dashed 5px #086164;
-    color: whitesmoke;
+    color:yellow
     }
 
     /*
@@ -78,14 +70,14 @@ footer {
     height: auto;
     margin: auto;
     padding: .75rem;
-    font-family: 'Ubuntu', sans-serif;
     background-color: cadetblue;
     color: whitesmoke;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
-    }
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+}
 
 .myname {
     font-style: normal;
@@ -95,9 +87,13 @@ Nav
 ____________________________________________________________________*/
 nav {
     margin: 0 auto;
-    background-color: #086164 ;
+    background-color: #086164;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
 nav a:hover {
@@ -159,19 +155,6 @@ main {
     box-sizing: border-box;
     }
 
-.container {
-    position: relative;
-    }
-
-.container h2 {
-    font-size: 2em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    vertical-align: middle;
-    }  
-
 /*    
 Images
 ____________________________________________________________________*/
@@ -232,7 +215,7 @@ form legend {
     padding: 5px;
     border-radius: 5px;
     border: whitesmoke;
-    border-style: inset;
+    border-style: outset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
