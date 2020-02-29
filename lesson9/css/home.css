@@ -10,6 +10,7 @@ h1 {
           
 h2 {
     font-size: 2em;
+    margin: 0;
     padding: 5px;
     text-align: center;
     }
@@ -25,11 +26,10 @@ header {
     display: flex;
     justify-content: center;
     background: cadetblue;
-}
-
-.hotmess   {
-    display: grid;
-    background-color: cadetblue;
+    border: whitesmoke;
+    border-style: outset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
 .weatherstamp {  
@@ -78,13 +78,13 @@ footer {
     height: auto;
     margin: auto;
     padding: .75rem;
-    font-family: 'Ubuntu', sans-serif;
     background-color: cadetblue;
     color: whitesmoke;
-    display: flex;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
     }
 
 .myname {
@@ -98,6 +98,10 @@ nav {
     background-color: #086164 ;
     display: flex;
     justify-content: center; 
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
 nav a:hover {
@@ -154,16 +158,15 @@ Main
 ____________________________________________________________________*/
 body {
     padding: 0;
-    margin: 0;
+    margin: auto;
     min-width: 300px;
     background-color: whitesmoke;
     font-family: 'Ubuntu', sans-serif;
     }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
     }    
 
 * {
@@ -216,47 +219,40 @@ Divs n' the Rest
 ____________________________________________________________________*/       
 
 .toontown {
-    display: grid;
-
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
 }
 
 section {
-    display: grid;
-    
-    grid-template-columns: auto 300px;
-    grid-template-rows: 80px auto;
-    grid-gap: 6px 20px; 
-    border: 1px solid black;  
-    padding: 1rem;
-
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
 }
 
-.Fish.Haven img, .Soda.Springs img {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: span 5;
-    justify-self: end;
-    width: 300px;
+.Fish.Haven img, .Soda.Springs img, .Preston img {
+    width: 250px;
+   display: block;
+   margin: auto;
+   border-radius: .8em;
+   border: whitesmoke;
+   border-style: inset;
+   border-width: 5px 5px 5px 5px;
+   box-shadow: 0 0 0 3px #086164;
+   margin-bottom: 5px;
 }
-.Preston {
-    align-items: flex-end;
-}
-.Preston h2 {
 
-    align-self: center;
-}
-.Preston img {
- 
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: span 5;
-    justify-self: self-start;
-    width: 300px;
-}
 ul  {
     width: 100%;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     max-width: 900px;
     }   

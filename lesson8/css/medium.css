@@ -72,7 +72,6 @@
  Main
  ____________________________________________________________________*/
  main {
-     padding: 10px;
      max-width: 900px;
      width: 100%;
      margin: auto;
@@ -107,14 +106,11 @@
  Divs n' the Rest
  ____________________________________________________________________*/       
  
-.contactInfo{
-     text-align: right;
-     }
 
 form fieldset {
     padding-left: 5rem;
     padding-right: 5rem;
-    margin: 1rem .5rem 1.5rem 5px;
+    margin: 10px 17px 20px 15px;
     }
 
 form {

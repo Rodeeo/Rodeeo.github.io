@@ -52,7 +52,7 @@ fetch(requestURL)
             // } 
             
             
-            document.querySelector('div.toontown').appendChild(pickle);
+            document.querySelector('div.frenchfries').appendChild(pickle);
         }
 
         }

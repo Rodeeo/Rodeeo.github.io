@@ -31,11 +31,6 @@ header {
     background: cadetblue;
 }
 
-.hotmess   {
-    display: grid;
-    background-color: cadetblue;
-}
-
 .weatherstamp {  
     padding: .75rem;
     background-color: cadetblue;

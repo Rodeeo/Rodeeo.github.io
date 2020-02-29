@@ -1,11 +1,10 @@
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 32.5em) {
     /*
  H1, h2, h3, h4, h5
  ____________________________________________________________________*/
  h1{
      font-size: 2em;
      margin: 0;
-     padding: 10px; 
      }
            
  /*
@@ -73,7 +72,7 @@
  ____________________________________________________________________*/
  main {
      padding: 10px;
-     max-width: 900px;
+     max-width: 675px;
      width: 100%;
      margin: auto;
      }
@@ -107,7 +106,34 @@
  Divs n' the Rest
  ____________________________________________________________________*/       
  
-.contactInfo{
-     text-align: right;
-     }
+
+
+section {
+    display: grid;    
+    grid-template-columns: auto 300px;
+    grid-template-rows: 80px auto;
+    grid-gap: 6px 20px; 
+    padding: 1rem;
+
+}
+
+.Fish.Haven img, .Soda.Springs img {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    justify-self: end;
+    width: 300px;
+}
+.Preston {
+    grid-template-columns: 300px auto;
+}
+
+.Preston img {
+ 
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    justify-self: self-start;
+    width: 300px;
+}
     }

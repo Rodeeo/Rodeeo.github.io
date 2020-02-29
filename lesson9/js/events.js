@@ -30,7 +30,7 @@ fetch(requestedURL)
             } 
             
             
-            document.querySelector('div.poop').appendChild(pickle);
+            document.querySelector('div.pickle').appendChild(pickle);
         }
 
         }
