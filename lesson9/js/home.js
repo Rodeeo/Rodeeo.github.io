@@ -23,6 +23,7 @@ fetch(requestURL)
             let image = document.createElement('img');
 
             pickle.className = towns[i].name;
+            image.className = towns[i].photo;
             h2name.textContent = towns[i].name;
             h3motto.textContent = towns[i].motto;
             year.textContent = "Year Founded: " + towns[i].yearFounded;
@@ -39,16 +40,16 @@ fetch(requestURL)
             pickle.appendChild(year);
             pickle.appendChild(pop);
             pickle.appendChild(rain);
-            
             pickle.appendChild(image);
             
-            events.textContent = "Upcoming Events for the City: ";
-            pickle.appendChild(events);
-            for (let x = 0; x < towns[i].events.length; x++) {
-                let event = document.createElement('p');
-event.textContent = towns[i].events[x];
-                pickle.appendChild(event);
-            } 
+            // events.textContent = "Events:";
+            // pickle.appendChild(events);
+            // for (let x = 0; x < towns[i].events.length; x++) {
+            //     let event = document.createElement('p');
+            //     event.className =  events.textContent;
+            //     event.textContent = towns[i].events[x];
+            //     pickle.appendChild(event);
+            // } 
             
             
             document.querySelector('div.toontown').appendChild(pickle);
