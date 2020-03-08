@@ -209,7 +209,7 @@ ____________________________________________________________________*/
     padding: 5px;
     color: whitesmoke;
     background-color: cadetblue;
-    border-radius: .8em;
+    border-radius: .5em;
     border: whitesmoke;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
@@ -225,10 +225,7 @@ ____________________________________________________________________*/
     width: 250px;
     display: block;
     margin: auto;
-    border-radius: .8em;
-    border: whitesmoke;
-    border-style: solid;
-    border-width: 5px 5px 5px 5px;
+    border-radius: .5em;
     box-shadow: 0 0 0 3px #086164;
     margin-bottom: 5px;
     
@@ -240,18 +237,15 @@ ____________________________________________________________________*/
     margin: 10px;
     color: whitesmoke;
     background-color: cadetblue;
-    border-radius: .5em;
-    border: whitesmoke;
-    border-style: solid;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
-}
+    border-radius: .2em;
+    }
+
 section {
     margin: 10px;
     padding: 5px;
     color: whitesmoke;
     background-color: cadetblue;
-    border-radius: .8em;
+    border-radius: .5em;
     border: whitesmoke;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
@@ -264,10 +258,7 @@ section {
     width: 250px;
     display: block;
     margin: auto;
-    border-radius: .8em;
-    border: whitesmoke;
-    border-style: solid;
-    border-width: 5px 5px 5px 5px;
+    border-radius: .5em;
     box-shadow: 0 0 0 3px #086164;
     margin-bottom: 5px;
 }
@@ -277,7 +268,7 @@ section {
     display: table;
     justify-content: space-around;
     background: cadetblue;
-    border-radius: .8em;
+    border-radius: .5em;
     border: whitesmoke;
     border-style: solid;
     border-width: 5px 5px 5px 5px;
