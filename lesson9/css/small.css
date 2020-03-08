@@ -237,6 +237,7 @@ ____________________________________________________________________*/
     padding: 5px;
     margin: 10px;
     color: whitesmoke;
+    box-shadow: 0 0 0 3px #086164;
     background-color: cadetblue;
     border-radius: .2em;
     }
