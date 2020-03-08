@@ -43,7 +43,7 @@ header {
     justify-content: center;
     background: cadetblue;
     border: whitesmoke;
-    border-style: outset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
@@ -88,7 +88,7 @@ footer {
     color: whitesmoke;
     text-align: center;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
@@ -106,7 +106,7 @@ nav {
     display: flex;
     justify-content: center;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
@@ -224,7 +224,7 @@ ____________________________________________________________________*/
     background-color: cadetblue;
     border-radius: .8em;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     text-align: center;
@@ -240,7 +240,7 @@ ____________________________________________________________________*/
     margin: auto;
     border-radius: .8em;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     margin-bottom: 5px;
@@ -255,7 +255,7 @@ ____________________________________________________________________*/
     background-color: cadetblue;
     border-radius: .5em;
     border: whitesmoke;
-    border-style: outset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
@@ -266,7 +266,7 @@ section {
     background-color: cadetblue;
     border-radius: .8em;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
@@ -279,7 +279,7 @@ section {
     margin: auto;
     border-radius: .8em;
     border: whitesmoke;
-    border-style: inset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     margin-bottom: 5px;
@@ -292,7 +292,7 @@ section {
     background: cadetblue;
     border-radius: .8em;
     border: whitesmoke;
-    border-style: outset;
+    border-style: solid;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     padding: 10px;
