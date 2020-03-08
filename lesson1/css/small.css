@@ -11,9 +11,6 @@ header, footer {
   text-align: center;
   padding: 15px;
   background-color: cadetblue ;
-  border: whitesmoke;
-  border-style: inset;
-  border-width: 5px 5px 5px 5px;
   box-shadow: 0 0 0 3px #086164;
   }
 
@@ -38,10 +35,6 @@ h2 {
 #headerImage {
   box-shadow: 5px 5px 5px #086164;
   border-radius: 10px;
-  border: whitesmoke;
-  border-style: outset;
-  border-width: 5px 5px 5px 5px;
-  box-shadow: 0 0 0 3px #086164;
   }
 
 main {
