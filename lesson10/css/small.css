@@ -19,7 +19,6 @@ h2 {
 h3 {
     text-align: center;
     font-style: italic;
-    color: yellow;
 }
 
 h4, h5 {
@@ -33,10 +32,7 @@ header {
     display: flex;
     justify-content: center;
     background: cadetblue;
-    border: whitesmoke;
-    border-style: outset;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
+    border: 3px solid #086164;
 }
 
 .weatherstamp {  
@@ -91,9 +87,6 @@ footer {
     background-color: cadetblue;
     color: whitesmoke;
     text-align: center;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
 
@@ -108,19 +101,12 @@ nav {
     background-color: #086164;
     display: flex;
     justify-content: center;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
 }
 
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
-    box-shadow: 0px 0px 10px 5px #f5f5f5;
-    outline: 3px inset #086164;
 }
-
 
 nav ul {
     width: 100%;
@@ -135,7 +121,6 @@ nav li a {
     justify-content: left;
     color: white;
     padding: 1rem;
-    font-family: 'Ubuntu', sans-serif;
     text-decoration: none;
     }
 
@@ -170,12 +155,8 @@ main {
     margin-top: 15px;
     margin-bottom: 15px;
     background-color: cadetblue;
-    border-radius: .8em;
-    border: whitesmoke;
-    border-style: outset;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
-    
+    border-radius: 0.5em;
+    border: 3px solid #086164;
     }    
 
 * {
@@ -188,29 +169,32 @@ main {
 
 .container h2 {
     font-size: 2em;
-    font-family: 'Ubuntu', sans-serif;
-    margin: 0;
+   
     padding: 5px;
     text-align: center;
     vertical-align: middle;
     }  
 
 .heroclass {
-    margin: 10px auto;
     position: relative;
     }
+picture {
+    padding: 0;
+    margin: 0;border-radius: 0.5em;
+}
 
 .weathersummary {
     position: absolute;
-    top: .5rem;
-    left: .5rem;
+    top: 1rem;
+    left: 1rem;
     background: cadetblue;
     opacity: 0.88;
     border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 3px #086164;
     padding: .2em;
     color: whitesmoke;
     text-shadow: 1px 2px 2px black;
-    font-family: 'Ubuntu', sans-serif;
     }
 
 .weathersummary p {
@@ -244,6 +228,8 @@ ____________________________________________________________________*/
 .heroclass img {
     width: 100%;
     height: auto;
+    border-radius: 0.5em;
+    border: 3px solid #086164;
 }
 
 .iconimg {
@@ -254,8 +240,17 @@ ____________________________________________________________________*/
 .loremipsum img {
     width: 100%;
     height: auto;
+    border-radius: 0.5em;
+    display: block;
+    margin: auto;
+    border: 3px solid #086164;
     }
 
+.loremipsum p {
+    padding: 7px;   
+    margin: 10px;
+    }
+    
 .map{
     display: none;
     }
@@ -286,22 +281,19 @@ ____________________________________________________________________*/
 .loremipsum {
     padding: 10px;
     margin: 10px;
-    background-color: cadetblue;
-    border-radius: .8em;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
     box-shadow: 0 0 0 3px #086164;
-    
     }
 
 .contactInfo{
     background-color:#086164;
     padding: 1rem;
-    text-align: center;
+    margin: auto;
+    border-radius: 0.5em;
     }
 
 .contactData{
-    color: white;
+    color: whitesmoke;
     }
 

@@ -10,6 +10,7 @@ h1{
 /*
 Header
 ____________________________________________________________________*/  
+
 #friday { 
     text-align: center;
     font-size: 1.2rem;
@@ -100,11 +101,8 @@ ____________________________________________________________________*/
     }
 
 .loremipsum img {
-    float: left;
-    width: 400px;
+    max-width: 400px;
     height: auto;
-    padding-right: 15px;
-    padding-bottom: 10px;
     }
 
 .section img {
@@ -134,7 +132,7 @@ ____________________________________________________________________*/
     border-left: 2px solid black;
     background-color: whitesmoke;
     font-size: 15px;
-        text-align: center;
+    text-align: center;
     }
 
 .lastTable {
@@ -179,7 +177,9 @@ ____________________________________________________________________*/
 .fiveDay {
     display: flex;
     flex-direction: row;
-    padding: 10px; 
+    border-radius: 0.5em;
+    margin: 10px;
+    border: 5px solid #086164;
     }
 
 .data {
