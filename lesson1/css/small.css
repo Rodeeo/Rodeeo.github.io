@@ -41,6 +41,11 @@ main {
   margin: auto;
   }
 
+li :hover {
+  background-color: cadetblue;
+  color: yellow;
+  height: 100%;
+}
 .content {
   padding: 1rem;
   padding-bottom: 0;

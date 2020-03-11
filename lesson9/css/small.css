@@ -103,6 +103,7 @@ nav {
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
+    height: 100%;
 }
 
 nav ul {

@@ -28,10 +28,6 @@ header {
     display: flex;
     justify-content: center;
     background: cadetblue;
-    border: whitesmoke;
-    border-style: outset;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
 }
 
 .weatherstamp {  
@@ -73,9 +69,6 @@ footer {
     background-color: cadetblue;
     color: whitesmoke;
     text-align: center;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
 
@@ -90,17 +83,13 @@ nav {
     background-color: #086164;
     display: flex;
     justify-content: center;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
 }
 
 nav a:hover {
     background-color: cadetblue;
     color: yellow;
-    box-shadow: 0px 0px 10px 5px #f5f5f5;
-    outline: 3px inset #086164;
+    height: 100%;
     }
 
 nav ul {
@@ -189,12 +178,10 @@ ____________________________________________________________________*/
 select:focus, textarea:focus, input:focus{
     outline: 0;
     border-radius: 5px;
-    border: 5px solid #086164;}
-
-
-select:hover, textarea:hover, input:hover {
-    box-shadow: 10px 12px 0.5rem #086164;
+    border: 5px solid #086164;
 }
+
+
 form   {
     padding: 1rem;
 }
@@ -202,10 +189,8 @@ form   {
 form fieldset {
     background-color: cadetblue;
     margin: 1rem 0;
-    border-radius: .8em;
+    border-radius: .5em;
     border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     }    
 
