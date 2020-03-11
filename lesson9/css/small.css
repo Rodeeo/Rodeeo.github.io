@@ -266,6 +266,7 @@ section {
 }
 
 .pickle { 
+    width: 95%;
     margin: 10px;
     display: table;
     justify-content: space-around;
