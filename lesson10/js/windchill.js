@@ -1,21 +1,22 @@
-  const temp = 51;
-  const speed = 10;
-  const high = (temp + 10);
-  document.getElementById("pHigh").innerHTML = "High: " + high + "˚F";
-  document.getElementById("pTemp").innerHTML = "Current Temp: " + temp + "˚F";
-  document.getElementById("pHumid").innerHTML = "Humidity: 0%";
-  document.getElementById("pSpeed").innerHTML = "Wind speed: " + speed + "mph";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=5419d5359d910bc3d1b911b5cef37344";
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
 
-  if (temp <= 50 && speed > 3) {
-    const wind = windChill(temp, speed);
-    document.getElementById("pWind").innerHTML = "Wind Chill: " + wind.toFixed(2) + "˚";
-  }
-  else { 
-    document.getElementById("pWind").innerHTML = "Wind Chill: N/A";
-  } 
+    document.getElementById('currently').textContent = jsObject.weather[0].description;
+    document.getElementById('temperature').textContent = jsObject.main.temp.toFixed(2) + "˚";
+    document.getElementById('high').textContent = jsObject.main.temp_max.toFixed(2) + "˚";
+    document.getElementById('humidity').textContent = jsObject.main.humidity + "%";
+    document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(2) + "mph";
 
-function windChill(tempf, speed) {
-  const a = Math.pow(speed, 0.16);
-  const calculate = 35.74 + 0.6215 * tempf - 35.75 * a + 0.4275 * tempf * a;
-  return calculate;
-}
+let temp = parseInt(document.getElementById("temperature").innerText);
+let windspeed = parseInt(document.getElementById("windspeed").innerText);
+
+if (temp <= 50  && windspeed >= 3) {
+    let windchilly = 35.74 + (0.6215*temp) - (35.75*(windspeed**0.16)) + (0.4275*temp*(windspeed**0.16));
+    document.getElementById("windchill").innerText = windchilly.toFixed(0)+ "˚";
+    } 
+else {
+   document.getElementById("windchill").innerText = " N/A" 
+    }
+  }); 
