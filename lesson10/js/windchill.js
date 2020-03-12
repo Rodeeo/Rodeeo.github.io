@@ -19,4 +19,19 @@ if (temp <= 50  && windspeed >= 3) {
 else {
    document.getElementById("windchill").innerText = " N/A" 
     }
+  
+    let dias = ["Sun", "Mon", "Tues", "Wed", "Thurs", "Fri", "Sat"];
+    let daynumber = 1;
+    for (let day of jsObject.list) {
+        if (day.dt_txt.includes("18:00:00")) {
+            let date = new Date(day.dt_txt);
+            let dayStr = "day" + daynumber;
+            const loadimage = `https://openweathermap.org/img/w/${day.weather[0].icon}.png`;
+            document.getElementById(dayStr).textContent = dias[date.getDay()];
+            document.getElementById(`${dayStr}_temp`).textContent = day.main.temp.toFixed(0);
+            document.getElementById(`${dayStr}_image`).setAttribute('src', loadimage); 
+            document.getElementById(`${dayStr}_image`).setAttribute('alt', day.weather[0].description);
+            dayNo++;
+        }
+    }
   }); 

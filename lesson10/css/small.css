@@ -195,6 +195,7 @@ picture {
     padding: .2em;
     color: whitesmoke;
     text-shadow: 1px 2px 2px black;
+    text-transform: capitalize;
     }
 
 .weathersummary p {
