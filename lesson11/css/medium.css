@@ -107,13 +107,8 @@
  
  .frysauce {
     display: grid;
-    margin: 10px;
+    margin-bottom: 10px;
     padding: 1rem;
-    text-align: center;
-    color: whitesmoke;
-    background-color: cadetblue;
-    border-radius: .5em;
-    box-shadow: 0 0 0 3px #086164;
     grid-template-columns: 300px auto;
     grid-template-rows: 80px auto;
     grid-gap: 6px 20px; 
