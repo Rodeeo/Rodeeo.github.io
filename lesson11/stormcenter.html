@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <title>lesson 8 Storm Center</title>
+        <meta name="Week 8 Webpage" content="table/form">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <link rel="icon" type="image/icon" href="/lesson8/images/favicon.ico">
+        <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
+        <link rel="stylesheet" href="/lesson8/normalize.css">
+        <link rel="stylesheet" href="./css/stormcenter.css">
+        <link rel="stylesheet" href="./css/medium.css">
+        <link rel="stylesheet" href="./css/large.css">
+    </head>
+    <body>
+        <header>
+            <div class="weatherstamp">
+                <img class="logo" src="/lesson8/images/weathersighticonn.png" alt="Weathersite logo"> 
+                       <div class="weathersight">
+                           <h1>Weather Sight</h1> </div>
+                     <div class="motto"> <p>Weather Foresight</p>
+                     </div>
+                    </div>     
+        </header>
+        <nav>
+            <ul class="hamburger">
+                <li><a class="ham" href="#">&#9782; Menu</a></li>
+                <li><a href="/lesson9/index.html" >Home</a></li>
+                <li><a href="/lesson6/preston-6.html">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="/index.html">Fish Haven</a></li>
+                <li><a class="active">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+                <main class="stormcenter">
+                    <form action="thanks.html" method="get">
+                        <fieldset>
+                            <legend>Personal Information</legend>
+                            <label><span>*Full Name:</span> <input type="text" name="fname" placeholder="Full Name" pattern="[A-z\s]{5,}" required ><br></label>
+                            <label><span>Email:</span><input type="email" name="email" placeholder="email@email.com"><br></label>
+                            <label><span>*Phone:</span><input type="tel" name="phone" placeholder="xxx-xxx-xxxx" required ><br></label>
+                            <label><span>*Zip code:</span><input type="number" name="zip" placeholder="00000" required ><br></label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Storm Information</legend>
+                            <label><span>Storm Date:</span><input type="date" name="date"></label>
+                            <label><span>Storm Type:</span><input type="text" name="stormtype" list="stormtype">
+                                <datalist id="stormtype">
+                                    <option value="Hurricane"></option>
+                                    <option value="Thunderstorm"></option>
+                                    <option value="Flash Flood"></option>
+                                    <option value="Tornado"></option>
+                                    <option value="Hail"></option>
+                                </datalist>
+                            </label>
+
+                            <label><span>Storm Severity: From 1 to 10: </span>
+                                <input type="range" id="rating" value="5" min="1" max="10" step="1"
+                                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                                <span id="ratingvalue">5</span>
+                            </label>
+
+                            <label><span>Storm Region:</span>
+                                <select name="stormregion">
+                                    <option value="select" disabled selected>Select Region</option>
+                                    <option value="Preston">Preston</option>
+                                    <option value="Soda Springs">Soda Springs</option>
+                                    <option value="Fish Haven">Fish Haven</option>
+                                </select>
+                            </label>
+
+                            
+                           <label><span>User In-Danger Level:</span></label>
+                           <div class="level">  <label><input class="danger" type="radio" name="danger" value="yes">Yes</label>
+                            <label><input class="danger" type="radio" name="danger" value="no">No</label>
+                            <label><input class="danger" type="radio" name="danger" value="Maybe">Maybe</label>
+                            </div>
+                            
+                            <label><span>Additional Information:</span>
+                                <textarea name="additionalinformation"></textarea>
+                            </label>
+                        </fieldset>
+                       <div> <input type="submit" value="Submit" class="submitbutton"> </div>
+                    </form>
+                    </main>
+                <footer>
+                    <p class="myname"> &#9832;Weather Sight &#10154; Chad Rodee <br>
+                      <br>  
+                      <span id="footinfo"></span>
+                    </p>
+                </footer>
+                    <script src="/lesson6/js/indexP6.js"></script>
+                    <script src="/lesson6/js/ham.js"></script>
+                    <script src="/lesson6/js/webfont.js"></script>
+                    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                    <script src="/lesson1/js/webfont.js"></script>
+                </body>
+            </html>
