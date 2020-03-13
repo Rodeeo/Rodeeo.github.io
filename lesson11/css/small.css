@@ -84,6 +84,18 @@ header {
     color:yellow
     }
 
+#friday {
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border-style: dashed;
+    border-color: yellow;
+    margin: 8px;
+    box-shadow: 0 0 0 5px whitesmoke;
+    outline: dashed 5px #086164;
+    color: whitesmoke;
+}
+    
 /*
 Footer
 ____________________________________________________________________*/
@@ -169,33 +181,6 @@ nav li a {
     display: block;
 }
 
-/*
-Main
-____________________________________________________________________*/
-body {
-    padding: 0;
-    margin: auto;
-    min-width: 300px;
-    background-color: whitesmoke;
-    font-family: 'Ubuntu', sans-serif;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.container {
-    position: relative;
-}
-
-/*    
-Images
-____________________________________________________________________*/
 .logo {
     width: 100px;
     height: auto;
@@ -338,104 +323,6 @@ ul {
     width: 35px;
 }
 
-
-
-/*
-Header
-____________________________________________________________________*/
-header {
-    display: flex;
-    justify-content: center;
-    background: cadetblue;
-}
-
-.weatherstamp {  
-    padding: 10px;
-    margin: 10px;
-    background-color: cadetblue;
-    border-radius: .8em;
-    border: whitesmoke;
-    border-style: inset;
-    border-width: 5px 5px 5px 5px;
-    box-shadow: 0 0 0 3px #086164;
-    }
-
-.weathersight {
-    width: 140px;
-    height: auto;
-    padding: 5px;
-    float: right;
-    align-items: center;
-    justify-content: center;
-   
-    }
-
-.motto p { 
-    font-size: .8rem;
-    font-style: italic;
-    padding: 0px;
-    margin: 3px;
-    text-align: center;
-    color:yellow
-    }
-
-#friday {
-    display: none;
-    font-family: 'Ubuntu', sans-serif;
-    padding: 10px;
-    border-style: dashed;
-    border-color: yellow;
-    margin: 8px;
-    box-shadow: 0 0 0 5px whitesmoke;
-    outline: dashed 5px #086164;
-    color: whitesmoke;
-}
-
-
-/*
-Nav
-____________________________________________________________________*/
-nav {
-    margin: 0 auto;
-    background-color: #086164;
-    display: flex;
-    justify-content: center;
-}
-
-nav a:hover {
-    background-color: cadetblue;
-    color: yellow;
-    height: 100%;
-}
-
-nav ul {
-    width: 100%;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    max-width: 900px;
-    }    
-
-nav li a {
-    display: flex;
-    justify-content: left;
-    color: white;
-    padding: 1rem;
-    text-decoration: none;
-    }
-
-.hamburger li  {
-    display: none;
-    }
-
-.hamburger li:first-child {
-    display: flex;
-    justify-content: left;
-    }      
-
-.responsive li {
-    display: block;
-    }
 /*
 Main
 ____________________________________________________________________*/
@@ -514,11 +401,6 @@ picture {
 /*
 Images
 ____________________________________________________________________*/
-.logo {
-    width: 100px;
-    height: auto;
-    padding: 10px;
-}
 
 .heroimage {
     margin: 0 auto;
@@ -588,4 +470,155 @@ ____________________________________________________________________*/
 .contactData{
     color: whitesmoke;
     }
+/* 
+Storm Center ---------------------------------------------------------------------------------------------------------------- 
+*/
 
+    select:focus, textarea:focus, input:focus{
+        outline: 0;
+        border-radius: 5px;
+        border: 5px solid #086164;
+    }
+    
+    
+    form   {
+        padding: 1rem;
+    }
+    
+    form fieldset {
+        background-color: cadetblue;
+        margin: 1rem 0;
+        border-radius: .5em;
+        border: whitesmoke;
+        box-shadow: 0 0 0 3px #086164;
+        }    
+    
+    form legend {
+        background-color: cadetblue;
+        color: black;
+        padding: 5px;
+        border-radius: 5px;
+        border: whitesmoke;
+        border-style: outset;
+        border-width: 5px 5px 5px 5px;
+        box-shadow: 0 0 0 3px #086164;
+    }
+    
+    form label {
+        display: grid;
+        justify-content: center;
+        padding: 4px;
+        }
+    
+    form label input {
+        width: 15rem;
+        font-size: 15px;
+        }
+    
+    form label input, form label select, form label textarea {
+        padding: 6px;
+        background-color: #e6f2ff;
+        border-radius: 5px;
+        border-style: inset;
+        border-width: 5px 5px 5px 5px;}
+    
+    
+    form input.submitbutton {
+        padding: 9px;
+        margin-bottom: 1rem;
+        background-color: cadetblue;
+        border-radius: 5px;
+        margin-left: 5px;
+        color: yellow;
+        font-size: 20px;
+        border: whitesmoke;
+        border-style: outset;
+        border-width: 5px 5px 5px 5px;
+        box-shadow: 0 0 0 3px #086164;
+        }
+    
+    
+    form label input:required {
+        border-left: solid 5px #e60000;
+        border-right: solid 5px #e60000;
+        }
+    
+    form label input:required:valid { 
+        border-left: solid 5px #00e600;
+        border-right: solid 5px #00e600 ;
+        }
+    
+    form select {
+        Width: 15rem;
+        height: 40px;
+        border-color: whitesmoke;
+        }
+    
+    form textarea {
+        Width: 15rem;
+        height: 5rem;
+        text-align: start;
+        font-size: 15px;
+        }
+        
+    .thanks{
+        text-align: center;   
+        }
+    
+    .level {
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .level label { 
+        display: flex;
+        padding: 10px;
+    }
+    
+    .danger {
+        width: 20px;
+        }    
+    
+    .danger:hover {
+        box-shadow: 0 0 0 black;
+    }    
+
+/* 
+Gallery ----------------------------------------------------------------------------------------------------------------------- 
+*/
+    .headline {
+        background: cadetblue;
+        border-radius: 5px;
+        text-align: center;
+        color: whitesmoke;
+        max-width: 450px;
+        align-content: center;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .headline p {
+        color:yellow;
+    }
+
+    /* .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        text-align: center;
+        }     */
+    
+    .galleryscroll {
+        margin: 1rem auto;
+        display: grid;
+        text-align: center;
+        border-radius: 5px;
+        grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+    }
+
+    .galleryscroll img {
+        border-radius: .5em;
+        border: 3px solid #086164;
+    }

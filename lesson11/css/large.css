@@ -1,6 +1,5 @@
 @media only screen and (min-width: 60em) {
-    main {
-  
+    .homebase {
         max-width: 950px;
         width: 100%;
         margin: auto;
@@ -89,6 +88,16 @@
     .table img {
         width: 75px;
         }
-    
+
+        /* 
+Gallery ----------------------------------------------------------------------------------------------------------------------- 
+*/
+    .headline {
+        max-width: 1150px;
+    }
+    .galleryscroll img:hover {
+        box-shadow: 0 0 30px  black;
+        border-radius: 2px;
+        }
 }
    
