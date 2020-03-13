@@ -1,0 +1,591 @@
+/*
+H1, h2, h3, h4, h5
+____________________________________________________________________*/
+h1 {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+    }
+
+h2 {
+    font-size: 2em;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+    color: yellow;
+}
+
+h4 {
+    font-size: 1.5em;
+    text-align: center;
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
+}
+
+h5 {
+    font-size: 1.2em;
+    text-align: center;
+    color: yellow;
+    padding: 15px;
+    background: cadetblue;
+    border-radius: 0.3em;
+    }
+
+h6 {
+    margin: 0;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+  
+/*
+Header
+____________________________________________________________________*/
+header {
+    display: flex;
+    justify-content: center;
+    background: cadetblue;
+}
+
+.weatherstamp {  
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    }
+
+.weathersight {
+    width: 140px;
+    height: auto;
+    padding: 5px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+
+.motto p { 
+    font-size: .8rem;
+    font-style: italic;
+    padding: 0px;
+    margin: 3px;
+    text-align: center;
+    color:yellow
+    }
+
+/*
+Footer
+____________________________________________________________________*/
+footer {
+    height: auto;
+    margin: auto;
+    padding: .75rem;
+    background-color: cadetblue;
+    color: whitesmoke;
+    text-align: center;
+    box-shadow: 0 0 0 3px #086164;
+}
+
+.myname {
+    font-style: normal;
+}
+
+.attributions {
+    padding: 0;
+    margin: 0;
+
+}
+.attributions a{
+    text-decoration: none;
+}
+
+/*
+Nav
+____________________________________________________________________*/
+nav {
+    margin: 0 auto;
+    background-color: #086164;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    color: yellow;
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+}
+
+nav li a {
+    display: flex;
+    justify-content: left;
+    color: whitesmoke;
+    padding: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+
+.hamburger li {
+    display: none;
+}
+
+.hamburger li:first-child {
+    display: flex;
+    justify-content: left;
+}
+
+.responsive li {
+    display: block;
+}
+
+.cheeseburger li {
+    display: none;
+}
+
+.cheeseburger li:first-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.response li {
+    display: block;
+}
+
+/*
+Main
+____________________________________________________________________*/
+body {
+    padding: 0;
+    margin: auto;
+    min-width: 300px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+}
+
+/*    
+Images
+____________________________________________________________________*/
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.iconimg {
+    width: 100px;
+    height: auto;
+}
+
+
+/*
+Links
+____________________________________________________________________*/
+.active {
+    color: yellow;
+    font-weight: bold;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+/*
+Divs n' the Rest
+____________________________________________________________________*/
+.frysauce {
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: cadetblue;
+    border-radius: .5em;
+    border: whitesmoke;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    text-align: center;
+}
+
+.frysauce p {
+    margin: 0;
+    padding: 20px;
+}
+.mustard {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+.bacon {
+    text-decoration: none;
+    font-size: 15px;
+    padding: 5px;
+    margin: 10px;
+    color: whitesmoke;
+    box-shadow: 0 0 0 3px #086164;
+    background-color: cadetblue;
+    border-radius: .2em;
+    }
+
+section {
+    margin: 10px;
+    padding: 5px;
+    color: whitesmoke;
+    background-color: cadetblue;
+    border-radius: .5em;
+    border: whitesmoke;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+}
+
+.Fish.Haven img,
+.Soda.Springs img,
+.Preston img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+    margin-bottom: 5px;
+}
+
+.pickle { 
+    width: 95%;
+    margin: 10px;
+    display: table;
+    justify-content: space-around;
+    background: cadetblue;
+    border-radius: .5em;
+    border: whitesmoke;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.pickle p:first-child {
+    font-style: oblique;
+    font-size: larger;
+    text-decoration: underline;
+    color: yellow;
+    
+}
+aside {
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid #086164;
+    margin: 5px;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+}
+.milkshake {
+    text-align: center;
+    padding: 10px;
+    margin:5px;
+}
+.milkshake ul {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.milkshake li {
+    padding: 5px;
+}
+
+.milkshake li img {
+    width: 35px;
+}
+
+
+
+/*
+Header
+____________________________________________________________________*/
+header {
+    display: flex;
+    justify-content: center;
+    background: cadetblue;
+}
+
+.weatherstamp {  
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    }
+
+.weathersight {
+    width: 140px;
+    height: auto;
+    padding: 5px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+   
+    }
+
+.motto p { 
+    font-size: .8rem;
+    font-style: italic;
+    padding: 0px;
+    margin: 3px;
+    text-align: center;
+    color:yellow
+    }
+
+#friday {
+    display: none;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    border-style: dashed;
+    border-color: yellow;
+    margin: 8px;
+    box-shadow: 0 0 0 5px whitesmoke;
+    outline: dashed 5px #086164;
+    color: whitesmoke;
+}
+
+
+/*
+Nav
+____________________________________________________________________*/
+nav {
+    margin: 0 auto;
+    background-color: #086164;
+    display: flex;
+    justify-content: center;
+}
+
+nav a:hover {
+    background-color: cadetblue;
+    color: yellow;
+    height: 100%;
+}
+
+nav ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 900px;
+    }    
+
+nav li a {
+    display: flex;
+    justify-content: left;
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    }
+
+.hamburger li  {
+    display: none;
+    }
+
+.hamburger li:first-child {
+    display: flex;
+    justify-content: left;
+    }      
+
+.responsive li {
+    display: block;
+    }
+/*
+Main
+____________________________________________________________________*/
+
+body {
+    min-width: 300px;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
+    }
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: cadetblue;
+    border-radius: 0.5em;
+    border: 3px solid #086164;
+    }    
+
+* {
+    box-sizing: border-box;
+    }
+
+.container {
+    position: relative;
+    }
+
+.container h2 {
+    font-size: 2em;
+   
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+    }  
+
+.heroclass {
+    position: relative;
+    }
+picture {
+    padding: 0;
+    margin: 0;border-radius: 0.5em;
+}
+
+.weathersummary {
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: cadetblue;
+    opacity: 0.88;
+    border: 1px solid whitesmoke;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 3px #086164;
+    padding: .2em;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px black;
+    text-transform: capitalize;
+    }
+
+.weathersummary p {
+    padding: 4px;   
+    margin: 0px;
+    font-size: 15px;
+    }
+
+.weathersummary h3 {
+    padding: 2px;   
+    margin: 2px;
+    
+    }
+/*
+Images
+____________________________________________________________________*/
+.logo {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+.heroimage {
+    margin: 0 auto;
+   }
+       
+.banner { 
+   width:100%;
+   height: auto;
+   }
+
+.heroclass img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    border: 3px solid #086164;
+}
+
+.iconimg {
+    width: 100px;
+    height: auto;
+    }
+
+.loremipsum img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+    display: block;
+    margin: auto;
+    border: 3px solid #086164;
+    }
+
+.loremipsum p {
+    padding: 7px;   
+    margin: 10px;
+    }
+    
+.map{
+    display: none;
+    }
+
+/*
+Divs n' the Rest
+____________________________________________________________________*/       
+.fiveDay {
+    display: none; 
+    }
+
+.fiveForcast{
+    display: none;
+    }   
+
+.loremipsum {
+    padding: 10px;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 3px #086164;
+    }
+
+.contactInfo{
+    background-color:#086164;
+    padding: 1rem;
+    margin: auto;
+    border-radius: 0.5em;
+    }
+
+.contactData{
+    color: whitesmoke;
+    }
+

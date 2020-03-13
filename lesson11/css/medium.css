@@ -1,0 +1,182 @@
+@media only screen and (min-width: 40em) {
+    /*
+ H1, h2, h3, h4, h5
+ ____________________________________________________________________*/
+ h1{
+     font-size: 2em;
+     margin: 0;
+     }
+           
+ h2 {
+    padding-top: 1rem;
+ }    
+
+ /*
+ Header
+ ____________________________________________________________________*/  
+ .motto p{ 
+     font-size: 1.2rem;
+     font-family: 'Ubuntu', sans-serif;
+     font-style: italic;
+     padding: 0px;
+     margin: 3px;
+ 
+     }
+ 
+     /*
+ Footer
+ ____________________________________________________________________*/
+ 
+ 
+ /*
+ Nav
+ ____________________________________________________________________*/
+ .hamburger {
+     display: flex;
+     }
+ 
+ .hamburger li {
+     display: block;
+     flex: 1 1 100%
+     }
+ 
+ .active{
+     color:yellow;
+     font-weight: bold;
+     }
+ 
+ .hamburger li a {
+     text-align: center;
+     }    
+ 
+ .hamburger li:first-child {
+     display: none;
+     }
+ 
+ .motto {
+     font-style: normal;
+     }
+     
+ nav li a {
+     display: flex;
+     justify-content: center; 
+     color: white;
+     padding: 1rem;
+     font-family: 'Ubuntu', sans-serif;
+     text-decoration: none;
+     }  
+ 
+ /*
+ Main
+ ____________________________________________________________________*/
+ main {
+     padding: 10px;
+     max-width: 800px;
+     width: 100%;
+     margin: auto;
+     }
+     
+ /*
+ Images
+ ____________________________________________________________________*/
+ 
+ .logo {
+     width: 150px;
+     height: auto;
+     padding: 0;
+     }
+ 
+ .pic {
+     width: 180px;
+     height: auto;
+     padding: 5px;
+     float: right;
+     align-items: center;
+     justify-content: center;
+     color: rgb(236, 26, 26);
+     }
+ 
+ 
+ /*
+ Links
+ ____________________________________________________________________*/
+ 
+ /*
+ Divs n' the Rest
+ ____________________________________________________________________*/       
+ 
+ .frysauce {
+    display: grid;
+    margin: 10px;
+    padding: 1rem;
+    text-align: center;
+    color: whitesmoke;
+    background-color: cadetblue;
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 80px auto;
+    grid-gap: 6px 20px; 
+    
+}
+
+.frysauce p {
+    margin: 0;
+    padding: 20px;
+}
+.mustard {
+    display: block;
+    margin: auto;
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    width: 300px; 
+}
+
+section {
+    display: grid;    
+    grid-template-columns: auto 300px;
+    grid-template-rows: 80px auto;
+    grid-gap: 6px 20px; 
+    padding: 1rem;
+
+}
+
+.Fish.Haven img, .Soda.Springs img {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    justify-self: end;
+    width: 300px;
+}
+.Preston {
+    grid-template-columns: 300px auto;
+}
+
+.Preston img {
+ 
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 5;
+    justify-self: self-start;
+    width: 300px;
+}
+
+.pickle {
+    margin-top: 10px;
+    display: flex;
+    width: auto;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    max-width: 633px;
+}
+
+.milkshake li img {
+    width: auto;
+}
+    }
