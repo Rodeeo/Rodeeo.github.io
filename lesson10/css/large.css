@@ -25,6 +25,14 @@
         border-radius: 5px;
         }
 
+    .weathersummary p {
+        font-size: 30px;
+        }
+
+    .weathersummary h3 {
+        font-size: 2em;
+        }
+
     .pic {
         width: 220px;
         height: auto;
