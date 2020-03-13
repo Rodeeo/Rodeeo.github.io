@@ -14,6 +14,7 @@ h2 {
     margin: 0;
     padding: 5px;
     text-align: center;
+    color: whitesmoke;
 }
 
 h3 {
@@ -21,10 +22,25 @@ h3 {
     font-style: italic;
 }
 
-h4, h5 {
+h4 {
+    font-size: 1.5em;
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: yellow;
+    margin: 10px;
+    padding: 5px;
     }
 
+h5 {
+    font-size: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: yellow;
+    padding: 15px;
+    background: cadetblue;
+    border-radius: 0.3em;
+    }
+    
 /*
 Header
 ____________________________________________________________________*/
@@ -92,6 +108,16 @@ footer {
 .myname {
     font-style: normal;
     }
+
+.attributions {
+    padding: 0;
+    margin: 0;
+
+}
+.attributions a{
+    text-decoration: none;
+}
+
 /*
 Nav
 ____________________________________________________________________*/
