@@ -179,4 +179,179 @@ ul {
 .milkshake li img {
     width: auto;
 }
+
+.loremipsum img {
+    max-width: 400px;
     }
+}
+
+@media only screen and (min-width: 32.5em) {
+    /*
+ H1, h2, h3, h4, h5
+ ____________________________________________________________________*/
+ h1{
+     font-size: 2em;
+     margin: 0;
+     }
+           
+ /*
+ Header
+ ____________________________________________________________________*/  
+ 
+ #friday { 
+     text-align: center;
+     font-size: 1.2rem;
+     }
+ 
+ .motto p{ 
+     font-size: 1.2rem;
+     font-family: 'Ubuntu', sans-serif;
+     font-style: italic;
+     padding: 0px;
+     margin: 3px;
+ 
+     }
+ 
+     /*
+ Footer
+ ____________________________________________________________________*/
+ 
+ 
+ /*
+ Nav
+ ____________________________________________________________________*/
+ .hamburger {
+     display: flex;
+     }
+ 
+ .hamburger li {
+     display: block;
+     flex: 1 1 100%
+     }
+ 
+ .active{
+     color:yellow;
+     font-weight: bold;
+     }
+ 
+ .hamburger li a {
+     text-align: center;
+     }    
+ 
+ .hamburger li:first-child {
+     display: none;
+     }
+ 
+ .motto {
+     font-style: normal;
+     }
+     
+ nav li a {
+     display: flex;
+     justify-content: center; 
+     color: white;
+     padding: 1rem;
+     font-family: 'Ubuntu', sans-serif;
+     text-decoration: none;
+     }  
+ 
+ /*
+ Main
+ ____________________________________________________________________*/
+ main {
+     padding: 10px;
+     max-width: 700px;
+     width: 100%;
+     margin: auto;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     }
+     
+ .weathersummary p {
+     font-size: 20px;
+     }
+ 
+ .weathersummary h3 {
+     padding: 10px;
+     margin: 5px;
+     font-size: 1.8em;
+     }
+ /*
+ Images
+ ____________________________________________________________________*/
+ 
+ .logo {
+     width: 150px;
+     height: auto;
+     padding: 0;
+     }
+ 
+ .pic {
+     width: 180px;
+     height: auto;
+     padding: 5px;
+     float: right;
+     align-items: center;
+     justify-content: center;
+     color: rgb(236, 26, 26);
+     }
+ 
+ .loremipsum img {
+     max-width: 400px;
+     height: auto;
+     }
+ 
+ .section img {
+     width: 93vw;
+     height: 49vw;
+     }
+ 
+ .map {
+     display: flex;
+     width: 400px;
+     height: auto;
+     }
+ 
+ /*
+ Links
+ ____________________________________________________________________*/
+ 
+ /*
+ Divs n' the Rest
+ ____________________________________________________________________*/       
+ 
+ .table {
+     border: 2px solid #086164;
+     background-color: whitesmoke;
+     font-size: 18px;
+     text-align: center;
+     border-radius: 0.3em;
+     padding: 10px;
+     }
+ 
+ .table img {
+     width: 50px;
+     }
+ 
+ .fiveForcast{
+     display: block;
+     text-align: center;
+     font-size: 1.5em;
+     font-family: 'Ubuntu', sans-serif;
+     margin-bottom: auto;
+     }   
+ 
+ .fiveDay {
+     display: grid;
+     flex-direction: column;
+     border-radius: 0.5em;
+     margin: 10px;
+     padding: 10px;
+     border: 5px solid #086164;
+     background: cadetblue;
+ }
+ 
+ .contactInfo{
+     text-align: right;
+     }
+ }

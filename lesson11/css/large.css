@@ -38,6 +38,57 @@
         padding: 0;
         max-width: 6900px;
     }
-            
+         
+    .weathersummary p {
+        font-size: 30px;
+        }
+
+    .weathersummary h3 {
+        font-size: 2em;
+        }
+
+    .pic {
+        width: 220px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        color: rgb(250, 215, 18);
+        } 
+    
+    .section img {
+        width: 97vw;
+        height: 33vw;
+        max-height: 450px;
+        }
+
+    .map {
+        display: flex;
+        float: left;
+        width: 550px;
+        height: auto;
+        padding-bottom: inherit;
+        }
+  
+     nav li a {
+        display: flex;
+        justify-content: center; 
+        padding: 1rem;
+        text-decoration: none;
+        }  
+                
+    #friday { 
+        font-size: 1.5rem;
+        }
+
+    .table {
+        font-size: 25px;
+        }    
+
+    .table img {
+        width: 75px;
+        }
+    
 }
    
