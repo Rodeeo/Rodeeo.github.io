@@ -113,15 +113,11 @@
  
  .frysauce {
     display: grid;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 15px;
     padding: 1rem;
-    text-align: center;
-    color: whitesmoke;
-    background-color: cadetblue;
-    border-radius: .5em;
     box-shadow: 0 0 0 3px #086164;
     grid-template-columns: auto 300px;
-    grid-template-rows: 80px auto;
     grid-gap: 6px 20px; 
  }
 
@@ -141,7 +137,9 @@
 }
 
 section {
+    margin: auto;
     display: grid;
+    margin-bottom: 15px;
     grid-template-columns: auto 300px;
     grid-template-rows: 80px auto;
     grid-gap: 6px 20px;
@@ -338,15 +336,7 @@ ul {
  
  .table img {
      width: 50px;
-     }
- 
- .fiveForcast{
-     display: block;
-     text-align: center;
-     font-size: 1.5em;
-     font-family: 'Ubuntu', sans-serif;
-     margin-bottom: auto;
-     }   
+     } 
  
  .fiveDay {
      display: grid;

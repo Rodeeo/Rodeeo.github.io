@@ -216,6 +216,9 @@ Divs n' the Rest
 ____________________________________________________________________*/
 .frysauce {
     margin: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
     padding: 5px;
     color: whitesmoke;
     background-color: cadetblue;
@@ -232,6 +235,7 @@ ____________________________________________________________________*/
     margin: 0;
     padding: 20px;
 }
+
 .mustard {
     width: 250px;
     display: block;
@@ -255,7 +259,9 @@ ____________________________________________________________________*/
 
 section {
     margin: auto;
-    margin-bottom: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
     padding: 5px;
     text-align: center;
     color: whitesmoke;
@@ -319,7 +325,8 @@ ul {
 .milkshake {
     text-align: center;
     padding: 10px;
-    margin:5px;
+    margin:auto;
+    max-width: 900px;
 }
 .milkshake ul {
     display: inline-flex;
@@ -613,13 +620,6 @@ Gallery ------------------------------------------------------------------------
     .headline p {
         color:yellow;
     }
-
-    /* .gallery {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-items: center;
-        text-align: center;
-        }     */
     
     .galleryscroll {
         margin: 1rem auto;
