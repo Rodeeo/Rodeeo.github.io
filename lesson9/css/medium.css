@@ -153,7 +153,7 @@
     }
 
     .Preston,
-    .Soda.Springs img {
+    .Soda.Springs {
         grid-template-columns: 300px auto;
     }
 

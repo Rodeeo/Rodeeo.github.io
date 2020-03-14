@@ -181,6 +181,7 @@ nav li a {
 .cheeseburger li:first-child {
     display: flex;
     justify-content: flex-end;
+    margin-top: 10px;
 }
 
 .response li {
@@ -228,7 +229,6 @@ ____________________________________________________________________*/
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
     text-align: center;
-    max-width: 900px;
 }
 
 .frysauce p {
@@ -356,7 +356,7 @@ body {
     grid-template-columns: 1fr;
     align-items: center;
     padding: 15px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
     background-color: cadetblue;
     border-radius: 0.5em;

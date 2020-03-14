@@ -119,6 +119,7 @@
     box-shadow: 0 0 0 3px #086164;
     grid-template-columns: auto 300px;
     grid-gap: 6px 20px; 
+    max-width: 700px;
  }
 
 .frysauce p {
@@ -144,6 +145,8 @@ section {
     grid-template-rows: 80px auto;
     grid-gap: 6px 20px;
     padding: 1rem;
+    max-width: 700px;
+
 }
 
 .Fish.Haven img {
@@ -155,7 +158,7 @@ section {
 }
 
 .Preston,
-.Soda.Springs img {
+.Soda.Springs {
     grid-template-columns: 300px auto;
 }
 
@@ -315,6 +318,9 @@ ul {
      display: flex;
      width: 400px;
      height: auto;
+     border-radius: .8em;
+    border: whitesmoke;
+    border-style: inset;
      }
  
  /*

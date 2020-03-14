@@ -99,5 +99,14 @@ Gallery ------------------------------------------------------------------------
         box-shadow: 0 0 30px  black;
         border-radius: 2px;
         }
+
+
+.frysauce {
+    max-width: 950px;
+}        
+
+section {
+    max-width: 950px;
+}
 }
    
