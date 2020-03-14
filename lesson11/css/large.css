@@ -95,7 +95,9 @@ Gallery ------------------------------------------------------------------------
         box-shadow: 0 0 30px  black;
         border-radius: 2px;
         }
-
+.contactInfo{
+    max-width: 750px;
+    }
 
 .frysauce {
     max-width: 950px;
@@ -103,6 +105,11 @@ Gallery ------------------------------------------------------------------------
 
 section {
     max-width: 950px;
+}
+
+.stormcenter {
+    max-width: 900px;
+    margin: auto;
 }
 }
    
