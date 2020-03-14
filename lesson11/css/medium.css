@@ -1,367 +1,255 @@
 @media only screen and (min-width: 40em) {
+
     /*
  H1, h2, h3, h4, h5
  ____________________________________________________________________*/
- h1{
-     font-size: 2em;
-     margin: 0;
-     }
-           
- h2 {
-    padding-top: 1rem;
- }    
-
- /*
- Header
- ____________________________________________________________________*/  
- .motto p{ 
-     font-size: 1.2rem;
-     font-family: 'Ubuntu', sans-serif;
-     font-style: italic;
-     padding: 0px;
-     margin: 3px;
- 
-     }
- 
-    .pancake {
-    display: grid;
-    justify-content: center;
-    background: cadetblue;
-    grid-template-columns: 350px;
-}
-     /*
- Footer
- ____________________________________________________________________*/
- 
- 
- /*
- Nav
- ____________________________________________________________________*/
- .hamburger {
-     display: flex;
-     }
- 
- .hamburger li {
-     display: block;
-     flex: 1 1 100%
-     }
- 
- .active{
-     color:yellow;
-     font-weight: bold;
-     }
- 
- .hamburger li a {
-     text-align: center;
-     }    
- 
- .hamburger li:first-child {
-     display: none;
-     }
- 
- .motto {
-     font-style: normal;
-     }
-     
- nav li a {
-     display: flex;
-     justify-content: center; 
-     color: white;
-     padding: 1rem;
-     font-family: 'Ubuntu', sans-serif;
-     text-decoration: none;
-     }  
- 
- /*
- Main
- ____________________________________________________________________*/
- /* .homebase {
-     padding: 10px;
-     max-width: 900px;
-     width: 100%;
-     margin: auto;
-     }
-      */
- /*
- Images
- ____________________________________________________________________*/
- 
- .logo {
-     width: 150px;
-     height: auto;
-     padding: 0;
-     }
- 
- .pic {
-     width: 180px;
-     height: auto;
-     padding: 5px;
-     float: right;
-     align-items: center;
-     justify-content: center;
-     color: rgb(236, 26, 26);
-     }
- 
- 
- /*
- Links
- ____________________________________________________________________*/
- 
- /*
- Divs n' the Rest
- ____________________________________________________________________*/       
- 
- .frysauce {
-    display: grid;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    padding: 1rem;
-    box-shadow: 0 0 0 3px #086164;
-    grid-template-columns: auto 300px;
-    grid-gap: 6px 20px; 
-    max-width: 700px;
- }
-
-.frysauce p {
-    margin: 0;
-    padding: 20px;
-}
-.mustard {
-    display: block;
-    margin: auto;
-    border-radius: .5em;
-    box-shadow: 0 0 0 3px #086164;
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: span 5;
-    width: 300px;
-}
-
-
-
-section {
-    margin: auto;
-    display: grid;
-    margin-bottom: 15px;
-    grid-template-columns: auto 300px;
-    grid-template-rows: 80px auto;
-    grid-gap: 6px 20px;
-    padding: 1rem;
-    max-width: 700px;
-
-}
-
-.Fish.Haven img {
-    grid-column-start: 2;
-    grid-row-start: 1;
-    grid-row-end: span 5;
-    justify-self: end;
-    width: 300px;
-}
-
-.Preston,
-.Soda.Springs {
-    grid-template-columns: 300px auto;
-}
-
-.Preston img,
-.Soda.Springs img {
-
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: span 5;
-    justify-self: self-start;
-    width: 300px;
-}
-
-.pickle {
-    margin: auto;
-    margin-top: 10px;
-    display: flex;
-    width: auto;
-}
-
-ul {
-    margin: auto;
-    padding: 0;
-    max-width: 633px;
-}
-
-.milkshake li img {
-    width: auto;
-}
-
-.loremipsum img {
-    max-width: 400px;
+    h1 {
+        font-size: 2em;
+        margin: 0;
     }
- 
- /*
+
+    h2 {
+        padding-top: 1rem;
+    }
+
+    /*
  Header
- ____________________________________________________________________*/  
- 
- #friday { 
-     text-align: center;
-     font-size: 1.2rem;
-     }
- 
- .motto p{ 
-     font-size: 1.2rem;
-     font-family: 'Ubuntu', sans-serif;
-     font-style: italic;
-     padding: 0px;
-     margin: 3px;
- 
-     }
- 
-     /*
- Footer
  ____________________________________________________________________*/
- 
- 
- /*
- Nav
+    .motto p {
+        font-size: 1.2rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-style: italic;
+        padding: 0px;
+        margin: 3px;
+    }
+
+    .pancake {
+        display: grid;
+        justify-content: center;
+        background: cadetblue;
+        grid-template-columns: 350px;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .hamburger li {
+        display: block;
+        flex: 1 1 100%
+    }
+
+    .active {
+        color: yellow;
+        font-weight: bold;
+    }
+
+    .hamburger li a {
+        text-align: center;
+    }
+
+    .hamburger li:first-child {
+        display: none;
+    }
+
+    .motto {
+        font-style: normal;
+    }
+
+    nav li a {
+        display: flex;
+        justify-content: center;
+        color: white;
+        padding: 1rem;
+        font-family: 'Ubuntu', sans-serif;
+        text-decoration: none;
+    }
+
+    /*
+ Divs n' the Rest
  ____________________________________________________________________*/
- .hamburger {
-     display: flex;
-     }
- 
- .hamburger li {
-     display: block;
-     flex: 1 1 100%
-     }
- 
- .active{
-     color:yellow;
-     font-weight: bold;
-     }
- 
- .hamburger li a {
-     text-align: center;
-     }    
- 
- .hamburger li:first-child {
-     display: none;
-     }
- 
- .motto {
-     font-style: normal;
-     }
-     
- nav li a {
-     display: flex;
-     justify-content: center; 
-     color: white;
-     padding: 1rem;
-     font-family: 'Ubuntu', sans-serif;
-     text-decoration: none;
-     }  
- 
- /*
+
+    .frysauce {
+        display: grid;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        padding: 1rem;
+        box-shadow: 0 0 0 3px #086164;
+        grid-template-columns: auto 300px;
+        grid-gap: 6px 20px;
+        max-width: 700px;
+    }
+
+    .frysauce p {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .mustard {
+        display: block;
+        margin: auto;
+        border-radius: .5em;
+        box-shadow: 0 0 0 3px #086164;
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: span 5;
+        width: 300px;
+    }
+
+    section {
+        margin: auto;
+        display: grid;
+        margin-bottom: 15px;
+        grid-template-columns: auto 300px;
+        grid-template-rows: 80px auto;
+        grid-gap: 6px 20px;
+        padding: 1rem;
+        max-width: 700px;
+    }
+
+    .Fish.Haven img {
+        grid-column-start: 2;
+        grid-row-start: 1;
+        grid-row-end: span 5;
+        justify-self: end;
+        width: 300px;
+    }
+
+    .Preston,
+    .Soda.Springs {
+        grid-template-columns: 300px auto;
+    }
+
+    .Preston img,
+    .Soda.Springs img {
+
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-row-end: span 5;
+        justify-self: self-start;
+        width: 300px;
+    }
+
+    .pickle {
+        margin: auto;
+        margin-top: 10px;
+        display: flex;
+        width: auto;
+    }
+
+    ul {
+        margin: auto;
+        padding: 0;
+        max-width: 633px;
+    }
+
+    .milkshake li img {
+        width: auto;
+    }
+
+    .loremipsum img {
+        max-width: 400px;
+    }
+
+
+    /*
  Main
  ____________________________________________________________________*/
- .homebase {
-     padding: 10px;
-     max-width: 700px;
-     width: 100%;
-     margin: auto;
-     margin-top: 15px;
-     margin-bottom: 15px;
-     }
-     
- .weathersummary p {
-     font-size: 20px;
-     }
- 
- .weathersummary h7 {
-     padding: 10px;
-     margin: 5px;
-     font-size: 1.8em;
-     }
- /*
+    .homebase {
+        padding: 10px;
+        max-width: 700px;
+        width: 100%;
+        margin: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .weathersummary p {
+        font-size: 20px;
+    }
+
+    .weathersummary h7 {
+        padding: 10px;
+        margin: 5px;
+        font-size: 1.8em;
+    }
+
+    /*
  Images
  ____________________________________________________________________*/
- 
- .logo {
-     width: 150px;
-     height: auto;
-     padding: 0;
-     }
- 
- .pic {
-     width: 180px;
-     height: auto;
-     padding: 5px;
-     float: right;
-     align-items: center;
-     justify-content: center;
-     color: rgb(236, 26, 26);
-     }
- 
- .loremipsum img {
-     max-width: 400px;
-     height: auto;
-     }
- 
- .section img {
-     width: 93vw;
-     height: 49vw;
-     }
- 
- .map {
-     display: flex;
-     width: 400px;
-     height: auto;
-     border-radius: .8em;
-    border: whitesmoke;
-    border-style: inset;
-     }
- 
- /*
- Links
- ____________________________________________________________________*/
- 
- /*
- Divs n' the Rest
- ____________________________________________________________________*/       
- 
- .table {
-     border: 2px solid #086164;
-     background-color: whitesmoke;
-     font-size: 18px;
-     text-align: center;
-     border-radius: 0.3em;
-     padding: 10px;
-     }
- 
- .table img {
-     width: 50px;
-     } 
- 
- .fiveDay {
-     display: grid;
-     flex-direction: column;
-     border-radius: 0.5em;
-     margin: 10px;
-     padding: 10px;
-     border: 5px solid #086164;
-     background: cadetblue;
- }
- 
- .contactInfo{
-     text-align: right;
-     }
 
-/* 
+    .logo {
+        width: 150px;
+        height: auto;
+        padding: 0;
+    }
+
+    .pic {
+        width: 180px;
+        height: auto;
+        padding: 5px;
+        float: right;
+        align-items: center;
+        justify-content: center;
+        color: rgb(236, 26, 26);
+    }
+
+    .loremipsum img {
+        max-width: 400px;
+        height: auto;
+    }
+
+    .section img {
+        width: 93vw;
+        height: 49vw;
+    }
+
+    .map {
+        display: flex;
+        width: 400px;
+        height: auto;
+        border-radius: .8em;
+        border: whitesmoke;
+        border-style: inset;
+    }
+    /*
+ Divs n' the Rest
+ ____________________________________________________________________*/
+
+    .table {
+        border: 2px solid #086164;
+        background-color: whitesmoke;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 0.3em;
+        padding: 10px;
+    }
+
+    .table img {
+        width: 50px;
+    }
+
+    .fiveDay {
+        display: grid;
+        flex-direction: column;
+        border-radius: 0.5em;
+        margin: 10px;
+        padding: 10px;
+        border: 5px solid #086164;
+        background: cadetblue;
+    }
+
+    .contactInfo {
+        text-align: right;
+    }
+
+    /* 
 Gallery ----------------------------------------------------------------------------------------------------------------------- 
 */
-.headline {
-    max-width: 800px;
-}
+    .headline {
+        max-width: 800px;
+    }
 
 
 }
-
-
-
- 
