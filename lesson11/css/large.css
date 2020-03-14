@@ -63,11 +63,7 @@
         }
 
     .map {
-        display: flex;
-        float: left;
         width: 550px;
-        height: auto;
-        padding-bottom: inherit;
         }
   
      nav li a {
