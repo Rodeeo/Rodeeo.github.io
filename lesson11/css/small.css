@@ -18,6 +18,9 @@ h2 {
 }
 
 h3 {
+    font-size: 1.3em;
+    margin: 0;
+    padding: 5px;
     text-align: center;
     font-style: italic;
     color: yellow;
@@ -26,7 +29,6 @@ h3 {
 h4 {
     font-size: 1.5em;
     text-align: center;
-    color: yellow;
     margin: 10px;
     padding: 5px;
 }
@@ -220,6 +222,7 @@ ____________________________________________________________________*/
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+    margin-top: 10px;
     padding: 5px;
     color: whitesmoke;
     background-color: cadetblue;
@@ -247,14 +250,17 @@ ____________________________________________________________________*/
     
 }
 .bacon {
+    margin: auto;
     text-decoration: none;
     font-size: 15px;
-    padding: 5px;
-    margin: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
     color: whitesmoke;
     box-shadow: 0 0 0 3px #086164;
     background-color: cadetblue;
     border-radius: .2em;
+    border: whitesmoke;
+    border-style: outset;
     }
 
 section {
@@ -286,6 +292,7 @@ section {
 }
 
 .pickle { 
+    max-width: 950px;
     width: 95%;
     margin: 10px;
     display: table;
@@ -411,7 +418,7 @@ picture {
     font-size: 15px;
     }
 
-.weathersummary h3 {
+.weathersummary h7 {
     padding: 2px;   
     margin: 2px;
     

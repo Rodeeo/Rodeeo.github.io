@@ -114,6 +114,7 @@
  .frysauce {
     display: grid;
     margin: auto;
+    margin-top: 10px;
     margin-bottom: 15px;
     padding: 1rem;
     box-shadow: 0 0 0 3px #086164;
@@ -136,6 +137,8 @@
     grid-row-end: span 5;
     width: 300px;
 }
+
+
 
 section {
     margin: auto;
@@ -173,6 +176,7 @@ section {
 }
 
 .pickle {
+    margin: auto;
     margin-top: 10px;
     display: flex;
     width: auto;
@@ -193,15 +197,8 @@ ul {
     }
 }
 
-@media only screen and (min-width: 32.5em) {
-    /*
- H1, h2, h3, h4, h5
- ____________________________________________________________________*/
- h1{
-     font-size: 2em;
-     margin: 0;
-     }
-           
+   /*
+ 
  /*
  Header
  ____________________________________________________________________*/  
@@ -279,7 +276,7 @@ ul {
      font-size: 20px;
      }
  
- .weathersummary h3 {
+ .weathersummary h7 {
      padding: 10px;
      margin: 5px;
      font-size: 1.8em;
