@@ -54,6 +54,12 @@ header {
     justify-content: center;
     background: cadetblue;
 }
+.pancake {
+        display: grid;
+        justify-content: center;
+        background: cadetblue;
+        grid-template-columns: 290px;
+    }
 
 .weatherstamp {  
     padding: 10px;

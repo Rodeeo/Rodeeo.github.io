@@ -30,7 +30,7 @@ h4, h5 {
 Header
 ____________________________________________________________________*/
 header {
-    display: flex;
+    display: grid;
     justify-content: center;
     background: cadetblue;
 }
