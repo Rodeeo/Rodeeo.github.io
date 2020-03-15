@@ -70,6 +70,17 @@ header {
     background-color: cadetblue;
     border-radius: .8em;
     border: whitesmoke;
+    border-style: outset;
+    border-width: 5px 5px 5px 5px;
+    box-shadow: 0 0 0 3px #086164;
+    }
+
+.weatherstamped {  
+    padding: 10px;
+    margin: 10px;
+    background-color: cadetblue;
+    border-radius: .8em;
+    border: whitesmoke;
     border-style: inset;
     border-width: 5px 5px 5px 5px;
     box-shadow: 0 0 0 3px #086164;
@@ -340,9 +351,20 @@ ul {
     width: 35px;
 }
 
+.milkshake li:hover {
+    background: cadetblue;
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+}
+
 /*
 Main
 ____________________________________________________________________*/
+
+.storm{
+    max-width: 800px;
+    margin: auto;
+}
 
 body {
     min-width: 300px;
@@ -370,6 +392,7 @@ body {
 
 .container {
     position: relative;
+    opacity: 1;
     }
 
 .container h2 {
@@ -396,7 +419,7 @@ picture {
     top: 1rem;
     left: 1rem;
     background: cadetblue;
-    opacity: 0.88;
+    opacity: 0.6;
     border: 1px solid whitesmoke;
     border-radius: 0.5em;
     box-shadow: 0 0 0 3px #086164;
@@ -411,12 +434,14 @@ picture {
     padding: 4px;   
     margin: 0px;
     font-size: 15px;
+    opacity: 1;
     }
 
 .weathersummary h7 {
     padding: 2px;   
     margin: 2px;
     text-align: left;
+    opacity: 1;
     }
 /*
 Images

@@ -219,11 +219,15 @@
 
     .table {
         border: 2px solid #086164;
-        background-color: whitesmoke;
+        background-color: cadetblue;
         font-size: 18px;
         text-align: center;
         border-radius: 0.3em;
         padding: 10px;
+    }
+
+    .table th {
+        color: yellow;
     }
 
     .table img {
@@ -237,7 +241,7 @@
         margin: 10px;
         padding: 10px;
         border: 5px solid #086164;
-        background: cadetblue;
+        background: whitesmoke;
         text-align: left;
     }
 
