@@ -96,7 +96,7 @@ Gallery ------------------------------------------------------------------------
         border-radius: 2px;
         }
 .contactInfo{
-    max-width: 750px;
+    max-width: 950px;
     }
 
 .frysauce {
@@ -104,12 +104,24 @@ Gallery ------------------------------------------------------------------------
 }        
 
 section {
-    max-width: 950px;
+    display: flex;
+    flex-flow: column;
+    max-width: 350px;
+    margin: 0;
+    padding: 0;
 }
 
 .stormcenter {
     max-width: 900px;
     margin: auto;
 }
+
+.frenchfries {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    max-width: 949px;
+    grid-gap: 10px;
+    margin-bottom: 10px;
 }
-   
+}

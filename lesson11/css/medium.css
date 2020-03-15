@@ -242,6 +242,7 @@
     }
 
     .contactInfo {
+        max-width: 700px;
         text-align: right;
     }
 

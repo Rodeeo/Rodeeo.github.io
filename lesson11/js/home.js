@@ -12,8 +12,8 @@ fetch(requestURL)
         for (let i = 0; i < towns.length; i++) {
             if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[i].name =="Fish Haven")
         {
-
-            let pickle = document.createElement('section');
+        
+            let pickle = document.createElement('div');
             let h2name = document.createElement('h2');
             let h3motto = document.createElement('h3');
             let year = document.createElement('p');
