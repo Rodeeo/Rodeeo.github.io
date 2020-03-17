@@ -1,5 +1,2 @@
-WebFont.load({
-        google: {
-                families: ['Ubuntu', 'Droid Sans', 'Droid Serif']
-        }
-        });
+// WEBFONT
+WebFont.load({ google: { families: ['Ubuntu'] } }); 
