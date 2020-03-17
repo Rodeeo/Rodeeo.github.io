@@ -112,6 +112,10 @@ section {
     padding: 0;
 }
 
+section:hover   {
+    box-shadow: 0 0 5px  yellow;
+}
+
 .stormcenter {
     max-width: 900px;
     margin: auto;
