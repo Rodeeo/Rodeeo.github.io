@@ -305,7 +305,8 @@ section {
 .pickle { 
     max-width: 950px;
     width: 95%;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     display: table;
     justify-content: space-around;
     background: cadetblue;

@@ -1,13 +1,5 @@
 // WEBFONT
-WebFont.load({ google: { families: ['Ubuntu'] } });
-
-// BACON
-const baconbutton = document.querySelector(".bacon");
-baconbutton.addEventListener("click", toggleMenu, false);
-
-function toggleMenu( ) {
-    document.querySelector(".cheeseburger").classList.toggle("response");
-}
+WebFont.load({ google: { families: ['Ubuntu'] } }); 
 
 // COUNTDOWN
 var countDownDate = new Date("April 8, 2020 11:59:59").getTime();
@@ -27,13 +19,45 @@ var countDownDate = new Date("April 8, 2020 11:59:59").getTime();
   }
 }, 1000);
 
-// // FRIDAY
-// var date = new Date();
-// console.log(date.getDay());
-// if(date.getDay() === 5) {document.getElementById("friday").innerHTML = "Saturday = Preston Pancakes in the Park! <br> 9:00 a.m. Saturday at the city park pavilion.";
-// } 
-// if (today.getDay() == 5) {
-//   document.getElementById("friday").style.display = "block"; }
+// EVENTS
+const requestedURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestedURL)
+    .then(function (response) {
+        return response.json();
+    })
+    .then(function (jsonObject) {
+        console.table(jsonObject); 
+
+        const towns = jsonObject['towns'];
+
+        for (let i = 0; i < towns.length; i++) {
+            if  (towns[i].name == "Preston" || towns[i].name =="Soda Springs"|| towns[i].name =="Fish Haven")
+        {
+
+            let pickle = document.createElement('aside');
+            let h2name = document.createElement('h2');
+            let events = document.createElement('p');
+
+          
+            h2name.textContent = towns[i].name;
+            events.textContent = "Events in " + h2name.textContent;
+            
+            pickle.appendChild(events);
+            for (let x = 0; x < towns[i].events.length; x++) {
+                let event = document.createElement('p');
+                
+                pickle.className =  h2name.textContent;
+                event.textContent = towns[i].events[x];
+                pickle.appendChild(event);
+            } 
+            
+            
+            document.querySelector('div.pickle').appendChild(pickle);
+        }
+
+        }
+    });
 
 // HAM  
 const hambutton = document.querySelector(".ham");
