@@ -35,7 +35,7 @@ fetch(requestedURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
+        //console.table(jsonObject); 
 
         const towns = jsonObject['towns'];
 
@@ -83,7 +83,7 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject); 
+        //console.table(jsonObject); 
 
         const towns = jsonObject['towns'];
 
