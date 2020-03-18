@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
+
+h1 {
+    font-size: 2em;
+    font-family: 'Gugi', cursive;
+}
+
+h2 {
+    font-size: 3em;
+    font-family: 'Fredoka One', cursive;
+}
+
+h3 {
+font-size: 3em;
+font-family: 'Squada One', cursive;
+}
+
+h4 {
+font-size: 3em;
+font-family: 'Fugaz One', cursive;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+nav {
+    background: #619DD8;
+    padding: .5em; }
+  nav  a {
+        color: white;
+        font-weight: bold;
+        
+    }
+
+
+main {
+    width: 80%;
+    margin: 5em auto; }
+  main  a {
+        display: inline-block;
+        background: #D19959;
+        color: white;
+        padding: .8em;
+        margin-top: 2em;
+    }
+
+    .transition-fade {
+        transition: .4s;
+        opacity: 1;
+    }
+    html.is-animating .transition-fade {
+        opacity: 0;
+        transform: translateY(-100px);
+        }
+        
