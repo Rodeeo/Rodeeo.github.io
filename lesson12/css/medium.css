@@ -1,0 +1,19 @@
+@media only screen and (min-width: 40em) {
+.dynamite {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none; 
+ }
+ /* .dynamite {
+    display: flex;
+    } */
+
+ .dynamite li {
+    display: flex;
+    flex-direction: row;
+ }
+ .dynamite li:first-child {
+    display: none;
+    }
+}

@@ -3,6 +3,7 @@
 h1 {
     font-size: 2em;
     font-family: 'Gugi', cursive;
+    text-align: center;
 }
 
 h2 {
@@ -20,30 +21,17 @@ font-size: 3em;
 font-family: 'Fugaz One', cursive;
 }
 
-body {
-    font-family: 'Fredoka One', cursive;
 
+.logo {
+    margin: auto;
+    display: flex;
+    justify-content: center;
 }
-a {
-    text-decoration: none;
-}
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-nav {
-    background: #619DD8;
-    padding: .5em; }
-  nav  a {
-        color: white;
-        font-weight: bold;
-        
-    }
-
 
 main {
     width: 80%;
-    margin: 5em auto; }
+    margin: 5em auto; 
+}
   main  a {
         display: inline-block;
         background: #D19959;
@@ -60,4 +48,68 @@ main {
         opacity: 0;
         transform: translateY(-100px);
         }
+
+body {
+    font-family: 'Fredoka One', cursive;
+    background: #619DD8;
+    font-family: 'Fredoka One', cursive;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: whitesmoke;
+}
+nav {
+    background: #619DD8;
+    padding: .5em;
+}
+nav li a {
+    display: flex;
+}
+nav  a {
+    color: white;
+    font-weight: bold;
+}
+
+.dynamite li:hover {
+    background-color: #BF5757;
+    color: #CFD827;
+    height: 100%;
+    }     
         
+.dynamite {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.dynamite li {
+    text-decoration: none;
+    display: none;
+}
+
+.dynamite ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;}
+/* 
+nav li a {
+    display: flex;
+    } */
+
+ 
+.dynamite li:first-child {
+    display: flex;
+    justify-content: center;
+    }   
+
+.explode li {
+    display: block;
+    }

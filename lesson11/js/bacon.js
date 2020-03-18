@@ -1,7 +1,7 @@
 // BACON
 const baconbutton = document.querySelector(".bacon");
-baconbutton.addEventListener("click", toggleMenu, false);
+baconbutton.addEventListener("click", toggleMenus, false);
 
-function toggleMenu( ) {
+function toggleMenus( ) {
     document.querySelector(".cheeseburger").classList.toggle("response");
 }

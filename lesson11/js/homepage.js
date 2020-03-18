@@ -1,6 +1,14 @@
 // WEBFONT
 WebFont.load({ google: { families: ['Ubuntu'] } }); 
 
+// BACON
+const baconbutton = document.querySelector(".bacon");
+baconbutton.addEventListener("click", toggleMenus, false);
+
+function toggleMenus( ) {
+    document.querySelector(".cheeseburger").classList.toggle("response");
+}
+
 // COUNTDOWN
 var countDownDate = new Date("April 8, 2020 11:59:59").getTime();
   var x = setInterval(function() {
