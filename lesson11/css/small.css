@@ -338,34 +338,31 @@ ul {
     padding: 0;
     max-width: 900px;
 }
+
 .milkshake {
     text-align: center;
     padding: 10px;
     margin:auto;
     max-width: 900px;
-
 }
+
 .milkshake ul {
     display: inline-flex;
     justify-content: space-between;
-
 }
+
 .milkshake li {
-    padding: 5px;
-    position: relative;
-z-index: 100;
-   
+    padding: 5px;  
 }
 
-.milkshake li img {
-    width: 35px;
-}
-
-/* .milkshake li:hover {
+.milkshake li:hover {
     border-radius: .2em;
     box-shadow: 0 0 0 5px #086164;
-} */
-
+}
+.milkshake a {
+    display:block;
+    padding: 5px; 
+}
 /*
 Main
 ____________________________________________________________________*/
@@ -544,14 +541,12 @@ ____________________________________________________________________*/
 .seed-fbook, .seed-insta, .seed-twitter, .seed-maps, .seed-email, .seed-gallery {
         background-image: url('../images/sprite.png');
         background-repeat: no-repeat;
-        position: absolute;
       }   
       
 .seed-fbook {
 	background-position:  -7px -9px;
 	width: 25px;
     height: 42px;
-    background-repeat: no-repeat;
 }  
 .seed-insta {
 	background-position: -47px -7px;
