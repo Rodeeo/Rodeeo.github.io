@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
 
 h1 {
-    font-size: 2em;
+    font-size: 1.4em;
     font-family: 'Gugi', cursive;
     text-align: center;
+    text-shadow: 0 1px 1px #CFD827;
 }
 
 h2 {
@@ -23,16 +24,19 @@ font-family: 'Fugaz One', cursive;
 
 
 .logo {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 90px;
+    left: 10px;
+
+
 }
 
+
 main {
-    width: 80%;
-    margin: 5em auto; 
+margin: 0;
+padding: 0;
 }
-  main  a {
+  .swup  a {
         display: inline-block;
         background: #D19959;
         color: white;
@@ -57,11 +61,25 @@ body {
 a {
     text-decoration: none;
 }
+.banner {
+    position: relative;
+    width: 100%;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
-    background: whitesmoke;
+    
 }
+.container2 {
+    background: whitesmoke;
+    display: block;
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
 nav {
     background: #619DD8;
     padding: .5em;
@@ -70,8 +88,8 @@ nav li a {
     display: flex;
 }
 nav  a {
-    color: white;
-    font-weight: bold;
+    color:  #CFD827;
+    text-shadow: 0 1px 1px #43604E;
 }
 
 .dynamite li:hover {
@@ -85,11 +103,13 @@ nav  a {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    
 }
 
 .dynamite li {
     text-decoration: none;
     display: none;
+    
 }
 
 .dynamite ul {
@@ -112,4 +132,16 @@ nav li a {
 
 .explode li {
     display: block;
+    }
+
+
+    footer {
+        position: sticky;
+        height: auto;
+        margin: auto;
+        padding: .75rem;
+        color: #D19959;
+        background-color: #43604E;
+        text-align: center;
+        box-shadow: 0 0 0 3px #BF5757;
     }
