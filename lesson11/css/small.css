@@ -357,9 +357,8 @@ ul {
 }
 
 .milkshake li:hover {
-    background: cadetblue;
-    border-radius: .5em;
-    box-shadow: 0 0 0 3px #086164;
+    border-radius: .2em;
+    box-shadow: 0 0 0 5px #086164;
 }
 
 /*
@@ -506,7 +505,7 @@ ____________________________________________________________________*/
     border-radius: 0.5em;
     box-shadow: 0 0 0 3px #086164;
     }
-
+  
 .google-maps {
     position: relative;
     padding-bottom: 56.25%;
@@ -536,6 +535,49 @@ ____________________________________________________________________*/
     color: whitesmoke;
     padding-right: 10px;
     }
+
+.seed-fbook, .seed-insta, .seed-twitter, .seed-maps, .seed-email, .seed-gallery {
+        background-image: url('../images/sprite.png');
+        background-repeat: no-repeat;
+      }   
+      
+.seed-fbook {
+	background-position:  -7px -9px;
+	width: 25px;
+	height: 42px;
+}  
+.seed-insta {
+	background-position: -47px -7px;
+	width: 42px;
+	height: 42px;
+
+}      
+.seed-twitter {
+	background-position: -104px -9px;
+	width: 43px;
+	height: 35px;
+}
+.seed-maps {
+	background-position: -159px -7px;
+	width: 30px;
+	height: 42px;
+}
+.seed-email {
+	background-position: -197px -9px;
+	width: 42px;
+	height: 33px;
+}
+.seed-gallery {
+	background-position: -251px -8px;
+	width: 43px;
+	height: 35px;
+}
+
+/* .seed-fbook:hover, .seed-insta:hover, .seed-twitter:hover, .seed-maps:hover, .seed-email:hover, .seed-gallery:hover {
+    border-radius: .5em;
+    box-shadow: 0 0 0 3px #086164;
+} */
+
 /* 
 Storm Center ---------------------------------------------------------------------------------------------------------------- 
 */
