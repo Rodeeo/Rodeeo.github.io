@@ -20,6 +20,7 @@
     border-right: 3px solid #43604E;
     }
     .box2 {
+    width: 100%;
     margin: 0;
     background-color: #D19959;
     display: block;
