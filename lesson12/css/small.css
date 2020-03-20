@@ -127,7 +127,7 @@ nav li a {
  
 .dynamite li:first-child {
     display: flex;
-    justify-content: center;
+    Justify-content: flex-end;
     }   
 
 .explode li {
