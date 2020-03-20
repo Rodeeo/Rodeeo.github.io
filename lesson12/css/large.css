@@ -1,25 +1,71 @@
 @media only screen and (min-width: 60em) {
+    .container {
+    display: flex;
+    }
+
+    .logo {
+    top: 90px;
+    }
 
     .dynamite li {
-        text-align: center;
-        padding: 5px;
+    justify-content: center;
+    padding: 10px;
+
     }
-    .container {
-        width: 100%;
-        display: grid;
-        grid-template-columns: 1fr 2.5fr;
-        align-content: center;
+    .box1 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: block;
+    align-content: center;
+    max-width: 300px;
+    border-right: 3px solid #43604E;
     }
-    .container2 {
-        width:80%;
-        display: block;
+    .box2 {
+    margin: 0;
+    background-color: #D19959;
+    display: block;
     }
-    nav { display: block;
-        height: 700px;
-        width: 280px;
+    nav { 
+    padding: 0;
+    display: block;
+    height: 450px;
+    width: 300px;
+
     }
     .dynamite { display: block;
-        padding-top: 7em;
-        margin: auto;
+    padding-top: 7em;
+    margin: auto;
     }
-}
+
+    nav li a {
+    font-size: 2em;
+    }
+
+    .events {
+    border-top: 3px solid #43604E;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    padding: 10px;
+    width: 300px;
+    } 
+
+    .events a {
+    text-align: center;
+    font-size: 1em;
+    ;
+    }
+
+    .events button{
+    padding: 10px;
+    text-align: center;
+    font-size: 1em;
+    cursor:pointer;
+    box-shadow: 0 0 0 3px #BF5757;
+    }
+
+    .events button:hover {
+    background-color: #BF5757;
+    }
+    }

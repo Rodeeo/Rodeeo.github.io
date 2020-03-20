@@ -5,6 +5,7 @@ h1 {
     font-family: 'Gugi', cursive;
     text-align: center;
     text-shadow: 0 1px 1px #CFD827;
+    color: #43604E;
 }
 
 h2 {
@@ -22,10 +23,16 @@ font-size: 3em;
 font-family: 'Fugaz One', cursive;
 }
 
+h5 {
+    font-size: 1.5em;
+    margin: 0;
+    text-align: center;
+    }
+
 
 .logo {
     position: absolute;
-    top: 90px;
+    top: 20px;
     left: 10px;
 
 
@@ -55,8 +62,9 @@ padding: 0;
 
 body {
     font-family: 'Fredoka One', cursive;
-    background: #619DD8;
-    font-family: 'Fredoka One', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #619DD8;
 }
 a {
     text-decoration: none;
@@ -66,12 +74,13 @@ a {
     width: 100%;
 }
 
-.container {
+.box1 {
     width: 80%;
     margin: 0 auto;
+    /* background: #619DD8; */
     
 }
-.container2 {
+.box2 {
     background: whitesmoke;
     display: block;
     width: 80%;
@@ -81,7 +90,7 @@ a {
 }
 
 nav {
-    background: #619DD8;
+    
     padding: .5em;
 }
 nav li a {
@@ -119,10 +128,10 @@ nav  a {
     margin: 0;
     padding: 0;
     list-style-type: none;}
-/* 
-nav li a {
-    display: flex;
-    } */
+    
+.events {
+    display: none;
+    }   
 
  
 .dynamite li:first-child {

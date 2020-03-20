@@ -3,7 +3,7 @@
    top: 70px;
 }
 
-.container {
+.box1 {
    width: 100%
 }
 
@@ -27,4 +27,7 @@
  .dynamite li:first-child {
     display: none;
     }
+ .events {
+    display: none;
+ }   
 }
