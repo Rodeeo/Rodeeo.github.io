@@ -34,8 +34,7 @@ h5 {
     position: absolute;
     top: 20px;
     left: 10px;
-
-
+    box-shadow: 0 0 0 0 #43604E;
 }
 
 
@@ -67,12 +66,13 @@ padding: 0;
     background-image: url(/lesson12/images/river.jpg);
     left: 0;
     top: 0;
-    transform: scale(0);
+    background-size: cover;
+    transform: scaleY(0); 
     transform-origin: bottom;
 }
 .transition-wipe {
-transition: .7s cubic-bezier(0,.1, .5,1.1);
-transform: scaleY(0);
+transition: .7s cubic-bezier(0,0, .5,1);
+/* transform: scaleY(0); */
 }
 html.is-animating .transition-wipe {
     transform: scaleY(1);
@@ -91,6 +91,7 @@ a {
     position: relative;
     width: 100%;
 }
+
 .banner img {
     box-shadow: 0 0 0 3px #43604E;
 }
@@ -171,7 +172,7 @@ nav  a {
         margin: auto;
         padding: .75rem;
         color: #D19959;
-        background-color: #;
+        background-color: #43604E;
         text-align: center;
         box-shadow: 0 0 0 3px #BF5757;
     }
