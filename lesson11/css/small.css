@@ -705,7 +705,10 @@ Gallery ------------------------------------------------------------------------
         margin-bottom: 20px;
         box-shadow: 0 0 0 3px #086164;
     }
-
+    iframe {
+        display: none;
+    }
+    
     .headline p {
         color:yellow;
     }
