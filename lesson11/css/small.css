@@ -508,22 +508,6 @@ ____________________________________________________________________*/
     box-shadow: 0 0 0 3px #086164;
     }
   
-.google-maps {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 35px;
-    height: 0;
-    overflow: hidden;
-}
-
-.google-maps iframe {
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .contactInfo{
     background-color:#086164;
     padding: 5px;
@@ -705,10 +689,7 @@ Gallery ------------------------------------------------------------------------
         margin-bottom: 20px;
         box-shadow: 0 0 0 3px #086164;
     }
-    iframe {
-        display: none;
-    }
-    
+
     .headline p {
         color:yellow;
     }
