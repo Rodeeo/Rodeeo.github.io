@@ -24,3 +24,6 @@ document.getElementById("footinfo").textContent = `${dayName}, ${day} ${month} $
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+//SWUP
+const swup = new Swup(); 
