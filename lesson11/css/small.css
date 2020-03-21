@@ -46,7 +46,7 @@ h5 {
 
 h6 {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-bottom: 15px;
 }
   
@@ -303,7 +303,7 @@ section {
 }
 
 .pickle { 
-    max-width: 950px;
+    max-width: 945px;
     width: 95%;
     margin: auto;
     margin-top: 10px;
@@ -389,7 +389,7 @@ body {
     background-color: cadetblue;
     border-radius: 0.5em;
     border: 3px solid #086164;
-    max-width: 900px;
+    max-width: 950px;
     }    
 
 * {
@@ -502,7 +502,7 @@ ____________________________________________________________________*/
 
 .loremipsum {
     padding: 10px;
-    margin: 10px;
+    margin: 5px;
     background-color: whitesmoke;
     border-radius: 0.5em;
     box-shadow: 0 0 0 3px #086164;
@@ -531,6 +531,7 @@ ____________________________________________________________________*/
     border-radius: 0.5em;
     max-width: 500px;
     width: 100%;
+    margin-top: 10px;
     }
 
 .contactData{

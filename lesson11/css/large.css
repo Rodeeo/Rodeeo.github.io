@@ -1,52 +1,51 @@
 @media only screen and (min-width: 60em) {
-    .homebase {
+        .homebase {
         max-width: 950px;
         width: 100%;
         margin: auto;
         } 
-   
-    .motto {
-       font-size: 1em;
-       }
-   
-   h1 {
-       font-size: 2em;
-       }
-   
-   h2 {
-       font-size: 2.5em;
-       margin: 5px;
-       }
-   
-   footer {
-       font-size: 16px;
-       max-width: 900px;
-       border-radius: .3em;
-       }
- 
 
-    nav li a {
-       display: flex;
-       justify-content: center; 
-       padding: 1rem;
-       text-decoration: none;
-       }  
-
-       ul {
-        margin: auto;
-        padding: 0;
-        max-width: 6900px;
-    }
-         
-    .weathersummary p {
-        font-size: 30px;
+        .motto {
+        font-size: 1em;
         }
 
-    .weathersummary h7 {
+        h1 {
         font-size: 2em;
         }
 
-    .pic {
+        h2 {
+        font-size: 2.5em;
+        margin: 5px;
+        }
+
+        footer {
+        font-size: 16px;
+        max-width: 950px;
+        border-radius: .2em;
+        }
+
+        nav li a {
+        display: flex;
+        justify-content: center; 
+        padding: 1rem;
+        text-decoration: none;
+        }  
+
+        ul {
+        margin: auto;
+        padding: 0;
+        max-width: 950px;
+        }
+
+        .weathersummary p {
+        font-size: 30px;
+        }
+
+        .weathersummary h7 {
+        font-size: 2em;
+        }
+
+        .pic {
         width: 220px;
         height: auto;
         padding: 5px;
@@ -55,77 +54,74 @@
         justify-content: center;
         color: rgb(250, 215, 18);
         } 
-    
-    .section img {
+
+        .section img {
         width: 97vw;
         height: 33vw;
         max-height: 450px;
         }
 
-    .map {
+        .map {
         width: 550px;
         }
-  
-     nav li a {
+
+        nav li a {
         display: flex;
         justify-content: center; 
         padding: 1rem;
         text-decoration: none;
         }  
-                
-    #friday { 
+            
+        #friday { 
         font-size: 1.5rem;
         }
 
-    .table {
+        .table {
         font-size: 25px;
         }    
 
-    .table img {
-        width: 75px;
-        }
-
-/* 
-Gallery ----------------------------------------------------------------------------------------------------------------------- 
-*/
-    .headline {
+        /* 
+        Gallery ----------------------------------------------------------------------------------------------------------------------- 
+        */
+        .headline {
         max-width: 1150px;
-    }
-    .galleryscroll img:hover {
+        }
+        .galleryscroll img:hover {
         box-shadow: 0 0 30px  black;
         border-radius: 2px;
         }
-.contactInfo{
-    max-width: 950px;
-    }
 
-.frysauce {
-    max-width: 950px;
-}        
+        .contactInfo{
+        max-width: 950px;
+        }
 
-section {
-    display: flex;
-    flex-flow: column;
-    max-width: 350px;
-    margin: 0;
-    padding: 0;
-}
+        .frysauce {
+        max-width: 950px;
+        }        
 
-section:hover   {
-    box-shadow: 0 0 5px  yellow;
-}
+        section {
+        display: flex;
+        flex-flow: column;
+        max-width: 350px;
+        margin: 0;
+        padding: 0;
+        }
 
-.stormcenter {
-    max-width: 900px;
-    margin: auto;
-}
+        section:hover   {
+        box-shadow: 0 0 5px  yellow;
+        }
 
-.frenchfries {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: auto;
-    max-width: 949px;
-    grid-gap: 10px;
-    margin-bottom: 10px;
-}
+        .stormcenter {
+        max-width: 900px;
+        margin: auto;
+        }
+
+        .frenchfries {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: auto;
+        max-width: 949px;
+        grid-gap: 10px;
+        margin-bottom: 10px;
+        }
 }
