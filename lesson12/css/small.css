@@ -29,6 +29,11 @@ h5 {
     text-align: center;
     }
 
+.active {
+    color: #BF5757;
+    text-shadow: 1px 2px 1px #43604E;
+    font-weight: bold;
+}
 
 .logo {
     position: absolute;
