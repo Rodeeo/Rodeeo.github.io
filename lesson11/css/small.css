@@ -524,10 +524,14 @@ ____________________________________________________________________*/
     width: 100%;
     margin-top: 10px;
     }
+.damaps {
+display: none;
+}
 
 .contactData{
+    text-align: center;
     color: whitesmoke;
-    padding-right: 10px;
+    margin: auto;
     }
 
 .seed-fbook, .seed-insta, .seed-twitter, .seed-maps, .seed-email, .seed-gallery {
