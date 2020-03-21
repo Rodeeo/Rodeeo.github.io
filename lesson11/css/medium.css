@@ -161,7 +161,7 @@
     .chunk {
         max-width: 700px;
     }
-    
+
     .homebase {
         padding: 10px;
         max-width: 700px;
@@ -254,7 +254,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-
+    
+    .fiveDay h4 {
+        font-size: 1.5;
+    }
     .contactInfo {
         max-width: 700px;
         text-align: right;

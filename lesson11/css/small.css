@@ -49,6 +49,13 @@ h6 {
     font-size: 1.4em;
     margin-bottom: 15px;
 }
+
+h7 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
+}
   
 /*
 Header
