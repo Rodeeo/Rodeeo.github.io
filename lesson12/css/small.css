@@ -82,12 +82,7 @@ a {
     
 }
 .box2 {
-    /* background: whitesmoke;
-    display: block;
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding: 10px; */
+    /* background: whitesmoke; */
     position: relative;
     display: grid;
     grid-template-columns: 49% 49%;
@@ -198,14 +193,25 @@ nav  a {
         justify-content: center;
         font-size: 1em;
       }
-     
+
       weather {
-        background: #CFD827;
+        position: relative;
+        z-index: 1;
         padding: 10px;
         border: 3px solid #43604E;
         align-items: flex-start;
         }
      
+    .weatherbg {
+        position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #CFD827;
+    opacity: .66;
+    }
         aside2 {
            display: none;
         }
@@ -213,10 +219,11 @@ nav  a {
            eventsm {
            border: 3px solid #43604E;
            display: flex;
-           
+           position: relative;
+           z-index: 1;
            flex-direction: column;
            padding: 10px;
-           background-color: #D19959;
+           
            color: #619DD8;
            text-shadow: 0 0 3px #CFD827;
            align-items: flex-start;
@@ -239,3 +246,14 @@ nav  a {
        
            eventsm button:hover {
            background-color: #BF5757; }
+           
+           .eventsbg {
+            position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: #D19959;
+        opacity: .66;
+        }
