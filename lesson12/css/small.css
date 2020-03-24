@@ -36,7 +36,7 @@ h6 {
     }
 
 .active {
-    color: #619DD8;
+    color: #D19959;
     text-shadow: 1px 2px 1px #43604E;
     font-weight: bold;
 }
@@ -60,6 +60,7 @@ body {
     padding: 0;
     /* background-color: #D19959; */
     background-color: #619DD8;
+    
 }
 a {
     text-decoration: none;
