@@ -24,3 +24,26 @@ document.getElementById("footinfo").textContent = `${dayName}, ${day} ${month} $
 function adjustRating(rating) {
     document.getElementById("ratingvalue").innerHTML = rating;
 }
+
+// WEATHER 
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=44e591a1d90ce9f0674cc3c487d75439";
+fetch(apiURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+
+    document.getElementById('temperature').textContent = jsObject.main.temp.toFixed(0) + "˚ " + jsObject.weather[0].description; 
+    document.getElementById('high').textContent = jsObject.main.temp_max.toFixed(0) + "˚";
+    document.getElementById('humidity').textContent = jsObject.main.humidity + "%";
+    document.getElementById('windspeed').textContent = jsObject.wind.speed.toFixed(0) + "mph";
+
+let temp = parseInt(document.getElementById("temperature").innerText);
+let windspeed = parseInt(document.getElementById("windspeed").innerText);
+
+if (temp <= 50  && windspeed >= 3) {
+    let windchilly = 35.74 + (0.6215*temp) - (35.75*(windspeed**0.16)) + (0.4275*temp*(windspeed**0.16));
+    document.getElementById("windchill").innerText = windchilly.toFixed(0)+ "˚";
+    } 
+else {
+   document.getElementById("windchill").innerText = " N/A" 
+    }
+  }); 
