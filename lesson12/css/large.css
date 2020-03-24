@@ -5,6 +5,7 @@
 
     .logo {
     top: 90px;
+    left: 25px;
     }
 
     .dynamite li {
@@ -17,16 +18,9 @@
     display: block;
     align-content: center;
     max-width: 300px;
-    /* border-right: 3px solid #43604E; */
+    padding-left: 10px;
     }
-    /* .box2 {
-    width: 100%;
-    margin: 25px;
-   
-    display: flex;
-    flex-direction: column;
-    } */
-    
+
     nav { 
     padding: 0;
     display: block;
@@ -41,35 +35,40 @@
         margin-left: 0;
         margin-bottom: 5px;
         border: 3px solid #43604E;
-        background: #619DD8;
+        background: #BF5757;
     }
 
     .dynamite li { 
-        background: #619DD8;
+        background: #BF5757;
         
         }
 
     nav li a {
     font-size: 2em;
     }
+    eventsm {
+        display: none; 
+    }
 
-    .events {
-    border: 3px solid #43604E;
+    .eventsl {
     display: flex;
+    border: 3px solid #43604E;
+    
     justify-self: center;
     flex-direction: column;
     padding: 10px;
-    background-color: #CFD827;
-    color: #43604E;
+    background-color: #D19959;
+    color: #619DD8;
+    text-shadow: 0 0 3px #CFD827;
     } 
 
-    .events a {
+    .eventsl a {
     text-align: center;
     font-size: 1em;
     
     }
 
-    .events button{
+    .eventsl button{
     padding: 10px;
     text-align: center;
     font-size: 1em;
@@ -77,7 +76,7 @@
     box-shadow: 0 0 0 3px #BF5757;
     }
 
-    .events button:hover {
+    .eventsl button:hover {
     background-color: #BF5757;
     }
 
@@ -95,9 +94,28 @@
         grid-gap: 10px;
         margin: 10px;
         padding: 10px;
-        
+        position: relative;
+        z-index: 1;
       }
-      
+
+      .box2  .bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url(/lesson12/images/river.jpg);
+        background-size: cover;
+        opacity: .6;
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+
+      aside2 {
+        display: block;}
+
       header2 {
         grid-column: 1 / span 2;
       }
@@ -105,22 +123,21 @@
       main2 {
           grid-column: 1 / span 2;
       }
-            
+   
       header2, 
       main2, 
       aside2, 
       weather {
-        display: flex;   
+        display: flex;  
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        color: #43604E;
+        padding: 15px;
       }
-
       weather {
         align-items: flex-start;
-        background: #CFD827;
-        padding: 10px;
-        align-items: flex-start;
-        border: 3px solid #43604E;
+        color: #43604E;
         }
+
     }
