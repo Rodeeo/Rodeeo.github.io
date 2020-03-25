@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
 
 h1 {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: 'Gugi', cursive;
     text-align: center;
     text-shadow: 0 1px 1px #43604E;
@@ -43,7 +43,7 @@ h6 {
 
 .logo {
     position: absolute;
-    top: 5px;
+    top: 22px;
     left: 10px;
     box-shadow: 0 0 0 0 #43604E;
 }
@@ -133,6 +133,9 @@ nav  a {
     color:  #CFD827;
     text-shadow: 0 1px 1px #43604E;
 }
+.boom {
+    font-size: 40px;
+}
 
 .dynamite li:hover {
     background-color: #BF5757;
@@ -153,6 +156,9 @@ nav  a {
     display: none;
     padding: 5px;
     margin-right: 5px;
+    padding: 10px;
+    margin-right: 5px;
+    font-size: 25px;
 }
 
 .dynamite ul {

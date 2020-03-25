@@ -41,6 +41,8 @@ h6 {
  .dynamite li {
     display: flex;
     flex-direction: row;
+    padding: 0;
+    font-size: 15px;
  }
  .dynamite li:first-child {
     display: none;
