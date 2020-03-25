@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
 
+html, body {
+    overflow-x: hidden;
+  }
+
 .bigbox {
-    display: flex;
+    width:100%;
 
     }
-    
+
 h1 {
     font-size: 1.3em;
     font-family: 'Gugi', cursive;
@@ -83,13 +87,15 @@ a {
     Justify-content: flex-end;
 }
 .banner {
-    position: relative;
-   
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
 }
 
 .banner img {
     box-shadow: 0 0 0 3px #43604E;
     width: 100%;
+    min-height: 10em;
 }
 
 .box1 {
@@ -98,7 +104,7 @@ a {
     /* background: #619DD8; */
     
 }
-.box2 {
+.insidebox2 {
     /* background: whitesmoke; */
     position: relative;
     display: grid;
@@ -111,7 +117,7 @@ a {
     z-index: 1;
 }
 
-  .box2  .bg {
+  .insidebox2  .bg {
     position: absolute;
     z-index: -1;
     top: 0;

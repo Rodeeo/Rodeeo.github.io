@@ -2,7 +2,10 @@
   h6 {
     font-size: 1.7em;
  }  
-  
+ .bigbox {
+ display: flex;
+
+  }
 
 
     .logo {
@@ -88,8 +91,10 @@
         right:0;
         border: 3px solid #43604E;
     } */
-
-    .box2 {
+.box2 {
+  display:flex;
+}
+    .insidebox2 {
         display: grid;
         grid-template-columns: 61% 38%;
         grid-template-rows: 5em 20rem 19em;
@@ -101,7 +106,7 @@
         border-radius: 15px;
       }
 
-      .box2  .bg {
+      .insidebox2  .bg {
         position: absolute;
         z-index: -1;
         top: 0;
