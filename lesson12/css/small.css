@@ -55,28 +55,40 @@ padding: 0;
 }
 
 body {
-    font-family: 'Fredoka One', cursive;
+    /* font-family: 'Fredoka One', cursive; */
+    font-family: 'Gugi', cursive;
     margin: 0;
     padding: 0;
     /* background-color: #D19959; */
     background-color: #619DD8;
-    
 }
+    footer {
+        position: sticky;
+        height: auto;
+        margin: auto;
+        padding: .75rem;
+        color: #D19959;
+        background-color: #43604E;
+        text-align: center;
+        box-shadow: 0 0 0 3px #BF5757;
+    }
+
 a {
     text-decoration: none;
     Justify-content: flex-end;
 }
 .banner {
     position: relative;
-    width: 100%;
+    
 }
 
 .banner img {
     box-shadow: 0 0 0 3px #43604E;
+    min-height: 10em;
 }
 
 .box1 {
-    width: 80%;
+    
     margin: 0 auto;
     /* background: #619DD8; */
     
@@ -107,6 +119,7 @@ a {
     width: 100%;
     height: 100%;
     object-fit: fill;
+    
   }
 
 nav {
@@ -138,7 +151,8 @@ nav  a {
 .dynamite li {
     text-decoration: none;
     display: none;
-    
+    padding: 5px;
+    margin-right: 5px;
 }
 
 .dynamite ul {
@@ -153,7 +167,9 @@ nav  a {
     display: none;
     }   
 
- 
+    .eventsm {
+        display: none;
+    }
 .dynamite li:first-child {
     display: flex;
     Justify-content: flex-end;
@@ -164,44 +180,66 @@ nav  a {
     }
 
 
-    footer {
-        position: sticky;
-        height: auto;
-        margin: auto;
-        padding: .75rem;
-        color: #D19959;
-        background-color: #43604E;
-        text-align: center;
-        box-shadow: 0 0 0 3px #BF5757;
+ .top {
+     display: grid;
+    position: relative;
+    z-index: 1;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 3px solid #43604E;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;   
+    grid-template-rows: 5em 20rem;
+ }
+    .topbg {
+        position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #BF5757;
+    opacity: .49;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
     }
-    header2 {
+
+   .header2 {
         grid-column: 1 / span 2;
       }
      
-      main2 {
+      .main2 {
           grid-column: 1 / span 2;
       }
      
-      header2, 
-      main2, 
-      aside2, 
-      weather,
-      eventsm {
-        display: flex;   
+      .header2, 
+      .main2, 
+      .aside2, 
+      .weather,
+      .eventsm {
+        display: grid;   
         flex-direction: column;
         align-items: center;
         justify-content: center;
         font-size: 1em;
+        color: whitesmoke;
       }
 
-      weather {
+      .weather {
         position: relative;
         z-index: 1;
-        padding: 10px;
+        padding: 0;
         border: 3px solid #43604E;
         align-items: flex-start;
+        border-bottom-right-radius: 15px;
         }
-     
+        .weather p, .eventsm p {
+            font-size: .9rem;
+            margin: 5px;
+            padding: 5px;
+        }
+
     .weatherbg {
         position: absolute;
     z-index: -1;
@@ -211,40 +249,44 @@ nav  a {
     right: 0;
     background: #CFD827;
     opacity: .66;
+    border-bottom-right-radius: 15px;
     }
-        aside2 {
+        .aside2 {
            display: none;
         }
      
-           eventsm {
+           .eventsm {
            border: 3px solid #43604E;
            display: flex;
            position: relative;
            z-index: 1;
            flex-direction: column;
            padding: 10px;
-           
+           border-bottom-left-radius: 15px;
            color: #619DD8;
            text-shadow: 0 0 3px #CFD827;
            align-items: flex-start;
            } 
        
-           eventsm a {
+           .eventsm a {
            text-align: center;
            font-size: 1em;
            
            }
        
-           eventsm button{
+           .butt{
            padding: 10px;
            text-align: center;
            font-size: 1em;
            cursor:pointer;
+           color: #CFD827;
+           background-color: #619DD8;
            box-shadow: 0 0 0 3px #BF5757;
            justify-self: center;
+           border-radius: 5px;
            }
        
-           eventsm button:hover {
+          .butt:hover {
            background-color: #BF5757; }
            
            .eventsbg {
@@ -256,4 +298,5 @@ nav  a {
         right: 0;
         background-color: #D19959;
         opacity: .66;
+        border-bottom-left-radius: 15px;
         }

@@ -1,5 +1,9 @@
 @media only screen and (min-width: 60em) {
-    .container {
+  h6 {
+    font-size: 1.7em;
+ }  
+  
+  .container {
     display: flex;
     }
 
@@ -7,6 +11,7 @@
     top: 90px;
     left: 25px;
     }
+ 
 
     .dynamite li {
     justify-content: center;
@@ -36,24 +41,27 @@
         margin-bottom: 5px;
         border: 3px solid #43604E;
         background: #BF5757;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
     }
 
-    .dynamite li { 
+    /* .dynamite li { 
         background: #BF5757;
         
-        }
+        } */
 
     nav li a {
     font-size: 2em;
     }
-    eventsm {
+    .eventsm {
         display: none; 
     }
 
     .eventsl {
     display: flex;
     border: 3px solid #43604E;
-    
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     justify-self: center;
     flex-direction: column;
     padding: 10px;
@@ -64,20 +72,8 @@
 
     .eventsl a {
     text-align: center;
-    font-size: 1em;
+    font-size: 1.5em;
     
-    }
-
-    .eventsl button{
-    padding: 10px;
-    text-align: center;
-    font-size: 1em;
-    cursor:pointer;
-    box-shadow: 0 0 0 3px #BF5757;
-    }
-
-    .eventsl button:hover {
-    background-color: #BF5757;
     }
 
     /* .weather {
@@ -96,6 +92,7 @@
         padding: 10px;
         position: relative;
         z-index: 1;
+        border-radius: 15px;
       }
 
       .box2  .bg {
@@ -111,33 +108,52 @@
         width: 100%;
         height: 100%;
         object-fit: fill;
+        border-radius: 15px;
       }
-
-      aside2 {
+      .top {
+        margin: 20px;
+    margin-bottom: 0px;
+    padding: 5px;
+      }
+      .aside2 {
         display: block;}
 
-      header2 {
+      .header2 {
         grid-column: 1 / span 2;
+        font-size: 2rem;
       }
 
-      main2 {
+      .main2 {
           grid-column: 1 / span 2;
       }
    
-      header2, 
-      main2, 
-      aside2, 
-      weather {
+      .header2, 
+      .main2, 
+      .aside2, 
+      .weather {
         display: flex;  
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        color: #43604E;
-        padding: 15px;
+        color: whitesmoke;
+        padding: 30px;
+        margin-right: 20px;
       }
-      weather {
+      .weather {
         align-items: flex-start;
-        color: #43604E;
+        color: black;
+        min-width: 9em;
         }
 
+        .weather p, .eventsm p {
+          font-size: 1.1rem;
+          margin: 0px;
+          padding: 10px;
     }
+  }
+
+  @media only screen and (min-width: 125em) {
+    .banner img {
+      width: 100%;
+    }
+  }
