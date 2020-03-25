@@ -135,7 +135,7 @@ nav  a {
 }
 
 .dynamite li:hover {
-    background-color: #619DD8;
+    background-color: #BF5757;
     color: #CFD827;
     height: 100%;
     }     
@@ -145,7 +145,7 @@ nav  a {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    
+    margin-left: 15em;
 }
 
 .dynamite li {
