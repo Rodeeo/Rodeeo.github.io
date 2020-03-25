@@ -43,7 +43,7 @@ h6 {
 
 .logo {
     position: absolute;
-    top: 53px;
+    top: 5px;
     left: 10px;
     box-shadow: 0 0 0 0 #43604E;
 }
@@ -145,7 +145,7 @@ nav  a {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    margin-left: 15em;
+    margin-left: 17em;
 }
 
 .dynamite li {
