@@ -3,7 +3,7 @@
     font-size: 1.7em;
  }  
   
-  .container {
+  .bigbox {
     display: flex;
     }
 
@@ -13,6 +13,7 @@
     }
  
     .dynamite li:hover {
+      background-color: #619DD8;
       border-radius: 10px;
     }
 
