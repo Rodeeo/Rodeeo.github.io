@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
 
+.bigbox {
+    display: flex;
+
+    }
+    
 h1 {
     font-size: 1.3em;
     font-family: 'Gugi', cursive;
