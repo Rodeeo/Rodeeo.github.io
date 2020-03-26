@@ -16,7 +16,6 @@
 
 
     .box1 {
-    width: auto;
     display: block;
     align-content: center;
     max-width: 300px;
@@ -166,4 +165,22 @@
           margin: 0px;
           padding: 10px;
     }
+  
+    /* BOOKING
+    _______________________________________________________________________________________________________________ */
+  
+  .booking {
+    display: flex;
   }
+  
+  .regis {
+    padding: 10px;
+    margin: 10px;    
+  }
+
+  .box2reg {
+    display: flex;
+    flex-direction: column;
+  }
+  }
+

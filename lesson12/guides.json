@@ -1,0 +1,39 @@
+{
+    "guides": [
+      {
+        "name": "Harry Dresden",
+        "photo": "harryphoto.jpg",
+        "level": "Almost a magical level of balance, fishing, and rafting.",
+        "years": "5",
+        "email": "harryD@coxcom.net",
+        "biography": "Years of adventures and books of knowledge underhis belt. He has never had a negative reveiw."
+      },
+
+      {
+        "name": "Bob Smith",
+        "photo": "bobphoto.jpg",
+        "level": "He’s an Idaho native, born and raised in the Salmon River.",
+        "years": "20",
+        "email": "bobbyboy@yahoo.com",
+        "biography": "The absolte final word on Idaho’s rivers and their history."
+      },
+
+      {
+        "name": "T'Challa",
+        "photo": "tchallaphoto.jpg",
+        "level": "Former King of Wakanda.",
+        "years": "3",
+        "email": "tchalla@wakandamail.com",
+        "biography": "As a former King he has retired to live on the river. His leadership and intelligence is unmatched."
+      },
+
+      {
+        "name": "Dick Pound",
+        "photo": "dickphoto.jpg",
+        "level": "His unmatched expertise and competitive spirit make him an amazing coach to help learn kayaking.",
+        "years": "10",
+        "email": "dapounder@gmail.com",
+        "biography": "Former Olympic river kayak. Competed in 2000 and 2004. River for life."
+      }
+    ]
+  }

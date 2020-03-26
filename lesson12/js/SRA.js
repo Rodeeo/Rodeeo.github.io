@@ -26,7 +26,7 @@ function adjustRating(rating) {
 }
 
 // WEATHER 
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=44e591a1d90ce9f0674cc3c487d75439";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5594474&units=imperial&APPID=44e591a1d90ce9f0674cc3c487d75439";
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {

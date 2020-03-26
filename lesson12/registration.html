@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Salmon River Adventures - Home</title>
@@ -8,54 +9,352 @@
     <meta name="description" content="Winter semester CIT230">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="icon" type="image/icon" href="/favicon.ico">
+    <script src="https://kit.fontawesome.com/6fd8727d83.js" crossorigin="anonymous"></script>
     <link rel="apple-touch-icon" href="./images/apple-touch-icon.png">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="/lesson12/css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
 </head>
-    <body>
-        <Header>
-            <div class="banner">
-                <img src="images/river-bannerXL.jpg" alt="water banner image"> 
+
+<body>
+    <Header>
+        <div class="banner">
+            <picture>
+                <source media="(max-width: 500px )" srcset="images/river-bannerS.jpg">
+                <source media="(max-width: 700px )" srcset="images/river-bannerM.jpg">
+                <source media="(mmax-width: 992px )" srcset="images/river-bannerL.jpg">
+                <source media="(max-width: 1200px)" srcset="images/river-bannerXL.jpg">
+                <source media="(min-width: 1201px)" srcset="images/river-bannerXL.jpg">
+                <img src="images/river-bannerS.jpg" center center>
+            </picture>
+            <!-- <img src="images/river-bannerS.jpg" alt="water banner image">  -->
+        </div>
+        <div class="logo">
+            <img src="images/sralogo.png" alt="logo">
+            <h1>Salmon River Adventures</h1>
+        </div>
+    </Header>
+    <main>
+        <div class="booking">
+
+            <div class="box1">
+                <nav>
+                    <ul class="dynamite">
+                        <li><a class="boom" href="#">&#9776;</a></li>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a class="active">Booking</a></li>
+                        <li><a href="adventures.html">Adventures</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="contact.html">Info</a></li>
+                    </ul>
+                </nav>
+                <div class= "eventsl">
+                    CINCO DE MAYO ESPECIAL! <br>              
+           COME enjoy the first week of May and the begining of summmer with us!
+           Extra ESpecial Familiy rates 10+ people. Call now before we fill up. 
+           Last year we had a 2 month waiting list! Taco Night is every night during CINCO DE MAYO WEEK!
+         </div>
             </div>
-            <div class="logo">
-                <img src="images/SRALOGO.svg">
-                <h1>Salmon River Adventures</h1>
-            </div>
-        </Header>
-        <main>
-            <div class="container">
-                <div class=box1>
-                    <nav>
-                        <ul class="dynamite">
-                            <li><a class="boom" href="#">&#9776;</a></li>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a class="active">Booking</a></li>
-                            <li><a href="adventures.html">Adventures</a></li>
-                            <li><a href="calendar.html">Calendar</a></li>
-                            <li><a href="guides.html">Guides</a></li>
-                            <li><a href="contactus.html">Contact</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="box2">
-                    <div id="swup" class="transition-fade">
-                        <h2>Registration</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus eligendi voluptatem minima
-                            facilis.</p>
-                        <a href="/lesson12/subpage.html">go to the other page</a>
+                <div class="box2reg">
+                    <div class="regis">
+                        <h2>Choose Your Adventure</h2>
                     </div>
+                    <div class="personal">
+                        <h2>Registration</h2>
+                        <form method="get" action="thanks.html">
+                            <fieldset>
+                                <legend> Personal Information </legend>
+                                <label><span>*Full Name:</span> <input type="text" name="fname" placeholder="Full Name"
+                                        pattern="[A-z\s]{5,}" required><br></label>
+                                <label><span>Email:</span><input type="email" name="email"
+                                        placeholder="email@email.com"><br></label>
+                                <label><span>*Phone:</span><input type="tel" name="phone" placeholder="xxx-xxx-xxxx"
+                                        required><br></label>
+                                <label><span>*Zip code:</span><input type="number" name="zip" placeholder="00000"
+                                        required><br></label>
+                                <label><span>State:</span>
+                                    <select name="state">
+                                        <option value="select" disabled selected>Select your State</option>
+                                        <option value="AL">Alabama (AL)</option>
+                                        <option value="AK">Alaska (AK)</option>
+                                        <option value="AZ">Arizona (AZ)</option>
+                                        <option value="AR">Arkansas (AR)</option>
+                                        <option value="CA">California (CA)</option>
+                                        <option value="CO">Colorado (CO)</option>
+                                        <option value="CT">Connecticut (CT)</option>
+                                        <option value="DE">Delaware (DE)</option>
+                                        <option value="DC">District Of Columbia (DC)</option>
+                                        <option value="FL">Florida (FL)</option>
+                                        <option value="GA">Georgia (GA)</option>
+                                        <option value="HI">Hawaii (HI)</option>
+                                        <option value="ID">Idaho (ID)</option>
+                                        <option value="IL">Illinois (IL)</option>
+                                        <option value="IN">Indiana (IN)</option>
+                                        <option value="IA">Iowa (IA)</option>
+                                        <option value="KS">Kansas (KS)</option>
+                                        <option value="KY">Kentucky (KY)</option>
+                                        <option value="LA">Louisiana (LA)</option>
+                                        <option value="ME">Maine (ME)</option>
+                                        <option value="MD">Maryland (MD)</option>
+                                        <option value="MA">Massachusetts (MA)</option>
+                                        <option value="MI">Michigan (MI)</option>
+                                        <option value="MN">Minnesota (MN)</option>
+                                        <option value="MS">Mississippi (MS)</option>
+                                        <option value="MO">Missouri (MO)</option>
+                                        <option value="MT">Montana (MT)</option>
+                                        <option value="NE">Nebraska (NE)</option>
+                                        <option value="NV">Nevada (NV)</option>
+                                        <option value="NH">New Hampshire (NH)</option>
+                                        <option value="NJ">New Jersey (NJ)</option>
+                                        <option value="NM">New Mexico (NM)</option>
+                                        <option value="NY">New York (NY)</option>
+                                        <option value="NC">North Carolina (NC)</option>
+                                        <option value="ND">North Dakota (ND)</option>
+                                        <option value="OH">Ohio (OH)</option>
+                                        <option value="OK">Oklahoma (OK)</option>
+                                        <option value="OR">Oregon (OR)</option>
+                                        <option value="PA">Pennsylvania (PA)</option>
+                                        <option value="RI">Rhode Island (RI)</option>
+                                        <option value="SC">South Carolina (SC)</option>
+                                        <option value="SD">South Dakota (SD)</option>
+                                        <option value="TN">Tennessee (TN)</option>
+                                        <option value="TX">Texas (TX)</option>
+                                        <option value="UT">Utah (UT)</option>
+                                        <option value="VT">Vermont</option>
+                                        <option value="VA">Virginia</option>
+                                        <option value="WA">Washington</option>
+                                        <option value="WV">West Virginia</option>
+                                        <option value="WI">Wisconsin</option>
+                                        <option value="WY">Wyoming</option>
+                                    </select>
+                                </label>
+                                <label><span> Date of birth:</span><input type="date" name="date" required
+                                        autocomplete="off">
+                                    </label>
+    
+                            </fieldset>
+                         </div>
+                
+                <fieldset>
+                    <legend>Adventures</legend>
+
+                    <label><span>Select Date:</span><input type="date" name="date"></label>
+
+                    <label><span>Select Size:</span><input type="text" name="group" placeholder="Group Seclection"
+                            list="selectgroup">
+                        <datalist id="selectgroup">
+                            <option value="None"></option>
+                            <option value="Solo Mode"></option>
+                            <option value="Couples Mode"></option>
+                            <option value="Group Mode"></option>
+                        </datalist>
+                    </label>
+                    <label><span>Select Level:</span><input type="text" name="mode" list="selectmode"
+                            placeholder="Mode">
+                        <datalist id="selectmode">
+                            <option value="None"></option>
+                            <option value="Nature Mode"></option>
+                            <option value="Memories Mode"></option>
+                            <option value="Adventure Mode"></option>
+                        </datalist>
+                    </label>
+
+                    <label><span>Skill Level: From 1 to 9: </span>
+                        <input type="range" id="rating" value="5" min="1" max="9" step="1"
+                            oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                        <span id="ratingvalue">5</span>
+                    </label>
+
+                    <label><span>Adventure Mode:</span>
+                        <select name="selectalternative">
+                            <option value="select" disabled selected>Select your Ride:</option>
+                            <option value="Paddleboard">Paddleboard</option>
+                            <option value="Kayak">Kayak</option>
+                            <option value="Rafting">Rafting</option>
+                        </select>
+
+                    </label>
+                    <span>Special Accommodations</span>
+                    <label><input class="danger" type="radio" name="danger" value="yes">Yes</label>
+                    <label><input class="danger" type="radio" name="danger" value="no">No</label>
+                    <label><input class="danger" type="radio" name="danger" value="Maybe">Maybe</label>
+
+
+                    <label><span>Additional Details</span>
+                        <textarea name="additionalinfo"></textarea>
+                    </label>
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submitBtn">
+                    </form>
                 </div>
+
             </div>
-            <div class="transition-wipe overlay"></div>
-        </main>
-        <footer>
-            <p class="myname"> &#9832;Salmon River Adventures &#10154; Chad Rodee <br>
-                <br>
-                <span id="footinfo"></span>
-        </footer>
-            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-            <script src="js/SRA.js"></script>
-        </body>
-    </html>
+
+
+
+            <div class="articles">
+                <figure class="regarticle">
+                    <picture>
+                        <source media="(max-width: 500px )"
+                                srcset="images/natures.jpg">
+                        <source media="(max-width: 700px )"
+                                srcset="images/naturem.jpg">
+                        <source media="(mmax-width: 999px )"
+                                srcset="images/naturel.jpg">
+                        <source media="(min-width: 1000px)"
+                                srcset="images/naturel.jpg">
+                        <img src="images/natures.jpg" center center alt= "nature river scene">
+                      </picture>
+                            
+                  <figcaption>Adventures </figcaption>
+                </figure>
+                <h3 class = "figheadline">Adventures</h3>
+                <p>discription</p>
+                       <p>DATE: MAY 4, 2017</p>
+                    <br>
+                      <table id="tablet">
+                      <thead>
+                          <tr>
+                              <th colspan="3">nature mode</th>
+                          </tr>
+                      </thead>
+                       <tbody>
+                          <tr>
+                              <td><i class="nature" style="font-size:30px;"></i></td>
+                              <td> Inensity Level 2 </td>
+                          </tr>
+                           <tr>
+                              <td><i class= "people"  style="font-size:30px;"></i></td>  
+                              <td> Group Sizes 2-10+</td>
+                          </tr>
+                          <tr>
+                              <td><i class= "clock" style="font-size:30px;"></i></td>  
+                              <td> Tour Time - 1-3 day(s)  </td>
+                          </tr>
+                           <tr>
+                              <td><i class="money" style="font-size:30px"></i></td>  
+                              <td>Call for Pricing</td>
+                          </tr>
+                      </tbody>
+                      <tfoot>
+                          <tr>
+                              <th colspan="3"><a href="contact.html" class="button" >Contact Us</a> 
+                              </th>  
+                          </tr> 
+                      </tfoot>
+                  </table>
+                 </div>
+                 <div class="articles">
+                 <figure class="regarticle">
+                    <picture>
+                        <source media="(max-width: 500px )"
+                                srcset="images/kayaks.jpg">
+                        <source media="(max-width: 700px )"
+                                srcset="images/kayakm.jpg">
+                        <source media="(mmax-width: 999px )"
+                                srcset="images/kayakl.jpg">
+                        <source media="(min-width: 1000px)"
+                                srcset="images/kayakl.jpg">
+                        <img src="images/kayaks.jpg" center center alt= "memory river scene">
+                      </picture>
+                      <figcaption>Adventures </figcaption>
+                    </figure>
+                    <h3 class = "figheadline">Adventures</h3>
+                    <p>discription</p>
+                           <p>DATE: MAY 4, 2017</p>
+                        <br>
+                          <table id="tablet">
+                          <thead>
+                              <tr>
+                                  <th colspan="3">Memories Mode</th>
+                              </tr>
+                          </thead>
+                           <tbody>
+                              <tr>
+                                  <td><i class="nature" style="font-size:30px;"></i></td>
+                                  <td> Inensity Level 2 </td>
+                              </tr>
+                               <tr>
+                                  <td><i class= "people"  style="font-size:30px;"></i></td>  
+                                  <td> Group Sizes 2-10+</td>
+                              </tr>
+                              <tr>
+                                  <td><i class= "clock" style="font-size:30px;"></i></td>  
+                                  <td> Tour Time - 1-5 day(s)  </td>
+                              </tr>
+                               <tr>
+                                  <td><i class="money" style="font-size:30px"></i></td>  
+                                  <td>Call for Pricing</td>
+                              </tr>
+                          </tbody>
+                          <tfoot>
+                              <tr>
+                                  <th colspan="3"><a href="contact.html" class="button" >Contact Us</a> 
+                                  </th>  
+                              </tr> 
+                          </tfoot>
+                      </table>
+                     </div>
+                     <div class="articles">
+                     <figure class="regarticle">
+                        <picture>
+                            <source media="(max-width: 500px )"
+                                    srcset="images/adventures.jpg">
+                            <source media="(max-width: 700px )"
+                                    srcset="images/adventurem.jpg.jpg">
+                            <source media="(mmax-width: 999px )"
+                                    srcset="images/adventurel.jpg">
+                            <source media="(min-width: 1000px)"
+                                    srcset="images/adventurel.jpg.jpg">
+                            <img src="images/adventures.jpg" center center alt= "adventure river scene">
+                          </picture>
+                          <figcaption>Adventures </figcaption>
+                        </figure>
+                        <h3 class = "figheadline">Adventures</h3>
+                        <p>discription</p>
+                               <p>DATE: MAY 4, 2017</p>
+                            <br>
+                              <table id="tablet">
+                              <thead>
+                                  <tr>
+                                      <th colspan="3">Adventure Mode</th>
+                                  </tr>
+                              </thead>
+                               <tbody>
+                                  <tr>
+                                      <td><i class="nature" style="font-size:30px;"></i></td>
+                                      <td> Inensity Level 9 </td>
+                                  </tr>
+                                   <tr>
+                                      <td><i class= "people"  style="font-size:30px;"></i></td>  
+                                      <td> Group Sizes 4-8</td>
+                                  </tr>
+                                  <tr>
+                                      <td><i class= "clock" style="font-size:30px;"></i></td>  
+                                      <td> Tour Time - 3-7 day(s)  </td>
+                                  </tr>
+                                   <tr>
+                                      <td><i class="money" style="font-size:30px"></i></td>  
+                                      <td>Call for Pricing</td>
+                                  </tr>
+                              </tbody>
+                              <tfoot>
+                                  <tr>
+                                      <th colspan="3"><a href="contact.html" class="button" >Contact Us</a> 
+                                      </th>  
+                                  </tr> 
+                              </tfoot>
+                          </table>
+                         </div>
+    </main>
+    <footer>
+        <p class="myname"> &#9832;Salmon River Adventures &#10154; Chad Rodee <br>
+            <br>
+            <span id="footinfo"></span>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/SRA.js"></script>
+</body>
+
+</html>
