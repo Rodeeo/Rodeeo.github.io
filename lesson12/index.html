@@ -20,13 +20,19 @@
     
     <Header>
         <div class="banner">
-            <img  
-            srcset="river-bannerS.jpg 400w,
-            river-bannerM.jpg 600w,
-            river-bannerL.jpg 800w,
-            river-bannerXL.jpg 1200w"
-            sizes ="(min-width:1336px) 75vw, 50vw"
-            alt="water banner image">
+            <picture>
+                <source media="(max-width: 500px )"
+                        srcset="images/river-bannerS.jpg">
+                <source media="(max-width: 700px )"
+                        srcset="images/river-bannerM.jpg">
+                <source media="(mmax-width: 992px )"
+                        srcset="images/river-bannerL.jpg">
+                <source media="(max-width: 1200px)"
+                        srcset="images/river-bannerXL.jpg">
+                <source media="(min-width: 1201px)"
+                        srcset="images/river-bannerXL.jpg">
+                <img src="images/river-bannerS.jpg" center center>
+              </picture>
             <!-- <img src="images/river-bannerS.jpg" alt="water banner image">  -->
      </div> 
         <div class="logo">

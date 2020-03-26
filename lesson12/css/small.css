@@ -13,7 +13,7 @@ h1 {
     font-size: 1.3em;
     font-family: 'Gugi', cursive;
     text-align: center;
-    text-shadow: 0 1px 1px #43604E;
+    text-shadow: 1px 1px 1px black;
     color: #CFD827;
 }
 
@@ -46,13 +46,13 @@ h6 {
 
 .active {
     color: #D19959;
-    text-shadow: 1px 2px 1px #43604E;
+    t    text-shadow: 1px 2px 1px black;
     font-weight: bold;
 }
 
 .logo {
     position: absolute;
-    top: 22px;
+    top: 40px;
     left: 10px;
     box-shadow: 0 0 0 0 #43604E;
 }
@@ -86,16 +86,21 @@ a {
     text-decoration: none;
     Justify-content: flex-end;
 }
+
+header {
+    overflow: hidden;
+  }
 .banner {
-    margin: 0 -9999rem;
-    /* add back negative margin value */
-    padding: 0.25rem 9999rem;
+    overflow: hidden;
+    /* width: 100%;
+    min-height: 10em; */
 }
 
 .banner img {
+    margin-left: 50%;
+    transform: translateX(-50%);
     box-shadow: 0 0 0 3px #43604E;
-    width: 100%;
-    min-height: 10em;
+    
 }
 
 .box1 {
@@ -142,7 +147,7 @@ nav li a {
 }
 nav  a {
     color:  #CFD827;
-    text-shadow: 0 1px 1px #43604E;
+    text-shadow: 1px 1px 1px black;
 }
 .boom {
     font-size: 40px;
@@ -170,6 +175,7 @@ nav  a {
     padding: 10px;
     margin-right: 5px;
     font-size: 25px;
+    margin-top: 10px;
 }
 
 .dynamite ul {
@@ -190,6 +196,7 @@ nav  a {
 .dynamite li:first-child {
     display: flex;
     Justify-content: flex-end;
+    
     }   
 
 .explode li {
@@ -202,6 +209,7 @@ nav  a {
     position: relative;
     z-index: 1;
     padding: 0;
+    text-shadow: 1px 1px 1px black;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     border: 3px solid #43604E;
@@ -251,6 +259,7 @@ nav  a {
         border: 3px solid #43604E;
         align-items: flex-start;
         border-bottom-right-radius: 15px;
+        text-shadow: -1px 1px 5px black;
         }
         .weather p, .eventsm p {
             font-size: .9rem;
@@ -281,8 +290,8 @@ nav  a {
            flex-direction: column;
            padding: 10px;
            border-bottom-left-radius: 15px;
-           color: #619DD8;
-           text-shadow: 0 0 3px #CFD827;
+           color: #CFD827;
+           text-shadow: 1px 1px 5px black;
            align-items: flex-start;
            } 
        
@@ -300,6 +309,7 @@ nav  a {
            color: #CFD827;
            background-color: #619DD8;
            box-shadow: 0 0 0 3px #BF5757;
+           text-shadow: 1px 1px 1px black;
            justify-self: center;
            border-radius: 5px;
            }

@@ -1,8 +1,6 @@
 @media only screen and (min-width: 40em) {
 h1 {
    font-size: 1.4em;
-   text-shadow: 0 1px 1px #CFD827;
-    color: #43604E;
     margin: 0;
    }
 
@@ -30,6 +28,7 @@ h6 {
    list-style-type: none;
    margin-bottom: 2em;
    margin-top: 1.3em;
+   
  }
  
  /* .dynamite {

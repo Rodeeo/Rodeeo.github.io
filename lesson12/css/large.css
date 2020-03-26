@@ -13,17 +13,7 @@
     left: 25px;
     }
  
-    .dynamite li:hover {
-      background-color: #619DD8;
-      border-radius: 10px;
-    }
 
-    .dynamite li {
-    justify-content: center;
-    padding: 10px;
-    margin-right: 0; 
-    border-radius: 5px;
-    }
 
     .box1 {
     width: auto;
@@ -43,7 +33,7 @@
 
     .dynamite { 
         display: block;
-        margin-top: 7em;
+        margin-top: 4.5em;
         display: block;
         margin-left: 0;
         margin-bottom: 5px;
@@ -51,8 +41,19 @@
         background: #BF5757;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        min-height: 325px;
+    }
+    .dynamite li:hover {
+      background-color: #619DD8;
+      border-radius: 10px;
     }
 
+    .dynamite li {
+    justify-content: center;
+    padding: 10px;
+    margin-right: 0; 
+    border-radius: 5px;
+    }
     /* .dynamite li { 
         background: #BF5757;
         
@@ -67,16 +68,16 @@
     }
 
     .eventsl {
-    display: flex;
+    display: block;
     border: 3px solid #43604E;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    justify-self: center;
-    flex-direction: column;
+    font-size: 1.1rem;
     padding: 10px;
     background-color: #D19959;
-    color: #619DD8;
-    text-shadow: 0 0 3px #CFD827;
+    color: #CFD827;
+    text-shadow: 0 0 3px black;
+    min-height: 325px;
     } 
 
     .eventsl a {
