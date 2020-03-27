@@ -214,7 +214,7 @@ nav  a {
 
 
  .top {
-     display: grid;
+    display: grid;
     position: relative;
     z-index: 1;
     padding: 0;
@@ -418,15 +418,20 @@ color: #CFD827;
             }
         
             .adventurebox {
-                display:block;
+
+                width: 100%;
             }
+
             .box3 {
                 display: grid;
             }
+
             .articles {
                 display: block;
             }
-            picture {
+
+              .lowerbanner {
+                display: flex;
                 object-fit: fill;
                 width: 97%;
                 grid-column: 1 / span 2;

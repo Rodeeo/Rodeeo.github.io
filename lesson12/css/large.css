@@ -17,6 +17,7 @@
 
     .box1 {
     display: block;
+    margin: 0;
     align-content: center;
     max-width: 300px;
     padding-left: 10px;
@@ -203,6 +204,7 @@
   .adventurebox {
   display: flex;
   }
-
-
+.lowerbanner {
+  display: flex;
+}
 }
