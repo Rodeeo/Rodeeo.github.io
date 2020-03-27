@@ -85,12 +85,6 @@
     margin-left: 25px;
     }
 
-    /* .weather {
-        position:absolute;
-        bottom:0;
-        right:0;
-        border: 3px solid #43604E;
-    } */
 .box2 {
   display:flex;
 }
@@ -182,5 +176,33 @@
     display: flex;
     flex-direction: column;
   }
+
+  .articles {
+   display: grid;
+   grid-template-columns: 65% 35%;
+   grid-template-rows: 15% 60% 20%;
+   align-items: center;
+  }
+  .articles img {
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+
+    .tablet {
+      width: 90%;
   }
 
+  td, th {
+    font-size: 25px;
+    }
+    .modediscription {
+      font-size: 25px;
+  }
+
+  .adventurebox {
+  display: flex;
+  }
+
+
+}

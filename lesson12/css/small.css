@@ -25,6 +25,9 @@ h2 {
 h3 {
 font-size: 3em;
 font-family: 'Squada One', cursive;
+text-align: center;
+text-shadow: 1px 1px 1px black;
+color: #CFD827;
 }
 
 h4 {
@@ -118,9 +121,14 @@ header {
     grid-template-rows: 5em 20rem 19em;
     grid-gap: 10px;
     border: 3px solid #43604E;
-    padding: 10px;
-    
+    padding: 10px;  
     z-index: 1;
+}
+.insidebox2 img {
+    grid-column: 1 / span 2;
+    object-fit: cover; 
+    width: 100%;
+    max-height: 300px;
 }
 
   .insidebox2  .bg {
@@ -329,3 +337,98 @@ nav  a {
         opacity: .66;
         border-bottom-left-radius: 15px;
         }
+
+
+    /* BOOKING
+    _______________________________________________________________________________________________________________ */
+    .figheadline {
+        grid-column: 1 / span 2;
+        margin: 20px;
+        font-size: 3em;
+font-family: 'Squada One', cursive;
+text-align: center;
+text-shadow: 1px 1px 1px black;
+color: #CFD827;
+    }
+        .articles {
+            display: flex;
+
+        }
+
+        .articles img {
+            display: block;
+            border: 3px solid #43604E;
+            width: 95%;
+            margin: auto;
+        }
+
+        .regarticle {
+            padding: 0;
+            margin: 0;
+        }
+
+        figcaption {
+            text-align: right;
+            width: 80%;
+        }
+
+        .tablet {
+                border-collapse: collapse;
+                border: 3px solid #43604E;
+                width: 95%;
+                margin: auto;
+                 }
+
+        .modediscription {
+            margin: 20px;
+            padding: 20px;
+            font-size: 15px;
+            grid-column: 1 / span 2;
+                 }
+
+           thead, tfoot { background-color: #CFD827;
+
+                 }   
+
+            td, th {
+            border: 1px solid #43604E;
+            padding: 20px 20px;
+            text-align: center;
+            font-size: 18px;
+            }
+              
+              tr td {
+                  background-color: #BF5757;
+              }
+              
+              .button {
+                padding: 10px;
+                text-align: center;
+                font-size: 1em;
+                cursor:pointer;
+                color: #CFD827;
+                background-color: #619DD8;
+                box-shadow: 0 0 0 3px #BF5757;
+                text-shadow: 1px 1px 1px black;
+                justify-self: center;
+                border-radius: 5px;
+              }
+              
+              .btn:hover {background-color: #BF5757;
+            }
+        
+            .adventurebox {
+                display:block;
+            }
+            .box3 {
+                display: grid;
+            }
+            .articles {
+                display: block;
+            }
+            picture {
+                object-fit: fill;
+                width: 97%;
+                grid-column: 1 / span 2;
+                margin: auto;
+              }

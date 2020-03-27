@@ -65,50 +65,20 @@ h6 {
             margin: 0;
             padding: 15px;
                }
- }
- /* header2 {
-   grid-column: 1 / span 2;
- }
 
- main2 {
-     grid-column: 1 / span 2;
- }
-
-
-
-
-
-   aside2 {
-      display: none;
-   }
-
-      eventsm {
-      border: 3px solid #43604E;
-      display: flex;
-      font-size: 1em;
-      flex-direction: column;
-      padding: 10px;
-      background-color: #CFD827;
-      color: #43604E;
-      align-items: flex-start;
-      } 
+    /* BOOKING
+    _______________________________________________________________________________________________________________ */
   
-      eventsm a {
-      text-align: center;
-      font-size: 1em;
-      
+   .articles img {
+      width: 80%;
       }
- 
-      eventsm button{
-      padding: 10px;
-      text-align: center;
-      
-      cursor:pointer;
-      box-shadow: 0 0 0 3px #BF5757;
-      justify-self: center;
+
+      .tablet {
+         width: 80%;
       }
-  
-      eventsm button:hover {
-      background-color: #BF5757;
-      }
-} */
+
+         td, th {
+            font-size: 20px;
+            }
+         
+}
