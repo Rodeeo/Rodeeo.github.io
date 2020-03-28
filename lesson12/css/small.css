@@ -10,11 +10,12 @@ html, body {
     }
 
 h1 {
-    font-size: 1.3em;
+    font-size: 1.4rem;
     font-family: 'Gugi', cursive;
     text-align: center;
     text-shadow: 1px 1px 1px black;
     color: #CFD827;
+    margin: 0;
 }
 
 h2 {
@@ -55,8 +56,8 @@ h6 {
 
 .logo {
     position: absolute;
-    top: 40px;
-    left: 10px;
+    top: 0px;
+    left: 50px;
     box-shadow: 0 0 0 0 #43604E;
 }
 
@@ -74,17 +75,30 @@ body {
     /* background-color: #D19959; */
     background-color: #619DD8;
 }
-    footer {
-        position: sticky;
-        height: auto;
-        margin: auto;
-        padding: .75rem;
+
+.footbg {
+    position: absolute;
+    z-index: -1;
+    background: #BF5757;
+    opacity: .66;
+    
+}
+    .foot {
+        position: relative;
+        z-index: 1;
         color: #D19959;
         background-color: #43604E;
-        text-align: center;
-        box-shadow: 0 0 0 3px #BF5757;
-    }
 
+    }
+.innerfoot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    font-size: 15px;
+    text-shadow: 1px 2px 1px black;
+}
 a {
     text-decoration: none;
     Justify-content: flex-end;
@@ -98,11 +112,6 @@ header {
     background-repeat: no-repeat;
 }
 
-.banner img {
-    box-shadow: 0 0 0 3px #43604E;
-    
-}
-
 .box1 {
     
     margin: 0 auto;
@@ -114,7 +123,6 @@ header {
     position: relative;
     display: grid;
     grid-template-columns: 49% 49%;
-    grid-template-rows: 5em 20rem 19em;
     grid-gap: 10px;
     border: 3px solid #43604E;
     padding: 10px;  
@@ -164,7 +172,6 @@ nav  a {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    margin-left: 17em;
 }
 
 .dynamite li {
@@ -260,8 +267,8 @@ nav  a {
         align-items: flex-start;
         color: white;
         border-bottom-right-radius: 15px;
-        text-shadow: -1px 1px 5px black;
         }
+        
         .weather p, .eventsm p {
             font-size: .9rem;
             margin: 5px;
@@ -421,13 +428,6 @@ color: #CFD827;
             }
 
               .lowerbanner {
-                overflow: hidden;
-                background-repeat: no-repeat;
-                display: flex;
-                object-fit: fill;
-                width: 97%;
-                grid-column: 1 / span 2;
-                margin: auto;
-                justify-content: center;
+            display: none;
               }
 

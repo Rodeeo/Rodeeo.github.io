@@ -1,8 +1,4 @@
 @media only screen and (min-width: 40em) {
-h1 {
-   font-size: 1.4em;
-    margin: 0;
-   }
 
 h5 {
    font-size: 1.5em;
@@ -12,16 +8,14 @@ h6 {
    font-size: 1.5em;
 }
 
-   .logo {
-   top: 55px;
-}
-
 .box1 {
    width: 100%
 }
+.innerfoot { 
+   font-size: 25px;
+}
 
 .dynamite {
-   margin-left: 18em;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -38,9 +32,9 @@ h6 {
  .dynamite li {
     display: flex;
     flex-direction: row;
-    padding: 0;
-    font-size: 15px;
+    font-size: 30px;
  }
+
  .dynamite li:first-child {
     display: none;
     }
@@ -81,9 +75,15 @@ h6 {
             font-size: 20px;
             }
          
-}
-
-@media only screen and (min-width: 60em) {
-
+            .lowerbanner {
+               overflow: hidden;
+               background-repeat: no-repeat;
+               display: flex;
+               object-fit: fill;
+               width: 97%;
+               grid-column: 1 / span 2;
+               margin: auto;
+               justify-content: center;
+             }
 
 }
