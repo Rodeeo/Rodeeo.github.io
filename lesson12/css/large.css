@@ -87,8 +87,8 @@
     }
 
 .box2 {
-  display:flex;
-}
+  width: 100%}
+
     .insidebox2 {
         display: grid;
         grid-template-columns: 61% 38%;
@@ -118,14 +118,16 @@
       }
 
       .top {
-        margin: 20px;
-    margin-bottom: 0px;
-    padding: 5px;
+        width: 97%;
+        margin: auto;
+        max-width: 1800px;
       }
 
       .aside2 {
         display: block;
         text-align: center;
+        max-width: 1060px;
+        margin: auto;
       }
 
       .header2 {
@@ -151,8 +153,8 @@
       .weather {
         align-items: flex-start;
         color: black;
-        min-width: 9.5em;
-        margin-right: 20px;
+        min-width: 153px;
+        max-width: 586px;
         }
 
         .weather p, .eventsm p {
@@ -180,7 +182,7 @@
 
   .articles {
    display: grid;
-   grid-template-columns: 65% 35%;
+   grid-template-columns: 70% 30%;
    grid-template-rows: 15% 60% 20%;
    align-items: center;
   }
@@ -203,8 +205,20 @@
 
   .adventurebox {
   display: flex;
+
   }
 .lowerbanner {
   display: flex;
 }
+
 }
+
+@media only screen and (min-width: 85em) {
+  .articles img {
+    max-width: 800px;}
+    .articles {
+    width: 80%;
+    margin: auto;
+    }
+}
+
