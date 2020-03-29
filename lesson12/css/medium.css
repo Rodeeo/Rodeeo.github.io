@@ -32,7 +32,7 @@ h6 {
  .dynamite li {
     display: flex;
     flex-direction: row;
-    font-size: 30px;
+    font-size: 26px;
  }
 
  .dynamite li:first-child {
@@ -62,19 +62,31 @@ h6 {
 
     /* BOOKING
     _______________________________________________________________________________________________________________ */
-  
+    fieldset {
+      max-width: 500px;
+    }
+
    .articles img {
       width: 80%;
       }
 
+
       .tablet {
          width: 80%;
       }
+      span, select {
+         font-size: 19px;
+         min-width: 400px;
+      }
 
          td, th {
-            font-size: 20px;
+            font-size: 24px;
             }
-         
+            
+            input, label{
+               font-size: 24px;
+             }
+
             .lowerbanner {
                overflow: hidden;
                background-repeat: no-repeat;
@@ -85,5 +97,8 @@ h6 {
                margin: auto;
                justify-content: center;
              }
-
+             .contactmap {
+                display: block;
+               text-align: center;
+           }
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Open+Sans:600&display=swapOpen Sans');
 
 html, body {
     overflow-x: hidden;
@@ -19,13 +19,16 @@ h1 {
 }
 
 h2 {
-    font-size: 3em;
-    font-family: 'Fredoka One', cursive;
+    font-size: 2.1em;
+    font-family: 'Gugi', cursive;
+    text-shadow: 1px 1px 1px black;
+    color: #CFD827;
+    margin: 0;
 }
 
 h3 {
-font-size: 3em;
-font-family: 'Squada One', cursive;
+font-size: 2em;
+font-family: 'Gugi', cursive;
 text-align: center;
 text-shadow: 1px 1px 1px black;
 color: #CFD827;
@@ -33,7 +36,7 @@ color: #CFD827;
 
 h4 {
 font-size: 3em;
-font-family: 'Fugaz One', cursive;
+font-family: 'Gugi', cursive;
 }
 
 h5 {
@@ -69,13 +72,17 @@ padding: 0;
 
 body {
     /* font-family: 'Fredoka One', cursive; */
-    font-family: 'Gugi', cursive;
+    /* font-family: 'Gugi', cursive; */
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     /* background-color: #D19959; */
     background-color: #619DD8;
 }
+footer {
+    overflow: hidden;
 
+}
 .footbg {
     position: absolute;
     z-index: -1;
@@ -143,7 +150,6 @@ header {
     width: 100%;
     height: 100%;
     object-fit: fill;
-    
   }
 
 nav {
@@ -172,6 +178,7 @@ nav  a {
     flex-direction: column;
     margin: 0;
     padding: 0;
+
 }
 
 .dynamite li {
@@ -183,6 +190,7 @@ nav  a {
     margin-right: 5px;
     font-size: 25px;
     margin-top: 10px;
+    font-family: 'Gugi', cursive;
 }
 
 .dynamite ul {
@@ -197,9 +205,6 @@ nav  a {
     display: none;
     }   
 
-    .eventsm {
-        display: none;
-    }
 .dynamite li:first-child {
     display: flex;
     Justify-content: flex-end;
@@ -225,13 +230,13 @@ nav  a {
     grid-template-rows: 5em 20rem;
  }
     .topbg {
-        position: absolute;
+    position: absolute;
     z-index: -1;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #BF5757;
+    background: #D19959;
     opacity: .66;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -243,6 +248,7 @@ nav  a {
      
       .main2 {
           grid-column: 1 / span 2;
+          margin: auto;
       }
      
       .header2, 
@@ -255,7 +261,6 @@ nav  a {
         align-items: center;
         justify-content: center;
         font-size: 1em;
-        padding: 25px;
         color: whitesmoke;
       }
 
@@ -263,12 +268,16 @@ nav  a {
         position: relative;
         z-index: 1;
         padding: 0;
-        border: 3px solid #43604E;
+        border: 3px solid #619DD8;
         align-items: flex-start;
-        color: white;
+        color: black;
         border-bottom-right-radius: 15px;
         }
-        
+        .weather span {
+            color:white;
+            text-shadow: 1px 1px 1px black;
+        }
+
         .weather p, .eventsm p {
             font-size: .9rem;
             margin: 5px;
@@ -291,7 +300,7 @@ nav  a {
         }
      
            .eventsm {
-           border: 3px solid #43604E;
+           border: 3px solid #BF5757;
            display: flex;
            position: relative;
            z-index: 1;
@@ -300,7 +309,6 @@ nav  a {
            border-bottom-left-radius: 15px;
            color: #CFD827;
            text-shadow: 1px 1px 5px black;
-           align-items: flex-start;
            } 
        
            .eventsm a {
@@ -320,6 +328,7 @@ nav  a {
            text-shadow: 1px 1px 1px black;
            justify-self: center;
            border-radius: 5px;
+           min-width: 110px;
            }
        
           .butt:hover {
@@ -332,7 +341,7 @@ nav  a {
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: #D19959;
+        background-color: #43604E;;
         opacity: .66;
         border-bottom-left-radius: 15px;
         }
@@ -340,6 +349,11 @@ nav  a {
 
     /* BOOKING
     _______________________________________________________________________________________________________________ */
+    .box2reg {
+        display: flex;
+        flex-direction: column;
+    }
+    
     .figheadline {
         grid-column: 1 / span 2;
         margin: 20px;
@@ -349,6 +363,33 @@ text-align: center;
 text-shadow: 1px 1px 1px black;
 color: #CFD827;
     }
+    .bookinsidebox2 {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        z-index: 1;
+        border-radius: 15px;
+        border: 3px solid #43604E;
+    }
+
+    .bookinsidebox2  .bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: url(/lesson12/images/riverbg.jpg);
+        background-size: cover;
+        opacity: .66;
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        object-fit: fill;
+      }
+
+          /* ADVENTURES
+    _______________________________________________________________________________________________________________ */
         .articles {
             display: flex;
 
@@ -372,6 +413,7 @@ color: #CFD827;
         figcaption {
             text-align: right;
             width: 80%;
+            margin-bottom: 3em;
         }
 
         .tablet {
@@ -388,8 +430,9 @@ color: #CFD827;
             grid-column: 1 / span 2;
                  }
 
-           thead, tfoot { background-color: #CFD827;
-
+           thead, tfoot { 
+               background-color: #43604E;
+               color: #CFD827;
                  }   
 
             td, th {
@@ -430,4 +473,63 @@ color: #CFD827;
               .lowerbanner {
             display: none;
               }
+/* CONTACT 
+_______________________________________________________________________________________________________________ */
+              .innerconbox2 {
+                display: flex;
+                flex-direction: column;
+                margin: 2em;
+                text-align: center;
+                color:white;
+                text-shadow: 1px 1px 1px black;
+              }
+              .innerconbox2 p {
+                  font-size: 18px;
+              }
+              .gg {
+                display: flex;
+                flex-direction: column;
+              }
+              form {
+                  display: flex;
+                  margin: auto;
+              }
+              fieldset {
+                display: flex;
+                margin: auto;
+                margin-bottom: 2em;
+              }
+              span, select{
+                  font-size: 18px;
+                  min-width: 300px;
+              }
+              span {
+                  color: #CFD827;
+              }
+              input, label{
+                font-size: 18px;
+              }
 
+              .level {
+                padding: 15px;
+                display: flex;
+                justify-content: space-between;
+              }
+
+              label {
+                  display: grid;
+                  padding: 10px;
+                  color: #CFD827;
+              }
+
+              .contactus h2{    
+                  text-align: center;
+              }
+
+              .contactus {    
+                text-align: right;
+                margin: 2em;
+            }
+            .contactmap {
+                display: none;
+            }
