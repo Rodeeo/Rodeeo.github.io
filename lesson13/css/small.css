@@ -27,7 +27,7 @@ h2 {
 }
 
 h3 {
-font-size: 2em;
+font-size: 1.3em;
 font-family: 'Gugi', cursive;
 text-align: center;
 text-shadow: 1px 1px 1px black;
@@ -52,7 +52,7 @@ h6 {
     }
 
 .active {
-    color: #D19959;
+    color: #43604E;
     text-shadow: 1px 2px 1px black;
     font-weight: bold;
 }
@@ -100,6 +100,7 @@ footer {
 .innerfoot {
     display: flex;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     justify-content: center;
     min-height: 200px;
@@ -144,7 +145,7 @@ header {
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/lesson12/images/river.jpg);
+    background: url(/lesson13/images/river.jpg);
     background-size: cover;
     opacity: .66;
     width: 100%;
@@ -169,8 +170,6 @@ nav  a {
 
 .dynamite li:hover {
     background-color: #BF5757;
-    color: #CFD827;
-    height: 100%;
     }     
         
 .dynamite {
@@ -247,9 +246,13 @@ nav  a {
       }
      
       .main2 {
-          grid-column: 1 / span 2;
-          margin: auto;
-      }
+        grid-column: 1 / span 2;
+        margin: auto;
+        margin-right: 3em;
+        margin-left: 3em;
+        font-size: 20px;
+ 
+    }
      
       .header2, 
       .main2, 
@@ -263,7 +266,11 @@ nav  a {
         font-size: 1em;
         color: whitesmoke;
       }
-
+      .main2 p{
+        font-size: 20px;
+        padding: 10px;
+ 
+    }
       .weather {
         position: relative;
         z-index: 1;
@@ -336,15 +343,15 @@ nav  a {
            
            .eventsbg {
             position: absolute;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background-color: #43604E;;
-        opacity: .66;
-        border-bottom-left-radius: 15px;
-        }
+            z-index: -1;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #43604E;
+            opacity: .66;
+            border-bottom-left-radius: 15px;
+            }
 
 
     /* BOOKING
@@ -363,6 +370,8 @@ text-align: center;
 text-shadow: 1px 1px 1px black;
 color: #CFD827;
     }
+
+    
     .bookinsidebox2 {
         margin: 10px;
         padding: 10px;
@@ -379,13 +388,16 @@ color: #CFD827;
         bottom: 0;
         left: 0;
         right: 0;
-        background: url(/lesson12/images/riverbg.jpg);
+        background: url(/lesson13/images/riverbg.jpg);
         background-size: cover;
         opacity: .66;
         width: 100%;
         height: 100%;
         border-radius: 15px;
         object-fit: fill;
+      }
+      .bookinsidebox2 h2 {
+          text-align: center;
       }
 
           /* ADVENTURES
@@ -478,38 +490,44 @@ ________________________________________________________________________________
               .innerconbox2 {
                 display: flex;
                 flex-direction: column;
-                margin: 2em;
                 text-align: center;
                 color:white;
                 text-shadow: 1px 1px 1px black;
               }
+
               .innerconbox2 p {
                   font-size: 18px;
               }
+
               .gg {
                 display: flex;
                 flex-direction: column;
               }
+
               form {
                   display: flex;
                   margin: auto;
               }
+
               fieldset {
-                display: flex;
+                padding: 0;
                 margin: auto;
-                margin-bottom: 2em;
+                margin-top: 15px;
               }
+
               span, select{
                   font-size: 18px;
                   min-width: 300px;
               }
-              span {
+              span, legend {
                   color: #CFD827;
               }
-              input, label{
+              input, label, legend {
                 font-size: 18px;
               }
-
+              legend {
+                  margin: 10px;
+              }
               .level {
                 padding: 15px;
                 display: flex;
@@ -533,3 +551,25 @@ ________________________________________________________________________________
             .contactmap {
                 display: none;
             }
+
+ /* THANKS 
+_______________________________________________________________________________________________________________ */
+            .thanks {
+                display: block;
+            }
+
+     .thankstop {
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px black;
+    text-shadow: 1px 1px 1px black;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;   
+    grid-template-rows: 5em 20rem;
+ }

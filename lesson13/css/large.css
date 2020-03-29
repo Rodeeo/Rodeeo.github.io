@@ -114,7 +114,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background: url(/lesson12/images/river.jpg);
+        background: url(/lesson13/images/river.jpg);
         background-size: cover;
         opacity: .6;
         width: 100%;
@@ -247,7 +247,9 @@ ________________________________________________________________________________
 .guides {
   display: flex;
   }
-
+  .thanks {
+    display: flex;
+  }
 }
 
 @media only screen and (min-width: 85em) {
@@ -259,6 +261,3 @@ ________________________________________________________________________________
     }
 }
 
-.thanks {
-  display: flex;
-}

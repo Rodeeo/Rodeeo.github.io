@@ -1,4 +1,7 @@
 @media only screen and (min-width: 40em) {
+h3 {
+   font-size: 2em;
+}
 
 h5 {
    font-size: 1.5em;
@@ -25,10 +28,6 @@ h6 {
    
  }
  
- /* .dynamite {
-    display: flex;
-    } */
-
  .dynamite li {
     display: flex;
     flex-direction: row;
@@ -101,4 +100,16 @@ h6 {
                 display: block;
                text-align: center;
            }
+           .innerconbox2 {
+             margin: 2em;
+           }
+
+           fieldset {
+            display: flex;
+            margin: auto;
+            margin-bottom: 2em;
+          }
+          .thankstop {
+            font-size: 30px;
+          }
 }
