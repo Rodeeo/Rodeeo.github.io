@@ -96,15 +96,9 @@
   width: 100%}
 
     .insidebox2 {
-        display: grid;
+      border-radius: 15px;
         grid-template-columns: 61% 38%;
-        grid-template-rows: 5em 20rem 19em;
-        grid-gap: 10px;
         margin: 10px;
-        padding: 10px;
-        position: relative;
-        z-index: 1;
-        border-radius: 15px;
       }
 
       .insidebox2  .bg {
