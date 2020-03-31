@@ -47,6 +47,7 @@
         border-top-right-radius: 15px;
         min-height: 325px;
     }
+    
     .dynamite li:hover {
       background-color: #619DD8;
       border-radius: 10px;
@@ -164,7 +165,7 @@
         align-items: flex-start;
         color: black;
         min-width: 153px;
-        max-width: 586px;
+        max-width: 635px;
         }
 
         .weather p, .eventsm p {
