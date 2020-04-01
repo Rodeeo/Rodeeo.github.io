@@ -26,7 +26,7 @@ fetch(requestedURL)
                 title.textContent = guides[i].title;
                 years.textContent = "Years As a Guide: " + guides[i].years;
                 email.textContent = "Email: " + guides[i].email;
-                bio.textContent = "Bio: " + guides[i].bio;
+                bio.textContent = "Bio: " + guides[i].biography;
                 // photo.className = guides[i].photo;
 
                 // photo.setAttribute('src', guides[i].photo);   

@@ -22,7 +22,7 @@
 
       {
         "name": "T'Challa",
-        "photo": "images/tchallaphoto.jpg",
+        "photo": "/images/tchallaphoto.jpg",
         "level": "IRF: Class 4 Certified",
         "title": "Former King of Wakanda.",
         "years": "3",
@@ -32,7 +32,7 @@
 
       {
         "name": "Dick Pound",
-        "photo": "images/dickphoto.jpg",
+        "photo": "/images/dickphoto.jpg",
         "level": "IRF: Class 4 Certified",
         "title": "His unmatched expertise and competitive spirit make him an amazing coach to help learn kayaking.",
         "years": "10",
