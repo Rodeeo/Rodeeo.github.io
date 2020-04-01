@@ -18,7 +18,7 @@ fetch(requestedURL)
             let years = document.createElement('p');
             let email = document.createElement('p');
             let bio = document.createElement('p');
-           // let photo = document.createElement('img');
+           let photo = document.createElement('img');
                      
                 h3name.textContent = guides[i].name; 
              //   gname.className =  h2name.textContent;
@@ -27,10 +27,10 @@ fetch(requestedURL)
                 years.textContent = "Years As a Guide: " + guides[i].years;
                 email.textContent = "Email: " + guides[i].email;
                 bio.textContent = "Bio: " + guides[i].biography;
-                // photo.className = guides[i].photo;
+                photo.className = guides[i].photo;
 
-                // photo.setAttribute('src', guides[i].photo);   
-                // photo.setAttribute('alt', "picture of: " + h2name.textContent);
+                photo.setAttribute('src', guides[i].photo);   
+                photo.setAttribute('alt', "picture of: " + h3name.textContent);
             
                 gname.appendChild(h3name);
                 gname.appendChild(title);
@@ -38,7 +38,7 @@ fetch(requestedURL)
                 gname.appendChild(years);
                 gname.appendChild(email);
                 gname.appendChild(bio);
-               // gname.appendChild(photo);
+                gname.appendChild(photo);
 
             document.querySelector('div.guides').appendChild(gname);
         
