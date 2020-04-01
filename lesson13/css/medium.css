@@ -1,119 +1,133 @@
 @media only screen and (min-width: 40em) {
-h3 {
-   font-size: 2em;
-}
+   h3 {
+      font-size: 2em;
+   }
 
-h5 {
-   font-size: 1.5em;
-}
+   h5 {
+      font-size: 1.5em;
+   }
 
-h6 {
-   font-size: 1.5em;
-}
+   h6 {
+      font-size: 1.5em;
+   }
 
-.box1 {
-   width: 100%
-}
-.innerfoot { 
-   font-size: 25px;
-}
+   .box1 {
+      width: 100%
+   }
 
-.dynamite {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-around;
-   list-style-type: none;
-   margin-bottom: 2em;
-   margin-top: 1.3em;
-   
- }
- 
- .dynamite li {
-    display: flex;
-    flex-direction: row;
-    font-size: 26px;
- }
+   .innerfoot {
+      font-size: 25px;
+   }
 
- .dynamite li:first-child {
-    display: none;
-    }
-.eventsl {
-    display: none; 
- }   
- .insidebox2 {
-   grid-template-rows: 5em 20rem 19em;
- }
+   .dynamite {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      list-style-type: none;
+      margin-bottom: 2em;
+      margin-top: 1.3em;
+
+   }
+
+   .dynamite li {
+      display: flex;
+      flex-direction: row;
+      font-size: 26px;
+   }
+
+   .dynamite li:first-child {
+      display: none;
+   }
+
+   .eventsl {
+      display: none;
+   }
+
+   .insidebox2 {
+      grid-template-rows: 5em 20rem 19em;
+   }
+
    .weather {
       padding: 10px;
       margin: 1px;
-         }  
-         .weather p, .eventsm p {
-            font-size: 1rem;
-            margin: 0;
-            padding: 15px;
-               }
-               .main2 p{
-                  font-size: 20px;
-               }
-    /* BOOKING
+   }
+
+   .weather p,
+   .eventsm p {
+      font-size: 1rem;
+      margin: 0;
+      padding: 15px;
+   }
+
+   .main2 p {
+      font-size: 20px;
+   }
+
+   /* BOOKING
     _______________________________________________________________________________________________________________ */
-    fieldset {
-         margin: auto;
-         margin-bottom: 2em;
-         margin-top: 15px;
-         max-width: 530px;
-       
-    }
+   fieldset {
+      margin: auto;
+      margin-bottom: 2em;
+      margin-top: 15px;
+      max-width: 530px;
+
+   }
 
    .articles img {
       width: 80%;
-      }
+   }
 
 
-      .tablet {
-         width: 80%;
-      }
-      span, select {
-         font-size: 19px;
-         min-width: 400px;
-      }
+   .tablet {
+      width: 80%;
+   }
 
-         td, th {
-            font-size: 24px;
-            }
-            
-            input, label{
-               font-size: 24px;
-             }
+   span,
+   select {
+      font-size: 19px;
+      min-width: 400px;
+   }
 
-            .lowerbanner {
-               overflow: hidden;
-               background-repeat: no-repeat;
-               display: flex;
-               object-fit: fill;
-               width: 97%;
-               grid-column: 1 / span 2;
-               margin: auto;
-               justify-content: center;
-             }
-             .contactmap {
-                display: block;
-               text-align: center;
-           }
-           .innerconbox2 {
-             margin: 2em;
-           }
+   td,
+   th {
+      font-size: 24px;
+   }
 
-           .guides {
-           max-width: 457px;
-          }
+   input,
+   label {
+      font-size: 24px;
+   }
 
-           .guides img {
-            width:auto;
-            
-            }
+   .lowerbanner {
+      overflow: hidden;
+      background-repeat: no-repeat;
+      display: flex;
+      object-fit: fill;
+      width: 97%;
+      grid-column: 1 / span 2;
+      margin: auto;
+      justify-content: center;
+   }
 
-          .thankstop {
-            font-size: 30px;
-          }
+   .contactmap {
+      display: block;
+      text-align: center;
+   }
+
+   .innerconbox2 {
+      margin: 2em;
+   }
+
+   .guides {
+      max-width: 457px;
+   }
+
+   .guides img {
+      width: auto;
+
+   }
+
+   .thankstop {
+      font-size: 30px;
+   }
 }
