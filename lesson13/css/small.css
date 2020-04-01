@@ -82,6 +82,7 @@ body {
 }
 footer {
     overflow: hidden;
+    border-top: 3px solid #CFD827;
 
 }
 .footbg {
@@ -244,6 +245,7 @@ nav  a {
 
    .header2 {
         grid-column: 1 / span 2;
+        margin-top: 30px;
       }
      
       .main2 {
@@ -268,10 +270,9 @@ nav  a {
         color: whitesmoke;
       }
       .main2 p{
-        font-size: 17px;
-        padding: 10px;
- 
+        font-size: 15px; 
     }
+
       .weather {
         position: relative;
         z-index: 1;
@@ -525,6 +526,7 @@ ________________________________________________________________________________
               }
               input, label, legend {
                 font-size: 18px;
+                text-align: center;
               }
               legend {
                   margin: 10px;

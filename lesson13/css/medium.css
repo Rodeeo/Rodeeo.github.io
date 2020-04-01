@@ -43,7 +43,6 @@ h6 {
  .insidebox2 {
    grid-template-rows: 5em 20rem 19em;
  }
-   
    .weather {
       padding: 10px;
       margin: 1px;
@@ -59,7 +58,12 @@ h6 {
     /* BOOKING
     _______________________________________________________________________________________________________________ */
     fieldset {
-      max-width: 530px;
+         display: flex;
+         margin: auto;
+         margin-bottom: 2em;
+         margin-top: 15px;
+         max-width: 530px;
+       
     }
 
    .articles img {
@@ -101,11 +105,7 @@ h6 {
              margin: 2em;
            }
 
-           fieldset {
-            display: flex;
-            margin: auto;
-            margin-bottom: 2em;
-          }
+
           .thankstop {
             font-size: 30px;
           }
