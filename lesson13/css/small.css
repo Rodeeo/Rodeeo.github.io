@@ -371,7 +371,11 @@ text-shadow: 1px 1px 1px black;
 color: #CFD827;
     }
 
-    
+    .personal {
+        display: flex;
+        flex-direction: column:
+    }
+
     .bookinsidebox2 {
         margin: 10px;
         padding: 10px;
@@ -506,11 +510,12 @@ ________________________________________________________________________________
 
               form {
                   display: flex;
+                  flex-direction: column;
                   margin: auto;
+                  padding-bottom: 20px;
               }
 
               fieldset {
-                padding: 0;
                 margin: auto;
                 margin-top: 15px;
               }
