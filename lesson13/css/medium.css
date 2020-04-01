@@ -105,6 +105,14 @@ h6 {
              margin: 2em;
            }
 
+           .guides {
+           max-width: 457px;
+          }
+
+           .guides img {
+            width:auto;
+            
+            }
 
           .thankstop {
             font-size: 30px;

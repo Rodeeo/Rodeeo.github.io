@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Fugaz+One|Gugi|Open+Sans:600&display=swapOpen Sans');
-
 html, body {
     overflow-x: hidden;
   }
@@ -41,7 +39,7 @@ font-family: 'Gugi', cursive;
 
 h5 {
     font-size: 1em;
-    margin: 0;
+    margin: 7px;
     text-align: center;
     }
 
@@ -561,8 +559,33 @@ ________________________________________________________________________________
      display: block;
      margin: auto;
  }
- .guidebox2 {
-     
+
+ .guides {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: auto;
+    max-width: 400px;
+    color:white;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .guides img {
+width:100%;
+border-radius: 15px;
+}
+
+.guides h3 {
+    font-size: 1.4em;
+    font-family: 'Gugi', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    color: #CFD827;
+    margin-bottom: 5px;
+    }
+
+.guidebox2 {
+
     margin: 10px;
     padding: 10px;
     position: relative;
@@ -578,9 +601,8 @@ ________________________________________________________________________________
     bottom: 0;
     left: 0;
     right: 0;
-    background: url(/lesson13/images/riverbg.jpg);
+    background: #D19959;
     background-size: cover;
-    opacity: .66;
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -588,7 +610,16 @@ ________________________________________________________________________________
   }
   .guidebox2 h2 {
       text-align: center;
+      color: #43604E;
   }
+
+section {
+border: 3px solid #BF5757;
+margin-bottom: 3em;
+padding: 25px;
+border-radius: 15px;
+background: #619DD8;
+}  
 
  /* THANKS 
 _______________________________________________________________________________________________________________ */

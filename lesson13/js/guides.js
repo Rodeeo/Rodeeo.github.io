@@ -33,12 +33,13 @@ fetch(requestedURL)
                 photo.setAttribute('alt', "picture of: " + h3name.textContent);
             
                 gname.appendChild(h3name);
+                gname.appendChild(photo);
                 gname.appendChild(title);
                 gname.appendChild(level);
                 gname.appendChild(years);
                 gname.appendChild(email);
                 gname.appendChild(bio);
-                gname.appendChild(photo);
+                
 
             document.querySelector('div.guides').appendChild(gname);
         

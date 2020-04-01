@@ -3,19 +3,18 @@
       {
         "name": "Harry Dresden",
         "photo": "images/harryphoto.jpg",
-        "level": "IRF: Class 4 Certified",
+        "level": "IRF - Class 4 Certified",
         "title": "Almost a magical level of balance, fishing, and rafting.",
         "years": "5",
         "email": "harryD@coxcom.net",
-        "biography": "Years of adventures and books of knowledge under his belt.
-        He has never had a negative reveiw."
+        "biography": "Years of adventures and books of knowledge under his belt. He has never had a negative reveiw."
       },
 
       {
         "name": "Bob Smith",
         "photo": "images/bobphoto.jpg",
-        "level": "IRF: Class 4 Certified",
-        "title": "He’s an Idaho native, born and raised in the Salmon River.",
+        "level": "IRF - Class 4 Certified",
+        "title": "He’s an Idaho native, born and raised on the Salmon River.",
         "years": "20",
         "email": "bobbyboy@yahoo.com",
         "biography": "The absolte final word on Idaho’s rivers and their history."
@@ -24,7 +23,7 @@
       {
         "name": "T'Challa",
         "photo": "images/tchallaphoto.jpg",
-        "level": "IRF: Class 4 Certified",
+        "level": "IRF - Class 4 Certified",
         "title": "Former King of Wakanda.",
         "years": "3",
         "email": "tchalla@wakandamail.com",
@@ -34,7 +33,7 @@
       {
         "name": "Dick Pound",
         "photo": "images/dickphoto.jpg",
-        "level": "IRF: Class 4 Certified",
+        "level": "IRF - Class 4 Certified",
         "title": "His unmatched expertise and competitive spirit make him an amazing coach to help learn kayaking.",
         "years": "10",
         "email": "dpound@gmail.com",
