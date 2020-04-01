@@ -22,11 +22,11 @@ fetch(requestedURL)
                      
                 h3name.textContent = guides[i].name; 
              //   gname.className =  h2name.textContent;
-                level.textContent = guides[i].level;
+                level.textContent = "Certification: " + guides[i].level;
                 title.textContent = guides[i].title;
-                years.textContent = guides[i].years;
-                email.textContent = guides[i].email;
-                bio.textContent = guides[i].bio;
+                years.textContent = "Years As a Guide: " + guides[i].years;
+                email.textContent = "Email: " + guides[i].email;
+                bio.textContent = "Bio: " + guides[i].bio;
                 // photo.className = guides[i].photo;
 
                 // photo.setAttribute('src', guides[i].photo);   
