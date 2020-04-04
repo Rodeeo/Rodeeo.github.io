@@ -50,11 +50,12 @@
         <div class="container">
         <h2> Preston, Idaho</h2> </div>
         <div class="heroclass">
-            <picture>
-                <img src="images/ws-banner-s.jpg"
-                srcset="images/ws-banner-s.jpg 300w, images/ws-banner-m.jpg 600w, images/ws-banner-l.jpg 1000w"
-                sizes="(max-width: 1300px) 50vw, 100vw" alt="weather summary image"/>
-            </picture>
+                <picture> 
+                    <source media="(max-width: 500px)" srcset="images/ws-banner-s.jpg">
+                    <source media="(max-width: 900px)" srcset="images/ws-banner-m.jpg">
+                    <source media="(min-width: 901px)" srcset="images/ws-banner-m.jpg">
+                    <img src="images/ws-banner-s.jpg" alt="weather summary image">
+                </picture>
             <section class="weathersummary">
                 <h3> Weather Summary</h3>
                 <p>Currently: <span id="temperature">?</span></p>
