@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-@media only screen and (min-width: 20.4em) {
+@media only screen and (min-width: 1em) {
 
 header {
     float: none;
     text-align: right;
     padding: 2em;
 }
-
+* {
+    box-sizing: border-box;
+}
 h1, h2, h3 {
     font-family: 'Lora';
     text-decoration: none;
@@ -82,7 +84,7 @@ box-shadow: 4px 4px 3px lightgrey;
 max-width: 31em;
 }
 img {
-    max-width: 250px;
+    max-width: 30vw;
 }
 figure {
     text-align: center;
@@ -94,4 +96,5 @@ figure {
         padding: 2em;
         max-width: 175px;
     }
+}
 }
