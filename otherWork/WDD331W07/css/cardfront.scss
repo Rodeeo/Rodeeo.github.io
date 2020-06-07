@@ -1,0 +1,79 @@
+$card-width: 40vw;
+$card-height: $card-width*1.4;
+$font-size-number: $card-width * 0.1;
+$num-columns : 8;
+$one-column : 100% / $num_columns;
+$num-columns : 8;
+$one-column : 100% / $num_columns;
+$loop-start: 1;
+$loop-end: $num-columns +1;
+$icon-size: $card-width / 5;
+
+    $one-column: 12.5%;
+       @mixin col($span-num) {
+        flex: 0 0 $one-column * $span-num;
+    }
+    
+    @mixin offset($offset-num) {
+        margin-left: $one-column * $offset-num;
+    }
+
+@mixin col($span-num) {
+flex: 0 0 12.5% * $span-num;
+}
+
+@mixin offset($offset-num) {
+margin-left: 12.5% * $offset-num;
+}
+ 
+
+
+//styles to draw a basic outline of a card
+.grid-container {
+  display: grid;
+  height: $card-height;
+  width: $card-width;
+  grid-template-columns: 50px 1fr 1fr 1fr 50px;
+  grid-template-rows: repeat(7, .5fr);
+  grid-gap: 5px;
+  border-radius: 5%;
+  box-shadow: 0px 5px 15px grey;
+  border-radius: 10px;
+  margin: 20px;
+   padding: 20px;
+}
+
+//set icon size
+.icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.number {
+    text-align: center;
+    font-size: $font-size-number;
+  //an icon that is part of a number should be half the normal size
+    & > .icon {
+        width: $icon-size * .5;
+        height: $icon-size *.5;
+    }
+}
+
+//rotate bottom pips 180deg
+.rotate { align-self: end;
+    transform: rotate(180deg);
+}
+
+//make column classes 
+@for $index from $loop-start to $loop-end {
+     .col-#{$index} {
+        @include col($index);
+      }
+}
+    
+//make offset classes
+@for $index from $loop-start to $loop-end {
+     .offset-#{$index} {
+        @include offset($index);
+      }
+}
