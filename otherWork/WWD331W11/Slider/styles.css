@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.slideout-menu {
+  display: inline-block;
+  cursor: pointer;
+}
+
+span::before, span::after, span {
+  width: 35px;
+  height: 5px;
+  background-color: grey;
+  margin: 5px 0;
+  transition: 0.4s;
+  display: block;
+  position: relative;
+  z-index: 100;
+  left: 20px;
+  top: 20px;
+}
+
+span::before, span::after {
+  content: "";
+  top: 10px;
+  left: 0;
+}
+span:hover, span:hover:before, span:hover:after {
+  background: black;
+}
+
+.open span {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate -45deg translate(-9px, 6px);
+  left: 200px;
+  background-color: white;
+}
+.open span::before {
+  opacity: 0;
+}
+.open span::after {
+  -webkit-transform: rotate(90deg) translate(-21px, 0px);
+  transform: rotate 90deg translate(-21px, 0px);
+  background-color: white;
+}
+.open span:hover, .open span:hover:before, .open span:hover:after {
+  background: red;
+}
+
+.nav-menu {
+  margin: 0;
+  padding: 100px 0 0 75px;
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  list-style-type: none;
+  box-sizing: border-box;
+  transition: 0.4s;
+  font-size: 1.75em;
+  line-height: 1.5em;
+  background: black;
+  color: white;
+  opacity: 85%;
+}
+.nav-menu a:hover {
+  color: red;
+}
+
+.open .nav-menu {
+  left: 0;
+}
+
+.info {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  padding: 50px 0 0 1em;
+}
+
+/*# sourceMappingURL=styles.css.map */

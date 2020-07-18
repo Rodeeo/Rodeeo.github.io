@@ -26,9 +26,69 @@ flex: 0 0 12.5% * $span-num;
 margin-left: 12.5% * $offset-num;
 }
  
+//flexbox   
+@supports not (display: grid) {
+   
+    //styles to draw a basic outline of a card
+    .grid-container  {
+        display: flex;
+        padding: 1em;
+        flex-flow: row wrap;
+        align-items: center;
+        align-content: space-between;
+        height: 100%;
+        border: 1px solid grey;
+        height: $card-height;
+        width: $card-width;
+        border-radius: 10px;
+        margin: 20px;
+        box-shadow: 2px 2px 4px grey;
+    }
+    
+    .cell {
+      flex: 1;
+      text-align: center;
+    }
+    
+    //set icon size
+    .icon {
+        width: $icon-size;
+        height: $icon-size;
+    }
+    
+    .number {
+        text-align: center;
+        font-size: $font-size-number;
+      //an icon that is part of a number should be half the normal size
+        & > .icon {
+            width: $icon-size * .5;
+            height: $icon-size *.5;
+        }
+    }
+    
+    //rotate bottom pips 180deg
+    .rotate {
+        transform: rotate(180deg);
+    }
+    
+    //make column classes 
+    @for $index from $loop-start to $loop-end {
+         .col-#{$index} {
+            @include col($index);
+          }
+    }
+        
+    //make offset classes
+    @for $index from $loop-start to $loop-end {
+         .offset-#{$index} {
+            @include offset($index);
+          }
+    }     
+} 
 
 
-//styles to draw a basic outline of a card
+
+//GRID
 .grid-container {
   display: grid;
   height: $card-height;
@@ -45,23 +105,30 @@ margin-left: 12.5% * $offset-num;
 
 //set icon size
 .icon {
+    margin:10 px;
     width: $icon-size;
     height: $icon-size;
+    
 }
 
 .number {
     text-align: center;
     font-size: $font-size-number;
+    
   //an icon that is part of a number should be half the normal size
     & > .icon {
+        text-align: center;
         width: $icon-size * .5;
         height: $icon-size *.5;
+        margin: 0;
     }
 }
 
 //rotate bottom pips 180deg
 .rotate { align-self: end;
     transform: rotate(180deg);
+        text-align: center;
+
 }
 
 //make column classes 

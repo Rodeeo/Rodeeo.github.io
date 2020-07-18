@@ -1,0 +1,125 @@
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+
+.display-3 {
+  font-weight: 400;
+}
+.lead {
+  font-weight: 400;
+}
+
+.sectionLight {
+  background-color: #eceeef;
+  padding: 2em;
+}
+
+/* The below 3 classes #1,#2 and #3 are added specifically to override the default styling of the next and previous buttons given in the carousel by bootstrap and if u want to use the default styling of the buttons given in the bootstrap just simply remove these classes and you are good to go.*/
+/* #1 */.carousel-control-prev-icon,
+.carousel-control-next-icon { 
+height: auto;
+width: auto;
+background-image: none;
+}
+/* #2 */.carousel-control-next-icon:after
+{
+content: '>';
+font-size: 35px;
+font-weight: 900;
+color: black;
+}
+
+/* #3 */.carousel-control-prev-icon:after {
+content: '<';
+font-size: 35px;
+font-weight: 900;
+color: black;
+}
+
+.sectionDark {
+background-color: #cccccc;
+padding: 2rem;
+}
+
+.coolStuffWrapper {
+margin-top: 20px;
+}
+
+button.coolStuffBtn {
+color: black;
+display: block;
+margin: auto;
+}
+
+h5.modal-title {
+margin: auto;
+}
+
+.modal-header .close {
+margin: -1rem -1rem -1rem -2rem;
+}
+
+.modalFormWrapper {
+padding: 2rem;
+}
+
+.imgCenter {
+display: block;
+margin: auto;
+}
+
+.btnCenter {
+display: block;
+margin: auto;
+color: black;
+margin-top: 15px;
+margin-bottom: 20px;
+width: 54.5%;
+}
+
+.footerImg {
+padding: 15px;
+}
+
+.fab {
+margin: 15px;
+}
+
+.fa-facebook-square {
+color: #3b5998;
+}
+
+.fa-envelope {
+color: #c32f10;
+}
+
+.fa-instagram {
+color: #C13584;
+}
+
+.socialWrapper {
+margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

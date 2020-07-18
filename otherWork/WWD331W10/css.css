@@ -1,0 +1,151 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Smythe&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: repeating-linear-gradient(90deg, white, white 10px, #ffe8e8 10px, #ffe8e8 50px);
+  color: #5e6472;
+  font-family: "Smythe", cursive;
+  font-size: 16pt;
+  /*   margin: 0 auto; */
+  margin-top: 10rem;
+  margin-left: 25px;
+  margin-right: 450px;
+  border: 1px solid white;
+  border-radius: 3px;
+  padding-left: 20px;
+  box-shadow: 10px 20px 45px grey;
+  transform: rotate(-4deg);
+}
+
+html {
+  background-image: url("https://cdn.pixabay.com/photo/2018/03/02/17/46/baked-goods-3193743_1280.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  object-position: 20% 0;
+  background-size: 100%;
+  height: 800px;
+}
+
+.title {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+}
+
+.page-wrapper {
+  max-height: 600px;
+  overflow-y: scroll;
+  padding: 1-px;
+}
+
+a {
+  color: #ff70b2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:visited {
+  color: #86e9d5;
+}
+
+a:hover {
+  color: #86e9d5;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+/* Selectors for future updates
+​
+.intro {
+​
+}
+​
+header {
+
+​
+}
+*/
+h1 {
+  font-family: "Mouse Memoirs", sans-serif;
+  font-size: 3.5em;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Cookie", cursive;
+  color: black;
+  font-weight: 300;
+  text-align: left;
+  font-size: 2em;
+  text-align: center;
+}
+
+h3,
+h4 {
+  font-family: "Cookie", cursive;
+  color: black;
+  padding: 0.25em;
+  font-weight: 300;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.sidebar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+}
+
+/* selectors for the specifics
+.summary {
+​
+}
+.preamble {
+​
+}
+.supporting {
+​
+​
+}
+.explanation {
+}
+​
+.participation {
+}
+.benefits {
+​
+}
+.requirements{
+​
+}
+
+.design-selection {
+}
+​
+.design-archives {
+​
+}
+.zen-resources {
+​
+}
+​
+footer {
+}
+*/
+
+/*# sourceMappingURL=css.css.map */
