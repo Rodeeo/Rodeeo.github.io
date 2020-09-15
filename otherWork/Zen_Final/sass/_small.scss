@@ -1,0 +1,37 @@
+body {
+  margin: 0 25px;
+}
+
+h1 {
+  font-size: 2.2em;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3,
+h4 {
+  padding: 0.25em;
+  font-size: 1.5em;
+}
+
+.explanation,
+.benefits,
+.wrapper {
+  border: 2px dotted;
+  padding: 0 15px;
+}
+
+.wrapper {
+  margin: 25px 0;
+
+  &::before {
+    margin-top: 15px;
+  }
+}
+
+aside {
+  text-align: left;
+}
