@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+        <script src="hero.js"></script>
+        <title>Hero Application</title>
+        <style>
+            body {
+                display: inline-flex;
+                font-family: 'Eczar', serif;
+                padding: 1em;
+                margin: 7em;
+            }
+            fieldset {
+                display: flex;
+            }
+            form {
+                font-family: 'Space Mono', monospace;
+            }
+            textarea {
+                width: 100%;
+                height: 150px;
+                padding: 12px 20px;
+                box-sizing: border-box;
+            }
+            </style>
+</head>
+<body>
+    
+    
+    <form id='hero'>
+        <h3>Identitiy</h3>
+        <fieldset>
+        <label for='heroName'>Hero Name
+            <input type='text' id='heroName' name='heroName' autofocus placeholder='Your Super Hero Name' maxlength=32>
+        </label>
+           
+        <label for='realName'>Real Name
+            <input type='password' name='realName' id='realName' placeholder='or Secret Idenity'></label>
+            <label for='hero'>Hero:
+                <input type='radio' name='category' value='Hero' id='hero'>
+            </label>
+            <label for='villain'>Villain:
+                <input type='radio' name='category' value='Villain' id='villain'>
+            </label>
+            <label for='anti-hero'>Anti-Hero:
+                <input type='radio' name='category' value='Antihero' id='anti-hero'>
+            </label>
+            <label for='age'>Age:
+                <input type='number' id='age' name='age' min=0 step=1></label>
+                <label for='City'>Base of Operations:
+                    <select name='city' id='city'>
+                        <option value='' selected>Choose a City</option>
+                        <option value='Metropolis'>Metropolis</option>
+                        <option value='Gotham City'>Gotham City</option>
+                        <option value='Keystone City'>Keystone City</option>
+                        <option value='Coast City'>Coast City</option>
+                        <option value='Star City'>Star City</option>
+                        <option value='Atlantis'>Atlantis</option>
+                        <option value='Bludhaven'>Bludhaven</option>           
+                    </select>
+                </label>
+        </fieldset>
+        <h3>Super Powers</h3>
+        <p>Maximum of two boxs may be checked</p>
+        <fieldset>
+        <label for='flying'>
+            <input type='checkbox' id='flying' value='Flying' name='powers'> Flying
+        </label>
+          <label for='strength'>
+            <input type='checkbox' id='strength' value='Superhuman Strength' name='powers'> Superhuman Strength
+        </label>
+        <label for='speed'>
+            <input type='checkbox' id='speed' value='Super Speed' name='powers'> Super Speed
+        </label>
+        <label for='energy'>
+            <input type='checkbox' id='energy' value='Energy Blasts' name='powers'> Energy Blasts
+            </label>
+        <label for='telekinesis'>
+            <input type='checkbox' id='Telepathy' value='Telepathy/ Mind Control' name='powers'> Telepathy/ Mind Control
+        </label>
+        <label for='regeneration'>
+            <input type='checkbox' id='regeneration' value='Regeneration' name='powers'> Regenerative Power
+        </label>
+        <label for='indestructibility'>
+            <input type='checkbox' id='indestructibility' value='Indestructibility' name='powers'> Indestructibility
+    </label>
+    <label for='body Mutation'>
+        <input type='checkbox' id='body Mutation' value='Body Mutation' name='powers'> Body Mutation
+    </label>
+        </fieldset>
+        <h3>Origin Story</h3>
+    <label for='origin'>
+        <textarea id='origin' name='origin' rows='20' cols='60' placeholder=' Please, keep it short...'></textarea>
+    </label>
+    <button type='reset'>Reset</button>
+    <button type='submit'>Submit</button>
+    </form>
+
+    
+
+</body>
+</html>

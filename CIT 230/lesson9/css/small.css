@@ -192,7 +192,7 @@ ____________________________________________________________________*/
 /*
 Links
 ____________________________________________________________________*/
-.active {
+a:active {
     color: yellow;
     font-weight: bold;
 }
@@ -201,7 +201,8 @@ a:link {
     color: whitesmoke;
 }
 
-hover {
+
+a:hover {
         box-shadow: 10px 12px 0.5rem #086164; }
 /*
 Divs n' the Rest
