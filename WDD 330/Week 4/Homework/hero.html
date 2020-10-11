@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+        
         <title>Hero Application</title>
         <style>
             body {
@@ -16,7 +17,9 @@
             }
             fieldset {
                 display: flex;
-                ont-family: 'Space Mono', monospace;
+            }
+            form {
+                font-family: 'Space Mono', monospace;
             }
             
             textarea {
@@ -25,23 +28,26 @@
                 padding: 12px 20px;
                 box-sizing: border-box;
             }
-            .error{
-        background: #f99;
-        border: #900 1px solid;
-        display: none;
-    }
+
+            .error {
+                 background: #f99;
+               border: #900 1px solid;
+               display: none;
+            }   
             </style>
 </head>
 <body>
+   
     <form id='hero'>
+        <fieldset>
       <h3>Identitiy</h3>  
-      <label for='heroName'>Name:
-          <input type='text' id='heroName' name='heroName' autofocus placeholder='Your Super Hero Name' maxlength=32>
+      <label for='heroName'>Name:  
+          <input type='text' id='heroName' name='heroName' autofocus placeholder='Your Super Hero Name' maxlength=32 required>
       </label>
     <label for='realName'>Real Name:
 <input type='password' name='realName' id='realName' placeholder='or Secret Identity'> </label>
-      <label for='identitiy'>Goodguy:
-              <input type='radio' name='category' value='Goodguy' id='goodguy'>
+      <label for='identitiy'>Hero:
+              <input type='radio' name='category' value='aHero' id='ahero'>
           </label>
           <label for='villain'>Villain:
               <input type='radio' name='category' value='Villain' id='villain'>
@@ -63,7 +69,8 @@
                       <option value='Bludhaven'>Bludhaven</option>           
                   </select>
               </label>
-     
+            </fieldset>
+            <br>
     <fieldset>
    <h3>Super Powers</h3>
   
@@ -93,11 +100,13 @@
       <input type='checkbox' id='body Mutation' value='Body Mutation' name='powers'> Body Mutation
   </label><br>
     </fieldset>
-      <label for='origin'>Origin Story:
+    <h3>Origin Story</h3>
+      <label for='origin'>
   <textarea id='origin' name='origin' rows='20' cols='60' placeholder='Please, keep it short...' ></textarea>
 </label>
         <button type='reset'>Reset</button>
-        <button type='submit'>Submit</button>
+        <button type='submit' id='submit' disabled>Submit</button>
+
   </form>
 
 </body>
