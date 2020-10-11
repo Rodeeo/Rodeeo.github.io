@@ -15,12 +15,15 @@ html {
 #content {
     width: 70vw;
     backdrop-filter: blur(7px);
+    
+    padding-left: 4em;
 
 }
 
 #content div {
-    height: 100vh;
+    height: 80vh;
     padding: 10px;
+    padding-top: 4em;
 }
 #content div p { 
     margin: 10px;
@@ -31,7 +34,7 @@ html {
 #table-of-content {
     width: 30vw;
     position: sticky;
-    top: 0;
+    top: 0;<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, ultricies vel ante non, suscipit vulputate nunc. Sed blandit ex sed porttitor efficitur.</p>
     padding-left: 20px;
 }
 
@@ -42,22 +45,22 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Eczar', serif;
-    color: orange;
-    padding: 1em;
-    margin: 7em;
+    color: #00ff2a;
+    padding: 0px;
+    margin: 0px;
 }
 
 a:link {
     color: yellow;
     text-decoration: none;}
 a:active {
-        color: red;
+        color: #00ff2a;
         font-weight: bold;}
 a:hover {
     color: yellow;
     font-weight: bold;}
 
 a:visited {
-    color: red;
+    color: #aa08f5de ;
 }
 

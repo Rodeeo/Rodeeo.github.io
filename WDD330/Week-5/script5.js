@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (location.hash) {
             const target = location.hash;
             const offsetY = document.querySelector(target).offsetTop;
-            window.scrollTo(0, offsetY);
+            window.scrollTo(10, offsetY);
         }
 
     }
