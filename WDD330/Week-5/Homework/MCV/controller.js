@@ -7,8 +7,8 @@ export default class hikesController {
     constructor(parentId) {
       this.parentElement = document.getElementById(parentId); 
       // this is how our controller will know about the model and view...we add them right into the class as members.
-      this.hikeModel = new model();
-      this.hikesView = new view(parentId);
+      this.hikeModel = new hikeModel();
+      this.hikesView = new hikeView(parentId);
     }
     
     showHikeList() {

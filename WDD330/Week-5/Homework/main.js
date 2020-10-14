@@ -1,6 +1,6 @@
-import HikesController from './MCV/controller.js';
+import hikesController from './MCV/controller.js';
 //on load grab the array and insert it into the page
-const myHikesController = new HikesController('hikes');
+const myHikesController = new hikesController('hikes');
 window.addEventListener('load', () => {
   myHikesController.showHikeList();
 });
