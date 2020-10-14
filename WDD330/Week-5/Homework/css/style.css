@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 10px;
-    background: #a8dadc;
+    background: #f1faee;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }
   img {
@@ -14,7 +14,11 @@ body {
   h1 {
     text-align: center;
     color:  #1d3557;
-    font-size: 4em;
+    background: #a8dadc;
+    padding: 1em;
+    margin: 0;
+    margin-bottom: .5em;
+    font-size: 2.5em;
   }
 
   h2 {
