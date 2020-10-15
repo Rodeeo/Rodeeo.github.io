@@ -53,3 +53,8 @@ body {
     width: 70%;
     display: block;
   }
+
+  button {
+    color: #e63946;
+    background: #f1faee;
+  }
