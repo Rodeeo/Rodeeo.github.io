@@ -6,6 +6,9 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    max-width: 300px;
+}
 #container {
     display: flex;
     justify-content: space-around;
