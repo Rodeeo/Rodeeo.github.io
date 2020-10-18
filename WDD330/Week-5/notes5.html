@@ -16,48 +16,83 @@
         <div id="content">
             <div>
                 <h3>Ch10: Testing and Debugging</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
+ <pre>  I love fixing things. It brings me joy to resolve something for someone. 
+So, testing and debugging is right up ally.
+Strict Mode - produces more exceptions and warnings and prohibits the use of some deprecated features. 
+Not using strict mode is often referred to as 'sloppy mode' as it’s forgiving of sloppy programming practices.
+'use strict';
+function strictly(){
+    'use strict';
+    // function code goes here
+(function() {
+    'use strict';
+    // All your code would go inside this function  }()); 
+js modules are self-contained pieces of code that are in strict mode by default. 
+js Checkers: <a href="http://jslint.com">JS Lint</a>, <a href="https://jshint.com">JS Hint</a>, <a href="https://eslint.org">ES Lint</a> 
+js Framework Checker: Jest is a TDD framework, <a href="https://jestjs.io">Jest</a>
 
-              
+try , catch , and finally -
+try block. This will run the code inside the block as normal -> catch block
+catch block will only run if an exception is thrown inside the try block. -> finally block
+This will always be executed after the try or catch block, regardless of whether an exception occurred or not. 
+It is useful if you want some code to run in both cases.
+
+Test-driven development(TDD) is the process of writing tests before any actual code.(good luck getting someone to pay for this)
+
+    function imaginarySquareRoot(number) {
+    'use strict';
+    let answer;
+    try {
+        answer = String(squareRoot(number));
+    } catch(error) {
+        answer = squareRoot(-number)+"i";
+    } finally {
+        return `+ or - ${answer}`;
+    }
+    } </pre>
             </div>
             <div>
                 <h3>Team Activity: Great Hikes</h3>
-                <p>Start off taking the array given in the js and reorgainizing it to work better. </p>
-                <p>the controller pattern <br>
+                <pre>Start off taking the array given in the js and reorgainizing it to work better. The controller pattern. 
+OH MAN this was butal. So, I got to drive this week and spent every hour possible trying to wrap my head around these very
+complex things. Luckily my group has some really smart guys and we all walked through the code together. I still don't think
+I could write it from scratch myself but I do understand it now. 
+Single Page Application - I wish I had known this before hand. 
+I had no idea what a single page aplication was before this. I didn't know it was possible. Had I known going into it it 
+would have changed everything for me. Not sure where I was supposed to learn it, but I must have missed that part. 
+I enjoyed playing with this. 
+</pre>
 
             </div>
             <div>
                 <h3>the controller pattern</h3>
                 <img src= "images/MVC-Process.svg">
-                <p>the controller pattern MV* <br>
-                    MVC model view controller: model, controller, view</p>
-                <p>Model - the brain - respoinsible for getting data: (SELECT, INSERT, UPDATE, DELETE)</p>
-                <p>View - the html/css - communicates with the controller. can get dynamic values from the controller</p>
-                <p>Controller - gets user input. processes requests (GET, POST, PUT, DELETE) gets data from the model. passes data to the view. </p>
-                <p>Model = where to save the data <br>
-                   View = displaying data <br> 
-                   Controller = where to message the data before you display</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
+                <pre>the controller pattern MV* 
+    MVC model view controller: model, controller, view
+    Model - the brain - respoinsible for getting data: (SELECT, INSERT, UPDATE, DELETE)
+    View - the html/css - communicates with the controller. can get dynamic values from the controller
+    Controller - gets user input. processes requests (GET, POST, PUT, DELETE) gets data from the model. 
+    passes data to the view. 
+    Model = where to save the data 
+    View = displaying data 
+    Controller = where to message the data before you display</pre>
+                
 
             </div>
             <div>
                 <h3>Todo application</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec est sem, blandit ex sed porttitor efficitur.</p>
+                <pre>This is pretty complex for a tiny app. 
+                    I hope I look back soon at is laughing how I couldnt see how easy it is. 
+                </pre>
 
             </div>
             <div>
                 <h3>Code Example links</h3>
                 <p><a href="https://Rodeeo.github.io/WDD330/Week-5/MVCtest/mvc.html">MVC test</a> </p>
                 <p><a href="https://rodeeo.github.io/WDD330/Week-5/Homework/greathikes.html">Great Hikes</a> </p>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-5/TODO/todo.html">Todo starter</a> </p>
             </div> 
+
                
         </div>
         <div id="table-of-content">

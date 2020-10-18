@@ -120,10 +120,12 @@ const hikeList = [
   }
   function renderOneHikeFull(hike) {
     const item = document.createElement('li');
-    item.innerHTML = ` 
-      
-          <img src="${imgBasePath}${hike.imgSrc}" alt="${hike.imgAlt}">
+    item.innerHTML = `       
+          <div>
           <h2>${hike.name}</h2>
+          <p>${hike.description}</p>
+          <img src="${imgBasePath}${hike.imgSrc}" alt="${hike.imgAlt}">
+          </div>
           <div>
               <h3>Distance</h3>
               <p>${hike.distance}</p>
@@ -133,14 +135,9 @@ const hikeList = [
               <p>${hike.difficulty}</p>
           </div>
           <div>
-              <h3>Description</h3>
-              <p>${hike.description}</p>
-          </div>
-          <div>
               <h3>How to get there</h3>
               <p>${hike.directions}</p>
           </div>
-      
       `;
     return item;
   }

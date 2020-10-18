@@ -28,7 +28,7 @@ img {
     padding: 10px;
     padding-top: 4em;
 }
-#content div p { 
+#content div pre, #content div p { 
     margin: 10px;
     font-family: 'Space Mono', monospace;
     color: aliceblue;
