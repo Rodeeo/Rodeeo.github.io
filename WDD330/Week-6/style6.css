@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 300px;
+}
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+#content {
+    width: 70vw;
+    backdrop-filter: blur(7px);
+    
+    padding-left: 4em;
+
+}
+
+#content div {
+    height: 80vh;
+    padding: 10px;
+    padding-top: 4em;
+}
+#content div pre, #content div p { 
+    margin: 10px;
+    font-family: 'Space Mono', monospace;
+    color: aliceblue;
+}
+
+#table-of-content {
+    width: 30vw;
+    position: sticky;
+    top: 0;
+    padding-left: 20px;
+}
+
+body {
+    background: url(images/greenripple.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Eczar', serif;
+    color: #00ff2a;
+    padding: 0px;
+    margin: 0px;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: none;}
+a:active {
+        color: #00ff2a;
+        font-weight: bold;}
+a:hover {
+    color: yellow;
+    font-weight: bold;}
+
+a:visited {
+    color: #aa08f5de ;
+}
+

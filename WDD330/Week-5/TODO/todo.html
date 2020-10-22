@@ -13,22 +13,25 @@
 
 <body>
     <main>
-        <div class="container">
-        <form>
-        <h1>To Do List</h1>
-    <ul id="todoList">Incomplete:</ul>
-    <ul id="doneList">Complete:</ul>
-    
-  
-    <button onclick="showTodo()">Incomplete</button>
-    <button onclick="showCompletedTodo()">Complete</button>
-    <button onclick="showAll()">All</button>
-</form>
-</div>
-<div class="adding">
-<input id="newTodo" />
-<button onclick="add()">add</button>
-</div>
+        <div class="container" class="header">
+
+            <div id="myDIV" class="header">
+                <h2 style="margin:5px">My To Do List</h2>
+                <div>
+                    <ul id="myUL">
+                      <li>Hit the gym</li>
+                      <li class="checked">Pay bills</li>
+                      <li>Meet George</li>
+                      <li>Buy eggs</li>
+                      <li>Read a book</li>
+                      <li>Organize office</li>
+                    </ul>
+      </div>
+                <form>
+                <input type="text" id="whatTodo" placeholder="What are we going Todo?">
+                <span onclick="newElement()" class="addBtn">Add</span>
+                </form>
+              </div>
 </main>
 <script src="todo.js"></script>
 </body>
