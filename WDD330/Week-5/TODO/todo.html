@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="todo.js"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>TODO Mobile App </title>
@@ -18,10 +17,9 @@
             <div id="myDIV" class="header">
                 <h2 style="margin:5px">My To Do List</h2>
                 <div>
-                    <ul id="myUL">
+                    <ul id="todo-list">
                       <li>Hit the gym</li>
                       <li class="checked">Pay bills</li>
-                      <li>Meet George</li>
                       <li>Buy eggs</li>
                       <li>Read a book</li>
                       <li>Organize office</li>
@@ -29,10 +27,10 @@
       </div>
                 <form>
                 <input type="text" id="whatTodo" placeholder="What are we going Todo?">
-                <span onclick="newElement()" class="addBtn">Add</span>
+                <span onclick="saveList()" class="addBtn">Add</span>
                 </form>
               </div>
 </main>
-<script src="todo.js"></script>
+<script src="start.js"></script>
 </body>
 </html>
