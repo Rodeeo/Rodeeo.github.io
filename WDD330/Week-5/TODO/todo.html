@@ -11,26 +11,17 @@
 </head>
 
 <body>
-    <main>
-        <div class="container" class="header">
+    <div class="container">
+      <h1>Todo List</h1>
+      <div id="todos">  </div>
+      <p class="status" id="todos-stat"> </p>
 
-            <div id="myDIV" class="header">
-                <h2 style="margin:5px">My To Do List</h2>
-                <div>
-                    <ul id="todo-list">
-                      <li>Hit the gym</li>
-                      <li class="checked">Pay bills</li>
-                      <li>Buy eggs</li>
-                      <li>Read a book</li>
-                      <li>Organize office</li>
-                    </ul>
+    <div>
+        <form id="todo-form">
+            <input type="text" id="todo-input" placeholder="What do you want to do?" required>
+            <button type="submit">+</button>
+          </form>
       </div>
-                <form>
-                <input type="text" id="whatTodo" placeholder="What are we going Todo?">
-                <span onclick="saveList()" class="addBtn">Add</span>
-                </form>
-              </div>
-</main>
-<script src="start.js"></script>
-</body>
-</html>
+    </div>
+    <script src="todo.js" defer></script>
+  </body

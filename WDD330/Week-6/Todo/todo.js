@@ -1,4 +1,3 @@
-/* setup and initialization */
 let todos;
 const defaultTodos = [
   { text: 'Be Happy', done: true },
@@ -16,7 +15,6 @@ const todoInputElement =  document.getElementById('todo-input');
 const todoItemElements = document.getElementsByClassName('todo-item')
 const todoStatElement = document.getElementById('todos-stat')
 
-/* utility functions */
 function renderTodoItems () {
   todosElement.innerHTML = ''
 

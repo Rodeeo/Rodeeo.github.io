@@ -1,56 +1,105 @@
-// Create a "close" button and append it to each list item
-var todolist = document.getElementsByTagName("LI");
-var i;
-for (i = 0; i < todolist.length; i++) {
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  todolist[i].appendChild(span);
+let todos;
+const defaultTodos = [
+  { text: 'Be Happy', done: true },
+  { text: 'Procrastinate', done: true },
+  { text: 'Do Homework', done: false },
+  { text: 'Repeat', done: false }
+];
+let todoItemIndexInEdit = null;
+const currentEdit = {};
+
+/* selectors */
+const todosElement = document.getElementById('todos');
+const todoFormElement = document.getElementById('todo-form');
+const todoInputElement =  document.getElementById('todo-input');
+const todoItemElements = document.getElementsByClassName('todo-item')
+const todoStatElement = document.getElementById('todos-stat')
+
+function renderTodoItems () {
+  todosElement.innerHTML = ''
+
+  todos.forEach((todo, todoIndex) => {
+    todosElement.innerHTML += `<div class="todo-item" data-todo_index="${todoIndex}">
+      <input type="checkbox" class="todo-status" ${todo.done ? 'checked' : ''} data-todo_index="${todoIndex}">
+      <span class="todo-text" data-todo_index="${todoIndex}">${todo.text}</span>
+      <input type="button" value="X" class="todo-delete" data-purpose="delete" data-todo_index="${todoIndex}">
+    </div>`
+  })
 }
 
-// Click on a close button to hide the current list item
-var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
+function renderStats () {
+  const todosCount = todos.length
+  const pendingCount = todos.filter(todo => !todo.done).length
+  const doneCount = todos.filter(todo => todo.done).length
+
+  todoStatElement.innerHTML = `<span>Total: ${todosCount}</span>
+  <span>Todo: ${pendingCount}</span>
+  <span>Done: ${doneCount}</span>`
 }
 
-// Add a "checked" symbol when clicking on a list item
-var list = document.querySelector('ul');
-list.addEventListener('click', function(ev) {
-  if (ev.target.tagName === 'LI') {
-    ev.target.classList.toggle('checked');
-  }
-}, false);
+function updateTodo () {
+  showTodos()
+  renderTodoItems()
+  renderStats()
+}
 
-// Create a new list item when clicking on the "Add" button
-function newElement() {
-  var li = document.createElement("li");
-  var inputValue = document.getElementById("whatTodo").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
-  if (inputValue === '') {
-    alert("You must write something!");
+function addTodo (text) {
+  todos.push({ text, done: false })
+  todoInputElement.value = ''
+  updateTodo()
+}
+
+function setupTodos () {
+  let storedTodos = window.localStorage.getItem('my_todo-items')
+
+  if (storedTodos) {
+    todos = JSON.parse(storedTodos)
   } else {
-    document.getElementById("myUL").appendChild(li);
+    todos = defaultTodos
   }
-  document.getElementById("whatTodo").value = "";
+  updateTodo()
+}
 
-  var span = document.createElement("SPAN");
-  var txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  li.appendChild(span);
+function toggleTodoStatus (index) {
+  todos[index].done = !todos[index].done
+  updateTodo()
+}
 
-  for (i = 0; i < close.length; i++) {
-    close[i].onclick = function() {
-      var div = this.parentElement;
-      div.style.display = "none";
+function removeTodo(index) {
+  todos.splice(index, 1)
+  updateTodo()
+}
+
+// add todo to Local Storage
+function showTodos () {
+  window.localStorage.setItem('my_todo-items', JSON.stringify(todos))
+}
+
+// event listeners and triggers
+todoFormElement.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const todoText = todoInputElement.value;
+  addTodo(todoText);
+});
+
+todosElement.addEventListener('click', (e) => {
+  const { todo_index, purpose } = e.target.dataset
+
+  // ignore click event if no todo item was actually clicked
+  if (!todo_index) return
+
+  // toggle todo item status if there's no purpose (edit/delete) detected
+  if (!purpose) {
+    toggleTodoStatus(todo_index)
+  } else {
+    // delete todo item if purpose was to delete or initiate edit todo item if purpose was to edit
+    if (purpose === 'delete') {
+      removeTodo(todo_index)
+    } else if (purpose === 'edit') {
+      initEdit(todo_index)
     }
   }
-}
+})
 
+setupTodos()
