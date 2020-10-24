@@ -37,6 +37,7 @@ body {
   .container {
     display: flex;
     flex-direction: column;
+    max-width: 700px;
     border-radius: 5px;
     margin: auto;
     padding: 2rem 1rem;
@@ -118,9 +119,10 @@ body {
   .todo-status:checked:after {
     content: "\2713";
     visibility: visible;
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-left: .25rem;
     color: var(--green);
+    text-shadow: 1px 1px 1px var(--dark);
     z-index: 1;
   }
   
