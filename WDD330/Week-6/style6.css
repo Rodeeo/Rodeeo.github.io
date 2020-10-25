@@ -1,11 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");
-
+* {
+    box-sizing: border-box;
+    }
 
 html {
     scroll-behavior: smooth;
 }
 
+:root {
+    font-size: 16px;
+    --dark: #494947;
+    --grey: #d7d7d7;
+    --red: #f7401f;
+    --blue: #44CCFF;
+    --pink: #D138BF;
+    --green: #35FF69;
+  }
 img {
     max-width: 300px;
 }
@@ -48,7 +59,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Eczar', serif;
-    color: #00ff2a;
+    color: var(--red);
     padding: 0px;
     margin: 0px;
 }
@@ -57,13 +68,13 @@ a:link {
     color: yellow;
     text-decoration: none;}
 a:active {
-        color: #00ff2a;
+        color: var(--dark);
         font-weight: bold;}
 a:hover {
-    color: yellow;
+    color: var(--dark);
     font-weight: bold;}
 
 a:visited {
-    color: #aa08f5de ;
+    color: var(--grey) ;
 }
 
