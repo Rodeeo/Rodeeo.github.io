@@ -139,12 +139,29 @@ body {
     background: var(--blue);
   }
 
+  #tabs { 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    padding-bottom: .5rem;
+  }
   
+    .tab [type="submit"] {
+      background: var(--pink);
+      color: var(--grey);
+      font-size: 1.2rem;
+    }
+
   .todo-text {
     flex-grow: 1;
     font-size: 1.5rem;
   }
-  
+
+  .selected-tab {
+    color:white;
+    background-color: var(--blue); 
+    cursor: default;
+  }
   .status {
     padding: 0 1rem;
     text-shadow: 2px 2px 1px var(--dark);
