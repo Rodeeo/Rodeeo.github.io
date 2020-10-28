@@ -5,43 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="script7.js"></script>
+    
     <link rel="stylesheet" href="style7.css">
     <title>A PORTFOLIO</title>
 </head>
 
 <body>
-    <div id="addDiv">demo</div>
+    
     <div id="container">
-        <div> 
-            <form>
-            <input type="text" value=" ">
-        <button id="clickme" type="submit" onclick="doFunction();">add</button> </form>     
+    
+           
+               
         <div id="content"> 
-            <div>
-                <h3>Ch11: Further Functions</h3>
-                <pre>
- lorem ipsum
- </pre>
-            </div>
+            <input type="text" value=" ">
+            <button id="clickme" type="submit" onclick="doFunction();">add</button> 
             <div>
                 <h3>Ch13: AJAX</h3>
                 <pre>
   lorem ipsum
  </pre>
             </div>
-           
             <div>
+                <h3>Ch0: TEST</h3>
+                <pre>
+    lorem ipsum
+    </pre>
+            </div>
+            <div><h3 id="addDiv">h3 title </h3> </div>
+       
+            <div id="editDocument">
+              <h1 id="title">A Nice Heading.</h1>
+              <p>Last Edited by <span id="author">Monty Shokeen</span>
+              </p>
+              <p id="editcontent">You can change the heading, author name and this content itself. 
+                  Click on Edit Document d differently. The final content is saved in localStorage 
+                  and is retrieved later when you reload the webpage.</p>
+              <button id="editBtn" type="button">Edit Document</button>
+            </div>
+        
+    
+            <div>
+            
                 <h3>Code Example links</h3>
                 <p><a href="https://rodeeo.github.io/WDD330/Week-6/Todo/todo.html"> Todo Challenge</a> </p>
             </div>
-
-
         </div>
         <div id="table-of-content">
-            <h2>Chad's Table of Content</h2>
-       n </div>
-    </div>
+            <h2>Chad's Table of Contents</h2>
+        </div>
+        </div>
+    
+    <script src="script7.js"></script>
+    <script src="storage.js"></script>
 </body>
 
 </html>

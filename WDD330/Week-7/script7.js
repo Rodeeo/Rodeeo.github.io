@@ -1,18 +1,24 @@
-
+const addaDiv = document.getElementById("addDiv")
 const clicky = document.getElementById("clickMe")
 //- Using a function pointer:
 
 function doFunction() {
     const addaDiv = document.getElementById("addDiv")
-    addaDiv.innerHTML = `Hello World!`;
+    addaDiv.innerHTML = ` <h3>NEW DIV</h3> <pre>words in english</pre> `;
     // innerHTML = ' ';
     // .innerHTML =
     // addDiv.innerHTML += `<div> words in english </div>`
     // document.getElementById("addDiv").addEventListener('click', doFunction);
     // clicky.addEventListener("click", doFunction);
     // document.getElementById("clickMe").addEventListener('click', doFunction);
+    clicky.addEventListener('click', doFunction);
+    updateTodo()
 }
-clicky.addEventListener('click', doFunction);
+
+function updateTodo () {
+    doFunction ()
+    divloader ()
+}
 
 document.addEventListener('DOMContentLoaded', () => {
     const headings = document.querySelectorAll('#content h3');
@@ -41,5 +47,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
     }
-
-})
+}) 
