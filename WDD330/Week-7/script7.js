@@ -1,3 +1,19 @@
+
+const clicky = document.getElementById("clickMe")
+//- Using a function pointer:
+
+function doFunction() {
+    const addaDiv = document.getElementById("addDiv")
+    addaDiv.innerHTML = `Hello World!`;
+    // innerHTML = ' ';
+    // .innerHTML =
+    // addDiv.innerHTML += `<div> words in english </div>`
+    // document.getElementById("addDiv").addEventListener('click', doFunction);
+    // clicky.addEventListener("click", doFunction);
+    // document.getElementById("clickMe").addEventListener('click', doFunction);
+}
+clicky.addEventListener('click', doFunction);
+
 document.addEventListener('DOMContentLoaded', () => {
     const headings = document.querySelectorAll('#content h3');
     if (headings && headings.length) {
