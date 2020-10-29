@@ -1,24 +1,30 @@
 const addaDiv = document.getElementById("addDiv")
-const clicky = document.getElementById("clickMe")
+const clicky = document.getElementById("clickme")
 //- Using a function pointer:
 
 function doFunction() {
-    const addaDiv = document.getElementById("addDiv")
-    addaDiv.innerHTML = ` <h3>NEW DIV</h3> <pre>words in english</pre> `;
+        let d = document.createElement("div");
+        let h = document.createElement("H3");
+        let b = document.createTextNode("title");
+        let x = document.createElement("P");
+        let t = document.createTextNode("This is a paragraph.");
+        d.appendChild(h);
+        h.appendChild(b);
+        document.body.appendChild(d);
+        h.appendChild(x);
+        x.appendChild(t);
+        document.body.appendChild(d);
+        document.getElementById("content").appendChild(d);
+      }
+    // const addaDiv = document.getElementById("addDiv")
+    // addaDiv.innerHTML = `<div> <h3>NEW DIV</h3> <pre>words in english</pre> </div>`;
     // innerHTML = ' ';
     // .innerHTML =
     // addDiv.innerHTML += `<div> words in english </div>`
     // document.getElementById("addDiv").addEventListener('click', doFunction);
     // clicky.addEventListener("click", doFunction);
     // document.getElementById("clickMe").addEventListener('click', doFunction);
-    clicky.addEventListener('click', doFunction);
-    updateTodo()
-}
-
-function updateTodo () {
-    doFunction ()
-    divloader ()
-}
+    // }
 
 document.addEventListener('DOMContentLoaded', () => {
     const headings = document.querySelectorAll('#content h3');
