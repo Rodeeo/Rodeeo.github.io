@@ -15,17 +15,17 @@ const notestorage = [];
 }
 
 editBtn.addEventListener('click', function(e) {
-  if (!editables[0].isWordsEditable) {
-    editables[0].wordsEditable = 'true';
-    editables[1].wordsEditable = 'true';
-    editables[2].wordsEditable = 'true';
+  if (!editables[0].isContentEditable) {
+    editables[0].contentEditable = 'true';
+    editables[1].contentEditable = 'true';
+    editables[2].contentEditable = 'true';
     editBtn.innerHTML = 'Save Changes';
     editBtn.style.backgroundColor = '#6F9';
   } else {
     // Disable Editing
-    editables[0].wordsEditable = 'false';
-    editables[1].wordsEditable = 'false';
-    editables[2].wordsEditable = 'false';
+    editables[0].contentEditable = 'false';
+    editables[1].contentEditable = 'false';
+    editables[2].contentEditable = 'false';
     // Change Button Text and Color
     editBtn.innerHTML = 'Enable Editing';
     editBtn.style.backgroundColor = '#F96';
