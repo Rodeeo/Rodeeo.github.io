@@ -1,0 +1,85 @@
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+body {
+    margin: 0;
+    padding: 10px;
+    background: #f1faee;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+  img {
+    width: 100%;
+}
+  p {
+      color: #f1faee;
+      padding:10px;
+  }
+
+  h1 {
+    text-align: center;
+    color:  #1d3557;
+    background: #a8dadc;
+    padding: 1em;
+    margin: 0;
+    margin-bottom: .5em;
+    font-size: 2.5em;
+  }
+
+  h2 {
+    text-align: center;
+    width: 100%;
+    color: #e63946;
+  }
+
+  h3 {
+    text-align: center;
+    color: #a8dadc;
+  }
+
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  .hikeStyles li {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      background: #1d3557;
+  }
+
+  .image {
+    width: 70%;
+    display: block;
+  }
+
+  button {
+    color: #e63946;
+    background: #f1faee;
+  }
+  
+  #comments {
+    padding: 0.5em;
+  }
+
+  .addComment > h2 {
+    text-align: center;
+    background-color: indianred;
+  }
+
+  .addComment input {
+    width: 100%;
+    border: 1px solid;
+    font-size: 1.2em;
+  }
+
+  .addComment button {
+    padding: 0.5em;
+    border: 1px solid;
+  }
+  
+  .hidden {
+    display:none;
+}

@@ -1,15 +1,15 @@
 const editBtn = document.getElementById('editBtn');
-const editables = document.querySelectorAll('#title, #author, #editcontent');
+const editables = document.querySelectorAll('#title, #author, #content');
 
 if (typeof(Storage) !== "undefined") {
-  if (localStorage.getItem("title") !== null) {
-    editables[0].innerHTML = localStorage.getItem("title");
+  if (localStorage.getItem('title') !== null) {
+    editables[0].innerHTML = localStorage.getItem('title');
   }
-  if (localStorage.getItem("author") !== null) {
-    editables[1].innerHTML = localStorage.getItem("author");
+  if (localStorage.getItem('author') !== null) {
+    editables[1].innerHTML = localStorage.getItem('author');
   }
-  if (localStorage.getItem("editcontent") !== null) {
-    editables[2].innerHTML = localStorage.getItem("editcontent");
+  if (localStorage.getItem('content') !== null) {
+    editables[2].innerHTML = localStorage.getItem('content');
   }
 }
 

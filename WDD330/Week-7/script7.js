@@ -5,9 +5,9 @@ const clicky = document.getElementById("clickme")
 function doFunction() {
         let d = document.createElement("div");
         let h = document.createElement("H3");
-        let b = document.createTextNode("title");
+        let b = document.createTextNode("headline");
         let x = document.createElement("P");
-        let t = document.createTextNode("This is a paragraph.");
+        let t = document.createTextNode("New Notes Section.");
         d.appendChild(h);
         h.appendChild(b);
         document.body.appendChild(d);
