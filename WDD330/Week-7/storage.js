@@ -1,30 +1,31 @@
 const editBtn = document.getElementById('editBtn');
-const editables = document.querySelectorAll('#title, #author, #content');
+const editables = document.querySelectorAll('#title, #author, #words');
+const notestorage = [];
 
-if (typeof(Storage) !== "undefined") {
+  if (typeof(Storage) !== "undefined") {
   if (localStorage.getItem('title') !== null) {
     editables[0].innerHTML = localStorage.getItem('title');
   }
   if (localStorage.getItem('author') !== null) {
     editables[1].innerHTML = localStorage.getItem('author');
   }
-  if (localStorage.getItem('content') !== null) {
-    editables[2].innerHTML = localStorage.getItem('content');
+  if (localStorage.getItem('words') !== null) {
+    editables[2].innerHTML = localStorage.getItem('words');
   }
 }
 
 editBtn.addEventListener('click', function(e) {
-  if (!editables[0].isContentEditable) {
-    editables[0].contentEditable = 'true';
-    editables[1].contentEditable = 'true';
-    editables[2].contentEditable = 'true';
+  if (!editables[0].isWordsEditable) {
+    editables[0].wordsEditable = 'true';
+    editables[1].wordsEditable = 'true';
+    editables[2].wordsEditable = 'true';
     editBtn.innerHTML = 'Save Changes';
     editBtn.style.backgroundColor = '#6F9';
   } else {
     // Disable Editing
-    editables[0].contentEditable = 'false';
-    editables[1].contentEditable = 'false';
-    editables[2].contentEditable = 'false';
+    editables[0].wordsEditable = 'false';
+    editables[1].wordsEditable = 'false';
+    editables[2].wordsEditable = 'false';
     // Change Button Text and Color
     editBtn.innerHTML = 'Enable Editing';
     editBtn.style.backgroundColor = '#F96';
