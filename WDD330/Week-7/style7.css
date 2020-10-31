@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-    font-size: 16px;
+    font-size: 12px;
     --dark: #494947;
     --grey: #d7d7d7;
     --red: #f7401f;
@@ -33,6 +33,12 @@ img {
     padding-left: 4em;
 
 }
+/* #words {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+
+} */
 
 #content div {
     height: 80vh;

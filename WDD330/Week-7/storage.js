@@ -1,13 +1,10 @@
 const editBtn = document.getElementById('editBtn');
-const editables = document.querySelectorAll('#title, #author, #words');
+const editables = document.querySelectorAll('#title, #words');
 const notestorage = [];
 
   if (typeof(Storage) !== "undefined") {
-  if (localStorage.getItem('title') !== null) {
+  if (localStorage.getItem('notestorage.title') !== null) {
     editables[0].innerHTML = localStorage.getItem('title');
-  }
-  if (localStorage.getItem('author') !== null) {
-    editables[1].innerHTML = localStorage.getItem('author');
   }
   if (localStorage.getItem('words') !== null) {
     editables[2].innerHTML = localStorage.getItem('words');

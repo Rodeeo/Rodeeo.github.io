@@ -6,7 +6,7 @@ function doFunction() {
         let d = document.createElement("div");
         let h = document.createElement("H3");
         let b = document.createTextNode("headline");
-        let x = document.createElement("Pre");
+        let x = document.createElement("P");
         let t = document.createTextNode("New Notes Section.");
         d.appendChild(h);
         h.appendChild(b);
@@ -25,7 +25,7 @@ function doFunction() {
     // clicky.addEventListener("click", doFunction);
     // document.getElementById("clickMe").addEventListener('click', doFunction);
     // }
-document.onload('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const headings = document.querySelectorAll('#content h3');
     if (headings && headings.length) {
 
@@ -40,8 +40,8 @@ document.onload('DOMContentLoaded', () => {
         })
 
         const tableOfContent = `<ol>${tableOfContentInner}</ol>`
-            // add the generated table of content to the div
-        document.querySelector('#table-of-contents').innerHTML += tableOfContent
+            // add the generated table of content to the dive
+        document.querySelector('#table-of-content').innerHTML += tableOfContent
 
 
         // automatically go to the correct section on load

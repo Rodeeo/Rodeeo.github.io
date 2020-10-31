@@ -20,33 +20,63 @@
             <button id="clickme" type="button" onclick="doFunction();">Add Notes Section</button> 
             <button id="editBtn" type="button">Edit Notes</button>
             <div>
-                <h3>Ch13: AJAX</h3>
-                <pre>
-  lorem ipsum
+                <h3 id="title">Ch11: Further Functions</h3>
+                <pre id="words">
+Memoization - 
+A useful feature of this is that it provides result caching, or memoization
+
+A recursive function is one that invokes itself until a certain condition is met. 
+It’s a useful tool to use when iterative processes are involved.
+
+Immediately Invoked Function Expression– or IIFE – (pronounced 'iffy') is an anonymous
+function that, as the name suggests, is invoked as soon as it’s defined. This is easily 
+achieved by placing parentheses at the end of the function definition (remember we use 
+parentheses to invoke a function). The function also has to be made into an expression, 
+which is done by placing the whole declaration inside parentheses
+
+Callback hell is the term used to refer to this tangled mess of code, and it's such a 
+common issue that it evenhas its own website! All my code is hell.
  </pre>
             </div>
-            <div>
-            <h3 id="title">A Nice Heading.</h3>
-            <p>Last Edited by <span id="author">Monty Shokeen</span>
-            </p>
-            <p id="words">You can change the heading, author name and this content itself. Click on Edit Document to 
-                start editing. All the editable content is styled differently. The final content is saved in 
-                localStorage and is retrieved later when you reload the webpage.</p>
-             
+        <div>
+            <h3>Ch13: AJAX</h3>
+<pre>
+The Fetch API provides a global fetch() method that only has one mandatory argument, 
+which is the URL of the resource you wish to fetch. A very basic example would look 
+something like the following piece of code:
+fetch('https://example.com/data')
+.then( // code that handles the response )
+.catch( // code that runs if the server returns an error )
 
-              </div>
+headers – A Headers object (see later section) containing any headers associated with the response
+url – A string containing the URL of response
+redirected – A boolean value that specifies if the response is the result of a redirect
+mode – Allows you to specify if CORS is used or not. CORS is enabled by default.
+cache – Allows you to specify how the request will use the browser's cache. 
+credentials – Lets you specify if cookies should be allowed with the request.
+redirect – Specifies what to do if the response returns a redirect. 
+
+</pre>
+        </div>
+    
+            <!-- <div>
+            <h3 id="title">A Nice Heading.</h3>
+            <pre id="words">You can change the heading, author name and this content itself. Click on Edit Document to 
+                start editing. All the editable content is styled differently. The final content is saved in 
+                localStorage and is retrieved later when you reload the webpage.</pre>
+          </div> -->
         
     
             <div>
-            
                 <h3>Code Example links</h3>
                 <p><a href="https://rodeeo.github.io/WDD330/Week-7/Homework/greathikes7.html"> Great Hikes w/ Comments</a> </p>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-7/Homework/ninja/ninja.html"> Code Ninja</a> </p>
             </div>
         </div>
-        <div id="table-of-contents">
+        <div id="table-of-content">
             <h2>Chad's Table of Contents</h2>
         </div>
-        </div>
+        </div>  
     
     <script src="script7.js"></script>
     <script src="storage.js"></script>
