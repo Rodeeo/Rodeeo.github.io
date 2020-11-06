@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+body {
+background: url(SPACE.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+
+font-family: 'Space Mono', monospace;
+}
+h1 {
+    text-align: center;
+}
+main {
+display: flex;
+flex-flow: column wrap;
+align-content: space-evenly;
+}
+.hidden {
+display: none;
+}
+#planetlist td {
+cursor: pointer;
+}
+td a {
+    color: whitesmoke;
+}
+td {
+    text-align: center;
+    color: yellow;}
+#detailsbox {
+flex: 1 0 15em;
+padding: 1em;
+text-align: center;
+border: 2px solid;
+}
+#detailsbox dl {
+border: 1px solid;
+text-align: left;
+text-decoration: none;
+}
+#planetList a {
+    color: tomato;
+    text-decoration: none;
+}
+ a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+
+.listbox a {
+    text-decoration: none;
+    color: tomato ;
+}
+#planetList {
+flex-flow: row wrap;
+list-style-type: none;
+}
+#planetList th {
+color: lightgray;
+}
+#planetList tr {
+border: 1px solid;
+padding: 0.5em;
+height: 44px;
+}
+#planetList tr:nth-child(even) {
+background-color: #add8e67e;
+color:  darkgreen;
+}
+#planetList tr:hover {
+background-color: bisque;
+text-decoration: underline;
+}
