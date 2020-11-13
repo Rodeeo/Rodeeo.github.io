@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");      
+html {
+    scroll-behavior: smooth;
+}
+
 body { 
-	background: url("images/circuit.jpg") no-repeat center center fixed;
+	background: url("/Rodeeo.github.io/otherWork/beatbox/images/circuit.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -44,6 +50,7 @@ input {
 }
 
 table {
+	backdrop-filter: blur(7px);
 	margin-top: 8rem;
 	border-spacing: 0.4rem;
 	margin: 0 auto;
@@ -65,7 +72,7 @@ td.row-highlighted {
 }
 
 td:hover {
-	background-color: #969696af;
+	background-color: #808080af;
 }
 
 td.selected, td.type2.selected {
@@ -76,7 +83,7 @@ td.selected, td.type2.selected {
 
 @keyframes flash {
 	from {
-		background-color: #f0f02de8;
+		background-color: #f3f704;
 	}
 
 	to {
