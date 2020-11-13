@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Beat Box</title>
+    <meta name="WWD330 Project" content="App Project">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="icon" type="image/icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+    <body>
+        <script src="js/buffer.js"></script>
+        <script src="js/script.js"></script>
+
+        <input id="volume_slider" type="range" min="0" max="1000" value="400" step="1"></input>
+
+        <div id="loading" class="loading">Loading sounds...</div>
+
+        <table id="grid">
+        </table>
+            <p> <img class="record" src="images/record.svg"></img>
+             <button id="randomize">randomize</button>
+            or pick an example:
+            <select id="examples">
+            </select>
+        </p>
+    </body>
+</html>
