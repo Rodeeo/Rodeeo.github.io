@@ -203,8 +203,8 @@ function init() {
 
 var bufferList;
 function finishedLoading(bufferListParam) {
-    var div = document.getElementById("loading");
-    div.parentNode.removeChild(div);
+    // var div = document.getElementById("loading");
+    // div.parentNode.removeChild(div);
     bufferList = bufferListParam;
     restartLoop();
 }
