@@ -95,7 +95,7 @@ var grid = [];
 var appStartTime;
 var barNumber = 0;
 var barDuration = 2.0;
-var numSteps = 16;
+var numSteps = 8;
 var stepDuration = barDuration/numSteps;
 var previousStep = 0;
 
@@ -330,8 +330,8 @@ function unpackGrid(b64) {
     var num = u8[u8Index];
     for (var i = 0; i < u8.length; i++) {
         for (var j = 0; j < 8; j++) {
-            var r = Math.floor(bitCount / 16);
-            var c = bitCount % 16;
+            var r = Math.floor(bitCount / 8);
+            var c = bitCount % 8;
             var val = (num & (1 << 7-j)) !== 0;
             setCell(grid[r][c], val);
             if (bitCount % 8 === 7) {
