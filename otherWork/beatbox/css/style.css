@@ -16,20 +16,39 @@ body {
 	text-align: center;
 	max-width: 700px;
 }
-.controls {
+
+.topControls {
+	color: whitesmoke;
 	display: flex;
 	justify-content: space-evenly;
 }
+.botControls {
+	color: whitesmoke;
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+}
 
-.play { width: 30px;
+.play { 
+
+	width: 30px;
+	height: 30px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/play.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
 
 }
+  
 .stop {width:30px;
  
 }
 .record {width:30px;
 
 }
+svg {
+	fill: whitesmoke;
+	filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+  }
 
 button {
 	font-size: 1rem;
