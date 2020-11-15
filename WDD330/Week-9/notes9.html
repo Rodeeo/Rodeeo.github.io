@@ -6,64 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style9.css">
-    <title>Notes 8</title>
+    <title>Notes 9</title>
 </head>
 
 <body>
     
     <div id="container"> 
     
-           
-               
         <div id="content"> 
             <button id="clickme" type="button" onclick="doFunction();">Add Notes Section</button> 
             <button id="editBtn" type="button">Edit Notes</button>
             <div>
                 <h3 id="title">Ch9: The Window Object</h3>
                 <pre id="words">
-                    global variables are variables that are created without using the const , let or var keywords. Global variables 
-                    can be accessed in all parts of the program.
-                    
-                    The window.alert() method will pause the execution of the program and display a message in a dialog box. The 
-                    message is provided as an argument to the method, and undefined is always returned:                    
-                    window.alert('Hello');
-                    << undefined
-                    
-                    The window.confirm() method will stop the execution of the program and display a confirmation dialog that shows 
-                    the message provided as an argument, and giving the options of OK or Cancel. It returns the boolean values of 
-                    true if the user clicks OK, and false if the user clicks Cancel:                    
-                    window.confirm('Do you wish to continue?');
-                    << undefined
-                                        
-                    The window.prompt() method will stop the execution of the program. It displays a dialog that shows a message provided as an argument, 
-                    as well as an input field that allows the user to enter text. This text is then returned as a string when the user clicks OK. If the 
-                    user clicks Cancel, null is returned:                    
-                    window.prompt('Please enter your name:');
-                                        
-                    The write() method simply writes a string of text to the page. If a page has already loaded, it will completely replace the current 
-                    document: The use of document.write() is heavily frowned upon                    
-                    document.write('Hello, world!');
-                    
-                    Cookies are small files that are saved locally on a user’s computer. To create a cookie, you assign it to JavaScript’s “cookie jar”, 
-                    using the document.cookie property, like so:                    
-                    document.cookie = 'name=Superman';
-                    << "name=Superman"
-                    
-                    The window object is the global object in a browser.                    
-                    Global variables are actually properties of the window object in a browser environment.
-                    alert , confirm() , and prompt() are all methods of the window object, and open dialogs that halt the execution of the program.
-                    The window.navigator object gives information about the user’s browser and operating system, although it can be unreliable.
-                    The window.location object provides information about the URL of the current page.
-                    The window.history object keeps information about the pages that have been visited in the session.
-                    The window.screen object provides information about the user’s screen.
-                    document.write() is an archaic method of writing text to the document and should be avoided.
-                    Cookies can be used to store small pieces of information between requests using the document.cookie property.
-                    The window.setTimeout() method can be used to invoke a function after a set amount of time. It can 
-                    be canceled using the clearTimeout() method.
-                    The window.setInterval() method can be used to repeatedly invoke a function. It can be stopped using 
-                    the clearInterval() method.
-                    The window.requestAnimationFrame() method can be used to produce smooth and optimized animation by
-                    utilizing the browser's built-in graphics capabilities. It can be canceled using the cancelAnimationFrame() method.
+            global variables are variables that are created without using the const , let or var keywords. Global variables 
+            can be accessed in all parts of the program.
+            
+            The window.alert() method will pause the execution of the program and display a message in a dialog box. The 
+            message is provided as an argument to the method, and undefined is always returned:                    
+            window.alert('Hello');
+            << undefined
+            
+            The window.confirm() method will stop the execution of the program and display a confirmation dialog that shows 
+            the message provided as an argument, and giving the options of OK or Cancel. It returns the boolean values of 
+            true if the user clicks OK, and false if the user clicks Cancel:                    
+            window.confirm('Do you wish to continue?');
+            << undefined
+                                
+            The window.prompt() method will stop the execution of the program. It displays a dialog that shows a message provided as an argument, 
+            as well as an input field that allows the user to enter text. This text is then returned as a string when the user clicks OK. If the 
+            user clicks Cancel, null is returned:                    
+            window.prompt('Please enter your name:');
+                                
+            The write() method simply writes a string of text to the page. If a page has already loaded, it will completely replace the current 
+            document: The use of document.write() is heavily frowned upon                    
+            document.write('Hello, world!');
+            
+            Cookies are small files that are saved locally on a user’s computer. To create a cookie, you assign it to JavaScript’s “cookie jar”, 
+            using the document.cookie property, like so:                    
+            document.cookie = 'name=Superman';
+            << "name=Superman"
+            
+            The window object is the global object in a browser.                    
+            Global variables are actually properties of the window object in a browser environment.
+            alert , confirm() , and prompt() are all methods of the window object, and open dialogs that halt the execution of the program.
+            The window.navigator object gives information about the user’s browser and operating system, although it can be unreliable.
+            The window.location object provides information about the URL of the current page.
+            The window.history object keeps information about the pages that have been visited in the session.
+            The window.screen object provides information about the user’s screen.
+            document.write() is an archaic method of writing text to the document and should be avoided.
+            Cookies can be used to store small pieces of information between requests using the document.cookie property.
+            The window.setTimeout() method can be used to invoke a function after a set amount of time. It can 
+            be canceled using the clearTimeout() method.
+            The window.setInterval() method can be used to repeatedly invoke a function. It can be stopped using 
+            the clearInterval() method.
+            The window.requestAnimationFrame() method can be used to produce smooth and optimized animation by
+            utilizing the browser's built-in graphics capabilities. It can be canceled using the cancelAnimationFrame() method.
                     
 
  </pre>
@@ -71,57 +69,56 @@
         <div>
             <h3>Ch14: HTML5 APIs</h3>
 <pre>
-    Ch14: HTML5 APIs.
-    The data- attribute is a way of embedding data in a 
-    web page using custom attributes that are ignored by 
-    the browser. 
-    
-    The Web Storage API provides a key-value store on the 
-    client’s computer that is similar to using cookies but 
-    has fewer restrictions, more storage capacity, and is 
-    generally easier to use. This makes it perfect for storing 
-    information about users, as well as storing application-
-    specific information that can then be used during 
-    future sessions.
-    
-    
-    The Service Worker API allows a worker script to run in the background with the 
-    added benefit of being able to intercept network requests. This allows you to 
-    take alternative action if the network is offline, and effectively create app-like 
-    offline experiences
-    There are a large number of different examples of using the Service Worker API 
-    in The Service Worker Cookbook https://serviceworke.rs/
-    
-    
-    The canvas element was introduced to allow graphics to be drawn 
-    onto a web page in real time using JavaScript.
-    
-    HTML5.1 is the latest incarnation of the Hypertext Markup Language. It covers a variety of technologies, 
-    including several APIs that are accessible using JavaScript.
-    
-     data- attributes help to embed custom data into a web page that can then be used to enhance the user 
-     experience with JavaScript.
-    
-    The Web Storage API allows key-value pairs to be stored on the user’s device in a similar way to cookies,
-    but without the same storage restrictions.
-    
-    The Geolocation API allows you to access the geographic coordinates of the user’s device, as long as the 
-    user gives permission.
-    
-    The Web Worker API can be used to perform computationally intensive tasks in the background, which helps 
-    to avoid websites becoming unresponsive.
-    
-    Websockets are a new protocol for communicating over the internet, and allow real-time, two-way communication.
-    
-    The Notification API allows you to display notifications on the user's system.
-    
-    The <audio> and <video> elements can be employed to embed audio tracks and video clips in a web page. 
-    They also have a Media API that can help control the playback using JavaScript.
-    
-    The canvas element can be used to dynamically draw geometric shapes, text, and images on a web page 
-    in real-time using JavaScript.
-    
-    A shim or polyfill is a piece of code that adds support of missing features to older browsers.
+            The data- attribute is a way of embedding data in a 
+            web page using custom attributes that are ignored by 
+            the browser. 
+            
+            The Web Storage API provides a key-value store on the 
+            client’s computer that is similar to using cookies but 
+            has fewer restrictions, more storage capacity, and is 
+            generally easier to use. This makes it perfect for storing 
+            information about users, as well as storing application-
+            specific information that can then be used during 
+            future sessions.
+            
+            
+            The Service Worker API allows a worker script to run in the background with the 
+            added benefit of being able to intercept network requests. This allows you to 
+            take alternative action if the network is offline, and effectively create app-like 
+            offline experiences
+            There are a large number of different examples of using the Service Worker API 
+            in The Service Worker Cookbook https://serviceworke.rs/
+            
+            
+            The canvas element was introduced to allow graphics to be drawn 
+            onto a web page in real time using JavaScript.
+            
+            HTML5.1 is the latest incarnation of the Hypertext Markup Language. It covers a variety of technologies, 
+            including several APIs that are accessible using JavaScript.
+            
+            data- attributes help to embed custom data into a web page that can then be used to enhance the user 
+            experience with JavaScript.
+            
+            The Web Storage API allows key-value pairs to be stored on the user’s device in a similar way to cookies,
+            but without the same storage restrictions.
+            
+            The Geolocation API allows you to access the geographic coordinates of the user’s device, as long as the 
+            user gives permission.
+            
+            The Web Worker API can be used to perform computationally intensive tasks in the background, which helps 
+            to avoid websites becoming unresponsive.
+            
+            Websockets are a new protocol for communicating over the internet, and allow real-time, two-way communication.
+            
+            The Notification API allows you to display notifications on the user's system.
+            
+            The <audio> and <video> elements can be employed to embed audio tracks and video clips in a web page. 
+            They also have a Media API that can help control the playback using JavaScript.
+            
+            The canvas element can be used to dynamically draw geometric shapes, text, and images on a web page 
+            in real-time using JavaScript.
+            
+            A shim or polyfill is a piece of code that adds support of missing features to older browsers.
 </pre>
         </div>
     
