@@ -33,16 +33,26 @@ body {
 
 	width: 30px;
 	height: 30px;
-	background: url(/Rodeeo.github.io/otherWork/beatbox/images/play.svg) no-repeat 50% 50%; 
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/play2.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
-
+	
 }
   
-.stop {width:30px;
+.record {
+	width: 30px;
+	height: 30px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/microphone.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
  
 }
-.record {width:30px;
+.stop {
+	width: 30px;
+	height: 30px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/stop2.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
 
 }
 svg {
