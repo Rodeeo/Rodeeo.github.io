@@ -16,6 +16,7 @@ html {
     --blue: #44CCFF;
     --pink: #D138BF;
     --green: #35FF69;
+    --yellow: #e9e620;
   }
 img {
     max-width: 300px;
@@ -59,7 +60,7 @@ img {
 }
 
 body {
-    background: url(images/circuit.jpg) no-repeat center center fixed;
+    background: url(images/blackfrak.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -71,13 +72,13 @@ body {
 }
 
 a:link {
-    color: yellow;
+    color: var(--yellow);
     text-decoration: none;}
 a:active {
-        color: var(--dark);
+        color: var(--red);
         font-weight: bold;}
 a:hover {
-    color: var(--dark);
+    color: var(--yellow);
     font-weight: bold;}
 
 a:visited {
