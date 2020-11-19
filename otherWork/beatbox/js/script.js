@@ -188,7 +188,9 @@ function init() {
       'clips/openhat-808.wav',
       'clips/kick-plain.wav',
       'clips/perc-808.wav',
-      'clips/tom-808.wav'
+      'clips/tom-808.wav',
+      'clips/tom-analog.wav',
+      'clips/cowbell-808.wav'
     ],
     finishedLoading
     );
