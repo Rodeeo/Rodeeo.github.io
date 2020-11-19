@@ -345,24 +345,11 @@ function unpackGrid(b64) {
     }
 }
 
-let playbutton = document.getElementById('play');
-// let savebutton = document.querySelector('save');
-let stopbutton = document.getElementById('stop');
-let play = restartLoop(); 
-updateURL(packGrid());
-let stop = window.stop();
-// let msg = document.querySelector('#message');
-// let msg = document.querySelector('#message');
 
-playbutton.addEventListener('click', ()=>{
-  play;
-})
-stop.addEventListener('click', ()=>{
-    stop;
-  })
-// button.addEventListener('click', ()=>{
-//     msg.classList.toggle('reveal');
-// })
+document.getElementById("play").addEventListener("click", function() { restartLoop();
+    updateURL(packGrid()); });
+
+document.getElementById("stop").addEventListener("click", function() { playing=false; });
 
 
 function randomize() {

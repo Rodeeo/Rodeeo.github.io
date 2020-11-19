@@ -26,9 +26,18 @@ body {
 .botControls {
 	color: whitesmoke;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	margin-top: 10px;
+	align-items: center;
 }
+
+fieldset {
+	display: inherit;
+    border: none;
+    margin: 0;
+	padding-right: 3em;
+	padding-left: 3em;
+  }
 
 #play { 
 
@@ -39,10 +48,14 @@ body {
 	filter: hue-rotate(70deg) saturate(100);
 	
 }
+#saveName  { 
+	width: 7rem;
+	height: auto;
+}
   
 #save {
 	width: 30px;
-	height: 30px;
+	height: 32px;
 	background: url(/Rodeeo.github.io/otherWork/beatbox/images/save.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);

@@ -13,8 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
     <body>
-        <script src="js/buffer.js"></script>
-        <script src="js/script.js"></script>
+       
         <div class="topControls">
         <button id="randomize">randomize</button>
         or pick an example:
@@ -24,9 +23,13 @@
         <table id="grid">
         </table>
             <div class="botControls"> 
-                <div id="play"></div>
-                <div id="record"></div>
-                <div id="stop"></div>
+                <button id="play"></button>
+                <fieldset>
+                <input type="text" id="saveName">
+                <button id="save" type="submit" value="Submit"></button> </fieldset>
+                <button id="stop"></button>
             </div>
+            <script src="js/buffer.js"></script>
+            <script src="js/script.js"></script>
     </body>
 </html>
