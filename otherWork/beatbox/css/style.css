@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");      
 html {
+	padding: 3em;
     scroll-behavior: smooth;
 }
 
@@ -29,7 +30,7 @@ body {
 	margin-top: 10px;
 }
 
-.play { 
+#play { 
 
 	width: 30px;
 	height: 30px;
@@ -39,7 +40,7 @@ body {
 	
 }
   
-.record {
+#record {
 	width: 30px;
 	height: 30px;
 	background: url(/Rodeeo.github.io/otherWork/beatbox/images/microphone.svg) no-repeat 50% 50%; 
@@ -47,7 +48,8 @@ body {
 	filter: hue-rotate(70deg) saturate(100);
  
 }
-.stop {
+
+#stop {
 	width: 30px;
 	height: 30px;
 	background: url(/Rodeeo.github.io/otherWork/beatbox/images/stop2.svg) no-repeat 50% 50%; 

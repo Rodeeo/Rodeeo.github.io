@@ -116,7 +116,7 @@ function init() {
   var grid_table = document.getElementById("grid");
 
   // Generate the grid
-  for (var r = 0; r < 8; r++) {
+  for (var r = 0; r < 10; r++) {
       grid.push([]);
       var row = grid_table.insertRow(r);
       for (var c = 0; c < numSteps; c++) {
@@ -239,12 +239,12 @@ function setRowHighlight(col, flash) {
         flash = true;
 
     for (var c = 0; c < numSteps; c++) {
-        for (var r = 0; r < 8; r++) {
+        for (var r = 0; r < 10; r++) {
             var cell = grid[r][c];
             cell.classList.remove("row-highlighted");
         }
     }
-    for (var r = 0; r < 8; r++) {
+    for (var r = 0; r < 10; r++) {
         var cell = grid[r][col];
         cell.classList.add("row-highlighted");
         if (flash) {
@@ -270,7 +270,7 @@ function restartLoop() {
         appStartTime = context.currentTime;
         step = 0;
         prevousStep = -1;
-        for (var r = 0; r < 8; r++) {
+        for (var r = 0; r < 10; r++) {
             if (grid[r][0].cellActive) {
                 playSound(bufferList[r], appStartTime);
             }
@@ -288,7 +288,7 @@ function updateGrid() {
     if (previousStep != step) {
         setRowHighlight(step);
         var nextStep = mod(step + 1, numSteps);
-        for (var r = 0; r < 8; r++) {
+        for (var r = 0; r < 10; r++) {
             if (grid[r][nextStep].cellActive) {
                 playSound(bufferList[r], appStartTime + (stepsSinceStart + 1)*stepDuration);
             }
@@ -344,6 +344,7 @@ function unpackGrid(b64) {
         }
     }
 }
+
 
 function randomize() {
   // Clear grid
