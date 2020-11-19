@@ -345,16 +345,35 @@ function unpackGrid(b64) {
     }
 }
 
+let playbutton = document.getElementById('play');
+// let savebutton = document.querySelector('save');
+let stopbutton = document.getElementById('stop');
+let play = restartLoop(); 
+updateURL(packGrid());
+let stop = window.stop();
+// let msg = document.querySelector('#message');
+// let msg = document.querySelector('#message');
+
+playbutton.addEventListener('click', ()=>{
+  play;
+})
+stop.addEventListener('click', ()=>{
+    stop;
+  })
+// button.addEventListener('click', ()=>{
+//     msg.classList.toggle('reveal');
+// })
+
 
 function randomize() {
   // Clear grid
-  for (var r = 0; r < 8; r++) {
+  for (var r = 0; r < 10; r++) {
       for (var c = 0; c < numSteps; c++) {
           setCell(grid[r][c], false);
       }
   }
 
-  var tracks = getRandomSubarray([0, 1, 2, 3, 4, 5, 6, 7], randInt(3, 6));
+  var tracks = getRandomSubarray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], randInt(3, 6));
   for (var i = 0; i < tracks.length; i++) {
       var trackNum = tracks[i];
       var numPulses;
@@ -364,9 +383,9 @@ function randomize() {
       } else {
           numPulses = [1, 3, 5, 7][randInt(0, 3)];
       }*/
-      numPulses = randInt(1, 8);
+      numPulses = randInt(1, 10);
       var pulses = bjorklund(numSteps, numPulses);
-      pulses.rotate(randInt(0, 8)*2);
+      pulses.rotate(randInt(0, 10)*2);
       for (var c = 0; c < pulses.length; c++) {
           setCell(grid[trackNum][c], pulses[c]);
       }
