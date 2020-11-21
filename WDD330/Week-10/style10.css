@@ -10,17 +10,30 @@ html {
 
 :root {
     font-size: 12px;
+    --aqua: #00ffff;
+    --black: #000000;
+    --blue: #0000ff;
+    --fuchsia: #ff00ff;
+    --gray: #808080;
+    --green: #008000;
+    --lime: #00ff00;
+    --maroon: #800000;
+    --navy: #000080;
+    --olive: #808000;
+    --purple: #800080;
+    --red: #ff0000;
+    --silver: #c0c0c0;
+    --teal: #008080;
+    --white: #ffffff;
+    --yellow: #ffff00;    
     --dark: #494947;
     --grey: #d7d7d7;
-    --red: #f7401f;
-    --blue: #44CCFF;
     --pink: #D138BF;
-    --green: #35FF69;
-    --yellow: #e9e620;
   }
 img {
     max-width: 300px;
 }
+
 #container {
     display: flex;
     justify-content: space-around;
@@ -66,7 +79,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     font-family: 'Eczar', serif;
-    color: var(--red);
+    color: var(--blue);
     padding: 0px;
     margin: 0px;
 }
