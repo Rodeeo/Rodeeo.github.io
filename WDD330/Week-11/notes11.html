@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style10.css">
+    <title>Notes Week 10</title>
+</head>
+
+<body>    
+    <div id="container">     
+        <div id="content"> 
+            <button id="clickme" type="button" onclick="doFunction();">Add Notes Section</button> 
+            <button id="editBtn" type="button">Edit Notes</button>
+            <div>
+                <h3 id="title">MDN: Using Fetch</h3>
+<pre id="words">
+    The Fetch API provides a JavaScript interface for accessing and manipulating parts of the HTTP pipeline, such as requests and responses. 
+    It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
+
+    This kind of functionality was previously achieved using XMLHttpRequest. Fetch provides a better alternative that can be easily used by other 
+    technologies such as Service Workers. Fetch also provides a single logical place to define other HTTP-related concepts such as CORS and extensions to HTTP.
+    
+    The fetch specification differs from jQuery.ajax() in three main ways:    
+    The Promise returned from fetch() won’t reject on HTTP error status even if the response is an HTTP 404 or 500. Instead, it will resolve normally (with ok 
+    status set to false), and it will only reject on network failure or if anything prevented the request from completing.
+    fetch() won't can receive cross-site cookies; you can’t can establish a cross site session using fetch. Set-Cookie headers from other sites are silently ignored.
+    fetch won’t send cookies, unless you set the credentials init option. (Since Aug 25, 2017. The spec changed the default credentials policy to same-origin. 
+
+    1 fetch('http://example.com/movies.json')
+    2 .then(response => response.json())
+    3 .then(data => console.log(data));
+
+    The fetch() method can optionally accept a second parameter, an init object that allows you to control a number of different settings.
+
+    Polyfill - To use Fetch in unsupported browsers, there is a Fetch Polyfill available that recreates the functionality for non-supporting browsers.
+<a href=" https://github.com/mdn/fetch-examples/">  Fetch Examples </a>
+ </pre>
+            </div>
+        <div>
+            <h3> MDN: Validating forms</h3>
+<pre>
+    Form validation. When you enter data, the browser and/or the web server will check to see that the data is in the correct format and within 
+    the constraints set by the application. Validation done in the browser is called client-side validation, while validation done on the server 
+    is called server-side validation. In this chapter we are focusing on client-side validation.
+
+    If the information is correctly formatted, the application allows the data to be submitted to the server and (usually) saved in a database; 
+    if the information isn't correctly formatted, it gives the user an error message explaining what needs to be corrected, and lets them try again.
+
+    2 Types of client-side validation
+
+    Built-in form validation: It uses HTML5 form validation doesn't require much JavaScript. Built-in form validation has better performance than 
+    JavaScript, but it is not as customizable.
+
+    JavaScript validation is coded using JavaScript. This validation is completely customizable, but you need to create it all (or use a library).
+    The Constraint Validation API
+    Most browsers support the Constraint Validation API, which consists of a set of methods and properties available on the following form element DOM interfaces:
+    HTMLButtonElement (represents a < button> element)
+    HTMLFieldSetElement (represents a < fieldset> element)
+    HTMLInputElement (represents an < input> element)
+    HTMLOutputElement (represents an < output> element)
+    HTMLSelectElement (represents a < select> element)
+    HTMLTextAreaElement (represents a < textarea> element)
+
+    Implementing a customized error message
+    As you saw in the HTML5 validation constraint examples earlier, each time a user tries to submit an invalid form, the browser displays an error message. 
+    The way this message is displayed depends on the browser.  If you want a customized responce it needs to be js validation.
+</pre>
+        </div>
+      
+            <div>
+                <h3>Code Example links</h3>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-10/HOMEWORK/GROUP/index.html"> Group Project</a> </p>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-10/HOMEWORK/FORMVALIDATION/form1.html"> Form 1</a> </p>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-10/HOMEWORK/FORMVALIDATION/form2.html"> Form 2</a> </p>
+                <p><a href="https://rodeeo.github.io/WDD330/Week-10/HOMEWORK/FORMVALIDATION/form3.html"> Form 3</a> </p>
+            </div>
+        </div>
+        <div id="table-of-content">
+            <h2>Chad's Table of Contents</h2>
+        </div>
+        </div>  
+    
+    <script src="./script10.js"></script>
+    <script src="./storage.js"></script>
+</body>
+
+</html>
