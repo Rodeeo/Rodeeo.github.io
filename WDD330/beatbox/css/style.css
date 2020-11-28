@@ -10,7 +10,8 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+	background-size: cover;
+	display: initial;
     font-family: 'Eczar', serif;
 	background-color: #faf8effb;
 	font-family: sans-serif;
