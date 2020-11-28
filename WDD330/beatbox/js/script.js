@@ -3,22 +3,6 @@ function mod(n, m) {
     return ((n % m) + m) % m;
 }
 
-// // Random integer, inclusive
-// function randInt(min, max) {
-//     return Math.floor(Math.random()*(max-min+1)) + min;
-// }
-
-// function getRandomSubarray(arr, size) {
-//     var shuffled = arr.slice(0), i = arr.length, temp, index;
-//     while (i--) {
-//         index = Math.floor((i + 1) * Math.random());
-//         temp = shuffled[index];
-//         shuffled[index] = shuffled[i];
-//         shuffled[i] = temp;
-//     }
-//     return shuffled.slice(0, size);
-// }
-
 // Taken from https://gist.github.com/withakay/1286731
 function bjorklund(steps, pulses) {
   
@@ -116,7 +100,7 @@ function init() {
   var grid_table = document.getElementById("grid");
 
   // Generate the grid
-  for (var r = 0; r < 10; r++) {
+  for (var r = 0; r < 8; r++) {
       grid.push([]);
       var row = grid_table.insertRow(r);
       for (var c = 0; c < numSteps; c++) {
@@ -146,9 +130,6 @@ function init() {
       option.value = i;
       examplesSelect.add(option);
   }
-
-//   var randomizeButton = document.getElementById("randomize");
-//   randomizeButton.addEventListener("click", randomize);
 
   var volumeSlider = document.getElementById("volume_slider");
   volumeSlider.addEventListener("input", function(e) {
@@ -239,12 +220,12 @@ function setRowHighlight(col, flash) {
         flash = true;
 
     for (var c = 0; c < numSteps; c++) {
-        for (var r = 0; r < 10; r++) {
+        for (var r = 0; r < 8; r++) {
             var cell = grid[r][c];
             cell.classList.remove("row-highlighted");
         }
     }
-    for (var r = 0; r < 10; r++) {
+    for (var r = 0; r < 8; r++) {
         var cell = grid[r][col];
         cell.classList.add("row-highlighted");
         if (flash) {
@@ -270,7 +251,7 @@ function restartLoop() {
         appStartTime = context.currentTime;
         step = 0;
         prevousStep = -1;
-        for (var r = 0; r < 10; r++) {
+        for (var r = 0; r < 8; r++) {
             if (grid[r][0].cellActive) {
                 playSound(bufferList[r], appStartTime);
             }
@@ -288,7 +269,7 @@ function updateGrid() {
     if (previousStep != step) {
         setRowHighlight(step);
         var nextStep = mod(step + 1, numSteps);
-        for (var r = 0; r < 10; r++) {
+        for (var r = 0; r < 8; r++) {
             if (grid[r][nextStep].cellActive) {
                 playSound(bufferList[r], appStartTime + (stepsSinceStart + 1)*stepDuration);
             }
@@ -334,7 +315,7 @@ function unpackGrid(b64) {
         for (var j = 0; j < 8; j++) {
             var r = Math.floor(bitCount / 8);
             var c = bitCount % 8;
-            var val = (num & (1 << 7-j)) !== 0;
+            var val = (num & (1 << 8-j)) !== 0;
             setCell(grid[r][c], val);
             if (bitCount % 8 === 7) {
                 u8Index++;
@@ -352,31 +333,3 @@ document.getElementById("play").addEventListener("click", function() { restartLo
 document.getElementById("stop").addEventListener("click", function() { playing=false; });
 
 
-// function randomize() {
-//   // Clear grid
-//   for (var r = 0; r < 10; r++) {
-//       for (var c = 0; c < numSteps; c++) {
-//           setCell(grid[r][c], false);
-//       }
-//   }
-
-//   var tracks = getRandomSubarray([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], randInt(3, 6));
-//   for (var i = 0; i < tracks.length; i++) {
-//       var trackNum = tracks[i];
-//       var numPulses;
-//       /*if (Math.random() < 0.75) {
-//           // Slightly favor even patterns
-//           numPulses = [2, 4, 6, 8][randInt(0, 3)];
-//       } else {
-//           numPulses = [1, 3, 5, 7][randInt(0, 3)];
-//       }*/
-//       numPulses = randInt(1, 10);
-//       var pulses = bjorklund(numSteps, numPulses);
-//       pulses.rotate(randInt(0, 10)*2);
-//       for (var c = 0; c < pulses.length; c++) {
-//           setCell(grid[trackNum][c], pulses[c]);
-//       }
-//   }
-//   restartLoop();
-//   updateURL(packGrid());
-// }
