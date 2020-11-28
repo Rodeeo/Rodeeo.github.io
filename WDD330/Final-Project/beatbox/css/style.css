@@ -6,7 +6,7 @@ html {
 }
 
 body { 
-	background: url("/Rodeeo.github.io/otherWork/beatbox/images/circuit.jpg") no-repeat center center fixed;
+	background: url("/Rodeeo.github.io/Final-Project/beatbox/images/circuit.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -86,7 +86,7 @@ button {
 
 input {
 	font-size: 1.1rem;
-	width: 25rem;
+	width: 15rem;
 	height: 2rem;
 	padding: 0.4rem;
 	background-color:  #f7ed3cb9;

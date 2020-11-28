@@ -1,7 +1,7 @@
-// // Helper functions
-// function mod(n, m) {
-//     return ((n % m) + m) % m;
-// }
+// Helper functions
+function mod(n, m) {
+    return ((n % m) + m) % m;
+}
 
 // // Random integer, inclusive
 // function randInt(min, max) {
