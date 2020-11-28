@@ -6,7 +6,7 @@ html {
 }
 
 body { 
-	background: url("/Rodeeo.github.io/WDD330/Final-Project/beatbox/images/circuit.jpg") no-repeat center center fixed;
+	background: url("/Rodeeo.github.io/WDD330/beatbox/images/circuit.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -48,7 +48,7 @@ fieldset {
 
 	width: 30px;
 	height: 30px;
-	background: url(/Rodeeo.github.io/WDD330/Final-Project/beatbox/images/play2.svg) no-repeat 50% 50%; 
+	background: url(/Rodeeo.github.io/WDD330/beatbox/images/play2.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
 	
@@ -61,7 +61,7 @@ fieldset {
 #save {
 	width: 30px;
 	height: 32px;
-	background: url(/Rodeeo.github.io/WDD330/Final-Project/beatbox/images/save.svg) no-repeat 50% 50%; 
+	background: url(/Rodeeo.github.io/WDD330/beatbox/images/save.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
  
@@ -70,7 +70,7 @@ fieldset {
 #stop {
 	width: 30px;
 	height: 30px;
-	background: url(/Rodeeo.github.io/WDD330/Final-Project/beatbox/images/pause2.svg) no-repeat 50% 50%; 
+	background: url(/Rodeeo.github.io/WDD330/beatbox/images/pause2.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
 
