@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap");      
+html {
+	padding: 3em;
+    scroll-behavior: smooth;
+}
+
+body { 
+	background: url("/Rodeeo.github.io/otherWork/beatbox/images/circuit.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Eczar', serif;
+	background-color: #faf8effb;
+	font-family: sans-serif;
+	text-align: center;
+	max-width: 700px;
+}
+
+.topControls {
+	color: whitesmoke;
+	display: flex;
+	justify-content: space-evenly;
+}
+.botControls {
+	color: whitesmoke;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	align-items: center;
+}
+
+fieldset {
+	display: inherit;
+    border: none;
+    margin: 0;
+	padding-right: 3em;
+	padding-left: 3em;
+  }
+
+#play { 
+
+	width: 30px;
+	height: 30px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/play2.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
+	
+}
+#saveName  { 
+	width: 7rem;
+	height: auto;
+}
+  
+#save {
+	width: 30px;
+	height: 32px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/save.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
+ 
+}
+
+#stop {
+	width: 30px;
+	height: 30px;
+	background: url(/Rodeeo.github.io/otherWork/beatbox/images/pause2.svg) no-repeat 50% 50%; 
+	background-size: cover;
+	filter: hue-rotate(70deg) saturate(100);
+
+}
+svg {
+	fill: whitesmoke;
+	filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+  }
+
+button {
+	font-size: 1rem;
+	width: 6rem;
+	height: 2rem;
+	border: 0;
+	cursor: pointer;
+	margin-left:0.4em;
+}
+
+input {
+	font-size: 1.1rem;
+	width: 25rem;
+	height: 2rem;
+	padding: 0.4rem;
+	background-color:  #f7ed3cb9;
+	border: none;
+}
+
+table {
+	backdrop-filter: blur(7px);
+	margin-top: 8rem;
+	border-spacing: 0.4rem;
+	margin: 0 auto;
+}
+
+td {
+	width: 3rem;
+	height: 3rem;
+	background-color: #c8c8c8ad;
+	border-radius: 0.4rem;
+}
+
+td.type2 {
+	background-color: #aeaeaea8;
+}
+
+td.row-highlighted {
+	background-color: #8c8c8cb4;
+}
+
+td:hover {
+	background-color: #808080af;
+}
+
+td.selected, td.type2.selected {
+	background-color: #ffa600da;
+	animation-name: flash;
+	animation-duration: 0.4s;
+}
+
+@keyframes flash {
+	from {
+		background-color: #f3f704;
+	}
+
+	to {
+		background-color: #ffa600da;
+	}
+}
