@@ -91,16 +91,13 @@ window.onload = init;
 var context;
 var bufferLoader;
 var grid = [];
-
 var appStartTime;
 var barNumber = 0;
 var barDuration = 2.0;
 var numSteps = 8;
 var stepDuration = barDuration/numSteps;
 var previousStep = 0;
-
 var playing = false;
-
 var analyserNode, compressorNode, gainNode;
 var fftArray;
 

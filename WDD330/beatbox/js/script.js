@@ -2,7 +2,6 @@
 function mod(n, m) {
     return ((n % m) + m) % m;
 }
-
 // Taken from https://gist.github.com/withakay/1286731
 function bjorklund(steps, pulses) {
   
@@ -75,26 +74,23 @@ window.onload = init;
 var context;
 var bufferLoader;
 var grid = [];
-
 var appStartTime;
 var barNumber = 0;
 var barDuration = 2.0;
 var numSteps = 8;
 var stepDuration = barDuration/numSteps;
 var previousStep = 0;
-
 var playing = false;
-
 var analyserNode, compressorNode, gainNode;
 var fftArray;
 
-var examples = [{name: "None", data: "AAAAAAAAAAAAAAAAAAAAAA=="},
-                {name: "Basic Loop", data: "iIgICCIiAAAAAAAAAAAAAA=="},
-                {name: "Basic Loop 2", data: "oCAAAAACCAgAAAAAiIgAAA=="},
-                {name: "Swanky", data: "iIgICCIiAACAgAAACBASIg=="},
-                {name: "Tribal", data: "AAAAAAAAAAAAANttIiKIiA=="},
-                {name: "Cymbals", data: "CAgAAIiIAACkpwAAAAAAAA=="},
-                {name: "My ears!", data: "/////////////////////w=="}];
+var examples = [{name: "None", data: "AAAAAAAAAAA"},
+                {name: "Basic Loop", data: "iIgICCIiAAA"},
+                {name: "Basic Loop 2", data: "qiAAGgADCAg"},
+                {name: "Swanky", data: "qiAAGgADCAg"},
+                {name: "Tribal", data: "qgCqAAS7QKo"},
+                {name: "Cymbals", data: "AABVAKqqEAA"},
+                {name: "My ears!", data: "//////////8"}];
 
 function init() {
   var grid_table = document.getElementById("grid");
@@ -170,8 +166,6 @@ function init() {
       'clips/kick-plain.wav',
       'clips/perc-808.wav',
       'clips/tom-808.wav',
-      'clips/tom-analog.wav',
-      'clips/cowbell-808.wav'
     ],
     finishedLoading
     );
@@ -186,8 +180,6 @@ function init() {
 
 var bufferList;
 function finishedLoading(bufferListParam) {
-    // var div = document.getElementById("loading");
-    // div.parentNode.removeChild(div);
     bufferList = bufferListParam;
     restartLoop();
 }
@@ -315,7 +307,7 @@ function unpackGrid(b64) {
         for (var j = 0; j < 8; j++) {
             var r = Math.floor(bitCount / 8);
             var c = bitCount % 8;
-            var val = (num & (1 << 8-j)) !== 0;
+            var val = (num & (1 << 7-j)) !== 0;
             setCell(grid[r][c], val);
             if (bitCount % 8 === 7) {
                 u8Index++;
@@ -331,5 +323,4 @@ document.getElementById("play").addEventListener("click", function() { restartLo
     updateURL(packGrid()); });
 
 document.getElementById("stop").addEventListener("click", function() { playing=false; });
-
 

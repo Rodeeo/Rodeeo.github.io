@@ -6,7 +6,7 @@ html {
 }
 
 body { 
-	background: url("/Rodeeo.github.io/WDD330/beatbox/images/circuit.jpg") no-repeat center center fixed;
+	background: url("https://Rodeeo.github.io/WDD330/beatbox/images/circuit.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -20,6 +20,8 @@ body {
 }
 
 h1 {
+	padding: 0;
+	margin: 0;
 	color:whitesmoke;
 } 
 
@@ -53,7 +55,7 @@ fieldset {
 
 	width: 30px;
 	height: 30px;
-	background: url(/Rodeeo.github.io/WDD330/beatbox/images/play2.svg) no-repeat 50% 50%; 
+	background: url(https://Rodeeo.github.io/WDD330/beatbox/images/play2.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
 	
@@ -66,7 +68,7 @@ fieldset {
 #save {
 	width: 30px;
 	height: 32px;
-	background: url(/Rodeeo.github.io/WDD330/beatbox/images/save.svg) no-repeat 50% 50%; 
+	background: url(https://Rodeeo.github.io/WDD330/beatbox/images/save.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
  
@@ -75,7 +77,7 @@ fieldset {
 #stop {
 	width: 30px;
 	height: 30px;
-	background: url(/Rodeeo.github.io/WDD330/beatbox/images/pause2.svg) no-repeat 50% 50%; 
+	background: url(https://Rodeeo.github.io/WDD330/beatbox/images/pause2.svg) no-repeat 50% 50%; 
 	background-size: cover;
 	filter: hue-rotate(70deg) saturate(100);
 
@@ -111,10 +113,10 @@ table {
 }
 
 td {
-	width: 3rem;
-	height: 3rem;
+	width: 2.9rem;
+	height: 3.5rem;
 	background-color: #c8c8c8ad;
-	border-radius: 0.4rem;
+	border-radius: 2rem;
 }
 
 td.type2 {
@@ -130,14 +132,15 @@ td:hover {
 }
 
 td.selected, td.type2.selected {
-		background-color: #fffb09cb;
+	background-color: #ea09ffe3;
+	border-color: yellow;
 	animation-name: flash;
-	animation-duration: 0.4s;
+	animation-duration: 0.3s;
 }
 
 @keyframes flash {
 	from {
-		background-color: #ffa600da;;
+		background-color: #ffee0067;;
 	}
 
 	to {
