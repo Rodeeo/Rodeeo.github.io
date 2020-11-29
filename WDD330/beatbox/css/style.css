@@ -20,7 +20,7 @@ body {
 }
 
 h1 {
-	padding: 0;
+	padding: 0.4em;
 	margin: 0;
 	color:whitesmoke;
 } 
@@ -113,10 +113,12 @@ table {
 }
 
 td {
-	width: 2.9rem;
-	height: 3.5rem;
-	background-color: #c8c8c8ad;
-	border-radius: 2rem;
+    width: 2.5rem;
+    height: 3.2rem;
+    background-color: #c8c8c86c;
+    border-radius: 2rem;
+    border: 3px solid #c8c8c8ad;
+    padding: 2px;
 }
 
 td.type2 {
@@ -132,8 +134,8 @@ td:hover {
 }
 
 td.selected, td.type2.selected {
-	background-color: #ea09ffe3;
-	border-color: yellow;
+	border: 3px solid #f3f704f8;
+	background-color: #ea09ff;
 	animation-name: flash;
 	animation-duration: 0.3s;
 }
@@ -144,6 +146,6 @@ td.selected, td.type2.selected {
 	}
 
 	to {
-		background-color: #f3f704;
+		background-color: #f3f704fb;
 	}
 }
