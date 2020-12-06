@@ -6,8 +6,8 @@ const examples = [
     {name: "None", data: "AAAAAAAAAAA"},
     {name: "Basic Loop", data: "iIgICCIiAAA"},
     {name: "Basic Loop 2", data: "qiAAGgADCAg"},
-    {name: "Swanky", data: "qiAAGgADCAg"},
-    {name: "Tribal", data: "qgCqAAS7QKo"},
+    {name: "Swanky", data: "IgWIUSIEiFA"},
+    {name: "Tribal", data: "qgCIAAD/QCA"},
     {name: "Cymbals", data: "AABVAKqqEAA"},
     {name: "My ears!", data: "//////////8"}  ];
 // const data = examples.data;
