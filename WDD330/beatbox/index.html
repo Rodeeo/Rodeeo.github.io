@@ -20,15 +20,16 @@
         </select> </div>
         <div class="drop"> 
             Volume
-        <input id="volume_slider" type="range" min="0" max="1000" value="400" step="1"></input> </div> </div>
+        <input id="volume_slider" type="range" class="slider" min="0" max="1000" value="400" step="1"> </div> </div>
         <table id="grid">
         </table> 
             <div class="botControls"> 
+                
                 <button id="play"></button>
-                <fieldset>
-                <input type="text" id="saveName">
-                <button id="save" type="submit" value="Submit"></button> </fieldset>
-                <button id="stop"></button>
+                <form id="beat-form">
+                <input type="text" id="saveBeat" placeholder="Save Your Beat">
+                <button id="save" type="submit" value="Submit"></button>  </form> 
+                <button id="stop"></button> 
             </div>
             <script src="js/buffer.js"></script>
             <script src="js/script.js"></script>

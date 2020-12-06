@@ -98,6 +98,7 @@ function buildCompleteButton() {
     this.renderCompleteItems();
   });
 }
+
 function updateTodo () {
   showTodos()
   renderStats()
@@ -129,10 +130,9 @@ function setupTodos () {
   updateTodo()
 }
 
-
 function toggleTodoStatus (index) {
   todos[index].done = !todos[index].done
-  updateTodo()
+  updateTodo() 
 }
 
 function removeTodo(index) {
@@ -145,6 +145,7 @@ todoFormElement.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const todoText = todoInputElement.value;
+
   addTodo(todoText);
 });
 
