@@ -137,12 +137,12 @@ let fftArray;
 
 function init() {
   let grid_table = document.getElementById("grid");
-  // Generate the grid
-  for (let r = 0; r < 8; r++) {
+  //Generate the grid
+  for (var r = 0; r < 8; r++) {
       grid.push([]);
-      let row = grid_table.insertRow(r);
-      for (let c = 0; c < numSteps; c++) {
-          let cell = row.insertCell(c);
+      var row = grid_table.insertRow(r);
+      for (var c = 0; c < numSteps; c++) {
+          var cell = row.insertCell(c);
           cell.id = r + "," + c;
           cell.addEventListener("click", gridClicked, false);
           cell.addEventListener("animationend", function(e) {
@@ -157,7 +157,7 @@ function init() {
       }
   }
 
-  setRowHighlight(0);
+//   setRowHighlight(0);
 
   //Initialize examples select box
   let examplesSelect = document.getElementById("examples");
@@ -224,7 +224,7 @@ function examplePicked(sel) {
     unpackGrid(b64);
     updateURL(packGrid());
     restartLoop();
-    updateBeats
+    updateBeats();
 }
 
 function gridClicked(e) {
@@ -246,10 +246,10 @@ function setCell(cell, value) {
 function setRowHighlight(col, flash) {
     if (typeof flash === "undefined")
         flash = true;
-
-    for (let c = 0; c < numSteps; c++) {
-        for (let r = 0; r < 8; r++) {
-            let cell = grid[r][c];
+        
+    for (var c = 0; c < numSteps; c++) {
+        for (var r = 0; r < 8; r++) {
+            var cell = grid[r][c];
             cell.classList.remove("row-highlighted");
         }
     }
@@ -354,8 +354,9 @@ function unpackGrid(b64) {
     }
 }
 
-document.getElementById("play").addEventListener("click", function() { restartLoop();
-    updateURL(packGrid()); });
+document.getElementById("play").addEventListener("click", function(evt) {evt.preventDefault();
+    restartLoop();
+});
 
 document.getElementById("stop").addEventListener("click", function() { playing=false; });
 
