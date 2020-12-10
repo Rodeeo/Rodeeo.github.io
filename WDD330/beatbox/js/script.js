@@ -113,11 +113,11 @@ function removeBeat() {
     beatListElement.remove(beatListElement.selectedIndex);
     updateURL(packGrid());
     playing=false;
-    for (var r = 0; r < 10; r++) {
+    for (var r = 0; r < 8; r++) {
         for (var c = 0; c < numSteps; c++) {
             setCell(grid[r][c], false);
+            }
         }
-    }
     }
   
   // event listeners and triggers
