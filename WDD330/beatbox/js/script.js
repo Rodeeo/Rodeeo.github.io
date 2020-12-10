@@ -2,7 +2,7 @@ let beats = null;
 const saveBeatElement = document.getElementById('beat-form');
 const beatListElement = document.getElementById('examples');
 const beatInputElement =  document.getElementById('saveBeat');
-const examples = [
+var examples = [
     {name: "None", data: "AAAAAAAAAAA"},
     {name: "Basic Loop", data: "iIgICCIiAAA"},
     {name: "Basic Loop 2", data: "qiAAGgADCAg"},
@@ -10,7 +10,7 @@ const examples = [
     {name: "Tribal", data: "qgCIAAD/QCA"},
     {name: "Cymbals", data: "AABVAKqqEAA"},
     {name: "My ears!", data: "//////////8"}  ];
-// const data = examples.data;
+
 // Helper functions
 function mod(n, m) {
     return ((n % m) + m) % m;
@@ -85,24 +85,41 @@ function addBeat (name, data) {
     examples.push({name, data})
     beatInputElement.value = ''
     updateBeats()
+    renderTheBeat ()
   }
+ 
+
 
 function renderTheBeat () {
-    beatListElement.innerHTML = ''
-    examples.forEach((examples, beats) => {
-        beatListElement.innerHTML += `
-        <select id="examples"${examples}">
-        <input type="button" value="X" class="beats-delete" data-purpose="delete" data-todo_index="${beats.done}">
-      </select>`
-    })
+        beatListElement.innerHTML = ''
+        beatListElement.addEventListener("change", examplePicked);
+        for (var i = 0; i < examples.length; i++) {
+            let option = document.createElement("option");
+            option.text = examples[i].name;
+            option.value = i;
+            beatListElement.add(option);
+            }
   }
+ 
+// function removeBeat() {
+
+//     beatListElement.remove(beatListElement.selectedIndex);
+//     playing=false;
+//     } 
+
+function removeBeat() {
+    let t = beatListElement.selectedIndex;
+    examples.splice(t, 1);
+    beatListElement.remove(beatListElement.selectedIndex);
+    playing=false;
+    }
   
   // event listeners and triggers
   saveBeatElement.addEventListener('submit', (event) => {
     event.preventDefault();
   
     const beatName = beatInputElement.value;
-    addBeat(beatName);
+    addBeat(beatName, packGrid());
   });
 
 Array.prototype.rotate = (function() {
@@ -136,6 +153,7 @@ let analyserNode, compressorNode, gainNode;
 let fftArray;
 
 function init() {
+    renderTheBeat ()
   let grid_table = document.getElementById("grid");
   //Generate the grid
   for (var r = 0; r < 8; r++) {
@@ -160,14 +178,14 @@ function init() {
 //   setRowHighlight(0);
 
   //Initialize examples select box
-  let examplesSelect = document.getElementById("examples");
-  examplesSelect.addEventListener("change", examplePicked);
-  for (let i = 0; i < examples.length; i++) {
-      let option = document.createElement("option");
-      option.text = examples[i].name;
-      option.value = i;
-      examplesSelect.add(option);
-  }
+//   let examplesSelect = document.getElementById("examples");
+//   examplesSelect.addEventListener("change", examplePicked);
+//   for (let i = 0; i < examples.length; i++) {
+//       let option = document.createElement("option");
+//       option.text = examples[i].name;
+//       option.value = i;
+//       examplesSelect.add(option);
+//   }
 
   let volumeSlider = document.getElementById("volume_slider");
   volumeSlider.addEventListener("input", function(e) {
@@ -359,5 +377,3 @@ document.getElementById("play").addEventListener("click", function(evt) {evt.pre
 });
 
 document.getElementById("stop").addEventListener("click", function() { playing=false; });
-
-setupBeats();

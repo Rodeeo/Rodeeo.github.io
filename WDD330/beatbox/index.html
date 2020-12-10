@@ -14,6 +14,7 @@
     <body> 
         <h1>Mini Beatbox</h1>      
       <div class="topControls">
+        <input type="button" class="removal" onclick="removeBeat()" value="X"> 
         <div class="drop">
         Drop the Beat
         <select id="examples">
@@ -30,7 +31,8 @@
                 <input type="text" id="saveBeat" placeholder="Save Your Beat">
                 <button id="save" type="submit" value="Submit"></button>  </form> 
                 <button id="stop"></button> 
-                </div>
+            </div>
+            <script src="js/buffer.js"></script>
             <script src="js/script.js"></script>
     </body>
 </html>

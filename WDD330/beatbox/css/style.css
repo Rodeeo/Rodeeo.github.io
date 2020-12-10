@@ -28,6 +28,7 @@ h1 {
 	color: whitesmoke;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .botControls {
 	color: whitesmoke;
@@ -100,11 +101,18 @@ button {
 	margin-left:0.4em;
 }
 
+.removal {
+	padding: 0;
+    width: 1em;
+	margin: 0;
+	height: auto;
+}
+
 input {
-	font-size: 1.4rem;
-	width: 15rem;
+	font-size: 1.2rem;
+	width: 10rem;
 	height: 2rem;
-	padding: 0.5rem;
+	padding: 0.2rem;
 	background-color:  #f7ed3cb9;
 	border: none;
 	text-align: center;
