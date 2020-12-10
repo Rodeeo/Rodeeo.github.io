@@ -5,7 +5,7 @@ html {
 }
 
 body { 
-	background: url("https://Rodeeo.github.io/WDD330/beatbox/images/circuit.jpg") no-repeat center center fixed;
+	background: url("https://Rodeeo.github.io/WDD330/beatbox/images/circuit.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
