@@ -237,7 +237,7 @@ function setRowHighlight(col, flash) {
 
     for (var c = 0; c < numSteps; c++) {
         for (var r = 0; r < 10; r++) {
-            var cell = grid[r][c];
+            var cell = grid[r][c]; 
             cell.classList.remove("row-highlighted");
         }
     }
