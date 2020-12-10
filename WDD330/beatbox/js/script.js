@@ -198,7 +198,7 @@ function init() {
       gainNode.gain.value = Math.pow(e.target.value/1000, 2);
   });
 
-//   window.AudioContext = window.AudioContext || window.webkitAudioContext;
+    window.AudioContext = window.AudioContext || window.webkitAudioContext;
     context = new AudioContext();
   
   analyserNode = context.createAnalyser();
