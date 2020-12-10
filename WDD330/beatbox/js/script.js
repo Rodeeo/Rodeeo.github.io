@@ -111,7 +111,13 @@ function removeBeat() {
     let t = beatListElement.selectedIndex;
     examples.splice(t, 1);
     beatListElement.remove(beatListElement.selectedIndex);
+    updateURL(packGrid());
     playing=false;
+    for (var r = 0; r < 10; r++) {
+        for (var c = 0; c < numSteps; c++) {
+            setCell(grid[r][c], false);
+        }
+    }
     }
   
   // event listeners and triggers
@@ -192,8 +198,8 @@ function init() {
       gainNode.gain.value = Math.pow(e.target.value/1000, 2);
   });
 
-  window.AudioContext = window.AudioContext || window.webkitAudioContext;
-  context = new AudioContext();
+//   window.AudioContext = window.AudioContext || window.webkitAudioContext;
+    context = new AudioContext();
   
   analyserNode = context.createAnalyser();
   analyserNode.fftSize = 128;
@@ -373,7 +379,9 @@ function unpackGrid(b64) {
 }
 
 document.getElementById("play").addEventListener("click", function(evt) {evt.preventDefault();
+    updateURL(packGrid());
     restartLoop();
+    playSound ();
 });
 
 document.getElementById("stop").addEventListener("click", function() { playing=false; });
