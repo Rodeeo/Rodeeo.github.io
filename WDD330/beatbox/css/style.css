@@ -19,9 +19,11 @@ body {
 }
 
 h1 {
-	padding: 0.4em;
-	margin: 0;
-	color:whitesmoke;
+	margin: auto;
+	color:#f7ee3ce8;
+	padding-bottom: 0;
+	width: 8em;
+	backdrop-filter: blur(7px);
 } 
 
 .topControls {
@@ -41,6 +43,9 @@ h1 {
 	display: grid;
 	padding-right: 1em;
 	padding-left: 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	color: #f7ee3cf1;
 }
 
 fieldset {
@@ -91,6 +96,10 @@ svg {
 	fill: whitesmoke;
 	filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
   }
+
+button, select {
+    text-transform: none;
+    background-color: #f7ed3cb9; }
 
 button {
 	font-size: 1rem;
