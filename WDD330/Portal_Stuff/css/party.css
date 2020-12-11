@@ -1,0 +1,154 @@
+.party-screen {
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.party-screen.is-active {
+  animation: party-time 5s infinite;
+}
+
+@keyframes party-time {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: lime;
+  }
+  50% {
+    background-color: blue;
+  }
+  75% {
+    background-color: yellow;
+  }
+  100% {
+    background-color: orange;
+  }
+}
+
+.button-container {
+  min-width: 325px;
+}
+
+.button-container .big-button {
+  height: 10px;
+  margin: 50px auto;
+  max-width: 100px;
+  position: relative;
+  width: 100%;
+}
+
+.button-container .big-button .red-button {
+  height: 10px;
+  left: 0;
+  margin: 10px auto;
+  position: absolute;
+  right: 0;
+}
+
+.button-container .big-button .red-button:hover {
+  cursor: pointer;
+}
+
+.button-container .big-button .red-button .top, .button-container .big-button .red-button .bottom {
+  background-color: red;
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 30px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0px;
+  transition: 0.4s ease-in;
+  width: 50px;
+  z-index: 10;
+}
+
+.button-container .big-button .red-button .top {
+  bottom: 20px;
+}
+
+.button-container .big-button .red-button .bottom {
+  bottom: 0;
+  z-index: 8;
+}
+
+.button-container .big-button .red-button .button-height {
+  background-color: red;
+  border: 1px solid grey;
+  border-bottom: none;
+  bottom: 16px;
+  height: 21px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  transition: 0.4s ease-in;
+  width: 50px;
+  z-index: 9;
+}
+
+.button-container .big-button.is-active .red-button .top {
+  bottom: 15px;
+}
+
+.button-container .big-button.is-active .red-button .button-height {
+  height: 10px;
+}
+
+.button-container .button-title {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.button-container .button-title span {
+  display: block;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.theparty {
+  width: 200px;
+  height: 173px;
+  background-image: url("https://images.vectorhq.com/images/previews/228/disco-ball-psd-448771.png");
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  margin: 0 0 0 -100px;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.theparty.is-active {
+  animation: party 2s cubic-bezier(0.445, 0.050, 0.550, 0.950) forwards;
+}
+
+@keyframes party {
+  0%   {opacity: 0; top: -200px;}
+  100% {opacity: 1; top: -10px;}
+}
+
+.beam{
+  width: 8px;
+  height: 2000px;
+  position: absolute;
+  background: red;
+  box-shadow: 0px 0px 40px 10px red;
+  display: none;
+}
+
+.bottom-light{
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 100%;
+  position: fixed;
+  background-color: #fff;
+  box-shadow:
+    0px 0px 10px 10px white,
+    0px 0px 30px 30px red,
+    0px 100px 100px 100px rgba(255, 0, 0, .3);
+}
