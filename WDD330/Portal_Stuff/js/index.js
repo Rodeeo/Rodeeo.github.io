@@ -7,11 +7,9 @@ const party = () => {
   if(bigButton.classList.contains('is-active')) {
     bigButton.classList.remove('is-active');
     partyScreen.classList.remove('is-active');
-    currentPartyStatus.innerHTML = "Don't Press It";
+    currentPartyStatus.innerHTML = "You cannot stop Christmas!";
     ballDrop.classList.remove('is-active');
     bigButton.classList.add('is-active');
-    createLights();{return;}
-
     
   } else {
     ballDrop.classList.add('is-active');
@@ -28,11 +26,6 @@ bigButton.addEventListener('click', party);
 
 let lazerbeams = [];
 let lights = [];
-
-function stopParty() {
-    function startParty(){ return; 
-} }
-
 let colors = ["#ff7979", "#686de0", "#badc58", "#f6e58d", "#ffbe76", "#e056fd", "#7ed6df", "#dff9fb"];
 
 for(let x = 0; x < 8; x++){
