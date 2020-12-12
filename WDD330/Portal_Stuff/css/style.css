@@ -77,6 +77,8 @@ a:hover {
   padding: .5rem;
   position: relative;
   z-index: -1;
+  max-width: 85%;
+  margin: auto;
   }
  
 .vid {
@@ -102,8 +104,8 @@ a:hover {
 }
 
   @media only screen and (min-width: 60em) {
-    main {
-        max-width: 900px;
+    .content {
+      max-width: 56%;
         } 
 
     .headerImage {
