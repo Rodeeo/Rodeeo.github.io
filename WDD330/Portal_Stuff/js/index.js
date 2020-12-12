@@ -8,13 +8,13 @@ const party = () => {
   if(bigButton.classList.contains('is-active')) {
     bigButton.classList.remove('is-active');
     partyScreen.classList.remove('is-active');
-    currentPartyStatus.innerHTML = "You cannot stop Christmas!";
+    currentPartyStatus.innerHTML = "🎄🎄🎄🎄🎄🎄🎄🎄<br>You cannot stop Christmas!<br>🎄🎄🎄🎄🎄🎄🎄🎄";
     
   } else {
     ballDrop.classList.add('is-active');
     bigButton.classList.add('is-active');
     partyScreen.classList.add('is-active');
-    currentPartyStatus.innerHTML = '🎉 Merry Christmas!🎉';
+    currentPartyStatus.innerHTML = '🦠🎁🎄 <br>Merry Christmas!<br>🎄🎁😷';
     partyTimer()
     setTimeout(() => { GOODBYE2020(); }, 10000);
   }  
