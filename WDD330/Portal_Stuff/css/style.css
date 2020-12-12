@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+html { height: 100%; }
+
 body {
   font-family: 'Ubuntu', 'Roboto', 'Comic Sans MS', sans-serif;
+  min-height:100%; 
+  position:relative; 
+  padding-bottom:[footer-height] 
     }
 
 header, footer {
@@ -14,7 +19,13 @@ header, footer {
   }
 
 footer {
-  padding: 1px;
+  position: absolute; 
+  left: 0 ; right: 0; bottom: 0; 
+  height:[footer-height] 
+}
+
+a {
+  font-size: 1rem;
 }
 
 h1 {  
@@ -38,6 +49,7 @@ h2 {
   }
 
 main {
+  min-height: 100%;
   max-width: 90%;
   margin: auto;
   }
@@ -59,8 +71,6 @@ li:hover {
   @media only screen and (min-width: 60em) {
     main {
         max-width: 900px;
-        width: 100%;
-        margin: auto;
         } 
 
     .headerImage {
@@ -79,6 +89,9 @@ li:hover {
        font-size: 2.5em;
        margin: 5px;
        }
+       a {
+        font-size: 1.5rem;
+      }
    
    footer, header {
        font-size: 16px;
