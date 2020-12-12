@@ -50,10 +50,11 @@ body {
     padding-right: 1rem;
   }
   #todo-form {
+    margin: auto;
+    max-width: 40em;
+    width: 87vw;
     display: flex;
     justify-content: center;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
   }
   
   #todo-form button[type="submit"] {
