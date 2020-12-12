@@ -6,7 +6,7 @@ body {
   font-family: 'Ubuntu', 'Roboto', 'Comic Sans MS', sans-serif;
   min-height:100%; 
   position:relative; 
-  padding-bottom:[footer-height] 
+  padding-bottom:[footer-height];
     }
 
 header, footer {
@@ -21,7 +21,8 @@ header, footer {
 footer {
   position: absolute; 
   left: 0 ; right: 0; bottom: 0; 
-  height:[footer-height] 
+  height:[footer-height];
+  z-index: -1;
 }
 
 a {
@@ -39,13 +40,13 @@ h2 {
   border-bottom: 1px solid #215e2f;
   margin-bottom: 0.5rem;
   }
-
   
 .headerImage {
   box-shadow: 5px 5px 5px #086164;
   border-radius: 10px;
   position: fixed;
   width: 140px;
+  z-index: 0;
   }
 
 main {
@@ -54,18 +55,46 @@ main {
   margin: auto;
   }
 
-li {
-  list-style-type: none;
+ul {
+  position: relative;
+  z-index: 2;
+  width: 50%;
 }
 
-li:hover {
+li {
+  list-style-type: none;
+  position: relative;
+  z-index: 2;
+}
+
+a:hover {
   background-color: cadetblue;
   color: yellow;
   height: 100%;
 }
+
 .content {
   padding: .5rem;
+  position: relative;
+  z-index: -1;
   }
+ 
+.vid {
+  padding-top: 0px;
+  position: relative;
+  z-index: -1;
+}
+
+.video {
+  position: absolute;
+  top: 9.5em;
+  width: 320px;
+  height: 180px;
+  z-index: 3;
+}
+
+.button-container {
+  margin-top: -2rem;}
 
 
   @media only screen and (min-width: 60em) {
@@ -105,6 +134,23 @@ li:hover {
        padding: 1rem;
        text-decoration: none;
        }  
+
+       .vid {
+        padding-top: 3.25%;
+        position: relative;
+        
+      }
+      
+
+       .video {
+        position: absolute;
+        top: -17em;
+        bottom: 0;  
+        left: 20.5em;
+        width: 550px;
+        height: 300px;
+      }
+      
 }
 
 
