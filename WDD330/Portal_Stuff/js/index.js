@@ -1,15 +1,14 @@
 const currentPartyStatus = document.querySelector('.js-status'),
       bigButton = document.querySelector('.js-big-button'),
       partyScreen = document.querySelector('.js-party-screen'),
-      ballDrop = document.querySelector('.theparty');
+      ballDrop = document.querySelector('.theparty'),
+      stopButton = document.querySelector(".stopButton");
 
 const party = () => {
   if(bigButton.classList.contains('is-active')) {
     bigButton.classList.remove('is-active');
     partyScreen.classList.remove('is-active');
     currentPartyStatus.innerHTML = "You cannot stop Christmas!";
-    ballDrop.classList.remove('is-active');
-    bigButton.classList.add('is-active');
     
   } else {
     ballDrop.classList.add('is-active');
@@ -17,12 +16,19 @@ const party = () => {
     partyScreen.classList.add('is-active');
     currentPartyStatus.innerHTML = '🎉 Merry Christmas!🎉';
     partyTimer()
+    setTimeout(() => { GOODBYE2020(); }, 10000);
   }  
 }
+function stop() {
+    window.stop();
+} 
 
+function GOODBYE2020() {
+    stopButton.style.visibility = "visible";
+}
 
 bigButton.addEventListener('click', party);
-
+stopButton.addEventListener('click', stop);
 
 let lazerbeams = [];
 let lights = [];
@@ -33,11 +39,11 @@ for(let x = 0; x < 8; x++){
 }
 
 function partyTimer(){
-    timer = setTimeout(startParty, 3000)
+        setTimeout(startParty, 3000)
 }
 
 function startParty(){
-  document.body.style = "background: black; color: white; !important;";
+  document.body.style = "background: black; color: white;";
   createLights();
   update();
  
@@ -50,7 +56,7 @@ function update(){
   let xLoc = window.innerWidth/2;
   for(let z = 0; z < 8; z++){
     lazerbeams[z].style = `left: ${xLoc}px; 
-                      top: -5px;
+                      top: 50px;
                       display: block;
                       transform-origin: top center;
                       background: white;

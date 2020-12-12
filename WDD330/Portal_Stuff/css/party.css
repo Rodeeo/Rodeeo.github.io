@@ -1,4 +1,5 @@
 .party-screen {
+  width: 100%;
   align-items: center;
   height: 100vh;
   justify-content: center;
@@ -130,11 +131,14 @@
   0%   {opacity: 0; top: -200px;}
   100% {opacity: 1; top: -10px;}
 }
+.nada {
+ display: flex;
+}
 
 .beam{
   width: 8px;
-  height: 2000px;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   background: red;
   box-shadow: 0px 0px 40px 10px red;
   display: none;
@@ -151,4 +155,10 @@
     0px 0px 10px 10px white,
     0px 0px 30px 30px red,
     0px 100px 100px 100px rgba(255, 0, 0, .3);
+}
+
+.stopButton {
+  display: block;
+  padding: 10px;
+  margin: auto;
 }
