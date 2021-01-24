@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+
+:root {
+    --litegrey: #bababa;
+    --darkgrey: #8d8d8d;
+    --liteblue: #a6cbeb;
+    --blue: #4c96d7;
+    --dark: #3a3a3a;
+    --white: #ffffff; 
+}
+
+html {
+    background-image: url('/Week2/phpmotors/images/site/checkerboard.jpg');
+    background-size: 250px;
+    background-position: right top;
+}
+
+body {
+
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border: 5px solid var(--blue);
+    border-radius: 10px;
+    box-shadow: 0 0 15px var(--blue);
+}
+
+h1 {
+    font-family: 'Limelight', cursive;
+}
+h2 {
+    font-family: 'Limelight', cursive;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+}
+
+nav {
+   font-size: 1.4rem;
+   background-color: var(--dark);
+   font-family: 'Open Sans', sans-serif;
+   padding: .5rem;
+}
+
+.navbar a:hover {
+    background-color: var(--blue);
+    color: var(--dark);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.navbar a {
+    text-align: center;
+    text-decoration: none;
+    color: var(--white);
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+}
+
+.extras {
+    position: absolute;
+    color: var(--blue);
+}
+
+ul li{
+   list-style-type: none;
+}
+
+.upgrades {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2rem;
+}
+.upgrades img {
+background-color: var(--blue);
+}
+
+.reviews {
+    align-content: space-between;
+    font-size: 1.2rem;
+}
+
+.reviews li {
+    list-style-type:disc;
+}
+
+.middle {
+    display: flex;
+    flex-flow: column;
+}
+
+img {
+    margin: 2px;
+    padding: 2px;
+    z-index: -1;
+}
+
+main button {
+    background-color: var(--blue);
+    color: var(--white);
+    border: solid 1px var(--dark);
+    float: left;
+}
+
+footer {
+    font-size: 1rem;
+    text-align: center;
+}

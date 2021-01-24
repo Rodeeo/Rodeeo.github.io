@@ -1,0 +1,28 @@
+@media only screen and (min-width: 40em) {
+
+    h2 {
+        font-size: 1.9rem;
+    }
+    
+    nav {
+        font-size: 2rem;
+    }
+
+    nav a {
+        padding-right: 10px;
+    }
+
+    .middle {
+        justify-content: space-evenly;
+        flex-direction: row-reverse;
+    }
+
+    .reviews {
+        align-content: space-between;
+    }
+
+    .upgrades {
+        max-width: 50%;
+
+    }
+}
